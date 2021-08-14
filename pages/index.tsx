@@ -37,36 +37,38 @@ export default function Home() {
 				{langs.map(lang => <div key={lang} className="mb-4 fw">
 					<h2 className="title is-4 mb-3 has-text-white">{lang}</h2>
 
-					<table className="table is-bordered mb-4 has-text-centered has-text-white fw">
-						<thead>
-							<tr>
-								<th>Library</th>
-								<th>API Version</th>
-								<th>Gateway Version</th>
-								<th>Slash Commands</th>
-								<th>Buttons</th>
-								<th>Select Menus</th>
-								<th>Threads</th>
-								<th>Guild Stickers</th>
-								<th>Context Menus</th>
-							</tr>
-						</thead>
-						<tbody>
-							{libs.filter(lib => lib.language === lang).map(lib => 
-								<tr key={lib.name}>
-									<td><a href={lib.url} target="_blank" rel="noopener">{lib.name}</a></td>
-									{version(lib.apiVer)}
-									{version(lib.gwVer)}
-									{status(lib.slashCommands)}
-									{status(lib.buttons)}
-									{status(lib.selectMenus)}
-									{status(lib.threads)}
-									{status(lib.guildStickers)}
-									{status(lib.contextMenus)}
+					<div className="table-container">
+						<table className="table is-bordered mb-4 has-text-centered has-text-white fw">
+							<thead>
+								<tr>
+									<th>Library</th>
+									<th>API Version</th>
+									<th>Gateway Version</th>
+									<th>Slash Commands</th>
+									<th>Buttons</th>
+									<th>Select Menus</th>
+									<th>Threads</th>
+									<th>Guild Stickers</th>
+									<th>Context Menus</th>
 								</tr>
-							)}
-						</tbody>
-					</table>
+							</thead>
+							<tbody>
+								{libs.filter(lib => lib.language === lang).map(lib => 
+									<tr key={lib.name}>
+										<td><a href={lib.url} target="_blank" rel="noopener">{lib.name}</a></td>
+										{version(lib.apiVer)}
+										{version(lib.gwVer)}
+										{status(lib.slashCommands)}
+										{status(lib.buttons)}
+										{status(lib.selectMenus)}
+										{status(lib.threads)}
+										{status(lib.guildStickers)}
+										{status(lib.contextMenus)}
+									</tr>
+								)}
+							</tbody>
+						</table>
+					</div>
 				</div>)}
 			</main>
 
@@ -93,6 +95,7 @@ export default function Home() {
 					flex-direction: column;
 					justify-content: center;
 					align-items: center;
+					max-width: 100%;
 				}
 
 				footer {
@@ -137,6 +140,12 @@ export default function Home() {
 
 				.fw {
 					width: 100%;
+				}
+
+				@media (max-width: 768px) {
+					#title {
+						font-size: 3rem;
+					}
 				}
 			`}</style>
 
