@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { LinkableString } from '../lib'
 
 import { libs } from '../libs'
 
@@ -9,7 +10,9 @@ const statusColors = {
 	No: 'danger'
 }
 
-const status = (status: string) => <td className={`has-background-${statusColors[status] ?? 'warning-dark'}`}>{status}</td>
+const status = (status: LinkableString) => typeof status === 'string'
+	? <td className={`has-background-${statusColors[status] ?? 'warning-dark'}`}>{status}</td>
+	: <td className={`has-background-${statusColors[status.text] ?? 'warning-dark'}`}><a href={status.url} target="_blank" rel="noopener">{status.text}</a></td>
 
 const versionColors = {
 	6: 'danger',
@@ -35,7 +38,7 @@ export default function Home() {
 				</h1>
 
 				{langs.map(lang => <div key={lang} className="mb-4 fw">
-					<h2 className="title is-4 mb-3 has-text-white">{lang}</h2>
+					<h2 id={lang.toLowerCase()} className="title is-4 mb-3 has-text-white">{lang}</h2>
 
 					<div className="table-container">
 						<table className="table is-bordered mb-4 has-text-centered has-text-white fw">
