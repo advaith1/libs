@@ -56,5 +56,18 @@ export const libs: Lib[] = [
 		threads: 'Dev Version',
 		guildStickers: 'Dev Version',
 		contextMenus: 'No'
+	},
+	{
+		name: 'JDA',
+		url: 'https://github.com/Dv8FromTheWorld/JDA',
+		language: 'Java',
+		apiVer: 8,
+		gwVer: 8,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Has a PR',
+		guildStickers: 'No',
+		contextMenus: 'Has a PR'
 	}
 ]
