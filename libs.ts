@@ -38,6 +38,25 @@ export const libs: Lib[] = [
 		contextMenus: 'Yes'
 	},
 	{
+		name: 'JDA',
+		url: 'https://github.com/DV8FromTheWorld/JDA',
+		language: 'Java',
+		apiVer: 8,
+		gwVer: 8,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: {
+			text: 'Has a PR',
+			url: 'https://github.com/DV8FromTheWorld/JDA/pull/1613'
+		},
+		guildStickers: 'No',
+		contextMenus: {
+			text: 'Has a PR',
+			url: 'https://github.com/DV8FromTheWorld/JDA/pull/1769'
+		}
+	},
+	{
 		name: 'discord.js',
 		url: 'https://github.com/discordjs/discord.js',
 		language: 'JavaScript',
@@ -62,18 +81,5 @@ export const libs: Lib[] = [
 		threads: 'Dev Version',
 		guildStickers: 'Dev Version',
 		contextMenus: 'No'
-	},
-	{
-		name: 'JDA',
-		url: 'https://github.com/Dv8FromTheWorld/JDA',
-		language: 'Java',
-		apiVer: 8,
-		gwVer: 8,
-		slashCommands: 'Yes',
-		buttons: 'Yes',
-		selectMenus: 'Yes',
-		threads: 'Has a PR',
-		guildStickers: 'No',
-		contextMenus: 'Has a PR'
 	}
 ]
