@@ -43,5 +43,18 @@ export const libs: Lib[] = [
 		threads: 'Dev Version',
 		guildStickers: 'Dev Version',
 		contextMenus: 'No'
+	},
+	{
+		name: 'disgo',
+		url: 'https://github.com/DisgoOrg/disgo',
+		language: 'Go',
+		apiVer: 8,
+		gwVer: 8,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Has a PR',
+		guildStickers: 'Has a PR',
+		contextMenus: 'Yes'
 	}
 ]
