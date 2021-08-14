@@ -68,6 +68,6 @@ export const libs: Lib[] = [
 		selectMenus: 'Yes',
 		threads: 'Has a PR',
 		guildStickers: 'No',
-		contextMenus: 'No'
+		contextMenus: 'Has a PR'
 	}
 ]
