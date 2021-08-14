@@ -108,15 +108,6 @@ export default function Home() {
 					align-items: center;
 				}
 
-				a {
-					color: #00aff4;
-				}
-
-				a:hover {
-					color: #00aff4;
-					text-decoration: underline;
-				}
-
 				#title {
 					margin: 0;
 					line-height: 1.15;
@@ -161,6 +152,15 @@ export default function Home() {
 						Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
 						sans-serif;
 					background: #36393f;
+				}
+
+				a {
+					color: #00aff4;
+				}
+
+				a:hover {
+					color: #00aff4;
+					text-decoration: underline;
 				}
 
 				.table td, .table th {
