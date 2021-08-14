@@ -27,8 +27,14 @@ export const libs: Lib[] = [
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
-		threads: 'Has a PR',
-		guildStickers: 'Has a PR',
+		threads: {
+			text: 'Has a PR',
+			url: 'https://github.com/DisgoOrg/disgo/pull/17'
+		},
+		guildStickers: {
+			text: 'Has a PR',
+			url: 'https://github.com/DisgoOrg/disgo/pull/63'
+		},
 		contextMenus: 'Yes'
 	},
 	{

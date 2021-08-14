@@ -1,4 +1,5 @@
 type version = 6 | 7 | 8 | 9 | string
+export type LinkableString = string | { text: string; url: string }
 
 export interface Lib {
 	name: string
@@ -6,10 +7,10 @@ export interface Lib {
 	language: string
 	apiVer: version
 	gwVer: version
-	slashCommands: string
-	buttons: string
-	selectMenus: string
-	threads: string
-	guildStickers: string
-	contextMenus: string
+	slashCommands: LinkableString
+	buttons: LinkableString
+	selectMenus: LinkableString
+	threads: LinkableString
+	guildStickers: LinkableString
+	contextMenus: LinkableString
 }
