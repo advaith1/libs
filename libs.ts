@@ -70,6 +70,37 @@ export const libs: Lib[] = [
 		contextMenus: 'Yes'
 	},
 	{
+		name: 'Eris',
+		url: 'https://github.com/abalabahaha/eris',
+		language: 'JavaScript',
+		apiVer: '7 stable, 8 dev',
+		gwVer: '6 stable, 8 dev',
+		slashCommands: {
+			text: 'Has a PR',
+			url: 'https://github.com/abalabahaha/eris/pull/1210'
+		},
+		buttons: {
+			text: 'Has PRs',
+			url: 'https://github.com/abalabahaha/eris/pull/1189'
+		},
+		selectMenus: {
+			text: 'Has PRs',
+			url: 'https://github.com/abalabahaha/eris/pull/1189'
+		},
+		threads: {
+			text: 'Has a PR',
+			url: 'https://github.com/abalabahaha/eris/pull/1216'
+		},
+		guildStickers: {
+			text: 'Has a PR',
+			url: 'https://github.com/abalabahaha/eris/pull/1258'
+		},
+		contextMenus: {
+			text: 'Has a PR',
+			url: 'https://github.com/abalabahaha/eris/pull/1210'
+		}
+	},
+	{
 		name: 'discord.py',
 		url: 'https://github.com/Rapptz/discord.py',
 		language: 'Python',
