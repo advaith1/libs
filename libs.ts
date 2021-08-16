@@ -75,11 +75,20 @@ export const libs: Lib[] = [
 		language: 'JavaScript',
 		apiVer: '7 stable, 8 dev',
 		gwVer: '6 stable, 8 dev',
-		slashCommands: 'No',
+		slashCommands: {
+			text: 'Has a PR',
+			url: 'https://github.com/abalabahaha/eris/pull/1262'
+		},
 		buttons: 'No',
 		selectMenus: 'No',
-		threads: 'No',
-		guildStickers: 'No',
+		threads: {
+			text: 'Has a PR',
+			url: 'https://github.com/abalabahaha/eris/pull/1216'
+		},
+		guildStickers: {
+			text: 'Has a PR',
+			url: 'https://github.com/abalabahaha/eris/pull/1258'
+		},
 		contextMenus: 'No'
 	},
 	{
