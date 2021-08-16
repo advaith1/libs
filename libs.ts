@@ -77,10 +77,16 @@ export const libs: Lib[] = [
 		gwVer: '6 stable, 8 dev',
 		slashCommands: {
 			text: 'Has a PR',
-			url: 'https://github.com/abalabahaha/eris/pull/1262'
+			url: 'https://github.com/abalabahaha/eris/pull/1210'
 		},
-		buttons: 'No',
-		selectMenus: 'No',
+		buttons: {
+			text: 'Has PRs',
+			url: 'https://github.com/abalabahaha/eris/pull/1189'
+		},
+		selectMenus: {
+			text: 'Has PRs',
+			url: 'https://github.com/abalabahaha/eris/pull/1189'
+		},
 		threads: {
 			text: 'Has a PR',
 			url: 'https://github.com/abalabahaha/eris/pull/1216'
@@ -89,7 +95,10 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/abalabahaha/eris/pull/1258'
 		},
-		contextMenus: 'No'
+		contextMenus: {
+			text: 'Has a PR',
+			url: 'https://github.com/abalabahaha/eris/pull/1210'
+		}
 	},
 	{
 		name: 'discord.py',
