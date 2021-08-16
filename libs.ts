@@ -70,6 +70,19 @@ export const libs: Lib[] = [
 		contextMenus: 'Yes'
 	},
 	{
+		name: 'Eris',
+		url: 'https://github.com/abalabahaha/eris',
+		language: 'JavaScript',
+		apiVer: '7 stable, 8 dev',
+		gwVer: '6 stable, 8 dev',
+		slashCommands: 'No',
+		buttons: 'No',
+		selectMenus: 'No',
+		threads: 'No',
+		guildStickers: 'No',
+		contextMenus: 'No'
+	},
+	{
 		name: 'discord.py',
 		url: 'https://github.com/Rapptz/discord.py',
 		language: 'Python',
