@@ -112,5 +112,21 @@ export const libs: Lib[] = [
 		threads: 'Dev Version',
 		guildStickers: 'Dev Version',
 		contextMenus: 'No'
+	},
+	{
+		name: 'Serenity',
+		url: 'https://github.com/serenity-rs/serenity',
+		language: 'Rust',
+		apiVer: '9',
+		gwVer: '9',
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: {
+			text: 'Has a pr',
+			url: 'https://github.com/serenity-rs/serenity/pull/1460'
+		}
 	}
 ]
