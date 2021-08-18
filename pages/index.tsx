@@ -6,22 +6,22 @@ import { libs } from '../libs'
 const langs = Array.from(new Set(libs.map(lib => lib.language).sort()))
 
 const statusColors = {
-	Yes: 'success',
-	No: 'danger'
+	Yes: 'green',
+	No: 'red'
 }
 
 const status = (status: LinkableString) => typeof status === 'string'
-	? <td className={`has-background-${statusColors[status] ?? 'warning-dark'}`}>{status}</td>
-	: <td className={`has-background-${statusColors[status.text] ?? 'warning-dark'}`}><a href={status.url} target="_blank" rel="noopener">{status.text}</a></td>
+	? <td className={statusColors[status] ?? 'yellow'}>{status}</td>
+	: <td className={statusColors[status.text] ?? 'yellow'}><a href={status.url} target="_blank" rel="noopener">{status.text}</a></td>
 
 const versionColors = {
-	6: 'danger',
-	7: 'danger',
-	8: 'warning-dark',
-	9: 'success'
+	6: 'red',
+	7: 'red',
+	8: 'yellow',
+	9: 'green'
 }
 
-const version = (version: number | string) => <td className={`has-background-${versionColors[version] ?? 'warning-dark'}`}>{version}</td>
+const version = (version: number | string) => <td className={versionColors[version] ?? 'yellow'}>{version}</td>
 
 export default function Home() {
 	return (
@@ -165,6 +165,22 @@ export default function Home() {
 
 				.table td, .table th {
 					border-color: #4f545c;
+				}
+
+				.green {
+					background-color: #2f834a;
+				}
+
+				.yellow {
+					background-color: #6e5b0f;
+				}
+
+				.yellow a {
+					color: #99e2ff
+				}
+
+				.red {
+					background-color: #a82426;
 				}
 
 				* {
