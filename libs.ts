@@ -125,7 +125,7 @@ export const libs: Lib[] = [
 		threads: 'Yes',
 		guildStickers: 'Yes',
 		contextMenus: {
-			text: 'Has a pr',
+			text: 'Has a PR',
 			url: 'https://github.com/serenity-rs/serenity/pull/1460'
 		}
 	}
