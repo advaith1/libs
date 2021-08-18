@@ -38,6 +38,19 @@ export const libs: Lib[] = [
 		contextMenus: 'Yes'
 	},
 	{
+		name: 'Calamity',
+		url: 'https://github.com/simmsb/calamity',
+		language: 'Haskell',
+		apiVer: 9,
+		gwVer: 9,
+		slashCommands: 'No',
+		buttons: 'No',
+		selectMenus: 'No',
+		threads: 'No',
+		guildStickers: 'No',
+		contextMenus: 'No'
+	},
+	{
 		name: 'JDA',
 		url: 'https://github.com/DV8FromTheWorld/JDA',
 		language: 'Java',
@@ -128,18 +141,5 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/serenity-rs/serenity/pull/1460'
 		}
-	},
-	{
-		name: 'Calamity',
-		url: 'https://github.com/simmsb/calamity',
-		language: 'Haskell',
-		apiVer: 9,
-		gwVer: 9,
-		slashCommands: 'No',
-		buttons: 'No',
-		selectMenus: 'No',
-		threads: 'No',
-		guildStickers: 'No',
-		contextMenus: 'No'
 	}
 ]
