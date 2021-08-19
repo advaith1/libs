@@ -70,25 +70,6 @@ export const libs: Lib[] = [
 		}
 	},
 	{
-		name: 'Kord',
-		url: 'https://github.com/kordlib/kord',
-		language: 'Kotlin',
-		apiVer: '8 stable, 9 dev',
-		gwVer: '8 stable, 9 dev',
-		slashCommands: 'Yes',
-		buttons: 'Yes',
-		selectMenus: 'Yes',
-		threads: 'Dev Version',
-		guildStickers: {
-			text: 'Has a PR',
-			url: 'https://github.com/kordlib/kord/pull/328'
-		},
-		contextMenus: {
-			text: 'Has a PR',
-			url: 'https://github.com/kordlib/kord/pull/366'
-		}
-	},
-	{
 		name: 'discord.js',
 		url: 'https://github.com/discordjs/discord.js',
 		language: 'JavaScript',
@@ -130,6 +111,25 @@ export const libs: Lib[] = [
 		contextMenus: {
 			text: 'Has a PR',
 			url: 'https://github.com/abalabahaha/eris/pull/1210'
+		}
+	},
+	{
+		name: 'Kord',
+		url: 'https://github.com/kordlib/kord',
+		language: 'Kotlin',
+		apiVer: '8 stable, 9 dev',
+		gwVer: '8 stable, 9 dev',
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Dev Version',
+		guildStickers: {
+			text: 'Has a PR',
+			url: 'https://github.com/kordlib/kord/pull/328'
+		},
+		contextMenus: {
+			text: 'Has a PR',
+			url: 'https://github.com/kordlib/kord/pull/366'
 		}
 	},
 	{
