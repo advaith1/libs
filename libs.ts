@@ -141,5 +141,30 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/serenity-rs/serenity/pull/1460'
 		}
+	},
+	{
+		name: 'Twilight',
+		url: 'https://github.com/twilight-rs/twilight',
+		language: 'Rust',
+		apiVer: 8,
+		gwVer: 8,
+		slashCommands: 'Yes',
+		buttons: {
+			text: 'Has a PR',
+			url: 'https://github.com/twilight-rs/twilight/pull/1121'
+		},
+		selectMenus: {
+			text: 'Has a PR',
+			url: 'https://github.com/twilight-rs/twilight/pull/1121'
+		},
+		threads: {
+			text: 'Has a PR',
+			url: 'https://github.com/twilight-rs/twilight/pull/1120'
+		},
+		guildStickers: 'Yes',
+		contextMenus: {
+			text: 'Has a PR',
+			url: 'https://github.com/twilight-rs/twilight/pull/1107'
+		}
 	}
 ]
