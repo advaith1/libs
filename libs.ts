@@ -161,7 +161,7 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/twilight-rs/twilight/pull/1120'
 		},
-		guildStickers: 'Yes',
+		guildStickers: 'No',
 		contextMenus: {
 			text: 'Has a PR',
 			url: 'https://github.com/twilight-rs/twilight/pull/1107'
