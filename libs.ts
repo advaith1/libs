@@ -171,10 +171,7 @@ export const libs: Lib[] = [
 		buttons: 'Yes',
 		selectMenus: 'Yes',
 		threads: 'Yes',
-		guildStickers: {
-			text: 'Has a PR',
-			url: 'https://github.com/harmonyland/harmony/pull/217'
-		},
-		contextMenus: 'Dev Version'
+		guildStickers: 'Yes',
+		contextMenus: 'Yes'
 	}
 ]
