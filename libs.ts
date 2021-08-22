@@ -38,6 +38,19 @@ export const libs: Lib[] = [
 		contextMenus: 'Yes'
 	},
 	{
+		name: 'Calamity',
+		url: 'https://github.com/simmsb/calamity',
+		language: 'Haskell',
+		apiVer: 9,
+		gwVer: 9,
+		slashCommands: 'No',
+		buttons: 'No',
+		selectMenus: 'No',
+		threads: 'No',
+		guildStickers: 'No',
+		contextMenus: 'No'
+	},
+	{
 		name: 'JDA',
 		url: 'https://github.com/DV8FromTheWorld/JDA',
 		language: 'Java',
@@ -98,6 +111,25 @@ export const libs: Lib[] = [
 		contextMenus: {
 			text: 'Has a PR',
 			url: 'https://github.com/abalabahaha/eris/pull/1210'
+		}
+	},
+	{
+		name: 'Kord',
+		url: 'https://github.com/kordlib/kord',
+		language: 'Kotlin',
+		apiVer: '8 stable, 9 dev',
+		gwVer: '8 stable, 9 dev',
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Dev Version',
+		guildStickers: {
+			text: 'Has a PR',
+			url: 'https://github.com/kordlib/kord/pull/328'
+		},
+		contextMenus: {
+			text: 'Has a PR',
+			url: 'https://github.com/kordlib/kord/pull/366'
 		}
 	},
 	{
