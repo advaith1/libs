@@ -114,6 +114,19 @@ export const libs: Lib[] = [
 		}
 	},
 	{
+		name: 'Detritus',
+		url: 'https://github.com/detritusjs/client',
+		language: 'JavaScript',
+		apiVer: 9,
+		gwVer: 9,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'Yes'
+	},
+	{
 		name: 'Kord',
 		url: 'https://github.com/kordlib/kord',
 		language: 'Kotlin',
