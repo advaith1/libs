@@ -140,10 +140,7 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/kordlib/kord/pull/328'
 		},
-		contextMenus: {
-			text: 'Has a PR',
-			url: 'https://github.com/kordlib/kord/pull/366'
-		}
+		contextMenus: 'Dev Version'
 	},
 	{
 		name: 'discord.py',
