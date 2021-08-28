@@ -75,9 +75,9 @@ export const libs: Lib[] = [
 		language: 'Java',
 		apiVer: '6 stable, 8 dev',
 		gwVer: '6 stable, 8 dev',
-		slashCommands: 'Dev Version',
-		buttons: 'Dev Version',
-		selectMenus: 'Dev Version',
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
 		threads: {
 			text: 'Has a PR',
 			url: 'https://github.com/Discord4J/Discord4J/pull/923'
