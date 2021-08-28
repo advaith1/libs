@@ -70,6 +70,22 @@ export const libs: Lib[] = [
 		}
 	},
 	{
+		name: 'Discord4J',
+		url: 'https://github.com/Discord4J/Discord4J',
+		language: 'Java',
+		apiVer: '6 stable, 8 dev',
+		gwVer: '6 stable, 8 dev',
+		slashCommands: 'Dev Version',
+		buttons: 'Dev Version',
+		selectMenus: 'Dev Version',
+		threads: {
+			text: 'Has a PR',
+			url: 'https://github.com/Discord4J/Discord4J/pull/923'
+		},
+		guildStickers: 'No',
+		contextMenus: 'No'
+	},
+	{
 		name: 'discord.js',
 		url: 'https://github.com/discordjs/discord.js',
 		language: 'JavaScript',
