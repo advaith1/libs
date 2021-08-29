@@ -169,15 +169,21 @@ export default function Home() {
 
 				.green {
 					background-color: #3ba55d;
+					color: black;
 				}
 
 				.yellow {
 					background-color: #fee75c;
 					color: black;
 				}
+				
+				.yellow a {
+					color: #0051f4;
+				}
 
 				.red {
 					background-color: #ed4245;
+					color: black;
 				}
 
 				* {
