@@ -1,4 +1,4 @@
-type version = 4| 6 | 7 | 8 | 9 | string
+type version = 6 | 7 | 8 | 9 | string
 export type LinkableString = string | { text: string; url: string }
 
 export interface Lib {
