@@ -175,10 +175,6 @@ export default function Home() {
 					background-color: #faa81a;
 				}
 
-				.yellow a {
-					color: #99e2ff;
-				}
-
 				.red {
 					background-color: #ed4245;
 				}
