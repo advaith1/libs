@@ -168,19 +168,19 @@ export default function Home() {
 				}
 
 				.green {
-					background-color: #2f834a;
+					background-color: #3ba55d;
 				}
 
 				.yellow {
-					background-color: #6e5b0f;
+					background-color: #faa81a;
 				}
 
 				.yellow a {
-					color: #99e2ff
+					color: #99e2ff;
 				}
 
 				.red {
-					background-color: #a82426;
+					background-color: #ed4245;
 				}
 
 				* {
