@@ -19,6 +19,25 @@ export const libs: Lib[] = [
 		contextMenus: 'Yes'
 	},
 	{
+		name: 'DiscordGo',
+		url: 'https://github.com/bwmarrin/discordgo',
+		language: 'Go',
+		apiVer: 8,
+		gwVer: 8,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: {
+			text: 'Has a PR',
+			url: 'https://github.com/bwmarrin/discordgo/pull/982'
+		},
+		guildStickers: {
+			text: 'Has a PR',
+			url: 'https://github.com/bwmarrin/discordgo/pull/982'
+		},
+		contextMenus: 'Yes'
+	},
+	{
 		name: 'disgo',
 		url: 'https://github.com/DisgoOrg/disgo',
 		language: 'Go',
@@ -36,6 +55,22 @@ export const libs: Lib[] = [
 			url: 'https://github.com/DisgoOrg/disgo/pull/63'
 		},
 		contextMenus: 'Yes'
+	},
+	{
+		name: 'Disgord',
+		url: 'https://github.com/andersfylling/disgord',
+		language: 'Go',
+		apiVer: 9,
+		gwVer: 9,
+		slashCommands: {
+			text: 'Has a PR',
+			url: 'https://github.com/andersfylling/disgord/pull/429'
+		},
+		buttons: 'Yes',
+		selectMenus: 'No',
+		threads: 'No',
+		guildStickers: 'Yes',
+		contextMenus: 'No'
 	},
 	{
 		name: 'Calamity',
