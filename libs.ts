@@ -51,6 +51,19 @@ export const libs: Lib[] = [
 		contextMenus: 'No'
 	},
 	{
+		name: 'Javacord',
+		url: 'https://github.com/Javacord/Javacord',
+		language: 'Java',
+		apiVer: 8,
+		gwVer: 8,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'No',
+		guildStickers: 'No',
+		contextMenus: 'No'
+	},
+	{
 		name: 'JDA',
 		url: 'https://github.com/DV8FromTheWorld/JDA',
 		language: 'Java',
