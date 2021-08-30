@@ -79,7 +79,7 @@ export const libs: Lib[] = [
 		buttons: 'Yes',
 		selectMenus: 'Yes',
 		threads: {
-			text: 'Has a PR',
+			text: 'Has PRs',
 			url: 'https://github.com/Discord4J/Discord4J/issues/958'
 		},
 		guildStickers: 'No',
