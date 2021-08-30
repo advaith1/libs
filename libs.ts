@@ -102,14 +102,14 @@ export const libs: Lib[] = [
 		name: 'Discord4J',
 		url: 'https://github.com/Discord4J/Discord4J',
 		language: 'Java',
-		apiVer: 8,
-		gwVer: 6,
+		apiVer: '6 stable, 8 dev',
+		gwVer: '6 stable, 8 dev',
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
 		threads: {
-			text: 'Has a PR',
-			url: 'https://github.com/Discord4J/Discord4J/pull/923'
+			text: 'Has PRs',
+			url: 'https://github.com/Discord4J/Discord4J/issues/958'
 		},
 		guildStickers: 'Yes',
 		contextMenus: 'No'
@@ -256,10 +256,7 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/kordlib/kord/pull/328'
 		},
-		contextMenus: {
-			text: 'Has a PR',
-			url: 'https://github.com/kordlib/kord/pull/366'
-		}
+		contextMenus: 'Dev Version'
 	},
 	{
 		name: 'Discordia',
