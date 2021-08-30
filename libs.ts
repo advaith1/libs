@@ -51,6 +51,22 @@ export const libs: Lib[] = [
 		contextMenus: 'No'
 	},
 	{
+		name: 'Discord4J',
+		url: 'https://github.com/Discord4J/Discord4J',
+		language: 'Java',
+		apiVer: '6 stable, 8 dev',
+		gwVer: '6 stable, 8 dev',
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: {
+			text: 'Has PRs',
+			url: 'https://github.com/Discord4J/Discord4J/issues/958'
+		},
+		guildStickers: 'No',
+		contextMenus: 'No'
+	},
+	{
 		name: 'JDA',
 		url: 'https://github.com/DV8FromTheWorld/JDA',
 		language: 'Java',
@@ -68,22 +84,6 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/DV8FromTheWorld/JDA/pull/1769'
 		}
-	},
-	{
-		name: 'Discord4J',
-		url: 'https://github.com/Discord4J/Discord4J',
-		language: 'Java',
-		apiVer: '6 stable, 8 dev',
-		gwVer: '6 stable, 8 dev',
-		slashCommands: 'Yes',
-		buttons: 'Yes',
-		selectMenus: 'Yes',
-		threads: {
-			text: 'Has PRs',
-			url: 'https://github.com/Discord4J/Discord4J/issues/958'
-		},
-		guildStickers: 'No',
-		contextMenus: 'No'
 	},
 	{
 		name: 'discord.js',
