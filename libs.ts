@@ -114,6 +114,19 @@ export const libs: Lib[] = [
 		}
 	},
 	{
+		name: 'Harmony',
+		url: 'https://github.com/harmonyland/harmony',
+		language: 'JavaScript',
+		apiVer: 9,
+		gwVer: 9,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'Yes'
+	},
+	{
 		name: 'Kord',
 		url: 'https://github.com/kordlib/kord',
 		language: 'Kotlin',
@@ -160,18 +173,5 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/serenity-rs/serenity/pull/1460'
 		}
-	},
-	{
-		name: 'Harmony',
-		url: 'https://github.com/harmonyland/harmony',
-		language: 'JavaScript',
-		apiVer: 9,
-		gwVer: 9,
-		slashCommands: 'Yes',
-		buttons: 'Yes',
-		selectMenus: 'Yes',
-		threads: 'Yes',
-		guildStickers: 'Yes',
-		contextMenus: 'Yes'
 	}
 ]
