@@ -164,7 +164,7 @@ export const libs: Lib[] = [
 	{
 		name: 'Harmony',
 		url: 'https://github.com/harmonyland/harmony',
-		language: 'TypeScript',
+		language: 'JavaScript',
 		apiVer: 9,
 		gwVer: 9,
 		slashCommands: 'Yes',
