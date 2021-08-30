@@ -111,7 +111,7 @@ export const libs: Lib[] = [
 			text: 'Has PRs',
 			url: 'https://github.com/Discord4J/Discord4J/issues/958'
 		},
-		guildStickers: 'Yes',
+		guildStickers: 'No',
 		contextMenus: 'No'
 	},
 	{
