@@ -5,7 +5,7 @@ import { Lib } from "./lib";
 // sort language alphabetically and then name alphabetically
 
 export const libs: Lib[] = [
-    {
+ {
 		name: 'aegis.cpp',
 		url: 'https://github.com/zeroxs/aegis.cpp',
 		language: 'C++',
