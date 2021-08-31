@@ -18,7 +18,7 @@ export const libs: Lib[] = [
 		guildStickers: 'Yes',
 		contextMenus: 'Yes'
 	},
-  	{
+	{
 		name: 'Discord++',
 		url: 'https://github.com/DiscordPP/discordpp',
 		language: 'C++',
