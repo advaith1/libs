@@ -19,6 +19,19 @@ export const libs: Lib[] = [
 		contextMenus: 'Yes'
 	},
 	{
+		name: 'Discord++',
+		url: 'https://github.com/DiscordPP/discordpp',
+		language: 'C++',
+		apiVer: 9,
+		gwVer: 9,
+		slashCommands: 'Yes',
+		buttons: 'No',
+		selectMenus: 'No',
+		threads: 'Yes',
+		guildStickers: 'No',
+		contextMenus: 'No'
+	},
+	{
 		name: 'Sleepy Discord',
 		url: 'https://github.com/yourWaifu/sleepy-discord',
 		language: 'C++',
