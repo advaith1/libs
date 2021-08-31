@@ -19,6 +19,19 @@ export const libs: Lib[] = [
 		contextMenus: 'Yes'
 	},
 	{
+		name: 'aegis.cpp',
+		url: 'https://github.com/zeroxs/aegis.cpp',
+		language: 'C++',
+		apiVer: 6,
+		gwVer: 6,
+		slashCommands: 'No',
+		buttons: 'No',
+		selectMenus: 'No',
+		threads: 'No',
+		guildStickers: 'No',
+		contextMenus: 'No'
+	},
+	{
 		name: 'Discord++',
 		url: 'https://github.com/DiscordPP/discordpp',
 		language: 'C++',
