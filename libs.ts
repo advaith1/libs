@@ -314,7 +314,7 @@ export const libs: Lib[] = [
 		contextMenus: 'No'
 	},
 	{
-		name: 'discord.py',
+		name: 'discord.py 🪦',
 		url: 'https://github.com/Rapptz/discord.py',
 		language: 'Python',
 		apiVer: '7 stable, 8 dev',
