@@ -375,7 +375,7 @@ export const libs: Lib[] = [
 		}
 	},
 	{
-		name: 'twilight',
+		name: 'Twilight',
 		url: 'https://github.com/twilight-rs/twilight',
 		language: 'Rust',
 		apiVer: 8,
@@ -383,11 +383,14 @@ export const libs: Lib[] = [
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
-		threads: 'No',
+		threads: {
+			text: 'Has a PR',
+			url: 'https://github.com/twilight-rs/twilight/pull/1142'
+		},
 		guildStickers: 'Yes',
 		contextMenus: {
 			text: 'Has a PR',
-			url: 'https://github.com/twilight-rs/twilight/issues/1105'
+			url: 'https://github.com/twilight-rs/twilight/pull/1107'
 		}
 	},
 	{
