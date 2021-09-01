@@ -303,10 +303,7 @@ export const libs: Lib[] = [
 		language: 'PHP',
 		apiVer: 8,
 		gwVer: 8,
-		slashCommands: {
-			text: 'Requires Addon',
-			url: 'https://github.com/discord-php/DiscordPHP-Slash'
-		},
+		slashCommands: 'No',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
 		threads: 'Yes',
