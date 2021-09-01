@@ -58,6 +58,19 @@ export const libs: Lib[] = [
 		contextMenus: 'No'
 	},
 	{
+		name: 'coxir',
+		url: 'https://github.com/satom99/coxir',
+		language: 'Elixir',
+		apiVer: 9,
+		gwVer: 8,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'No',
+		guildStickers: 'No',
+		contextMenus: 'No'
+	},
+	{
 		name: 'DiscordGo',
 		url: 'https://github.com/bwmarrin/discordgo',
 		language: 'Go',
@@ -324,6 +337,19 @@ export const libs: Lib[] = [
 		contextMenus: 'No'
 	},
 	{
+		name: 'RestCord',
+		url: 'https://github.com/restcord/restcord',
+		language: 'PHP',
+		apiVer: 6,
+		gwVer: '-',
+		slashCommands: 'No',
+		buttons: 'No',
+		selectMenus: 'No',
+		threads: 'No',
+		guildStickers: 'No',
+		contextMenus: 'No'
+	},
+	{
 		name: 'discord.py 🪦',
 		url: 'https://github.com/Rapptz/discord.py',
 		language: 'Python',
@@ -380,6 +406,19 @@ export const libs: Lib[] = [
 		threads: 'No',
 		guildStickers: 'No',
 		contextMenus: 'Yes'
+	},
+	{
+		name: 'discord-rs',
+		url: 'https://github.com/SpaceManiac/discord-rs',
+		language: 'Rust',
+		apiVer: 6,
+		gwVer: 6,
+		slashCommands: 'No',
+		buttons: 'No',
+		selectMenus: 'No',
+		threads: 'No',
+		guildStickers: 'No',
+		contextMenus: 'No'
 	},
 	{
 		name: 'Serenity',
