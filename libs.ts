@@ -235,12 +235,12 @@ export const libs: Lib[] = [
 			url: 'https://github.com/abalabahaha/eris/pull/1210'
 		},
 		buttons: {
-			text: 'Has PRs',
-			url: 'https://github.com/abalabahaha/eris/pull/1189'
+			text: 'Has a PR',
+			url: 'https://github.com/abalabahaha/eris/pull/1210'
 		},
 		selectMenus: {
-			text: 'Has PRs',
-			url: 'https://github.com/abalabahaha/eris/pull/1189'
+			text: 'Has a PR',
+			url: 'https://github.com/abalabahaha/eris/pull/1210'
 		},
 		threads: {
 			text: 'Has a PR',
