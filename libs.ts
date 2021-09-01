@@ -5,6 +5,19 @@ import { Lib } from "./lib";
 // sort language alphabetically and then name alphabetically
 
 export const libs: Lib[] = [
+ {
+		name: 'aegis.cpp',
+		url: 'https://github.com/zeroxs/aegis.cpp',
+		language: 'C++',
+		apiVer: 6,
+		gwVer: 6,
+		slashCommands: 'No',
+		buttons: 'No',
+		selectMenus: 'No',
+		threads: 'No',
+		guildStickers: 'No',
+		contextMenus: 'No'
+	},
 	{
 		name: 'D++',
 		url: 'https://github.com/brainboxdotcc/DPP',
