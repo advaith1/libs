@@ -41,7 +41,7 @@ export const libs: Lib[] = [
 		buttons: 'No',
 		selectMenus: 'No',
 		threads: 'Yes',
-		guildStickers: 'No',
+		guildStickers: 'Yes',
 		contextMenus: 'No'
 	},
 	{
