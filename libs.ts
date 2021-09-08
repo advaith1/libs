@@ -340,13 +340,13 @@ export const libs: Lib[] = [
 		name: 'hata',
 		url: 'https://github.com/HuyaneMatsu/hata',
 		language: 'Python',
-		apiVer: '7, 8, and 9',
-		gwVer: '7, 8, and 9',
+		apiVer: '6, 7, 8, and 9',
+		gwVer: '6, 7, 8, and 9',
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
-		threads: 'No',
-		guildStickers: 'No',
+		threads: 'Yes',
+		guildStickers: 'Yes',
 		contextMenus: 'Yes'
 	},
 	{
