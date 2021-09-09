@@ -199,6 +199,19 @@ export const libs: Lib[] = [
 		contextMenus: 'Yes'
 	},
 	{
+		name: 'droff',
+		url: 'https://github.com/tim-smart/droff',
+		language: 'TypeScript',
+		apiVer: 9,
+		gwVer: 9,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'No'
+	},
+	{
 		name: 'Harmony',
 		url: 'https://github.com/harmonyland/harmony',
 		language: 'TypeScript',
@@ -223,19 +236,6 @@ export const libs: Lib[] = [
 		threads: 'Yes',
 		guildStickers: 'Yes',
 		contextMenus: 'Yes'
-	},
-	{
-		name: 'droff',
-		url: 'https://github.com/tim-smart/droff',
-		language: 'JavaScript',
-		apiVer: 9,
-		gwVer: 9,
-		slashCommands: 'Yes',
-		buttons: 'Yes',
-		selectMenus: 'Yes',
-		threads: 'Yes',
-		guildStickers: 'Yes',
-		contextMenus: 'No'
 	},
 	{
 		name: 'Eris',
