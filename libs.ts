@@ -356,14 +356,8 @@ export const libs: Lib[] = [
 		apiVer: 8,
 		gwVer: 8,
 		slashCommands: 'Yes',
-		buttons: {
-			text: 'Has a PR',
-			url: 'https://github.com/hikari-py/hikari/pull/684'
-		},
-		selectMenus: {
-			text: 'Has a PR',
-			url: 'https://github.com/hikari-py/hikari/pull/684'
-		},
+		buttons: 'Dev Version',
+		selectMenus: 'Dev Version',
 		threads: 'No',
 		guildStickers: 'Yes',
 		contextMenus: 'No'
