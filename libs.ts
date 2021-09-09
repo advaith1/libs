@@ -175,7 +175,7 @@ export const libs: Lib[] = [
 	{
 		name: 'Detritus',
 		url: 'https://github.com/detritusjs/client',
-		language: 'JavaScript',
+		language: 'TypeScript',
 		apiVer: 9,
 		gwVer: 9,
 		slashCommands: 'Yes',
@@ -188,7 +188,20 @@ export const libs: Lib[] = [
 	{
 		name: 'Discordeno',
 		url: 'https://github.com/discordeno/discordeno',
-		language: 'JavaScript',
+		language: 'TypeScript',
+		apiVer: 9,
+		gwVer: 9,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'Yes'
+	},
+	{
+		name: 'Harmony',
+		url: 'https://github.com/harmonyland/harmony',
+		language: 'TypeScript',
 		apiVer: 9,
 		gwVer: 9,
 		slashCommands: 'Yes',
@@ -254,19 +267,6 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/abalabahaha/eris/pull/1210'
 		}
-	},
-	{
-		name: 'Harmony',
-		url: 'https://github.com/harmonyland/harmony',
-		language: 'JavaScript',
-		apiVer: 9,
-		gwVer: 9,
-		slashCommands: 'Yes',
-		buttons: 'Yes',
-		selectMenus: 'Yes',
-		threads: 'Yes',
-		guildStickers: 'Yes',
-		contextMenus: 'Yes'
 	},
 	{
 		name: 'Kord',
