@@ -173,58 +173,6 @@ export const libs: Lib[] = [
 		}
 	},
 	{
-		name: 'Detritus',
-		url: 'https://github.com/detritusjs/client',
-		language: 'TypeScript',
-		apiVer: 9,
-		gwVer: 9,
-		slashCommands: 'Yes',
-		buttons: 'Yes',
-		selectMenus: 'Yes',
-		threads: 'Yes',
-		guildStickers: 'Yes',
-		contextMenus: 'Yes'
-	},
-	{
-		name: 'Discordeno',
-		url: 'https://github.com/discordeno/discordeno',
-		language: 'TypeScript',
-		apiVer: 9,
-		gwVer: 9,
-		slashCommands: 'Yes',
-		buttons: 'Yes',
-		selectMenus: 'Yes',
-		threads: 'Yes',
-		guildStickers: 'Yes',
-		contextMenus: 'Yes'
-	},
-	{
-		name: 'droff',
-		url: 'https://github.com/tim-smart/droff',
-		language: 'TypeScript',
-		apiVer: 9,
-		gwVer: 9,
-		slashCommands: 'Yes',
-		buttons: 'Yes',
-		selectMenus: 'Yes',
-		threads: 'Yes',
-		guildStickers: 'Yes',
-		contextMenus: 'No'
-	},
-	{
-		name: 'Harmony',
-		url: 'https://github.com/harmonyland/harmony',
-		language: 'TypeScript',
-		apiVer: 9,
-		gwVer: 9,
-		slashCommands: 'Yes',
-		buttons: 'Yes',
-		selectMenus: 'Yes',
-		threads: 'Yes',
-		guildStickers: 'Yes',
-		contextMenus: 'Yes'
-	},
-	{
 		name: 'discord.js',
 		url: 'https://github.com/discordjs/discord.js',
 		language: 'JavaScript',
@@ -428,5 +376,57 @@ export const libs: Lib[] = [
 		threads: 'Yes',
 		guildStickers: 'Yes',
 		contextMenus: 'No'
+	},
+	{
+		name: 'Detritus',
+		url: 'https://github.com/detritusjs/client',
+		language: 'TypeScript',
+		apiVer: 9,
+		gwVer: 9,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'Yes'
+	},
+	{
+		name: 'Discordeno',
+		url: 'https://github.com/discordeno/discordeno',
+		language: 'TypeScript',
+		apiVer: 9,
+		gwVer: 9,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'Yes'
+	},
+	{
+		name: 'droff',
+		url: 'https://github.com/tim-smart/droff',
+		language: 'TypeScript',
+		apiVer: 9,
+		gwVer: 9,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'No'
+	},
+	{
+		name: 'Harmony',
+		url: 'https://github.com/harmonyland/harmony',
+		language: 'TypeScript',
+		apiVer: 9,
+		gwVer: 9,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'Yes'
 	}
 ]
