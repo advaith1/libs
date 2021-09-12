@@ -138,7 +138,10 @@ export const libs: Lib[] = [
 			url: 'https://github.com/Discord4J/Discord4J/issues/958'
 		},
 		guildStickers: 'No',
-		contextMenus: 'No'
+		contextMenus: {
+			text: 'Has a PR',
+			url: 'https://github.com/Discord4J/Discord4J/pull/1001'
+		}
 	},
 	{
 		name: 'Javacord',
