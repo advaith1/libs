@@ -125,6 +125,19 @@ export const libs: Lib[] = [
 		contextMenus: 'No'
 	},
 	{
+		name: 'catnip',
+		url: 'https://github.com/mewna/catnip',
+		language: 'Java',
+		apiVer: 9,
+		gwVer: 9,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'No'
+	},
+	{
 		name: 'Discord4J',
 		url: 'https://github.com/Discord4J/Discord4J',
 		language: 'Java',
