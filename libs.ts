@@ -135,7 +135,7 @@ export const libs: Lib[] = [
 		selectMenus: 'Yes',
 		threads: 'Yes',
 		guildStickers: 'Yes',
-		contextMenus: 'No'
+		contextMenus: 'Yes'
 	},
 	{
 		name: 'Discord4J',
