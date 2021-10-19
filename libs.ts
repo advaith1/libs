@@ -6,7 +6,7 @@ import { Lib } from "./lib";
 
 export const libs: Lib[] = [
  {
-		name: 'aegis.cpp',
+		name: 'aegis.cpp 🪦',
 		url: 'https://github.com/zeroxs/aegis.cpp',
 		language: 'C++',
 		apiVer: 6,
