@@ -38,11 +38,11 @@ export const libs: Lib[] = [
 		apiVer: 9,
 		gwVer: 9,
 		slashCommands: 'Yes',
-		buttons: 'No',
-		selectMenus: 'No',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
 		threads: 'Yes',
 		guildStickers: 'Yes',
-		contextMenus: 'No'
+		contextMenus: 'Yes'
 	},
 	{
 		name: 'Sleepy Discord',
