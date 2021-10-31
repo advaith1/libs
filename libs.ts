@@ -233,30 +233,15 @@ export const libs: Lib[] = [
 		language: 'JavaScript',
 		apiVer: '7 stable, 8 dev',
 		gwVer: '6 stable, 8 dev',
-		slashCommands: {
-			text: 'Has a PR',
-			url: 'https://github.com/abalabahaha/eris/pull/1210'
-		},
-		buttons: {
-			text: 'Has a PR',
-			url: 'https://github.com/abalabahaha/eris/pull/1210'
-		},
-		selectMenus: {
-			text: 'Has a PR',
-			url: 'https://github.com/abalabahaha/eris/pull/1210'
-		},
+		slashCommands: 'Dev Version',
+		buttons: 'Dev Version',
+		selectMenus: 'Dev Version',
 		threads: {
 			text: 'Has a PR',
-			url: 'https://github.com/abalabahaha/eris/pull/1216'
+			url: 'https://github.com/abalabahaha/eris/pull/1279'
 		},
-		guildStickers: {
-			text: 'Has a PR',
-			url: 'https://github.com/abalabahaha/eris/pull/1258'
-		},
-		contextMenus: {
-			text: 'Has a PR',
-			url: 'https://github.com/abalabahaha/eris/pull/1210'
-		}
+		guildStickers: 'Dev Version',
+		contextMenus: 'Dev Version'
 	},
 	{
 		name: 'Harmony',
