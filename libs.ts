@@ -374,10 +374,7 @@ export const libs: Lib[] = [
 		selectMenus: 'Yes',
 		threads: 'Yes',
 		guildStickers: 'Yes',
-		contextMenus: {
-			text: 'Has a PR',
-			url: 'https://github.com/serenity-rs/serenity/pull/1460'
-		}
+		contextMenus: 'Yes'
 	},
 	{
 		name: 'Twilight',
