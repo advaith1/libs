@@ -89,10 +89,7 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/DisgoOrg/disgo/pull/17'
 		},
-		guildStickers: {
-			text: 'Has a PR',
-			url: 'https://github.com/DisgoOrg/disgo/pull/63'
-		},
+		guildStickers: 'Yes',
 		contextMenus: 'Yes'
 	},
 	{
