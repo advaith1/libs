@@ -122,20 +122,17 @@ export const libs: Lib[] = [
 		name: 'Discord4J',
 		url: 'https://github.com/Discord4J/Discord4J',
 		language: 'Java',
-		apiVer: '6 stable, 8 dev',
-		gwVer: '6 stable, 8 dev',
+		apiVer: 8,
+		gwVer: 8,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
 		threads: {
-			text: 'Has PRs',
+			text: 'Dev Version',
 			url: 'https://github.com/Discord4J/Discord4J/issues/958'
 		},
 		guildStickers: 'No',
-		contextMenus: {
-			text: 'Has a PR',
-			url: 'https://github.com/Discord4J/Discord4J/pull/1001'
-		}
+		contextMenus: 'Yes'
 	},
 	{
 		name: 'Javacord',
