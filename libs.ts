@@ -222,15 +222,12 @@ export const libs: Lib[] = [
 		name: 'Eris',
 		url: 'https://github.com/abalabahaha/eris',
 		language: 'JavaScript',
-		apiVer: '7 stable, 8 dev',
-		gwVer: '6 stable, 8 dev',
+		apiVer: '7 stable, 9 dev',
+		gwVer: '6 stable, 9 dev',
 		slashCommands: 'Dev Version',
 		buttons: 'Dev Version',
 		selectMenus: 'Dev Version',
-		threads: {
-			text: 'Has a PR',
-			url: 'https://github.com/abalabahaha/eris/pull/1279'
-		},
+		threads: 'Dev Version',
 		guildStickers: 'Dev Version',
 		contextMenus: 'Dev Version'
 	},
