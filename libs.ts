@@ -98,15 +98,12 @@ export const libs: Lib[] = [
 		language: 'Go',
 		apiVer: 9,
 		gwVer: 9,
-		slashCommands: {
-			text: 'Has a PR',
-			url: 'https://github.com/andersfylling/disgord/pull/429'
-		},
+		slashCommands: 'Dev Version',
 		buttons: 'Yes',
 		selectMenus: 'No',
 		threads: 'No',
 		guildStickers: 'Yes',
-		contextMenus: 'No'
+		contextMenus: 'Dev Version'
 	},
 	{
 		name: 'Calamity',
