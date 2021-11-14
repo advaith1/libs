@@ -381,13 +381,13 @@ export const libs: Lib[] = [
 		name: 'AckCord',
 		url: 'https://github.com/Katrix/AckCord',
 		language: 'Scala',
-		apiVer: 9,
-		gwVer: 9,
-		slashCommands: 'Yes',
-		buttons: 'Yes',
-		selectMenus: 'Yes',
-		threads: 'Yes',
-		guildStickers: 'Yes',
+		apiVer: '6 stable, 9 dev',
+		gwVer: '6 stable, 9 dev',
+		slashCommands: 'Dev Version',
+		buttons: 'Dev Version',
+		selectMenus: 'Dev Version',
+		threads: 'Dev Version',
+		guildStickers: 'Dev Version',
 		contextMenus: 'No'
 	}
 ]
