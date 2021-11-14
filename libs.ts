@@ -216,7 +216,7 @@ export const libs: Lib[] = [
 		selectMenus: 'Yes',
 		threads: 'Yes',
 		guildStickers: 'Yes',
-		contextMenus: 'No'
+		contextMenus: 'Yes'
 	},
 	{
 		name: 'Eris',
