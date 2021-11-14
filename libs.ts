@@ -80,14 +80,14 @@ export const libs: Lib[] = [
 		name: 'disgo',
 		url: 'https://github.com/DisgoOrg/disgo',
 		language: 'Go',
-		apiVer: 8,
-		gwVer: 8,
+		apiVer: 9,
+		gwVer: 9,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
 		threads: {
 			text: 'Has a PR',
-			url: 'https://github.com/DisgoOrg/disgo/pull/17'
+			url: 'https://github.com/DisgoOrg/disgo/pull/92'
 		},
 		guildStickers: 'Yes',
 		contextMenus: 'Yes'
