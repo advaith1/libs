@@ -388,15 +388,9 @@ export const libs: Lib[] = [
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
-		threads: {
-			text: 'Has a PR',
-			url: 'https://github.com/twilight-rs/twilight/pull/1142'
-		},
+		threads: 'Yes',
 		guildStickers: 'Yes',
-		contextMenus: {
-			text: 'Has a PR',
-			url: 'https://github.com/twilight-rs/twilight/pull/1107'
-		}
+		contextMenus: 'Yes'
 	},
 	{
 		name: 'AckCord',
