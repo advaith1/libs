@@ -53,6 +53,7 @@ export default function Home() {
 									<th>Threads</th>
 									<th>Guild Stickers</th>
 									<th>Context Menus</th>
+									<th>Autocomplete</th>
 								</tr>
 							</thead>
 							<tbody>
@@ -67,6 +68,7 @@ export default function Home() {
 										{status(lib.threads)}
 										{status(lib.guildStickers)}
 										{status(lib.contextMenus)}
+										{status(lib.autocomplete)}
 									</tr>
 								)}
 							</tbody>
