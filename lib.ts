@@ -13,4 +13,5 @@ export interface Lib {
 	threads: LinkableString
 	guildStickers: LinkableString
 	contextMenus: LinkableString
+	autocomplete: LinkableString
 }
