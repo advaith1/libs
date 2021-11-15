@@ -228,32 +228,14 @@ export const libs: Lib[] = [
 		name: 'Eris',
 		url: 'https://github.com/abalabahaha/eris',
 		language: 'JavaScript',
-		apiVer: '7 stable, 8 dev',
-		gwVer: '6 stable, 8 dev',
-		slashCommands: {
-			text: 'Has a PR',
-			url: 'https://github.com/abalabahaha/eris/pull/1210'
-		},
-		buttons: {
-			text: 'Has a PR',
-			url: 'https://github.com/abalabahaha/eris/pull/1210'
-		},
-		selectMenus: {
-			text: 'Has a PR',
-			url: 'https://github.com/abalabahaha/eris/pull/1210'
-		},
-		threads: {
-			text: 'Has a PR',
-			url: 'https://github.com/abalabahaha/eris/pull/1216'
-		},
-		guildStickers: {
-			text: 'Has a PR',
-			url: 'https://github.com/abalabahaha/eris/pull/1258'
-		},
-		contextMenus: {
-			text: 'Has a PR',
-			url: 'https://github.com/abalabahaha/eris/pull/1210'
-		}
+		apiVer: 9,
+		gwVer: 9,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'Yes'
 	},
 	{
 		name: 'Harmony',
