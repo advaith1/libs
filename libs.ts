@@ -251,7 +251,7 @@ export const libs: Lib[] = [
 		threads: 'Yes',
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
-    autocomplete: 'Yes'
+    	autocomplete: 'Yes'
 	},
 	{
 		name: 'Harmony',
