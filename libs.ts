@@ -5,7 +5,21 @@ import { Lib } from "./lib";
 // sort language alphabetically and then name alphabetically
 
 export const libs: Lib[] = [
- {
+	{
+		name: 'Discord .Net Labs',
+		url: 'https://github.com/Discord-Net-Labs/Discord.Net-Labs',
+		language: 'C#',
+		apiVer: 9,
+		gwVer: 9,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'Yes',
+		autocomplete: 'Yes'
+	},
+    {
 		name: 'aegis.cpp 🪦',
 		url: 'https://github.com/zeroxs/aegis.cpp',
 		language: 'C++',
@@ -128,20 +142,6 @@ export const libs: Lib[] = [
 		guildStickers: 'No',
 		contextMenus: 'No',
 		autocomplete: 'No'
-	},
-	{
-		name: 'Discord .Net Labs',
-		url: 'https://github.com/Discord-Net-Labs/Discord.Net-Labs',
-		language: 'C#',
-		apiVer: 9,
-		gwVer: 9,
-		slashCommands: 'Yes',
-		buttons: 'Yes',
-		selectMenus: 'Yes',
-		threads: 'Yes',
-		guildStickers: 'Yes',
-		contextMenus: 'Yes',
-		autocomplete: 'Yes'
 	},
 	{
 		name: 'Discord4J',
