@@ -130,6 +130,20 @@ export const libs: Lib[] = [
 		autocomplete: 'No'
 	},
 	{
+		name: 'Discord .Net Labs',
+		url: 'https://github.com/Discord-Net-Labs/Discord.Net-Labs',
+		language: 'C#',
+		apiVer: 9,
+		gwVer: 9,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'Yes',
+		autocomplete: 'Yes'
+	},
+	{
 		name: 'Discord4J',
 		url: 'https://github.com/Discord4J/Discord4J',
 		language: 'Java',
