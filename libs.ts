@@ -5,7 +5,21 @@ import { Lib } from "./lib";
 // sort language alphabetically and then name alphabetically
 
 export const libs: Lib[] = [
- {
+         {
+		name: 'Orca',
+		url: 'https://github.com/cee-studio/orca',
+		language: 'C',
+		apiVer: 9,
+		gwVer: 9,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'No',
+		guildStickers: 'No',
+		contextMenus: 'Yes',
+		autocomplete: 'No'
+	},
+         {
 		name: 'aegis.cpp 🪦',
 		url: 'https://github.com/zeroxs/aegis.cpp',
 		language: 'C++',
