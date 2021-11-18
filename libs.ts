@@ -5,7 +5,7 @@ import { Lib } from "./lib";
 // sort language alphabetically and then name alphabetically
 
 export const libs: Lib[] = [
-         {
+	{
 		name: 'Orca',
 		url: 'https://github.com/cee-studio/orca',
 		language: 'C',
@@ -19,7 +19,7 @@ export const libs: Lib[] = [
 		contextMenus: 'Yes',
 		autocomplete: 'No'
 	},
-         {
+	{
 		name: 'aegis.cpp 🪦',
 		url: 'https://github.com/zeroxs/aegis.cpp',
 		language: 'C++',
@@ -147,8 +147,8 @@ export const libs: Lib[] = [
 		name: 'Discord4J',
 		url: 'https://github.com/Discord4J/Discord4J',
 		language: 'Java',
-		apiVer: 8,
-		gwVer: 8,
+		apiVer: '8 stable, 9 dev',
+		gwVer: '8 stable, 9 dev',
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
@@ -158,7 +158,7 @@ export const libs: Lib[] = [
 		},
 		guildStickers: 'No',
 		contextMenus: 'Yes',
-		autocomplete: 'Dev Version'
+		autocomplete: 'Yes'
 	},
 	{
 		name: 'Javacord',
