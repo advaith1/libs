@@ -6,6 +6,20 @@ import { Lib } from "./lib";
 
 export const libs: Lib[] = [
 	{
+		name: 'Discord .Net Labs',
+		url: 'https://github.com/Discord-Net-Labs/Discord.Net-Labs',
+		language: 'C#',
+		apiVer: 9,
+		gwVer: 9,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'Yes',
+		autocomplete: 'Yes'
+	},
+	{
 		name: 'aegis.cpp 🪦',
 		url: 'https://github.com/zeroxs/aegis.cpp',
 		language: 'C++',
