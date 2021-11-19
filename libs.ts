@@ -14,8 +14,8 @@ export const libs: Lib[] = [
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
-		threads: 'No',
-		guildStickers: 'No',
+		threads: 'Yes',
+		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'No'
 	},
