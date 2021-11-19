@@ -6,6 +6,20 @@ import { Lib } from "./lib";
 
 export const libs: Lib[] = [
 	{
+		name: 'Orca',
+		url: 'https://github.com/cee-studio/orca',
+		language: 'C',
+		apiVer: 9,
+		gwVer: 9,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'No',
+		contextMenus: 'Yes',
+		autocomplete: 'No'
+	},
+	{
 		name: 'Discord .Net Labs',
 		url: 'https://github.com/Discord-Net-Labs/Discord.Net-Labs',
 		language: 'C#',
