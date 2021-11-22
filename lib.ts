@@ -1,5 +1,14 @@
 type version = 6 | 7 | 8 | 9 | string
 export type LinkableString = string | { text: string; url: string }
+export interface ListAppCommands {
+	slashCommands: LinkableString,
+	contextMenus: LinkableString,
+	autocomplete: LinkableString
+}
+export interface ListMessageComponents {
+	buttons: LinkableString,
+	selectMenus: LinkableString
+}
 
 export interface Lib {
 	name: string
@@ -7,11 +16,8 @@ export interface Lib {
 	language: string
 	apiVer: version
 	gwVer: version
-	slashCommands: LinkableString
-	buttons: LinkableString
-	selectMenus: LinkableString
+	applicationCommands: ListAppCommands
+	messageComponents: ListMessageComponents
 	threads: LinkableString
 	guildStickers: LinkableString
-	contextMenus: LinkableString
-	autocomplete: LinkableString
 }

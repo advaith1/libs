@@ -11,13 +11,17 @@ export const libs: Lib[] = [
 		language: 'C',
 		apiVer: 9,
 		gwVer: 9,
-		slashCommands: 'Yes',
-		buttons: 'Yes',
-		selectMenus: 'Yes',
+		applicationCommands: {
+			slashCommands: 'Yes',
+			contextMenus: 'Yes',
+			autocomplete: 'No'
+		},
+		messageComponents: {
+			buttons: 'Yes',
+			selectMenus: 'Yes'
+		},
 		threads: 'Yes',
-		guildStickers: 'No',
-		contextMenus: 'Yes',
-		autocomplete: 'No'
+		guildStickers: 'No'
 	},
 	{
 		name: 'Discord .Net Labs',
@@ -25,13 +29,17 @@ export const libs: Lib[] = [
 		language: 'C#',
 		apiVer: 9,
 		gwVer: 9,
-		slashCommands: 'Yes',
-		buttons: 'Yes',
-		selectMenus: 'Yes',
+		applicationCommands: {
+			slashCommands: 'Yes',
+			contextMenus: 'Yes',
+			autocomplete: 'Yes'
+		},
+		messageComponents: {
+			buttons: 'Yes',
+			selectMenus: 'Yes'
+		},
 		threads: 'Yes',
-		guildStickers: 'Yes',
-		contextMenus: 'Yes',
-		autocomplete: 'Yes'
+		guildStickers: 'Yes'
 	},
 	{
 		name: 'aegis.cpp 🪦',
@@ -39,13 +47,17 @@ export const libs: Lib[] = [
 		language: 'C++',
 		apiVer: 6,
 		gwVer: 6,
-		slashCommands: 'No',
-		buttons: 'No',
-		selectMenus: 'No',
+		applicationCommands: {
+			slashCommands: 'No',
+			contextMenus: 'No',
+			autocomplete: 'No'
+		},
+		messageComponents: {
+			buttons: 'No',
+			selectMenus: 'No'
+		},
 		threads: 'No',
-		guildStickers: 'No',
-		contextMenus: 'No',
-		autocomplete: 'No'
+		guildStickers: 'No'
 	},
 	{
 		name: 'D++',
@@ -53,13 +65,17 @@ export const libs: Lib[] = [
 		language: 'C++',
 		apiVer: 9,
 		gwVer: 9,
-		slashCommands: 'Yes',
-		buttons: 'Yes',
-		selectMenus: 'Yes',
+		applicationCommands: {
+			slashCommands: 'Yes',
+			contextMenus: 'Yes',
+			autocomplete: 'Yes'
+		},
+		messageComponents: {
+			buttons: 'Yes',
+			selectMenus: 'Yes'
+		},
 		threads: 'Yes',
-		guildStickers: 'Yes',
-		contextMenus: 'Yes',
-		autocomplete: 'Yes'
+		guildStickers: 'Yes'
 	},
 	{
 		name: 'Discord++',
@@ -67,13 +83,17 @@ export const libs: Lib[] = [
 		language: 'C++',
 		apiVer: 9,
 		gwVer: 9,
-		slashCommands: 'Yes',
-		buttons: 'Yes',
-		selectMenus: 'Yes',
+		applicationCommands: {
+			slashCommands: 'Yes',
+			contextMenus: 'Yes',
+			autocomplete: 'No'
+		},
+		messageComponents: {
+			buttons: 'Yes',
+			selectMenus: 'Yes'
+		},
 		threads: 'Yes',
-		guildStickers: 'Yes',
-		contextMenus: 'Yes',
-		autocomplete: 'No'
+		guildStickers: 'Yes'
 	},
 	{
 		name: 'Sleepy Discord',
@@ -81,13 +101,17 @@ export const libs: Lib[] = [
 		language: 'C++',
 		apiVer: '6 stable, 8 dev',
 		gwVer: '6 stable, 8 dev',
-		slashCommands: 'Dev Version',
-		buttons: 'Dev Version',
-		selectMenus: 'Dev Version',
+		applicationCommands: {
+			slashCommands: 'Dev Version',
+			contextMenus: 'Dev Version',
+			autocomplete: 'No'
+		},
+		messageComponents: {
+			buttons: 'Dev Version',
+			selectMenus: 'Dev Version'
+		},
 		threads: 'No',
-		guildStickers: 'No',
-		contextMenus: 'No',
-		autocomplete: 'No'
+		guildStickers: 'No'
 	},
 	{
 		name: 'DiscordGo',
@@ -95,9 +119,18 @@ export const libs: Lib[] = [
 		language: 'Go',
 		apiVer: 8,
 		gwVer: 8,
-		slashCommands: 'Yes',
-		buttons: 'Yes',
-		selectMenus: 'Yes',
+		applicationCommands: {
+			slashCommands: 'Yes',
+			contextMenus: 'Yes',
+			autocomplete: {
+				text: 'Has a PR',
+				url: 'https://github.com/bwmarrin/discordgo/pull/1014'
+			}
+		},
+		messageComponents: {
+			buttons: 'Yes',
+			selectMenus: 'Yes'
+		},
 		threads: {
 			text: 'Has a PR',
 			url: 'https://github.com/bwmarrin/discordgo/pull/982'
@@ -105,11 +138,6 @@ export const libs: Lib[] = [
 		guildStickers: {
 			text: 'Has a PR',
 			url: 'https://github.com/bwmarrin/discordgo/pull/982'
-		},
-		contextMenus: 'Yes',
-		autocomplete: {
-			text: 'Has a PR',
-			url: 'https://github.com/bwmarrin/discordgo/pull/1014'
 		}
 	},
 	{
@@ -118,16 +146,20 @@ export const libs: Lib[] = [
 		language: 'Go',
 		apiVer: 9,
 		gwVer: 9,
-		slashCommands: 'Yes',
-		buttons: 'Yes',
-		selectMenus: 'Yes',
+		applicationCommands: {
+			slashCommands: 'Yes',
+			contextMenus: 'Yes',
+			autocomplete: 'Yes'
+		},
+		messageComponents: {
+			buttons: 'Yes',
+			selectMenus: 'Yes'
+		},
 		threads: {
 			text: 'Has a PR',
 			url: 'https://github.com/DisgoOrg/disgo/pull/92'
 		},
-		guildStickers: 'Yes',
-		contextMenus: 'Yes',
-		autocomplete: 'Yes'
+		guildStickers: 'Yes'
 	},
 	{
 		name: 'Disgord',
@@ -135,13 +167,17 @@ export const libs: Lib[] = [
 		language: 'Go',
 		apiVer: 9,
 		gwVer: 9,
-		slashCommands: 'Dev Version',
-		buttons: 'Yes',
-		selectMenus: 'No',
+		applicationCommands: {
+			slashCommands: 'Dev Version',
+			contextMenus: 'Dev Version',
+			autocomplete: 'No'
+		},
+		messageComponents: {
+			buttons: 'Yes',
+			selectMenus: 'No'
+		},
 		threads: 'No',
-		guildStickers: 'Yes',
-		contextMenus: 'Dev Version',
-		autocomplete: 'No'
+		guildStickers: 'Yes'
 	},
 	{
 		name: 'Calamity',
@@ -149,13 +185,17 @@ export const libs: Lib[] = [
 		language: 'Haskell',
 		apiVer: 9,
 		gwVer: 9,
-		slashCommands: 'No',
-		buttons: 'No',
-		selectMenus: 'No',
+		applicationCommands: {
+			slashCommands: 'No',
+			contextMenus: 'No',
+			autocomplete: 'No'
+		},
+		messageComponents: {
+			buttons: 'No',
+			selectMenus: 'No'
+		},
 		threads: 'No',
-		guildStickers: 'No',
-		contextMenus: 'No',
-		autocomplete: 'No'
+		guildStickers: 'No'
 	},
 	{
 		name: 'Discord4J',
@@ -163,16 +203,20 @@ export const libs: Lib[] = [
 		language: 'Java',
 		apiVer: '8 stable, 9 dev',
 		gwVer: '8 stable, 9 dev',
-		slashCommands: 'Yes',
-		buttons: 'Yes',
-		selectMenus: 'Yes',
+		applicationCommands: {
+			slashCommands: 'Yes',
+			contextMenus: 'Yes',
+			autocomplete: 'Yes'
+		},
+		messageComponents: {
+			buttons: 'Yes',
+			selectMenus: 'Yes'
+		},
 		threads: {
 			text: 'Dev Version',
 			url: 'https://github.com/Discord4J/Discord4J/issues/958'
 		},
-		guildStickers: 'No',
-		contextMenus: 'Yes',
-		autocomplete: 'Yes'
+		guildStickers: 'No'
 	},
 	{
 		name: 'Javacord',
@@ -180,13 +224,17 @@ export const libs: Lib[] = [
 		language: 'Java',
 		apiVer: 8,
 		gwVer: 8,
-		slashCommands: 'Yes',
-		buttons: 'Yes',
-		selectMenus: 'Yes',
+		applicationCommands: {
+			slashCommands: 'Yes',
+			contextMenus: 'No',
+			autocomplete: 'No'
+		},
+		messageComponents: {
+			buttons: 'Yes',
+			selectMenus: 'Yes'
+		},
 		threads: 'No',
-		guildStickers: 'No',
-		contextMenus: 'No',
-		autocomplete: 'No'
+		guildStickers: 'No'
 	},
 	{
 		name: 'JDA',
@@ -194,22 +242,26 @@ export const libs: Lib[] = [
 		language: 'Java',
 		apiVer: 8,
 		gwVer: 8,
-		slashCommands: 'Yes',
-		buttons: 'Yes',
-		selectMenus: 'Yes',
+		applicationCommands: {
+			slashCommands: 'Yes',
+			contextMenus: {
+				text: 'Has a PR',
+				url: 'https://github.com/DV8FromTheWorld/JDA/pull/1769'
+			},
+			autocomplete: {
+				text: 'Has a PR',
+				url: 'https://github.com/DV8FromTheWorld/JDA/pull/1868'
+			}
+		},
+		messageComponents: {
+			buttons: 'Yes',
+			selectMenus: 'Yes'
+		},
 		threads: {
 			text: 'Has a PR',
 			url: 'https://github.com/DV8FromTheWorld/JDA/pull/1613'
 		},
 		guildStickers: 'No',
-		contextMenus: {
-			text: 'Has a PR',
-			url: 'https://github.com/DV8FromTheWorld/JDA/pull/1769'
-		},
-		autocomplete: {
-			text: 'Has a PR',
-			url: 'https://github.com/DV8FromTheWorld/JDA/pull/1868'
-		}
 	},
 	{
 		name: 'Detritus',
@@ -217,13 +269,17 @@ export const libs: Lib[] = [
 		language: 'JavaScript',
 		apiVer: 9,
 		gwVer: 9,
-		slashCommands: 'Yes',
-		buttons: 'Yes',
-		selectMenus: 'Yes',
+		applicationCommands: {
+			slashCommands: 'Yes',
+			contextMenus: 'Yes',
+			autocomplete: 'No'
+		},
+		messageComponents: {
+			buttons: 'Yes',
+			selectMenus: 'Yes'
+		},
 		threads: 'Yes',
-		guildStickers: 'Yes',
-		contextMenus: 'Yes',
-		autocomplete: 'No'
+		guildStickers: 'Yes'
 	},
 	{
 		name: 'Discordeno',
@@ -231,13 +287,17 @@ export const libs: Lib[] = [
 		language: 'JavaScript',
 		apiVer: 9,
 		gwVer: 9,
-		slashCommands: 'Yes',
-		buttons: 'Yes',
-		selectMenus: 'Yes',
+		applicationCommands: {
+			slashCommands: 'Yes',
+			contextMenus: 'Yes',
+			autocomplete: 'Yes'
+		},
+		messageComponents: {
+			buttons: 'Yes',
+			selectMenus: 'Yes'
+		},
 		threads: 'Yes',
 		guildStickers: 'Yes',
-		contextMenus: 'Yes',
-		autocomplete: 'Yes'
 	},
 	{
 		name: 'discord.js',
@@ -245,13 +305,17 @@ export const libs: Lib[] = [
 		language: 'JavaScript',
 		apiVer: 9,
 		gwVer: 9,
-		slashCommands: 'Yes',
-		buttons: 'Yes',
-		selectMenus: 'Yes',
+		applicationCommands: {
+			slashCommands: 'Yes',
+			contextMenus: 'Yes',
+			autocomplete: 'Yes'
+		},
+		messageComponents: {
+			buttons: 'Yes',
+			selectMenus: 'Yes'
+		},
 		threads: 'Yes',
-		guildStickers: 'Yes',
-		contextMenus: 'Yes',
-		autocomplete: 'Yes'
+		guildStickers: 'Yes'
 	},
 	{
 		name: 'droff',
@@ -259,13 +323,17 @@ export const libs: Lib[] = [
 		language: 'JavaScript',
 		apiVer: 9,
 		gwVer: 9,
-		slashCommands: 'Yes',
-		buttons: 'Yes',
-		selectMenus: 'Yes',
+		applicationCommands: {
+			slashCommands: 'Yes',
+			contextMenus: 'Yes',
+			autocomplete: 'No'
+		},
+		messageComponents: {
+			buttons: 'Yes',
+			selectMenus: 'Yes'
+		},
 		threads: 'Yes',
-		guildStickers: 'Yes',
-		contextMenus: 'Yes',
-		autocomplete: 'No'
+		guildStickers: 'Yes'
 	},
 	{
 		name: 'Eris',
@@ -273,13 +341,17 @@ export const libs: Lib[] = [
 		language: 'JavaScript',
 		apiVer: 9,
 		gwVer: 9,
-		slashCommands: 'Yes',
-		buttons: 'Yes',
-		selectMenus: 'Yes',
+		applicationCommands: {
+			slashCommands: 'Yes',
+			contextMenus: 'Yes',
+			autocomplete: 'Yes'
+		},
+		messageComponents: {
+			buttons: 'Yes',
+			selectMenus: 'Yes'
+		},
 		threads: 'Yes',
-		guildStickers: 'Yes',
-		contextMenus: 'Yes',
-		autocomplete: 'Yes'
+		guildStickers: 'Yes'
 	},
 	{
 		name: 'Harmony',
@@ -287,13 +359,17 @@ export const libs: Lib[] = [
 		language: 'JavaScript',
 		apiVer: 9,
 		gwVer: 9,
-		slashCommands: 'Yes',
-		buttons: 'Yes',
-		selectMenus: 'Yes',
+		applicationCommands: {
+			slashCommands: 'Yes',
+			contextMenus: 'Yes',
+			autocomplete: 'Yes'
+		},
+		messageComponents: {
+			buttons: 'Yes',
+			selectMenus: 'Yes'
+		},
 		threads: 'Yes',
-		guildStickers: 'Yes',
-		contextMenus: 'Yes',
-		autocomplete: 'Yes'
+		guildStickers: 'Yes'
 	},
 	{
 		name: 'Kord',
@@ -301,18 +377,22 @@ export const libs: Lib[] = [
 		language: 'Kotlin',
 		apiVer: '8 stable, 9 dev',
 		gwVer: '8 stable, 9 dev',
-		slashCommands: 'Yes',
-		buttons: 'Yes',
-		selectMenus: 'Yes',
+		applicationCommands: {
+			slashCommands: 'Yes',
+			contextMenus: 'Dev Version',
+			autocomplete: {
+				text: 'Has a PR',
+				url: 'https://github.com/kordlib/kord/pull/435'
+			}
+		},
+		messageComponents: {
+			buttons: 'Yes',
+			selectMenus: 'Yes'
+		},
 		threads: 'Dev Version',
 		guildStickers: {
 			text: 'Has a PR',
 			url: 'https://github.com/kordlib/kord/pull/328'
-		},
-		contextMenus: 'Dev Version',
-		autocomplete: {
-			text: 'Has a PR',
-			url: 'https://github.com/kordlib/kord/pull/435'
 		}
 	},
 	{
@@ -321,13 +401,17 @@ export const libs: Lib[] = [
 		language: 'Lua',
 		apiVer: '7 stable, 8 dev',
 		gwVer: '6 stable, 8 dev',
-		slashCommands: 'No',
-		buttons: 'No',
-		selectMenus: 'No',
+		applicationCommands: {
+			slashCommands: 'No',
+			contextMenus: 'No',
+			autocomplete: 'No'
+		},
+		messageComponents: {
+			buttons: 'No',
+			selectMenus: 'No'
+		},
 		threads: 'No',
-		guildStickers: 'No',
-		contextMenus: 'No',
-		autocomplete: 'No'
+		guildStickers: 'No'
 	},
 	{
 		name: 'Dimscord',
@@ -335,13 +419,17 @@ export const libs: Lib[] = [
 		language: 'Nim',
 		apiVer: '6, 8, and 9',
 		gwVer: '8 and 9',
-		slashCommands: 'Yes',
-		buttons: 'Yes',
-		selectMenus: 'Yes',
+		applicationCommands: {
+			slashCommands: 'Yes',
+			contextMenus: 'Yes',
+			autocomplete: 'Dev Version'
+		},
+		messageComponents: {
+			buttons: 'Yes',
+			selectMenus: 'Yes'
+		},
 		threads: 'Yes',
-		guildStickers: 'Yes',
-		contextMenus: 'Yes',
-		autocomplete: 'Dev Version'
+		guildStickers: 'Yes'
 	},
 	{
 		name: 'DiscordPHP',
@@ -349,13 +437,17 @@ export const libs: Lib[] = [
 		language: 'PHP',
 		apiVer: 8,
 		gwVer: 8,
-		slashCommands: 'No',
-		buttons: 'Yes',
-		selectMenus: 'Yes',
+		applicationCommands: {
+			slashCommands: 'No',
+			contextMenus: 'No',
+			autocomplete: 'No'
+		},
+		messageComponents: {
+			buttons: 'Yes',
+			selectMenus: 'Yes'
+		},
 		threads: 'Yes',
 		guildStickers: 'Yes',
-		contextMenus: 'No',
-		autocomplete: 'No'
 	},
 	{
 		name: 'discord.py 🪦',
@@ -363,13 +455,17 @@ export const libs: Lib[] = [
 		language: 'Python',
 		apiVer: '7 stable, 8 dev',
 		gwVer: '6 stable, 9 dev',
-		slashCommands: 'No',
-		buttons: 'Dev Version',
-		selectMenus: 'Dev Version',
+		applicationCommands: {
+			slashCommands: 'No',
+			contextMenus: 'No',
+			autocomplete: 'No'
+		},
+		messageComponents: {
+			buttons: 'Dev Version',
+			selectMenus: 'Dev Version'
+		},
 		threads: 'Dev Version',
 		guildStickers: 'Dev Version',
-		contextMenus: 'No',
-		autocomplete: 'No'
 	},
 	{
 		name: 'hata',
@@ -377,13 +473,17 @@ export const libs: Lib[] = [
 		language: 'Python',
 		apiVer: '6, 7, 8, and 9',
 		gwVer: '6, 7, 8, and 9',
-		slashCommands: 'Yes',
-		buttons: 'Yes',
-		selectMenus: 'Yes',
+		applicationCommands: {
+			slashCommands: 'Yes',
+			contextMenus: 'Yes',
+			autocomplete: 'Yes'
+		},
+		messageComponents: {
+			buttons: 'Yes',
+			selectMenus: 'Yes'
+		},
 		threads: 'Yes',
 		guildStickers: 'Yes',
-		contextMenus: 'Yes',
-		autocomplete: 'Yes'
 	},
 	{
 		name: 'hikari',
@@ -391,13 +491,17 @@ export const libs: Lib[] = [
 		language: 'Python',
 		apiVer: 8,
 		gwVer: 8,
-		slashCommands: 'Yes',
-		buttons: 'Dev Version',
-		selectMenus: 'Dev Version',
+		applicationCommands: {
+			slashCommands: 'Yes',
+			contextMenus: 'No',
+			autocomplete: 'No'
+		},
+		messageComponents: {
+			buttons: 'Dev Version',
+			selectMenus: 'Dev Version'
+		},
 		threads: 'No',
-		guildStickers: 'Yes',
-		contextMenus: 'No',
-		autocomplete: 'No'
+		guildStickers: 'Yes'
 	},
 	{
 		name: 'discordrb',
@@ -405,13 +509,17 @@ export const libs: Lib[] = [
 		language: 'Ruby',
 		apiVer: 8,
 		gwVer: 8,
-		slashCommands: 'Yes',
-		buttons: 'Yes',
-		selectMenus: 'Yes',
+		applicationCommands: {
+			slashCommands: 'Yes',
+			contextMenus: 'Yes',
+			autocomplete: 'No'
+		},
+		messageComponents: {
+			buttons: 'Yes',
+			selectMenus: 'Yes'
+		},
 		threads: 'No',
-		guildStickers: 'No',
-		contextMenus: 'Yes',
-		autocomplete: 'No'
+		guildStickers: 'No'
 	},
 	{
 		name: 'Serenity',
@@ -419,13 +527,17 @@ export const libs: Lib[] = [
 		language: 'Rust',
 		apiVer: 9,
 		gwVer: 9,
-		slashCommands: 'Yes',
-		buttons: 'Yes',
-		selectMenus: 'Yes',
+		applicationCommands: {
+			slashCommands: 'Yes',
+			contextMenus: 'Dev Version',
+			autocomplete: 'Dev Version'
+		},
+		messageComponents: {
+			buttons: 'Yes',
+			selectMenus: 'Yes'
+		},
 		threads: 'Yes',
-		guildStickers: 'Yes',
-		contextMenus: 'Dev Version',
-		autocomplete: 'Dev Version'
+		guildStickers: 'Yes'
 	},
 	{
 		name: 'Twilight',
@@ -433,16 +545,20 @@ export const libs: Lib[] = [
 		language: 'Rust',
 		apiVer: 8,
 		gwVer: 8,
-		slashCommands: 'Yes',
-		buttons: 'Yes',
-		selectMenus: 'Yes',
+		applicationCommands: {
+			slashCommands: 'Yes',
+			contextMenus: 'No',
+			autocomplete: {
+				text: 'Has a PR',
+				url: 'https://github.com/twilight-rs/twilight/pull/1228'
+			}
+		},
+		messageComponents: {
+			buttons: 'Yes',
+			selectMenus: 'Yes'
+		},
 		threads: 'Yes',
-		guildStickers: 'Yes',
-		contextMenus: 'Yes',
-		autocomplete: {
-			text: 'Has a PR',
-			url: 'https://github.com/twilight-rs/twilight/pull/1228'
-		}
+		guildStickers: 'Yes'
 	},
 	{
 		name: 'AckCord',
@@ -450,12 +566,16 @@ export const libs: Lib[] = [
 		language: 'Scala',
 		apiVer: '6 stable, 9 dev',
 		gwVer: '6 stable, 9 dev',
-		slashCommands: 'Dev Version',
-		buttons: 'Dev Version',
-		selectMenus: 'Dev Version',
+		applicationCommands: {
+			slashCommands: 'Dev Version',
+			contextMenus: 'No',
+			autocomplete: 'No'
+		},
+		messageComponents: {
+			buttons: 'Dev Version',
+			selectMenus: 'Dev Version'
+		},
 		threads: 'Dev Version',
-		guildStickers: 'Dev Version',
-		contextMenus: 'No',
-		autocomplete: 'No'
+		guildStickers: 'Dev Version'
 	}
 ]

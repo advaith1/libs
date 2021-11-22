@@ -14,6 +14,11 @@ const status = (status: LinkableString) => typeof status === 'string'
 	? <td className={statusColors[status] ?? 'yellow'}>{status}</td>
 	: <td className={statusColors[status.text] ?? 'yellow'}><a href={status.url} target="_blank" rel="noopener">{status.text}</a></td>
 
+const statusP = (status: LinkableString) => typeof status === 'string'
+	? <p className={statusColors[status] ?? 'yellow'}>{status}</p>
+	: <p className={statusColors[status.text] ?? 'yellow'}><a href={status.url} target="_blank" rel="noopener">{status.text}</a></p>
+
+
 const versionColors = {
 	6: 'red',
 	7: 'red',
@@ -47,13 +52,10 @@ export default function Home() {
 									<th>Library</th>
 									<th>API Version</th>
 									<th>Gateway Version</th>
-									<th>Slash Commands</th>
-									<th>Buttons</th>
-									<th>Select Menus</th>
+									<th>Application Commands</th>
+									<th>Message Components</th>
 									<th>Threads</th>
 									<th>Guild Stickers</th>
-									<th>Context Menus</th>
-									<th>Autocomplete</th>
 								</tr>
 							</thead>
 							<tbody>
@@ -62,13 +64,22 @@ export default function Home() {
 										<td><a href={lib.url} target="_blank" rel="noopener">{lib.name}</a></td>
 										{version(lib.apiVer)}
 										{version(lib.gwVer)}
-										{status(lib.slashCommands)}
-										{status(lib.buttons)}
-										{status(lib.selectMenus)}
+										<th>
+											Slash Commands
+											{statusP(lib.applicationCommands.slashCommands)}
+											Context Menus
+											{statusP(lib.applicationCommands.contextMenus)}
+											Autocomplete
+											{statusP(lib.applicationCommands.autocomplete)}
+										</th>
+										<th>
+											Buttons
+											{statusP(lib.messageComponents.buttons)}
+											Select Menus
+											{statusP(lib.messageComponents.selectMenus)}
+										</th>
 										{status(lib.threads)}
 										{status(lib.guildStickers)}
-										{status(lib.contextMenus)}
-										{status(lib.autocomplete)}
 									</tr>
 								)}
 							</tbody>
