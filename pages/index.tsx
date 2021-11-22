@@ -64,20 +64,26 @@ export default function Home() {
 										<td><a href={lib.url} target="_blank" rel="noopener">{lib.name}</a></td>
 										{version(lib.apiVer)}
 										{version(lib.gwVer)}
-										<th>
-											Slash Commands
+
+										<td>
+											<span>Slash Commands</span>
 											{statusP(lib.applicationCommands.slashCommands)}
-											Context Menus
+
+											<span>Context Menus</span>
 											{statusP(lib.applicationCommands.contextMenus)}
-											Autocomplete
+
+											<span>Autocomplete</span>
 											{statusP(lib.applicationCommands.autocomplete)}
-										</th>
-										<th>
-											Buttons
+										</td>
+
+										<td>
+											<span>Buttons</span>
 											{statusP(lib.messageComponents.buttons)}
-											Select Menus
+
+											<span>Select Menus</span>
 											{statusP(lib.messageComponents.selectMenus)}
-										</th>
+										</td>
+
 										{status(lib.threads)}
 										{status(lib.guildStickers)}
 									</tr>
