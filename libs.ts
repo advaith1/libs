@@ -93,15 +93,15 @@ export const libs: Lib[] = [
 		name: 'arikawa',
 		url: 'https://github.com/diamondburned/arikawa',
 		language: 'Go',
-		apiVer: '9',
-		gwVer: '9',
-		slashCommands: 'Yes',
-		buttons: 'Yes',
-		selectMenus: 'Yes',
+		apiVer: '8 stable, 9 dev',
+		gwVer: '8 stable, 9 dev',
+		slashCommands: 'Dev Version',
+		buttons: 'Dev Version',
+		selectMenus: 'Dev Version',
 		threads: 'No',
 		guildStickers: 'No',
-		contextMenus: 'Yes',
-		autocomplete: 'Yes'
+		contextMenus: 'Dev Version',
+		autocomplete: 'Dev Version'
 	},
 	{
 		name: 'DiscordGo',
