@@ -90,6 +90,20 @@ export const libs: Lib[] = [
 		autocomplete: 'No'
 	},
 	{
+		name: 'arikawa',
+		url: 'https://github.com/diamondburned/arikawa',
+		language: 'Go',
+		apiVer: '8 stable, 9 dev',
+		gwVer: '8 stable, 9 dev',
+		slashCommands: 'Dev Version',
+		buttons: 'Dev Version',
+		selectMenus: 'Dev Version',
+		threads: 'No',
+		guildStickers: 'No',
+		contextMenus: 'Dev Version',
+		autocomplete: 'Dev Version'
+	},
+	{
 		name: 'DiscordGo',
 		url: 'https://github.com/bwmarrin/discordgo',
 		language: 'Go',
