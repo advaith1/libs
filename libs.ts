@@ -34,6 +34,20 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes'
 	},
 	{
+		name: 'Remora.Discord',
+		url: 'https://github.com/Nihlus/Remora.Discord',
+		language: 'C#',
+		apiVer: 9,
+		gwVer: 9,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'Yes',
+		autocomplete: 'Yes'
+	},
+	{
 		name: 'aegis.cpp 🪦',
 		url: 'https://github.com/zeroxs/aegis.cpp',
 		language: 'C++',
