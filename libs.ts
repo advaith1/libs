@@ -43,7 +43,7 @@ export const libs: Lib[] = [
 		buttons: 'Dev Version',
 		selectMenus: 'Dev Version',
 		threads: 'Dev Version',
-		guildStickers: 'Yes',
+		guildStickers: 'Dev Version',
 		contextMenus: 'Dev Version',
 		autocomplete: 'Dev Version'
 	},
