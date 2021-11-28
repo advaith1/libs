@@ -135,10 +135,7 @@ export const libs: Lib[] = [
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
-		threads: {
-			text: 'Has a PR',
-			url: 'https://github.com/DisgoOrg/disgo/pull/92'
-		},
+		threads: 'Yes',
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'Yes'
