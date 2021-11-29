@@ -20,7 +20,21 @@ export const libs: Lib[] = [
 		autocomplete: 'No'
 	},
 	{
-		name: 'Discord .Net Labs',
+		name: 'Discord.Net',
+		url: 'https://github.com/discord-net/Discord.Net',
+		language: 'C#',
+		apiVer: '6 stable, 9 dev',
+		gwVer: '6 stable, 9 dev',
+		slashCommands: 'Dev Version',
+		buttons: 'Dev Version',
+		selectMenus: 'Dev Version',
+		threads: 'Dev Version',
+		guildStickers: 'Dev Version',
+		contextMenus: 'Dev Version',
+		autocomplete: 'Dev Version'
+	},
+	{
+		name: 'Discord.Net Labs',
 		url: 'https://github.com/Discord-Net-Labs/Discord.Net-Labs',
 		language: 'C#',
 		apiVer: 9,
@@ -32,6 +46,20 @@ export const libs: Lib[] = [
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'Yes'
+	},
+	{
+		name: 'DSharpPlus',
+		url: 'https://github.com/DSharpPlus/DSharpPlus',
+		language: 'C#',
+		apiVer: '8 stable, 9 dev',
+		gwVer: '8 stable, 9 dev',
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Dev Version',
+		guildStickers: 'Yes',
+		contextMenus: 'Dev Version',
+		autocomplete: 'Dev Version'
 	},
 	{
 		name: 'Remora.Discord',
