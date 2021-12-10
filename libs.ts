@@ -61,7 +61,7 @@ export const libs: Lib[] = [
 		contextMenus: 'Dev Version',
 		autocomplete: 'Dev Version'
 	},
-        {
+	{
 		name: 'DisCatSharp',
 		url: 'https://github.com/Aiko-IT-Systems/DisCatSharp',
 		language: 'C#',
