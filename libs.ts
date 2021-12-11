@@ -457,8 +457,14 @@ export const libs: Lib[] = [
 		selectMenus: 'Dev Version',
 		threads: 'No',
 		guildStickers: 'Yes',
-		contextMenus: 'No',
-		autocomplete: 'No'
+		contextMenus: {
+			text: 'Has a PR',
+			url: 'https://github.com/hikari-py/hikari/pull/924'
+		},
+		autocomplete: {
+			text: 'Has a PR',
+			url: 'https://github.com/hikari-py/hikari/pull/924'
+		}
 	},
 	{
 		name: 'discordrb',
