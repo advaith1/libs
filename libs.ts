@@ -516,6 +516,21 @@ export const libs: Lib[] = [
 		scheduledEvents: 'No'
 	},
 	{
+		name: 'discord-py-interactions',
+		url: 'https://github.com/goverfl0w/discord-interactions',
+		language: 'Python',
+		apiVer: 9,
+		gwVer: 9,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'Yes',
+		autocomplete: 'Yes',
+		scheduledEvents: 'Yes'
+	},
+	{
 		name: 'discordrb',
 		url: 'https://github.com/shardlab/discordrb',
 		language: 'Ruby',
