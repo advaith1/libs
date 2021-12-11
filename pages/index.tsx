@@ -54,6 +54,7 @@ export default function Home() {
 									<th>Guild Stickers</th>
 									<th>Context Menus</th>
 									<th>Autocomplete</th>
+									<th>Scheduled Events</th>
 								</tr>
 							</thead>
 							<tbody>
@@ -69,6 +70,7 @@ export default function Home() {
 										{status(lib.guildStickers)}
 										{status(lib.contextMenus)}
 										{status(lib.autocomplete)}
+										{status(lib.scheduledEvents)}
 									</tr>
 								)}
 							</tbody>

@@ -17,7 +17,8 @@ export const libs: Lib[] = [
 		threads: 'Yes',
 		guildStickers: 'No',
 		contextMenus: 'Yes',
-		autocomplete: 'No'
+		autocomplete: 'No',
+		scheduledEvents: 'No'
 	},
 	{
 		name: 'Discord.Net',
@@ -31,7 +32,8 @@ export const libs: Lib[] = [
 		threads: 'Dev Version',
 		guildStickers: 'Dev Version',
 		contextMenus: 'Dev Version',
-		autocomplete: 'Dev Version'
+		autocomplete: 'Dev Version',
+		scheduledEvents: 'Dev Version'
 	},
 	{
 		name: 'Discord.Net Labs',
@@ -45,7 +47,8 @@ export const libs: Lib[] = [
 		threads: 'Yes',
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
-		autocomplete: 'Yes'
+		autocomplete: 'Yes',
+		scheduledEvents: 'Yes'
 	},
 	{
 		name: 'DSharpPlus',
@@ -59,7 +62,11 @@ export const libs: Lib[] = [
 		threads: 'Dev Version',
 		guildStickers: 'Yes',
 		contextMenus: 'Dev Version',
-		autocomplete: 'Dev Version'
+		autocomplete: 'Dev Version',
+		scheduledEvents: {
+			text: 'Has a PR',
+			url: 'https://github.com/DSharpPlus/DSharpPlus/pull/1165'
+		}
 	},
 	{
 		name: 'DisCatSharp',
@@ -73,7 +80,8 @@ export const libs: Lib[] = [
 		threads: 'Yes',
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
-		autocomplete: 'Yes'
+		autocomplete: 'Yes',
+		scheduledEvents: 'Yes'
 	},
 	{
 		name: 'Remora.Discord',
@@ -87,7 +95,8 @@ export const libs: Lib[] = [
 		threads: 'Dev Version',
 		guildStickers: 'Dev Version',
 		contextMenus: 'Dev Version',
-		autocomplete: 'Dev Version'
+		autocomplete: 'Dev Version',
+		scheduledEvents: 'Dev Version'
 	},
 	{
 		name: 'aegis.cpp 🪦',
@@ -101,7 +110,8 @@ export const libs: Lib[] = [
 		threads: 'No',
 		guildStickers: 'No',
 		contextMenus: 'No',
-		autocomplete: 'No'
+		autocomplete: 'No',
+		scheduledEvents: 'No'
 	},
 	{
 		name: 'D++',
@@ -115,7 +125,8 @@ export const libs: Lib[] = [
 		threads: 'Yes',
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
-		autocomplete: 'Yes'
+		autocomplete: 'Yes',
+		scheduledEvents: 'Yes'
 	},
 	{
 		name: 'Discord++',
@@ -129,7 +140,8 @@ export const libs: Lib[] = [
 		threads: 'Yes',
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
-		autocomplete: 'No'
+		autocomplete: 'No',
+		scheduledEvents: 'No'
 	},
 	{
 		name: 'Sleepy Discord',
@@ -143,7 +155,8 @@ export const libs: Lib[] = [
 		threads: 'No',
 		guildStickers: 'No',
 		contextMenus: 'No',
-		autocomplete: 'No'
+		autocomplete: 'No',
+		scheduledEvents: 'No'
 	},
 	{
 		name: 'arikawa',
@@ -157,7 +170,8 @@ export const libs: Lib[] = [
 		threads: 'No',
 		guildStickers: 'No',
 		contextMenus: 'Dev Version',
-		autocomplete: 'Dev Version'
+		autocomplete: 'Dev Version',
+		scheduledEvents: 'No'
 	},
 	{
 		name: 'DiscordGo',
@@ -180,6 +194,10 @@ export const libs: Lib[] = [
 		autocomplete: {
 			text: 'Has a PR',
 			url: 'https://github.com/bwmarrin/discordgo/pull/1014'
+		},
+		scheduledEvents: {
+			text: 'Has a PR',
+			url: 'https://github.com/bwmarrin/discordgo/pull/1032'
 		}
 	},
 	{
@@ -194,7 +212,8 @@ export const libs: Lib[] = [
 		threads: 'Yes',
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
-		autocomplete: 'Yes'
+		autocomplete: 'Yes',
+		scheduledEvents: 'Yes'
 	},
 	{
 		name: 'Disgord',
@@ -208,7 +227,8 @@ export const libs: Lib[] = [
 		threads: 'Dev Version',
 		guildStickers: 'Yes',
 		contextMenus: 'Dev Version',
-		autocomplete: 'No'
+		autocomplete: 'No',
+		scheduledEvents: 'No'
 	},
 	{
 		name: 'Calamity',
@@ -222,7 +242,8 @@ export const libs: Lib[] = [
 		threads: 'No',
 		guildStickers: 'No',
 		contextMenus: 'No',
-		autocomplete: 'No'
+		autocomplete: 'No',
+		scheduledEvents: 'No'
 	},
 	{
 		name: 'Discord4J',
@@ -239,7 +260,11 @@ export const libs: Lib[] = [
 		},
 		guildStickers: 'No',
 		contextMenus: 'Yes',
-		autocomplete: 'Yes'
+		autocomplete: 'Yes',
+		scheduledEvents: {
+			text: 'Has a PR',
+			url: 'https://github.com/Discord4J/Discord4J/pull/1046'
+		}
 	},
 	{
 		name: 'Javacord',
@@ -253,7 +278,8 @@ export const libs: Lib[] = [
 		threads: 'No',
 		guildStickers: 'No',
 		contextMenus: 'No',
-		autocomplete: 'No'
+		autocomplete: 'No',
+		scheduledEvents: 'No'
 	},
 	{
 		name: 'JDA',
@@ -273,6 +299,10 @@ export const libs: Lib[] = [
 		autocomplete: {
 			text: 'Has a PR',
 			url: 'https://github.com/DV8FromTheWorld/JDA/pull/1868'
+		},
+		scheduledEvents: {
+			text: 'Has a PR',
+			url: 'https://github.com/DV8FromTheWorld/JDA/pull/1905'
 		}
 	},
 	{
@@ -287,7 +317,8 @@ export const libs: Lib[] = [
 		threads: 'Yes',
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
-		autocomplete: 'Dev Version'
+		autocomplete: 'Dev Version',
+		scheduledEvents: 'No'
 	},
 	{
 		name: 'Discordeno',
@@ -301,7 +332,8 @@ export const libs: Lib[] = [
 		threads: 'Yes',
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
-		autocomplete: 'Yes'
+		autocomplete: 'Yes',
+		scheduledEvents: 'Dev Version'
 	},
 	{
 		name: 'discord.js',
@@ -315,7 +347,11 @@ export const libs: Lib[] = [
 		threads: 'Yes',
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
-		autocomplete: 'Yes'
+		autocomplete: 'Yes',
+		scheduledEvents: {
+			text: 'Has a PR',
+			url: 'https://github.com/discordjs/discord.js/pull/6493'
+		}
 	},
 	{
 		name: 'droff',
@@ -329,7 +365,8 @@ export const libs: Lib[] = [
 		threads: 'Yes',
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
-		autocomplete: 'No'
+		autocomplete: 'No',
+		scheduledEvents: 'No'
 	},
 	{
 		name: 'Eris',
@@ -343,7 +380,11 @@ export const libs: Lib[] = [
 		threads: 'Yes',
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
-		autocomplete: 'Yes'
+		autocomplete: 'Yes',
+		scheduledEvents: {
+			text: 'Has a PR',
+			url: 'https://github.com/abalabahaha/eris/pull/1275'
+		}
 	},
 	{
 		name: 'Harmony',
@@ -357,7 +398,8 @@ export const libs: Lib[] = [
 		threads: 'Yes',
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
-		autocomplete: 'Yes'
+		autocomplete: 'Yes',
+		scheduledEvents: 'No'
 	},
 	{
 		name: 'Kord',
@@ -374,7 +416,8 @@ export const libs: Lib[] = [
 			url: 'https://github.com/kordlib/kord/pull/328'
 		},
 		contextMenus: 'Dev Version',
-		autocomplete: 'Dev Version'
+		autocomplete: 'Dev Version',
+		scheduledEvents: 'No'
 	},
 	{
 		name: 'Discordia',
@@ -388,7 +431,8 @@ export const libs: Lib[] = [
 		threads: 'No',
 		guildStickers: 'No',
 		contextMenus: 'No',
-		autocomplete: 'No'
+		autocomplete: 'No',
+		scheduledEvents: 'No'
 	},
 	{
 		name: 'Dimscord',
@@ -402,7 +446,8 @@ export const libs: Lib[] = [
 		threads: 'Yes',
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
-		autocomplete: 'Dev Version'
+		autocomplete: 'Dev Version',
+		scheduledEvents: 'No'
 	},
 	{
 		name: 'DiscordPHP',
@@ -416,7 +461,8 @@ export const libs: Lib[] = [
 		threads: 'Yes',
 		guildStickers: 'Yes',
 		contextMenus: 'No',
-		autocomplete: 'No'
+		autocomplete: 'No',
+		scheduledEvents: 'No'
 	},
 	{
 		name: 'discord.py 🪦',
@@ -430,7 +476,8 @@ export const libs: Lib[] = [
 		threads: 'Dev Version',
 		guildStickers: 'Dev Version',
 		contextMenus: 'No',
-		autocomplete: 'No'
+		autocomplete: 'No',
+		scheduledEvents: 'No'
 	},
 	{
 		name: 'hata',
@@ -444,7 +491,8 @@ export const libs: Lib[] = [
 		threads: 'Yes',
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
-		autocomplete: 'Yes'
+		autocomplete: 'Yes',
+		scheduledEvents: 'No'
 	},
 	{
 		name: 'hikari',
@@ -464,7 +512,8 @@ export const libs: Lib[] = [
 		autocomplete: {
 			text: 'Has a PR',
 			url: 'https://github.com/hikari-py/hikari/pull/924'
-		}
+		},
+		scheduledEvents: 'No'
 	},
 	{
 		name: 'discordrb',
@@ -478,7 +527,8 @@ export const libs: Lib[] = [
 		threads: 'No',
 		guildStickers: 'No',
 		contextMenus: 'Yes',
-		autocomplete: 'No'
+		autocomplete: 'No',
+		scheduledEvents: 'No'
 	},
 	{
 		name: 'Serenity',
@@ -492,7 +542,8 @@ export const libs: Lib[] = [
 		threads: 'Yes',
 		guildStickers: 'Yes',
 		contextMenus: 'Dev Version',
-		autocomplete: 'Dev Version'
+		autocomplete: 'Dev Version',
+		scheduledEvents: 'No'
 	},
 	{
 		name: 'Twilight',
@@ -506,7 +557,8 @@ export const libs: Lib[] = [
 		threads: 'Yes',
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
-		autocomplete: 'Yes'
+		autocomplete: 'Yes',
+		scheduledEvents: 'No'
 	},
 	{
 		name: 'AckCord',
@@ -520,6 +572,7 @@ export const libs: Lib[] = [
 		threads: 'Dev Version',
 		guildStickers: 'Dev Version',
 		contextMenus: 'Dev Version',
-		autocomplete: 'Dev Version'
+		autocomplete: 'Dev Version',
+		scheduledEvents: 'Dev Version'
 	}
 ]
