@@ -374,10 +374,7 @@ export const libs: Lib[] = [
 			url: 'https://github.com/kordlib/kord/pull/328'
 		},
 		contextMenus: 'Dev Version',
-		autocomplete: {
-			text: 'Has a PR',
-			url: 'https://github.com/kordlib/kord/pull/435'
-		}
+		autocomplete: 'Dev Version'
 	},
 	{
 		name: 'Discordia',
