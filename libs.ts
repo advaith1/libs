@@ -205,7 +205,7 @@ export const libs: Lib[] = [
 		slashCommands: 'Dev Version',
 		buttons: 'Yes',
 		selectMenus: 'No',
-		threads: 'No',
+		threads: 'Dev Version',
 		guildStickers: 'Yes',
 		contextMenus: 'Dev Version',
 		autocomplete: 'No'
