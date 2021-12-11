@@ -264,10 +264,7 @@ export const libs: Lib[] = [
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
-		threads: {
-			text: 'Has a PR',
-			url: 'https://github.com/DV8FromTheWorld/JDA/pull/1613'
-		},
+		threads: 'Dev Version',
 		guildStickers: 'No',
 		contextMenus: {
 			text: 'Has a PR',
