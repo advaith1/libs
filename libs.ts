@@ -287,7 +287,7 @@ export const libs: Lib[] = [
 		threads: 'Yes',
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
-		autocomplete: 'No'
+		autocomplete: 'Dev Version'
 	},
 	{
 		name: 'Discordeno',
