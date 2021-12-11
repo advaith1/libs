@@ -506,10 +506,7 @@ export const libs: Lib[] = [
 		threads: 'Yes',
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
-		autocomplete: {
-			text: 'Has a PR',
-			url: 'https://github.com/twilight-rs/twilight/pull/1228'
-		}
+		autocomplete: 'Yes'
 	},
 	{
 		name: 'AckCord',
