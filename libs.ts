@@ -62,6 +62,20 @@ export const libs: Lib[] = [
 		autocomplete: 'Dev Version'
 	},
 	{
+		name: 'DisCatSharp',
+		url: 'https://github.com/Aiko-IT-Systems/DisCatSharp',
+		language: 'C#',
+		apiVer: '9',
+		gwVer: '9',
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'Yes',
+		autocomplete: 'Yes'
+	},
+	{
 		name: 'Remora.Discord',
 		url: 'https://github.com/Nihlus/Remora.Discord',
 		language: 'C#',
