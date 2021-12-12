@@ -159,6 +159,21 @@ export const libs: Lib[] = [
 		scheduledEvents: 'No'
 	},
 	{
+		name: 'discljord',
+		url: 'https://github.com/discljord/discljord',
+		language: 'Clojure',
+		apiVer: 9,
+		gwVer: 9,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'Yes',
+		autocomplete: 'Yes',
+		scheduledEvents: 'No'
+	},
+	{
 		name: 'arikawa',
 		url: 'https://github.com/diamondburned/arikawa',
 		language: 'Go',
