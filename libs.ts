@@ -501,6 +501,21 @@ export const libs: Lib[] = [
 		scheduledEvents: 'No'
 	},
 	{
+		name: 'Discord.jl',
+		url: 'https://github.com/Xh4H/Discord.jl',
+		language: 'Julia',
+		apiVer: 6,
+		gwVer: 6,
+		slashCommands: 'No',
+		buttons: 'No',
+		selectMenus: 'No',
+		threads: 'No',
+		guildStickers: 'No',
+		contextMenus: 'No',
+		autocomplete: 'No',
+		scheduledEvents: 'No'
+	},
+	{
 		name: 'Kord',
 		url: 'https://github.com/kordlib/kord',
 		language: 'Kotlin',
