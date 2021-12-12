@@ -549,6 +549,21 @@ export const libs: Lib[] = [
 		scheduledEvents: 'No'
 	},
 	{
+		name: 'lacord',
+		url: 'https://github.com/Mehgugs/lacord',
+		language: 'Lua',
+		apiVer: 9,
+		gwVer: 9,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'Yes',
+		autocomplete: 'Yes',
+		scheduledEvents: 'Yes'
+	},
+	{
 		name: 'Dimscord',
 		url: 'https://github.com/krisppurg/dimscord',
 		language: 'Nim',
