@@ -594,6 +594,24 @@ export const libs: Lib[] = [
 		scheduledEvents: 'No'
 	},
 	{
+		name: 'RestCord',
+		url: 'https://github.com/restcord/restcord',
+		language: 'PHP',
+		apiVer: '6 stable, 9 dev',
+		gwVer: 'N/A',
+		slashCommands: 'No',
+		buttons: 'No',
+		selectMenus: 'No',
+		threads: 'Dev Version',
+		guildStickers: 'No',
+		contextMenus: 'No',
+		autocomplete: 'No',
+		scheduledEvents: {
+			text: 'Has a PR',
+			url: 'https://github.com/restcord/restcord/pull/166'
+		}
+	},
+	{
 		name: 'discord.py 🪦',
 		url: 'https://github.com/Rapptz/discord.py',
 		language: 'Python',
