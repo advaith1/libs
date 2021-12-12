@@ -222,6 +222,21 @@ export const libs: Lib[] = [
 		}
 	},
 	{
+		name: 'coxir',
+		url: 'https://github.com/satom99/coxir',
+		language: 'Elixir',
+		apiVer: 9,
+		gwVer: 8,
+		slashCommands: 'No',
+		buttons: 'Yes',
+		selectMenus: 'No',
+		threads: 'No',
+		guildStickers: 'No',
+		contextMenus: 'No',
+		autocomplete: 'No',
+		scheduledEvents: 'No'
+	},
+	{
 		name: 'arikawa',
 		url: 'https://github.com/diamondburned/arikawa',
 		language: 'Go',
