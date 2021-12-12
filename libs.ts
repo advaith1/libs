@@ -174,6 +174,36 @@ export const libs: Lib[] = [
 		scheduledEvents: 'No'
 	},
 	{
+		name: 'discordcr',
+		url: 'https://github.com/shardlab/discordcr',
+		language: 'Crystal',
+		apiVer: '6 stable, 9 dev',
+		gwVer: '6 stable, 9 dev',
+		slashCommands: {
+			text: 'Has a PR',
+			url: 'https://github.com/shardlab/discordcr/pull/31'
+		},
+		buttons: {
+			text: 'Has a PR',
+			url: 'https://github.com/shardlab/discordcr/pull/31'
+		},
+		selectMenus: {
+			text: 'Has a PR',
+			url: 'https://github.com/shardlab/discordcr/pull/31'
+		},
+		threads: 'Dev Version',
+		guildStickers: 'No',
+		contextMenus: {
+			text: 'Has a PR',
+			url: 'https://github.com/shardlab/discordcr/pull/31'
+		},
+		autocomplete: {
+			text: 'Has a PR',
+			url: 'https://github.com/shardlab/discordcr/pull/31'
+		},
+		scheduledEvents: 'No'
+	},
+	{
 		name: 'arikawa',
 		url: 'https://github.com/diamondburned/arikawa',
 		language: 'Go',
