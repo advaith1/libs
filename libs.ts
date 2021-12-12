@@ -751,5 +751,20 @@ export const libs: Lib[] = [
 		contextMenus: 'Dev Version',
 		autocomplete: 'Dev Version',
 		scheduledEvents: 'Dev Version'
+	},
+	{
+		name: 'SwiftDiscord',
+		url: 'https://github.com/nuclearace/SwiftDiscord',
+		language: 'Swift',
+		apiVer: '6 stable, 8 dev',
+		gwVer: '6 stable, 8 dev',
+		slashCommands: 'Dev Version',
+		buttons: 'Dev Version',
+		selectMenus: 'No',
+		threads: 'No',
+		guildStickers: 'No',
+		contextMenus: 'No',
+		autocomplete: 'No',
+		scheduledEvents: 'No'
 	}
 ]
