@@ -693,6 +693,21 @@ export const libs: Lib[] = [
 		scheduledEvents: 'No'
 	},
 	{
+		name: 'discord-rs',
+		url: 'https://github.com/SpaceManiac/discord-rs',
+		language: 'Rust',
+		apiVer: 6,
+		gwVer: 6,
+		slashCommands: 'No',
+		buttons: 'No',
+		selectMenus: 'No',
+		threads: 'No',
+		guildStickers: 'No',
+		contextMenus: 'No',
+		autocomplete: 'No',
+		scheduledEvents: 'No'
+	},
+	{
 		name: 'Serenity',
 		url: 'https://github.com/serenity-rs/serenity',
 		language: 'Rust',
