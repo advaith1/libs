@@ -216,10 +216,7 @@ export const libs: Lib[] = [
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
-		scheduledEvents: {
-			text: 'Has a PR',
-			url: 'https://github.com/nyxx-discord/nyxx/pull/248'
-		}
+		scheduledEvents: 'Dev Version'
 	},
 	{
 		name: 'coxir',
