@@ -237,6 +237,27 @@ export const libs: Lib[] = [
 		scheduledEvents: 'No'
 	},
 	{
+		name: 'Nostrum',
+		url: 'https://github.com/Kraigie/nostrum',
+		language: 'Elixir',
+		apiVer: '7 stable, 8 dev',
+		gwVer: '6 stable, 8 dev',
+		slashCommands: 'Dev Version',
+		buttons: {
+			text: 'Has a PR',
+			url: 'https://github.com/Kraigie/nostrum/pull/357'
+		},
+		selectMenus: {
+			text: 'Has a PR',
+			url: 'https://github.com/Kraigie/nostrum/pull/357'
+		},
+		threads: 'Dev Version',
+		guildStickers: 'No',
+		contextMenus: 'Dev Version',
+		autocomplete: 'Dev Version',
+		scheduledEvents: 'No'
+	},
+	{
 		name: 'arikawa',
 		url: 'https://github.com/diamondburned/arikawa',
 		language: 'Go',
