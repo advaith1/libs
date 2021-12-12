@@ -204,6 +204,24 @@ export const libs: Lib[] = [
 		scheduledEvents: 'No'
 	},
 	{
+		name: 'nyxx',
+		url: 'https://github.com/nyxx-discord/nyxx',
+		language: 'Dart',
+		apiVer: 9,
+		gwVer: 9,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'Yes',
+		autocomplete: 'Yes',
+		scheduledEvents: {
+			text: 'Has a PR',
+			url: 'https://github.com/nyxx-discord/nyxx/pull/248'
+		}
+	},
+	{
 		name: 'arikawa',
 		url: 'https://github.com/diamondburned/arikawa',
 		language: 'Go',
