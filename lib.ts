@@ -14,4 +14,5 @@ export interface Lib {
 	guildStickers: LinkableString
 	contextMenus: LinkableString
 	autocomplete: LinkableString
+	scheduledEvents: LinkableString
 }
