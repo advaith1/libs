@@ -333,6 +333,24 @@ export const libs: Lib[] = [
 		scheduledEvents: 'No'
 	},
 	{
+		name: 'catnip',
+		url: 'https://github.com/mewna/catnip',
+		language: 'Java',
+		apiVer: 9,
+		gwVer: 9,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'No',
+		contextMenus: 'Yes',
+		autocomplete: 'No',
+		scheduledEvents: {
+			text: 'Has a PR',
+			url: 'https://github.com/mewna/catnip/pull/640'
+		}
+	},
+	{
 		name: 'Discord4J',
 		url: 'https://github.com/Discord4J/Discord4J',
 		language: 'Java',
