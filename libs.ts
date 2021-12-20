@@ -237,14 +237,8 @@ export const libs: Lib[] = [
 		apiVer: '7 stable, 8 dev',
 		gwVer: '6 stable, 8 dev',
 		slashCommands: 'Dev Version',
-		buttons: {
-			text: 'Has a PR',
-			url: 'https://github.com/Kraigie/nostrum/pull/357'
-		},
-		selectMenus: {
-			text: 'Has a PR',
-			url: 'https://github.com/Kraigie/nostrum/pull/357'
-		},
+		buttons: 'Dev Version',
+		selectMenus: 'Dev Version',
 		threads: 'Dev Version',
 		guildStickers: 'No',
 		contextMenus: 'Dev Version',
