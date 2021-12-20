@@ -432,7 +432,7 @@ export const libs: Lib[] = [
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
-		scheduledEvents: 'Dev Version'
+		scheduledEvents: 'Yes'
 	},
 	{
 		name: 'discord.js',
