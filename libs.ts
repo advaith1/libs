@@ -63,10 +63,7 @@ export const libs: Lib[] = [
 		guildStickers: 'Yes',
 		contextMenus: 'Dev Version',
 		autocomplete: 'Dev Version',
-		scheduledEvents: {
-			text: 'Has a PR',
-			url: 'https://github.com/DSharpPlus/DSharpPlus/pull/1165'
-		}
+		scheduledEvents: 'Dev Version'
 	},
 	{
 		name: 'DisCatSharp',
