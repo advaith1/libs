@@ -591,7 +591,10 @@ export const libs: Lib[] = [
 		guildStickers: 'Yes',
 		contextMenus: 'No',
 		autocomplete: 'No',
-		scheduledEvents: 'No'
+		scheduledEvents: {
+			text: 'Has a PR',
+			url: 'https://github.com/discord-php/DiscordPHP/pull/648'
+		}
 	},
 	{
 		name: 'RestCord',
