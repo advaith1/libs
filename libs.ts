@@ -18,7 +18,8 @@ export const libs: Lib[] = [
 		guildStickers: 'No',
 		contextMenus: 'Yes',
 		autocomplete: 'No',
-		scheduledEvents: 'No'
+		scheduledEvents: 'No',
+		timeouts: 'No'
 	},
 	{
 		name: 'Discord.Net',
@@ -33,7 +34,8 @@ export const libs: Lib[] = [
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
-		scheduledEvents: 'Yes'
+		scheduledEvents: 'Yes',
+		timeouts: 'Yes'
 	},
 	{
 		name: 'Discord.Net Labs',
@@ -48,7 +50,8 @@ export const libs: Lib[] = [
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
-		scheduledEvents: 'Yes'
+		scheduledEvents: 'Yes',
+		timeouts: 'Yes'
 	},
 	{
 		name: 'DSharpPlus',
@@ -63,7 +66,8 @@ export const libs: Lib[] = [
 		guildStickers: 'Yes',
 		contextMenus: 'Dev Version',
 		autocomplete: 'Dev Version',
-		scheduledEvents: 'Dev Version'
+		scheduledEvents: 'Dev Version',
+		timeouts: 'Dev Version'
 	},
 	{
 		name: 'DisCatSharp',
@@ -78,7 +82,8 @@ export const libs: Lib[] = [
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
-		scheduledEvents: 'Yes'
+		scheduledEvents: 'Yes',
+		timeouts: 'Yes'
 	},
 	{
 		name: 'Remora.Discord',
@@ -93,7 +98,8 @@ export const libs: Lib[] = [
 		guildStickers: 'Dev Version',
 		contextMenus: 'Dev Version',
 		autocomplete: 'Dev Version',
-		scheduledEvents: 'Dev Version'
+		scheduledEvents: 'Dev Version',
+		timeouts: 'Dev Version'
 	},
 	{
 		name: 'aegis.cpp 🪦',
@@ -108,7 +114,8 @@ export const libs: Lib[] = [
 		guildStickers: 'No',
 		contextMenus: 'No',
 		autocomplete: 'No',
-		scheduledEvents: 'No'
+		scheduledEvents: 'No',
+		timeouts: 'No'
 	},
 	{
 		name: 'D++',
@@ -123,7 +130,8 @@ export const libs: Lib[] = [
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
-		scheduledEvents: 'Yes'
+		scheduledEvents: 'Yes',
+		timeouts: 'Yes'
 	},
 	{
 		name: 'Discord++',
@@ -138,7 +146,8 @@ export const libs: Lib[] = [
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'No',
-		scheduledEvents: 'No'
+		scheduledEvents: 'No',
+		timeouts: 'No'
 	},
 	{
 		name: 'Sleepy Discord',
@@ -153,7 +162,8 @@ export const libs: Lib[] = [
 		guildStickers: 'No',
 		contextMenus: 'No',
 		autocomplete: 'No',
-		scheduledEvents: 'No'
+		scheduledEvents: 'No',
+		timeouts: 'No'
 	},
 	{
 		name: 'discljord',
@@ -168,7 +178,8 @@ export const libs: Lib[] = [
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
-		scheduledEvents: 'No'
+		scheduledEvents: 'No',
+		timeouts: 'No'
 	},
 	{
 		name: 'discordcr',
@@ -198,7 +209,8 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/shardlab/discordcr/pull/31'
 		},
-		scheduledEvents: 'No'
+		scheduledEvents: 'No',
+		timeouts: 'No'
 	},
 	{
 		name: 'nyxx',
@@ -213,7 +225,8 @@ export const libs: Lib[] = [
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
-		scheduledEvents: 'Yes'
+		scheduledEvents: 'Yes',
+		timeouts: 'No'
 	},
 	{
 		name: 'coxir',
@@ -228,7 +241,8 @@ export const libs: Lib[] = [
 		guildStickers: 'No',
 		contextMenus: 'No',
 		autocomplete: 'No',
-		scheduledEvents: 'No'
+		scheduledEvents: 'No',
+		timeouts: 'No'
 	},
 	{
 		name: 'Nostrum',
@@ -243,7 +257,8 @@ export const libs: Lib[] = [
 		guildStickers: 'No',
 		contextMenus: 'Dev Version',
 		autocomplete: 'Dev Version',
-		scheduledEvents: 'No'
+		scheduledEvents: 'No',
+		timeouts: 'No'
 	},
 	{
 		name: 'arikawa',
@@ -258,7 +273,8 @@ export const libs: Lib[] = [
 		guildStickers: 'No',
 		contextMenus: 'Dev Version',
 		autocomplete: 'Dev Version',
-		scheduledEvents: 'No'
+		scheduledEvents: 'No',
+		timeouts: 'Dev Version'
 	},
 	{
 		name: 'DiscordGo',
@@ -282,6 +298,10 @@ export const libs: Lib[] = [
 		scheduledEvents: {
 			text: 'Has a PR',
 			url: 'https://github.com/bwmarrin/discordgo/pull/1032'
+		},
+		timeouts: {
+			text: 'Has a PR',
+			url: 'https://github.com/bwmarrin/discordgo/pull/1061'
 		}
 	},
 	{
@@ -297,7 +317,8 @@ export const libs: Lib[] = [
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
-		scheduledEvents: 'Yes'
+		scheduledEvents: 'Yes',
+		timeouts: 'Dev Version'
 	},
 	{
 		name: 'Disgord',
@@ -312,7 +333,8 @@ export const libs: Lib[] = [
 		guildStickers: 'Yes',
 		contextMenus: 'Dev Version',
 		autocomplete: 'No',
-		scheduledEvents: 'No'
+		scheduledEvents: 'No',
+		timeouts: 'No'
 	},
 	{
 		name: 'Calamity',
@@ -327,7 +349,8 @@ export const libs: Lib[] = [
 		guildStickers: 'No',
 		contextMenus: 'No',
 		autocomplete: 'No',
-		scheduledEvents: 'No'
+		scheduledEvents: 'No',
+		timeouts: 'No'
 	},
 	{
 		name: 'catnip',
@@ -345,7 +368,8 @@ export const libs: Lib[] = [
 		scheduledEvents: {
 			text: 'Has a PR',
 			url: 'https://github.com/mewna/catnip/pull/640'
-		}
+		},
+		timeouts: 'No'
 	},
 	{
 		name: 'Discord4J',
@@ -366,6 +390,10 @@ export const libs: Lib[] = [
 		scheduledEvents: {
 			text: 'Has a PR',
 			url: 'https://github.com/Discord4J/Discord4J/pull/1046'
+		},
+		timeouts: {
+			text: 'Has a PR',
+			url: 'https://github.com/Discord4J/Discord4J/pull/1051'
 		}
 	},
 	{
@@ -381,7 +409,8 @@ export const libs: Lib[] = [
 		guildStickers: 'No',
 		contextMenus: 'No',
 		autocomplete: 'No',
-		scheduledEvents: 'No'
+		scheduledEvents: 'No',
+		timeouts: 'No'
 	},
 	{
 		name: 'JDA',
@@ -405,6 +434,10 @@ export const libs: Lib[] = [
 		scheduledEvents: {
 			text: 'Has a PR',
 			url: 'https://github.com/DV8FromTheWorld/JDA/pull/1905'
+		},
+		timeouts: {
+			text: 'Has a PR',
+			url: 'https://github.com/DV8FromTheWorld/JDA/pull/1902'
 		}
 	},
 	{
@@ -420,7 +453,8 @@ export const libs: Lib[] = [
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'Dev Version',
-		scheduledEvents: 'No'
+		scheduledEvents: 'No',
+		timeouts: 'No'
 	},
 	{
 		name: 'Discordeno',
@@ -435,7 +469,8 @@ export const libs: Lib[] = [
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
-		scheduledEvents: 'Dev Version'
+		scheduledEvents: 'Dev Version',
+		timeouts: 'Yes'
 	},
 	{
 		name: 'discord.js',
@@ -450,7 +485,8 @@ export const libs: Lib[] = [
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
-		scheduledEvents: 'Yes'
+		scheduledEvents: 'Yes',
+		timeouts: 'Yes'
 	},
 	{
 		name: 'droff',
@@ -465,7 +501,8 @@ export const libs: Lib[] = [
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'No',
-		scheduledEvents: 'No'
+		scheduledEvents: 'No',
+		timeouts: 'No'
 	},
 	{
 		name: 'Eris',
@@ -483,6 +520,10 @@ export const libs: Lib[] = [
 		scheduledEvents: {
 			text: 'Has a PR',
 			url: 'https://github.com/abalabahaha/eris/pull/1275'
+		},
+		timeouts: {
+			text: 'Has a PR',
+			url: 'https://github.com/abalabahaha/eris/pull/1317'
 		}
 	},
 	{
@@ -498,7 +539,8 @@ export const libs: Lib[] = [
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
-		scheduledEvents: 'No'
+		scheduledEvents: 'No',
+		timeouts: 'Dev Version'
 	},
 	{
 		name: 'Discord.jl',
@@ -513,7 +555,8 @@ export const libs: Lib[] = [
 		guildStickers: 'No',
 		contextMenus: 'No',
 		autocomplete: 'No',
-		scheduledEvents: 'No'
+		scheduledEvents: 'No',
+		timeouts: 'No'
 	},
 	{
 		name: 'Kord',
@@ -531,7 +574,8 @@ export const libs: Lib[] = [
 		},
 		contextMenus: 'Dev Version',
 		autocomplete: 'Dev Version',
-		scheduledEvents: 'No'
+		scheduledEvents: 'No',
+		timeouts: 'Dev Version'
 	},
 	{
 		name: 'Discordia',
@@ -546,7 +590,8 @@ export const libs: Lib[] = [
 		guildStickers: 'No',
 		contextMenus: 'No',
 		autocomplete: 'No',
-		scheduledEvents: 'No'
+		scheduledEvents: 'No',
+		timeouts: 'No'
 	},
 	{
 		name: 'lacord',
@@ -561,7 +606,8 @@ export const libs: Lib[] = [
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
-		scheduledEvents: 'Yes'
+		scheduledEvents: 'Yes',
+		timeouts: 'Yes'
 	},
 	{
 		name: 'Dimscord',
@@ -576,7 +622,8 @@ export const libs: Lib[] = [
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'Dev Version',
-		scheduledEvents: 'No'
+		scheduledEvents: 'No',
+		timeouts: 'No'
 	},
 	{
 		name: 'DiscordPHP',
@@ -594,6 +641,10 @@ export const libs: Lib[] = [
 		scheduledEvents: {
 			text: 'Has a PR',
 			url: 'https://github.com/discord-php/DiscordPHP/pull/648'
+		},
+		timeouts: {
+			text: 'Has a PR',
+			url: 'https://github.com/discord-php/DiscordPHP/pull/650'
 		}
 	},
 	{
@@ -612,7 +663,8 @@ export const libs: Lib[] = [
 		scheduledEvents: {
 			text: 'Has a PR',
 			url: 'https://github.com/restcord/restcord/pull/166'
-		}
+		},
+		timeouts: 'No'
 	},
 	{
 		name: 'discord.py 🪦',
@@ -627,7 +679,8 @@ export const libs: Lib[] = [
 		guildStickers: 'Dev Version',
 		contextMenus: 'No',
 		autocomplete: 'No',
-		scheduledEvents: 'No'
+		scheduledEvents: 'No',
+		timeouts: 'No'
 	},
 	{
 		name: 'hata',
@@ -642,7 +695,8 @@ export const libs: Lib[] = [
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
-		scheduledEvents: 'Yes'
+		scheduledEvents: 'Yes',
+		timeouts: 'Yes'
 	},
 	{
 		name: 'hikari',
@@ -663,7 +717,11 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/hikari-py/hikari/pull/924'
 		},
-		scheduledEvents: 'No'
+		scheduledEvents: 'No',
+		timeouts: {
+			text: 'Has a PR',
+			url: 'https://github.com/hikari-py/hikari/pull/940'
+		}
 	},
 	{
 		name: 'discord-py-interactions',
@@ -678,7 +736,8 @@ export const libs: Lib[] = [
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
-		scheduledEvents: 'Yes'
+		scheduledEvents: 'Yes',
+		timeouts: 'Yes'
 	},
 	{
 		name: 'discordrb',
@@ -693,7 +752,8 @@ export const libs: Lib[] = [
 		guildStickers: 'Dev Version',
 		contextMenus: 'Dev Version',
 		autocomplete: 'No',
-		scheduledEvents: 'No'
+		scheduledEvents: 'No',
+		timeouts: 'No'
 	},
 	{
 		name: 'discord-rs',
@@ -708,7 +768,8 @@ export const libs: Lib[] = [
 		guildStickers: 'No',
 		contextMenus: 'No',
 		autocomplete: 'No',
-		scheduledEvents: 'No'
+		scheduledEvents: 'No',
+		timeouts: 'No'
 	},
 	{
 		name: 'Serenity',
@@ -723,7 +784,8 @@ export const libs: Lib[] = [
 		guildStickers: 'Yes',
 		contextMenus: 'Dev Version',
 		autocomplete: 'Dev Version',
-		scheduledEvents: 'No'
+		scheduledEvents: 'No',
+		timeouts: 'Dev Version'
 	},
 	{
 		name: 'Twilight',
@@ -738,7 +800,11 @@ export const libs: Lib[] = [
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
-		scheduledEvents: 'No'
+		scheduledEvents: 'No',
+		timeouts: {
+			text: 'Has a PR',
+			url: 'https://github.com/twilight-rs/twilight/pull/1342'
+		}
 	},
 	{
 		name: 'AckCord',
@@ -753,7 +819,8 @@ export const libs: Lib[] = [
 		guildStickers: 'Dev Version',
 		contextMenus: 'Dev Version',
 		autocomplete: 'Dev Version',
-		scheduledEvents: 'Dev Version'
+		scheduledEvents: 'Dev Version',
+		timeouts: 'Dev Version'
 	},
 	{
 		name: 'SwiftDiscord',
@@ -768,6 +835,7 @@ export const libs: Lib[] = [
 		guildStickers: 'No',
 		contextMenus: 'No',
 		autocomplete: 'No',
-		scheduledEvents: 'No'
+		scheduledEvents: 'No',
+		timeouts: 'No'
 	}
 ]

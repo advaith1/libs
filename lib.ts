@@ -15,4 +15,5 @@ export interface Lib {
 	contextMenus: LinkableString
 	autocomplete: LinkableString
 	scheduledEvents: LinkableString
+	timeouts: LinkableString
 }

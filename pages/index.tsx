@@ -55,6 +55,7 @@ export default function Home() {
 									<th>Context Menus</th>
 									<th>Autocomplete</th>
 									<th>Scheduled Events</th>
+									<th>Timeouts</th>
 								</tr>
 							</thead>
 							<tbody>
@@ -71,6 +72,7 @@ export default function Home() {
 										{status(lib.contextMenus)}
 										{status(lib.autocomplete)}
 										{status(lib.scheduledEvents)}
+										{status(lib.timeouts)}
 									</tr>
 								)}
 							</tbody>
