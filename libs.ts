@@ -450,10 +450,7 @@ export const libs: Lib[] = [
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
-		scheduledEvents: {
-			text: 'Has a PR',
-			url: 'https://github.com/discordjs/discord.js/pull/6493'
-		}
+		scheduledEvents: 'Yes'
 	},
 	{
 		name: 'droff',
