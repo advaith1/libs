@@ -278,10 +278,7 @@ export const libs: Lib[] = [
 			url: 'https://github.com/bwmarrin/discordgo/pull/982'
 		},
 		contextMenus: 'Yes',
-		autocomplete: {
-			text: 'Has a PR',
-			url: 'https://github.com/bwmarrin/discordgo/pull/1014'
-		},
+		autocomplete: 'Dev Version',
 		scheduledEvents: {
 			text: 'Has a PR',
 			url: 'https://github.com/bwmarrin/discordgo/pull/1032'
