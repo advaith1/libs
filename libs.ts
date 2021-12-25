@@ -213,7 +213,7 @@ export const libs: Lib[] = [
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
-		scheduledEvents: 'Dev Version'
+		scheduledEvents: 'Yes'
 	},
 	{
 		name: 'coxir',
@@ -438,7 +438,7 @@ export const libs: Lib[] = [
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
-		scheduledEvents: 'Yes'
+		scheduledEvents: 'Dev Version'
 	},
 	{
 		name: 'discord.js',
