@@ -396,11 +396,11 @@ export const libs: Lib[] = [
 		guildStickers: 'No',
 		contextMenus: {
 			text: 'Has a PR',
-			url: 'https://github.com/DV8FromTheWorld/JDA/pull/1769'
+			url: 'https://github.com/DV8FromTheWorld/JDA/pull/1971'
 		},
 		autocomplete: {
 			text: 'Has a PR',
-			url: 'https://github.com/DV8FromTheWorld/JDA/pull/1868'
+			url: 'https://github.com/DV8FromTheWorld/JDA/pull/1971'
 		},
 		scheduledEvents: {
 			text: 'Has a PR',
