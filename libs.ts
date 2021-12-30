@@ -226,7 +226,7 @@ export const libs: Lib[] = [
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
 		scheduledEvents: 'Yes',
-		timeouts: 'No'
+		timeouts: 'Yes'
 	},
 	{
 		name: 'coxir',
