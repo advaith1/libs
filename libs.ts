@@ -287,7 +287,7 @@ export const libs: Lib[] = [
 		selectMenus: 'Yes',
 		threads: {
 			text: 'Has a PR',
-			url: 'https://github.com/bwmarrin/discordgo/pull/982'
+			url: 'https://github.com/bwmarrin/discordgo/pull/1058'
 		},
 		guildStickers: {
 			text: 'Has a PR',
@@ -299,10 +299,7 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/bwmarrin/discordgo/pull/1032'
 		},
-		timeouts: {
-			text: 'Has a PR',
-			url: 'https://github.com/bwmarrin/discordgo/pull/1061'
-		}
+		timeouts: 'Dev Version'
 	},
 	{
 		name: 'disgo',
