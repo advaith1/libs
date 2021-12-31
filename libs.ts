@@ -712,6 +712,25 @@ export const libs: Lib[] = [
 		timeouts: 'Yes'
 	},
 	{
+		name: 'enhanced-discord.py',
+		url: 'https://github.com/iDevision/enhanced-discord.py',
+		language: 'Python',
+		apiVer: 8,
+		gwVer: 9,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: {
+			text: 'Has a PR',
+			url: 'https://github.com/iDevision/enhanced-discord.py/pull/105'
+		},
+		autocomplete: 'Yes',
+		scheduledEvents: 'No',
+		timeouts: 'Yes'
+	},
+	{
 		name: 'hata',
 		url: 'https://github.com/HuyaneMatsu/hata',
 		language: 'Python',
