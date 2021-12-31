@@ -718,9 +718,12 @@ export const libs: Lib[] = [
 		apiVer: 8,
 		gwVer: 8,
 		slashCommands: 'Yes',
-		buttons: 'Dev Version',
-		selectMenus: 'Dev Version',
-		threads: 'No',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: {
+			text: 'Has a PR',
+			url: 'https://github.com/hikari-py/hikari/pull/811'
+		},
 		guildStickers: 'Yes',
 		contextMenus: {
 			text: 'Has a PR',
@@ -731,10 +734,7 @@ export const libs: Lib[] = [
 			url: 'https://github.com/hikari-py/hikari/pull/924'
 		},
 		scheduledEvents: 'No',
-		timeouts: {
-			text: 'Has a PR',
-			url: 'https://github.com/hikari-py/hikari/pull/940'
-		}
+		timeouts: 'Dev Version'
 	},
 	{
 		name: 'discordrb',
