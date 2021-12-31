@@ -737,6 +737,25 @@ export const libs: Lib[] = [
 		timeouts: 'Dev Version'
 	},
 	{
+		name: 'nextcord',
+		url: 'https://github.com/nextcord/nextcord',
+		language: 'Python',
+		apiVer: 8,
+		gwVer: 9,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'Yes',
+		autocomplete: 'Yes',
+		scheduledEvents: {
+			text: 'Has a PR',
+			url: 'https://github.com/nextcord/nextcord/pull/272'
+		},
+		timeouts: 'Yes'
+	},
+	{
 		name: 'pycord',
 		url: 'https://github.com/Pycord-Development/pycord',
 		language: 'Python',
