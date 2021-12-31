@@ -696,6 +696,22 @@ export const libs: Lib[] = [
 		timeouts: 'No'
 	},
 	{
+		name: 'disnake',
+		url: 'https://github.com/DisnakeDev/disnake',
+		language: 'Python',
+		apiVer: 8,
+		gwVer: 9,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'Yes',
+		autocomplete: 'Yes',
+		scheduledEvents: 'Yes',
+		timeouts: 'Yes'
+	},
+	{
 		name: 'hata',
 		url: 'https://github.com/HuyaneMatsu/hata',
 		language: 'Python',
