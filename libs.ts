@@ -664,6 +664,22 @@ export const libs: Lib[] = [
 		timeouts: 'No'
 	},
 	{
+		name: 'discord-py-interactions',
+		url: 'https://github.com/goverfl0w/discord-interactions',
+		language: 'Python',
+		apiVer: 9,
+		gwVer: 9,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'Yes',
+		autocomplete: 'Yes',
+		scheduledEvents: 'Yes',
+		timeouts: 'Yes'
+	},
+	{
 		name: 'discord.py 🪦',
 		url: 'https://github.com/Rapptz/discord.py',
 		language: 'Python',
@@ -719,22 +735,6 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/hikari-py/hikari/pull/940'
 		}
-	},
-	{
-		name: 'discord-py-interactions',
-		url: 'https://github.com/goverfl0w/discord-interactions',
-		language: 'Python',
-		apiVer: 9,
-		gwVer: 9,
-		slashCommands: 'Yes',
-		buttons: 'Yes',
-		selectMenus: 'Yes',
-		threads: 'Yes',
-		guildStickers: 'Yes',
-		contextMenus: 'Yes',
-		autocomplete: 'Yes',
-		scheduledEvents: 'Yes',
-		timeouts: 'Yes'
 	},
 	{
 		name: 'discordrb',
