@@ -737,6 +737,25 @@ export const libs: Lib[] = [
 		timeouts: 'Dev Version'
 	},
 	{
+		name: 'pycord',
+		url: 'https://github.com/Pycord-Development/pycord',
+		language: 'Python',
+		apiVer: 9,
+		gwVer: 9,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'Yes',
+		autocomplete: 'Yes',
+		scheduledEvents: {
+			text: 'Has a PR',
+			url: 'https://github.com/Pycord-Development/pycord/pull/211'
+		},
+		timeouts: 'Yes'
+	},
+	{
 		name: 'discordrb',
 		url: 'https://github.com/shardlab/discordrb',
 		language: 'Ruby',
