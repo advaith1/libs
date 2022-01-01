@@ -803,10 +803,7 @@ export const libs: Lib[] = [
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
-		scheduledEvents: {
-			text: 'Has a PR',
-			url: 'https://github.com/Pycord-Development/pycord/pull/211'
-		},
+		scheduledEvents: 'Yes',
 		timeouts: 'Yes'
 	},
 	{
