@@ -626,8 +626,8 @@ export const libs: Lib[] = [
 		name: 'DiscordPHP',
 		url: 'https://github.com/discord-php/DiscordPHP',
 		language: 'PHP',
-		apiVer: '8, 9 dev',
-		gwVer: '8, 9 dev',
+		apiVer: '8 stable, 9 dev',
+		gwVer: '8 stable, 9 dev',
 		slashCommands: {
 			text: 'Has a PR',
 			url: 'https://github.com/discord-php/DiscordPHP/pull/597'
