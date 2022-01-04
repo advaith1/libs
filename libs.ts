@@ -432,7 +432,7 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/DV8FromTheWorld/JDA/pull/1905'
 		},
-		timeouts: 'Yes'
+		timeouts: 'Dev Version'
 	},
 	{
 		name: 'Detritus',
