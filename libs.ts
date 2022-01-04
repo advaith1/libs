@@ -315,7 +315,7 @@ export const libs: Lib[] = [
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
 		scheduledEvents: 'Yes',
-		timeouts: 'Dev Version'
+		timeouts: 'Yes'
 	},
 	{
 		name: 'Disgord',
@@ -432,10 +432,7 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/DV8FromTheWorld/JDA/pull/1905'
 		},
-		timeouts: {
-			text: 'Has a PR',
-			url: 'https://github.com/DV8FromTheWorld/JDA/pull/1902'
-		}
+		timeouts: 'Yes'
 	},
 	{
 		name: 'Detritus',
