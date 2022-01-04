@@ -636,8 +636,14 @@ export const libs: Lib[] = [
 		selectMenus: 'Dev Version',
 		threads: 'Dev Version',
 		guildStickers: 'Yes',
-		contextMenus: 'No',
-		autocomplete: 'No',
+		contextMenus: {
+			text: 'Has a PR',
+			url: 'https://github.com/discord-php/DiscordPHP/pull/597'
+		},
+		autocomplete: {
+			text: 'Has a PR',
+			url: 'https://github.com/discord-php/DiscordPHP/pull/597'
+		},
 		scheduledEvents: 'Dev Version',
 		timeouts: 'Dev Version'
 	},
