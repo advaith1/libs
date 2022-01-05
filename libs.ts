@@ -161,7 +161,7 @@ export const libs: Lib[] = [
 		threads: 'No',
 		guildStickers: 'No',
 		contextMenus: 'No',
-		autocomplete: 'No',
+		autocomplete: 'Dev Version',
 		scheduledEvents: 'No',
 		timeouts: 'No'
 	},
