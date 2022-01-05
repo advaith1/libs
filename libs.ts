@@ -626,23 +626,26 @@ export const libs: Lib[] = [
 		name: 'DiscordPHP',
 		url: 'https://github.com/discord-php/DiscordPHP',
 		language: 'PHP',
-		apiVer: 8,
-		gwVer: 8,
-		slashCommands: 'No',
-		buttons: 'Yes',
-		selectMenus: 'Yes',
-		threads: 'Yes',
-		guildStickers: 'Yes',
-		contextMenus: 'No',
-		autocomplete: 'No',
-		scheduledEvents: {
+		apiVer: '8 stable, 9 dev',
+		gwVer: '8 stable, 9 dev',
+		slashCommands: {
 			text: 'Has a PR',
-			url: 'https://github.com/discord-php/DiscordPHP/pull/648'
+			url: 'https://github.com/discord-php/DiscordPHP/pull/597'
 		},
-		timeouts: {
+		buttons: 'Dev Version',
+		selectMenus: 'Dev Version',
+		threads: 'Dev Version',
+		guildStickers: 'Yes',
+		contextMenus: {
 			text: 'Has a PR',
-			url: 'https://github.com/discord-php/DiscordPHP/pull/650'
-		}
+			url: 'https://github.com/discord-php/DiscordPHP/pull/597'
+		},
+		autocomplete: {
+			text: 'Has a PR',
+			url: 'https://github.com/discord-php/DiscordPHP/pull/597'
+		},
+		scheduledEvents: 'Dev Version',
+		timeouts: 'Dev Version'
 	},
 	{
 		name: 'RestCord',
