@@ -625,22 +625,13 @@ export const libs: Lib[] = [
 		language: 'PHP',
 		apiVer: '8 stable, 9 dev',
 		gwVer: '8 stable, 9 dev',
-		slashCommands: {
-			text: 'Has a PR',
-			url: 'https://github.com/discord-php/DiscordPHP/pull/597'
-		},
+		slashCommands: 'Dev Version',
 		buttons: 'Dev Version',
 		selectMenus: 'Dev Version',
 		threads: 'Dev Version',
 		guildStickers: 'Yes',
-		contextMenus: {
-			text: 'Has a PR',
-			url: 'https://github.com/discord-php/DiscordPHP/pull/597'
-		},
-		autocomplete: {
-			text: 'Has a PR',
-			url: 'https://github.com/discord-php/DiscordPHP/pull/597'
-		},
+		contextMenus: 'Dev Version',
+		autocomplete: 'Dev Version',
 		scheduledEvents: 'Dev Version',
 		timeouts: 'Dev Version'
 	},
