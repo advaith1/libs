@@ -699,7 +699,7 @@ export const libs: Lib[] = [
 		name: 'disnake',
 		url: 'https://github.com/DisnakeDev/disnake',
 		language: 'Python',
-		apiVer: 8,
+		apiVer: '8 stable, 9 dev',
 		gwVer: 9,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
