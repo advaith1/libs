@@ -766,7 +766,7 @@ export const libs: Lib[] = [
 		name: 'nextcord',
 		url: 'https://github.com/nextcord/nextcord',
 		language: 'Python',
-		apiVer: 8,
+		apiVer: 9,
 		gwVer: 9,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
@@ -775,10 +775,7 @@ export const libs: Lib[] = [
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
-		scheduledEvents: {
-			text: 'Has a PR',
-			url: 'https://github.com/nextcord/nextcord/pull/272'
-		},
+		scheduledEvents: 'Yes',
 		timeouts: 'Yes'
 	},
 	{
