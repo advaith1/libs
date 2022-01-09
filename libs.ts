@@ -798,6 +798,22 @@ export const libs: Lib[] = [
 		timeouts: 'Yes'
 	},
 	{
+		name: 'Dis-Snek',
+		url: 'https://github.com/Discord-Snake-Pit/Dis-Snek',
+		language: 'Python',
+		apiVer: 9,
+		gwVer: 9,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'Yes',
+		autocomplete: 'Yes',
+		scheduledEvents: 'Yes',
+		timeouts: 'Yes'
+	},
+	{
 		name: 'discordrb',
 		url: 'https://github.com/shardlab/discordrb',
 		language: 'Ruby',
