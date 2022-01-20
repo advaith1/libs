@@ -515,10 +515,7 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/abalabahaha/eris/pull/1275'
 		},
-		timeouts: {
-			text: 'Has a PR',
-			url: 'https://github.com/abalabahaha/eris/pull/1317'
-		}
+		timeouts: 'Dev Version'
 	},
 	{
 		name: 'Harmony',
@@ -766,7 +763,7 @@ export const libs: Lib[] = [
 		name: 'nextcord',
 		url: 'https://github.com/nextcord/nextcord',
 		language: 'Python',
-		apiVer: 8,
+		apiVer: '8 stable, 9 dev',
 		gwVer: 9,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
@@ -775,10 +772,7 @@ export const libs: Lib[] = [
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
-		scheduledEvents: {
-			text: 'Has a PR',
-			url: 'https://github.com/nextcord/nextcord/pull/272'
-		},
+		scheduledEvents: 'Dev Version',
 		timeouts: 'Yes'
 	},
 	{
@@ -859,10 +853,7 @@ export const libs: Lib[] = [
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
 		scheduledEvents: 'No',
-		timeouts: {
-			text: 'Has a PR',
-			url: 'https://github.com/twilight-rs/twilight/pull/1342'
-		}
+		timeouts: 'Yes',
 	},
 	{
 		name: 'AckCord',
