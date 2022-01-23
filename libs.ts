@@ -849,8 +849,8 @@ export const libs: Lib[] = [
 		name: 'Twilight',
 		url: 'https://github.com/twilight-rs/twilight',
 		language: 'Rust',
-		apiVer: 8,
-		gwVer: 8,
+		apiVer: 9,
+		gwVer: 9,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
@@ -858,11 +858,8 @@ export const libs: Lib[] = [
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
-		scheduledEvents: 'No',
-		timeouts: {
-			text: 'Has a PR',
-			url: 'https://github.com/twilight-rs/twilight/pull/1342'
-		}
+		scheduledEvents: 'Yes',
+		timeouts: 'Yes'
 	},
 	{
 		name: 'AckCord',
