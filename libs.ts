@@ -760,7 +760,7 @@ export const libs: Lib[] = [
 			url: 'https://github.com/hikari-py/hikari/pull/924'
 		},
 		scheduledEvents: 'No',
-		timeouts: 'Dev Version'
+		timeouts: 'Yes'
 	},
 	{
 		name: 'nextcord',
