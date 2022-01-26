@@ -840,10 +840,10 @@ export const libs: Lib[] = [
 		selectMenus: 'Yes',
 		threads: 'Yes',
 		guildStickers: 'Yes',
-		contextMenus: 'Dev Version',
-		autocomplete: 'Dev Version',
+		contextMenus: 'Yes',
+		autocomplete: 'Yes',
 		scheduledEvents: 'No',
-		timeouts: 'Dev Version'
+		timeouts: 'Yes'
 	},
 	{
 		name: 'Twilight',
