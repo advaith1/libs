@@ -668,8 +668,8 @@ export const libs: Lib[] = [
 		timeouts: 'No'
 	},
 	{
-		name: 'discord-py-interactions',
-		url: 'https://github.com/goverfl0w/discord-interactions',
+		name: 'interactions.py',
+		url: 'https://github.com/interactions-py/library',
 		language: 'Python',
 		apiVer: 9,
 		gwVer: 9,
