@@ -18,7 +18,8 @@ const versionColors = {
 	6: 'red',
 	7: 'red',
 	8: 'yellow',
-	9: 'green'
+	9: 'green',
+	'-': 'gray'
 }
 
 const version = (version: number | string) => <td className={versionColors[version] ?? 'yellow'}>{version}</td>
@@ -187,6 +188,10 @@ export default function Home() {
 
 				.red {
 					background-color: #a82426;
+				}
+
+				.gray {
+					background-color: #40444b;
 				}
 
 				* {

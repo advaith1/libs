@@ -537,6 +537,22 @@ export const libs: Lib[] = [
 		timeouts: 'Yes'
 	},
 	{
+		name: 'SnowTransfer',
+		url: 'https://github.com/DasWolke/SnowTransfer',
+		language: 'JavaScript',
+		apiVer: 9,
+		gwVer: '-',
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'Yes',
+		autocomplete: 'Yes',
+		scheduledEvents: 'No',
+		timeouts: 'Yes'
+	},
+	{
 		name: 'Discord.jl',
 		url: 'https://github.com/Xh4H/Discord.jl',
 		language: 'Julia',
@@ -640,7 +656,7 @@ export const libs: Lib[] = [
 		url: 'https://github.com/restcord/restcord',
 		language: 'PHP',
 		apiVer: '6 stable, 9 dev',
-		gwVer: 'N/A',
+		gwVer: '-',
 		slashCommands: 'No',
 		buttons: 'No',
 		selectMenus: 'No',
