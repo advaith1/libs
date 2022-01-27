@@ -388,10 +388,7 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/Discord4J/Discord4J/pull/1046'
 		},
-		timeouts: {
-			text: 'Has a PR',
-			url: 'https://github.com/Discord4J/Discord4J/pull/1051'
-		}
+		timeouts: 'Dev Version'
 	},
 	{
 		name: 'Javacord',
@@ -515,10 +512,7 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/abalabahaha/eris/pull/1275'
 		},
-		timeouts: {
-			text: 'Has a PR',
-			url: 'https://github.com/abalabahaha/eris/pull/1317'
-		}
+		timeouts: 'Dev Version'
 	},
 	{
 		name: 'Harmony',
@@ -827,7 +821,7 @@ export const libs: Lib[] = [
 		contextMenus: 'Dev Version',
 		autocomplete: 'No',
 		scheduledEvents: 'No',
-		timeouts: 'No'
+		timeouts: 'Dev Version'
 	},
 	{
 		name: 'discord-rs',
