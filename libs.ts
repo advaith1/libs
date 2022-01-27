@@ -687,7 +687,7 @@ export const libs: Lib[] = [
 		timeouts: 'No'
 	},
 	{
-		name: 'disnake',
+		name: 'disnake 🍴',
 		url: 'https://github.com/DisnakeDev/disnake',
 		language: 'Python',
 		apiVer: '8 stable, 9 dev',
@@ -703,7 +703,7 @@ export const libs: Lib[] = [
 		timeouts: 'Yes'
 	},
 	{
-		name: 'enhanced-discord.py',
+		name: 'enhanced-discord.py 🍴',
 		url: 'https://github.com/iDevision/enhanced-discord.py',
 		language: 'Python',
 		apiVer: 8,
@@ -763,7 +763,7 @@ export const libs: Lib[] = [
 		timeouts: 'Yes'
 	},
 	{
-		name: 'nextcord',
+		name: 'nextcord 🍴',
 		url: 'https://github.com/nextcord/nextcord',
 		language: 'Python',
 		apiVer: 8,
@@ -782,7 +782,7 @@ export const libs: Lib[] = [
 		timeouts: 'Yes'
 	},
 	{
-		name: 'pycord',
+		name: 'pycord 🍴',
 		url: 'https://github.com/Pycord-Development/pycord',
 		language: 'Python',
 		apiVer: 9,
