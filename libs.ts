@@ -337,6 +337,22 @@ export const libs: Lib[] = [
 		timeouts: 'No'
 	},
 	{
+		name: 'Postcord',
+		url: 'https://github.com/Postcord/rest',
+		language: 'Go',
+		apiVer: 9,
+		gwVer: '-',
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'No',
+		contextMenus: 'Yes',
+		autocomplete: 'Yes',
+		scheduledEvents: 'No',
+		timeouts: 'No'
+	},
+	{
 		name: 'Calamity',
 		url: 'https://github.com/simmsb/calamity',
 		language: 'Haskell',
