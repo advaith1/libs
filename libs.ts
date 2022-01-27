@@ -209,7 +209,10 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/shardlab/discordcr/pull/31'
 		},
-		scheduledEvents: 'No',
+		scheduledEvents: {
+			text: 'Has a PR',
+			url: 'https://github.com/shardlab/discordcr/pull/37'
+		},
 		timeouts: 'No'
 	},
 	{
