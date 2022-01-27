@@ -923,6 +923,22 @@ export const libs: Lib[] = [
 		timeouts: 'Dev Version'
 	},
 	{
+		name: 'Swiftcord 🍴',
+		url: 'https://github.com/SketchMaster2001/Swiftcord',
+		language: 'Swift',
+		apiVer: 9,
+		gwVer: 9,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'Yes',
+		autocomplete: 'Yes',
+		scheduledEvents: 'Yes',
+		timeouts: 'Yes'
+	},
+	{
 		name: 'SwiftDiscord',
 		url: 'https://github.com/nuclearace/SwiftDiscord',
 		language: 'Swift',
