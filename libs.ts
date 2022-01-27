@@ -811,6 +811,22 @@ export const libs: Lib[] = [
 		timeouts: 'Yes'
 	},
 	{
+		name: 'discorb',
+		url: 'https://github.com/discorb-lib/discorb',
+		language: 'Ruby',
+		apiVer: 9,
+		gwVer: 9,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'Yes',
+		autocomplete: 'Yes',
+		scheduledEvents: 'Yes',
+		timeouts: 'Yes'
+	},
+	{
 		name: 'discordrb',
 		url: 'https://github.com/shardlab/discordrb',
 		language: 'Ruby',
