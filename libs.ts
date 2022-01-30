@@ -792,10 +792,7 @@ export const libs: Lib[] = [
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
-		scheduledEvents: {
-			text: 'Has a PR',
-			url: 'https://github.com/nextcord/nextcord/pull/272'
-		},
+		scheduledEvents: 'Yes',
 		timeouts: 'Yes'
 	},
 	{
