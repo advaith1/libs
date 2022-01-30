@@ -436,14 +436,8 @@ export const libs: Lib[] = [
 		selectMenus: 'Yes',
 		threads: 'Dev Version',
 		guildStickers: 'No',
-		contextMenus: {
-			text: 'Has a PR',
-			url: 'https://github.com/DV8FromTheWorld/JDA/pull/1971'
-		},
-		autocomplete: {
-			text: 'Has a PR',
-			url: 'https://github.com/DV8FromTheWorld/JDA/pull/1971'
-		},
+		contextMenus: 'Dev Version',
+		autocomplete: 'Dev Version',
 		scheduledEvents: {
 			text: 'Has a PR',
 			url: 'https://github.com/DV8FromTheWorld/JDA/pull/1905'
@@ -780,14 +774,8 @@ export const libs: Lib[] = [
 			url: 'https://github.com/hikari-py/hikari/pull/811'
 		},
 		guildStickers: 'Yes',
-		contextMenus: {
-			text: 'Has a PR',
-			url: 'https://github.com/hikari-py/hikari/pull/924'
-		},
-		autocomplete: {
-			text: 'Has a PR',
-			url: 'https://github.com/hikari-py/hikari/pull/924'
-		},
+		contextMenus: 'Dev Version',
+		autocomplete: 'Dev Version',
 		scheduledEvents: 'No',
 		timeouts: 'Yes'
 	},
