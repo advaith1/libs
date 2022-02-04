@@ -774,8 +774,8 @@ export const libs: Lib[] = [
 			url: 'https://github.com/hikari-py/hikari/pull/811'
 		},
 		guildStickers: 'Yes',
-		contextMenus: 'Dev Version',
-		autocomplete: 'Dev Version',
+		contextMenus: 'Yes',
+		autocomplete: 'Yes',
 		scheduledEvents: 'No',
 		timeouts: 'Yes'
 	},
