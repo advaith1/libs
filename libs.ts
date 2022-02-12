@@ -504,9 +504,9 @@ export const libs: Lib[] = [
 		threads: 'Yes',
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
-		autocomplete: 'No',
-		scheduledEvents: 'No',
-		timeouts: 'No'
+		autocomplete: 'Yes',
+		scheduledEvents: 'Yes',
+		timeouts: 'Yes'
 	},
 	{
 		name: 'Eris',
