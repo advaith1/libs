@@ -288,8 +288,8 @@ export const libs: Lib[] = [
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
-		threads: 'Yes',
-		guildStickers: 'Yes',
+		threads: 'Dev version',
+		guildStickers: 'Dev version',
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
 		scheduledEvents: {
