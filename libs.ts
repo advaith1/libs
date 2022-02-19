@@ -71,10 +71,7 @@ export const libs: Lib[] = [
 		autocomplete: 'Dev Version',
 		scheduledEvents: 'Dev Version',
 		timeouts: 'Dev Version',
-		modals: {
-			text: 'Has PR',
-			url: 'https://github.com/DSharpPlus/DSharpPlus/pull/1170'
-		}
+		modals: 'Dev Version'
 	},
 	{
 		name: 'DisCatSharp',
@@ -108,10 +105,7 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
-		modals: {
-			text: 'Has PR',
-			url: 'https://github.com/Nihlus/Remora.Discord/pull/156'
-		}
+		modals: 'Yes'
 	},
 	{
 		name: 'aegis.cpp 🪦',
@@ -305,10 +299,7 @@ export const libs: Lib[] = [
 		autocomplete: 'Dev Version',
 		scheduledEvents: 'No',
 		timeouts: 'Dev Version',
-		modals: {
-			text: 'Has a PR',
-			url: 'https://github.com/diamondburned/arikawa/pull/310'
-		}
+		modals: 'Dev Version'
 	},
 	{
 		name: 'DiscordGo',
@@ -334,10 +325,7 @@ export const libs: Lib[] = [
 			url: 'https://github.com/bwmarrin/discordgo/pull/1032'
 		},
 		timeouts: 'Dev Version',
-		modals: {
-			text: 'Has a PR',
-			url: 'https://github.com/bwmarrin/discordgo/pull/1049',
-		}
+		modals: 'Dev Version'
 	},
 	{
 		name: 'disgo',
@@ -448,10 +436,7 @@ export const libs: Lib[] = [
 			url: 'https://github.com/Discord4J/Discord4J/pull/1046'
 		},
 		timeouts: 'Dev Version',
-		modals: {
-			text: 'Has a PR',
-			url: 'https://github.com/Discord4J/Discord4J/pull/1059'
-		}
+		modals: 'Dev Version'
 	},
 	{
 		name: 'Javacord',
@@ -966,10 +951,7 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'No',
 		timeouts: 'Yes',
-		modals: {
-			text: 'Has a PR',
-			url: 'https://github.com/serenity-rs/serenity/pull/1657'
-		}
+		modals: 'Dev Version'
 	},
 	{
 		name: 'Twilight',
