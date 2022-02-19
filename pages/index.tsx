@@ -19,6 +19,7 @@ const versionColors = {
 	7: 'red',
 	8: 'yellow',
 	9: 'green',
+	10: 'green',
 	'-': 'gray'
 }
 
