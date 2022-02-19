@@ -57,6 +57,7 @@ export default function Home() {
 									<th>Autocomplete</th>
 									<th>Scheduled Events</th>
 									<th>Timeouts</th>
+									<th>Modals</th>
 								</tr>
 							</thead>
 							<tbody>
@@ -74,6 +75,7 @@ export default function Home() {
 										{status(lib.autocomplete)}
 										{status(lib.scheduledEvents)}
 										{status(lib.timeouts)}
+										{status(lib.modals)}
 									</tr>
 								)}
 							</tbody>
