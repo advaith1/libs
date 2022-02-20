@@ -659,13 +659,10 @@ export const libs: Lib[] = [
 		buttons: 'Yes',
 		selectMenus: 'Yes',
 		threads: 'Dev Version',
-		guildStickers: {
-			text: 'Has a PR',
-			url: 'https://github.com/kordlib/kord/pull/328'
-		},
+		guildStickers: 'Dev Version',
 		contextMenus: 'Dev Version',
 		autocomplete: 'Dev Version',
-		scheduledEvents: 'No',
+		scheduledEvents: 'Dev Version',
 		timeouts: 'Dev Version',
 		modals: {
 			text: 'Has a PR',
