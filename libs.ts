@@ -459,17 +459,20 @@ export const libs: Lib[] = [
 		name: 'Javacord',
 		url: 'https://github.com/Javacord/Javacord',
 		language: 'Java',
-		apiVer: 8,
-		gwVer: 8,
+		apiVer: 9,
+		gwVer: 9,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
-		threads: 'No',
-		guildStickers: 'No',
-		contextMenus: 'No',
-		autocomplete: 'No',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'Yes',
+		autocomplete: 'Yes',
 		scheduledEvents: 'No',
-		timeouts: 'No',
+		timeouts: {
+			text: 'Has a PR',
+			url: 'https://github.com/Javacord/Javacord/pull/948'
+		},
 		modals: {
 			text: 'Has a PR',
 			url: 'https://github.com/Javacord/Javacord/pull/962'
