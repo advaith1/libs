@@ -344,15 +344,21 @@ export const libs: Lib[] = [
 		language: 'Go',
 		apiVer: 9,
 		gwVer: 9,
-		slashCommands: 'Dev Version',
+		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'No',
-		threads: 'Dev Version',
+		threads: 'Yes',
 		guildStickers: 'Yes',
-		contextMenus: 'Dev Version',
+		contextMenus: 'Yes',
 		autocomplete: 'No',
-		scheduledEvents: 'No',
-		timeouts: 'No',
+		scheduledEvents: {
+			text: 'Has a PR',
+			url: 'https://github.com/andersfylling/disgord/pull/470'
+		},
+		timeouts: {
+			text: 'Has a PR',
+			url: 'https://github.com/andersfylling/disgord/pull/474'
+		},
 		modals: 'No'
 	},
 	{
