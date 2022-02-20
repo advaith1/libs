@@ -385,7 +385,7 @@ export const libs: Lib[] = [
 		apiVer: 9,
 		gwVer: 9,
 		slashCommands: 'No',
-		buttons: 'No',
+		buttons: 'Yes',
 		selectMenus: 'No',
 		threads: 'No',
 		guildStickers: 'No',
