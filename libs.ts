@@ -54,7 +54,7 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
-		modals: 'Yes'
+		modals: 'Dev Version'
 	},
 	{
 		name: 'DSharpPlus',
@@ -139,7 +139,7 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
-		modals: 'No'
+		modals: 'Yes'
 	},
 	{
 		name: 'Discord++',
@@ -173,7 +173,7 @@ export const libs: Lib[] = [
 		autocomplete: 'Dev Version',
 		scheduledEvents: 'No',
 		timeouts: 'No',
-		modals: 'No'
+		modals: 'Yes'
 	},
 	{
 		name: 'discljord',
@@ -453,7 +453,10 @@ export const libs: Lib[] = [
 		autocomplete: 'No',
 		scheduledEvents: 'No',
 		timeouts: 'No',
-		modals: 'No'
+		modals: {
+			text: 'Has a PR',
+			url: 'https://github.com/Javacord/Javacord/pull/962'
+		}
 	},
 	{
 		name: 'JDA',
@@ -752,7 +755,7 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
-		modals: 'Dev Version'
+		modals: 'Yes'
 	},
 	{
 		name: 'discord.py 🪦',
