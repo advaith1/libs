@@ -16,4 +16,5 @@ export interface Lib {
 	autocomplete: LinkableString
 	scheduledEvents: LinkableString
 	timeouts: LinkableString
+	modals: LinkableString
 }
