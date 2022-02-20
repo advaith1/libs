@@ -826,7 +826,7 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'No',
 		timeouts: 'Yes',
-		modals: 'Dev Version'
+		modals: 'Yes'
 	},
 	{
 		name: 'hata',
