@@ -516,7 +516,7 @@ export const libs: Lib[] = [
 		autocomplete: 'Dev Version',
 		scheduledEvents: 'No',
 		timeouts: 'No',
-		modals: 'No'
+		modals: 'Dev Version'
 	},
 	{
 		name: 'Discordeno',
