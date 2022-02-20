@@ -608,7 +608,7 @@ export const libs: Lib[] = [
 		contextMenus: 'No',
 		autocomplete: 'No',
 		scheduledEvents: 'No',
-		timeouts: 'Yes'
+		timeouts: 'Dev Version'
 	},
 	{
 		name: 'lacord',
