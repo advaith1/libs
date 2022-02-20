@@ -396,6 +396,23 @@ export const libs: Lib[] = [
 		modals: 'No'
 	},
 	{
+		name: 'discord-haskell',
+		url: 'https://github.com/aquarial/discord-haskell',
+		language: 'Haskell',
+		apiVer: 8,
+		gwVer: 8,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'No',
+		guildStickers: 'No',
+		contextMenus: 'Yes',
+		autocomplete: 'Yes',
+		scheduledEvents: 'No',
+		timeouts: 'No',
+		modals: 'No'
+	},
+	{
 		name: 'catnip',
 		url: 'https://github.com/mewna/catnip',
 		language: 'Java',
