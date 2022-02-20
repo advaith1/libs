@@ -305,19 +305,13 @@ export const libs: Lib[] = [
 		name: 'DiscordGo',
 		url: 'https://github.com/bwmarrin/discordgo',
 		language: 'Go',
-		apiVer: 8,
-		gwVer: 8,
+		apiVer: '8 stable, 9 dev',
+		gwVer: '8 stable, 9 dev',
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
-		threads: {
-			text: 'Has a PR',
-			url: 'https://github.com/bwmarrin/discordgo/pull/1058'
-		},
-		guildStickers: {
-			text: 'Has a PR',
-			url: 'https://github.com/bwmarrin/discordgo/pull/982'
-		},
+		threads: 'Dev Version',
+		guildStickers: 'Dev Version',
 		contextMenus: 'Yes',
 		autocomplete: 'Dev Version',
 		scheduledEvents: {
