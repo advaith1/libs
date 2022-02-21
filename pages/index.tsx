@@ -201,7 +201,7 @@ export default function Home() {
 					box-sizing: border-box;
 				}
 				
-				h2 a:hover {
+				h2:hover a:after {
 					content: '\1F517';
 				}
 			`}</style>
