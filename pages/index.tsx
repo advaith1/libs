@@ -153,7 +153,7 @@ export default function Home() {
 				}
 				
 				h2:hover a:after {
-					content: \1F517;
+					content: '\\1F517';
 				}
 			`}</style>
 
