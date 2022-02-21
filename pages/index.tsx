@@ -151,6 +151,10 @@ export default function Home() {
 						font-size: 3rem;
 					}
 				}
+				
+				h2:hover a:after {
+					content: \1F517;
+				}
 			`}</style>
 
 			<style jsx global>{`
@@ -199,10 +203,6 @@ export default function Home() {
 
 				* {
 					box-sizing: border-box;
-				}
-				
-				h2:hover a:after {
-					content: '\1F517';
 				}
 			`}</style>
 		</div>
