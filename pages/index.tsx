@@ -152,9 +152,7 @@ export default function Home() {
 					}
 				}
 				
-				h2:hover a:after {
-					content: #;
-				}
+				
 			`}</style>
 
 			<style jsx global>{`
