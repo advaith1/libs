@@ -832,8 +832,8 @@ export const libs: Lib[] = [
 		name: 'hata',
 		url: 'https://github.com/HuyaneMatsu/hata',
 		language: 'Python',
-		apiVer: '6, 7, 8, and 9',
-		gwVer: '6, 7, 8, and 9',
+		apiVer: '10',
+		gwVer: '10',
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
@@ -843,7 +843,7 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
-		modals: 'No'
+		modals: 'Yes'
 	},
 	{
 		name: 'hikari',
