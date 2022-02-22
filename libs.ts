@@ -40,23 +40,6 @@ export const libs: Lib[] = [
 		modals: 'Yes'
 	},
 	{
-		name: 'Discord.Net Labs',
-		url: 'https://github.com/Discord-Net-Labs/Discord.Net-Labs',
-		language: 'C#',
-		apiVer: 9,
-		gwVer: 9,
-		slashCommands: 'Yes',
-		buttons: 'Yes',
-		selectMenus: 'Yes',
-		threads: 'Yes',
-		guildStickers: 'Yes',
-		contextMenus: 'Yes',
-		autocomplete: 'Yes',
-		scheduledEvents: 'Yes',
-		timeouts: 'Yes',
-		modals: 'Dev Version'
-	},
-	{
 		name: 'DSharpPlus',
 		url: 'https://github.com/DSharpPlus/DSharpPlus',
 		language: 'C#',
