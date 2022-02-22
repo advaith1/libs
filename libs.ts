@@ -599,6 +599,23 @@ export const libs: Lib[] = [
 		}
 	},
 	{
+		name: 'Slshx',
+		url: 'https://github.com/mrbbot/slshx',
+		language: 'JavaScript',
+		apiVer: 9,
+		gwVer: '-',
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: '-',
+		guildStickers: '-',
+		contextMenus: 'Yes',
+		autocomplete: 'Yes',
+		scheduledEvents: '-',
+		timeouts: '-',
+		modals: 'Yes'
+	},
+	{
 		name: 'SnowTransfer',
 		url: 'https://github.com/DasWolke/SnowTransfer',
 		language: 'JavaScript',

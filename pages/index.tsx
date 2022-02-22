@@ -7,7 +7,8 @@ const langs = Array.from(new Set(libs.map(lib => lib.language).sort()))
 
 const statusColors = {
 	Yes: 'green',
-	No: 'red'
+	No: 'red',
+	'-': 'gray'
 }
 
 const status = (status: LinkableString) => typeof status === 'string'
