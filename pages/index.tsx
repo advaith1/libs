@@ -151,6 +151,10 @@ export default function Home() {
 						font-size: 3rem;
 					}
 				}
+				
+				h2 a {
+					color: white;
+				}
 			`}</style>
 
 			<style jsx global>{`
