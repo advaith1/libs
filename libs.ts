@@ -767,7 +767,7 @@ export const libs: Lib[] = [
 		guildStickers: 'Dev Version',
 		contextMenus: 'Dev Version',
 		autocomplete: 'Dev Version',
-		scheduledEvents: 'No',
+		scheduledEvents: 'Dev Version',
 		timeouts: 'Dev Version',
 		modals: 'Dev Version'
 	},
