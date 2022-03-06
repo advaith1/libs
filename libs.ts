@@ -530,10 +530,7 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
-		modals: {
-			text: 'Has a PR',
-			url: 'https://github.com/discordjs/discord.js/pull/7431'
-		}
+		modals: 'Dev Version'
 	},
 	{
 		name: 'droff',
