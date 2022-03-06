@@ -755,21 +755,21 @@ export const libs: Lib[] = [
 		modals: 'Yes'
 	},
 	{
-		name: 'discord.py 🪦',
+		name: 'discord.py',
 		url: 'https://github.com/Rapptz/discord.py',
 		language: 'Python',
-		apiVer: '7 stable, 8 dev',
-		gwVer: '6 stable, 9 dev',
-		slashCommands: 'No',
+		apiVer: '7 stable, 10 dev',
+		gwVer: '6 stable, 10 dev',
+		slashCommands: 'Dev Version',
 		buttons: 'Dev Version',
 		selectMenus: 'Dev Version',
 		threads: 'Dev Version',
 		guildStickers: 'Dev Version',
-		contextMenus: 'No',
-		autocomplete: 'No',
-		scheduledEvents: 'No',
-		timeouts: 'No',
-		modals: 'No'
+		contextMenus: 'Dev Version',
+		autocomplete: 'Dev Version',
+		scheduledEvents: 'Dev Version',
+		timeouts: 'Dev Version',
+		modals: 'Dev Version'
 	},
 	{
 		name: 'disnake 🍴',
