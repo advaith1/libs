@@ -838,7 +838,10 @@ export const libs: Lib[] = [
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
-		scheduledEvents: 'No',
+		scheduledEvents: {
+			text: 'Has a PR',
+			url: 'https://github.com/hikari-py/hikari/pull/1056'
+		},
 		timeouts: 'Yes',
 		modals: {
 			text: 'Has a PR',
