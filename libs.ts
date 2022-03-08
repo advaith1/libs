@@ -425,15 +425,18 @@ export const libs: Lib[] = [
 			text: 'Dev Version',
 			url: 'https://github.com/Discord4J/Discord4J/issues/958'
 		},
-		guildStickers: 'No',
+		guildStickers: {
+			text: 'Has a PR',
+			url: 'https://github.com/Discord4J/Discord4J/pull/1055'
+		},
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
 		scheduledEvents: {
 			text: 'Has a PR',
 			url: 'https://github.com/Discord4J/Discord4J/pull/1046'
 		},
-		timeouts: 'Dev Version',
-		modals: 'Dev Version'
+		timeouts: 'Yes',
+		modals: 'Yes'
 	},
 	{
 		name: 'Javacord',
