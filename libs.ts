@@ -644,10 +644,7 @@ export const libs: Lib[] = [
 		autocomplete: 'Dev Version',
 		scheduledEvents: 'Dev Version',
 		timeouts: 'Dev Version',
-		modals: {
-			text: 'Has a PR',
-			url: 'https://github.com/kordlib/kord/pull/531'
-		}
+		modals: 'Dev Version'
 	},
 	{
 		name: 'Discordia',
