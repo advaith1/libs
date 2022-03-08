@@ -634,7 +634,7 @@ export const libs: Lib[] = [
 		url: 'https://github.com/kordlib/kord',
 		language: 'Kotlin',
 		apiVer: '10',
-		gwVer: '9 stable, 9 dev',
+		gwVer: '9',
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
