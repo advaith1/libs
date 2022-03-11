@@ -968,10 +968,7 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
-		modals: {
-			text: 'Has a PR',
-			url: 'https://github.com/twilight-rs/twilight/pull/1300'
-		}
+		modals: 'Yes'
 	},
 	{
 		name: 'AckCord',
