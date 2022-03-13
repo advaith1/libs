@@ -630,21 +630,18 @@ export const libs: Lib[] = [
 		name: 'Kord',
 		url: 'https://github.com/kordlib/kord',
 		language: 'Kotlin',
-		apiVer: '8 stable, 9 dev',
-		gwVer: '8 stable, 9 dev',
+		apiVer: '10',
+		gwVer: '9',
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
-		threads: 'Dev Version',
-		guildStickers: 'Dev Version',
-		contextMenus: 'Dev Version',
-		autocomplete: 'Dev Version',
-		scheduledEvents: 'Dev Version',
-		timeouts: 'Dev Version',
-		modals: {
-			text: 'Has a PR',
-			url: 'https://github.com/kordlib/kord/pull/531'
-		}
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'Yes',
+		autocomplete: 'Yes',
+		scheduledEvents: 'Yes',
+		timeouts: 'Yes',
+		modals: 'Yes'
 	},
 	{
 		name: 'Discordia',
