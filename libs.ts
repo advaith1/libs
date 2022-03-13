@@ -256,16 +256,13 @@ export const libs: Lib[] = [
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
-		threads: 'No',
+		threads: 'Yes',
 		guildStickers: 'No',
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
-		modals: {
-			text: 'Has a PR',
-			url: 'https://github.com/Kraigie/nostrum/pull/389'
-		}
+		modals: 'Yes'
 	},
 	{
 		name: 'arikawa',
