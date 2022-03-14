@@ -860,10 +860,7 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
-		modals: {
-			text: 'Has a PR',
-			url: 'https://github.com/nextcord/nextcord/pull/445'
-		}
+		modals: 'Yes'
 	},
 	{
 		name: 'pycord 🍴',
