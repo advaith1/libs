@@ -587,10 +587,7 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'No',
 		timeouts: 'Yes',
-		modals: {
-			text: 'Has a PR',
-			url: 'https://github.com/harmonyland/harmony/pull/287'
-		}
+		modals: 'Yes'
 	},
 	{
 		name: 'SnowTransfer',
