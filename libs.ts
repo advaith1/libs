@@ -835,7 +835,7 @@ export const libs: Lib[] = [
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
-		scheduledEvents: 'Dev Version',
+		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
 		modals: {
 			text: 'Has a PR',
