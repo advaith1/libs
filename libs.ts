@@ -228,7 +228,7 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
-		modals: 'Dev Version'
+		modals: 'Yes'
 	},
 	{
 		name: 'coxir',
