@@ -6,6 +6,23 @@ import { Lib } from "./lib";
 
 export const libs: Lib[] = [
 	{
+		name: 'Concord',
+		url: 'https://github.com/Cogmasters/concord',
+		language: 'C',
+		apiVer: 9,
+		gwVer: 9,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'No',
+		contextMenus: 'Yes',
+		autocomplete: 'No',
+		scheduledEvents: 'No',
+		timeouts: 'Yes',
+		modals: 'No'
+	},
+	{
 		name: 'Orca',
 		url: 'https://github.com/cee-studio/orca',
 		language: 'C',
