@@ -876,6 +876,23 @@ export const libs: Lib[] = [
 		timeouts: 'Yes',
 		modals: 'Yes'
 	},
+  	{
+		name: 'pincer',
+		url: 'https://github.com/Pincer-org/pincer',
+		language: 'Python',
+		apiVer: 9,
+		gwVer: 9,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'No',
+		autocomplete: 'No',
+		scheduledEvents: 'Yes',
+		timeouts: 'No',
+		modals: 'No'
+  	},
 	{
 		name: 'pycord 🍴',
 		url: 'https://github.com/Pycord-Development/pycord',
