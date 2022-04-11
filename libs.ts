@@ -1028,5 +1028,22 @@ export const libs: Lib[] = [
 		scheduledEvents: 'No',
 		timeouts: 'No',
 		modals: 'No'
-	}
-]
+	},
+	{
+		name: 'Discordeno',
+		url: 'https://github.com/advaith1/libs',
+		language: 'TypeScript',
+		apiVer: '10',
+		gwVer: '10',
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'Yes',
+		autocomplete: 'Yes',
+		scheduledEvents: 'Yes',
+		timeouts: 'No',
+		modals: 'Yes'
+	},
+];
