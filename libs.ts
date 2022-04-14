@@ -945,6 +945,23 @@ export const libs: Lib[] = [
 		modals: 'No'
 	},
 	{
+		name: 'Dis-Snek',
+		url: 'https://github.com/Discord-Snake-Pit/Dis-Snek',
+		language: 'Python',
+		apiVer: '9 stable, 10 dev',
+		gwVer: '9 stable, 10 dev',
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'Yes',
+		autocomplete: 'Yes',
+		scheduledEvents: 'Yes',
+		timeouts: 'Yes',
+		modals: 'Yes'
+	},
+	{
 		name: 'Serenity',
 		url: 'https://github.com/serenity-rs/serenity',
 		language: 'Rust',
