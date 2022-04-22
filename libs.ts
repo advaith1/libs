@@ -340,19 +340,13 @@ export const libs: Lib[] = [
 		gwVer: 9,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
-		selectMenus: 'No',
+		selectMenus: 'Yes',
 		threads: 'Yes',
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'No',
-		scheduledEvents: {
-			text: 'Has a PR',
-			url: 'https://github.com/andersfylling/disgord/pull/470'
-		},
-		timeouts: {
-			text: 'Has a PR',
-			url: 'https://github.com/andersfylling/disgord/pull/474'
-		},
+		scheduledEvents: 'Yes',
+		timeouts: 'Yes',
 		modals: 'No'
 	},
 	{
