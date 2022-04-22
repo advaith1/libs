@@ -196,8 +196,8 @@ export const libs: Lib[] = [
 		name: 'discordcr',
 		url: 'https://github.com/shardlab/discordcr',
 		language: 'Crystal',
-		apiVer: '6 stable, 9 dev',
-		gwVer: '6 stable, 9 dev',
+		apiVer: 9,
+		gwVer: 9,
 		slashCommands: {
 			text: 'Has a PR',
 			url: 'https://github.com/shardlab/discordcr/pull/31'
@@ -210,7 +210,7 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/shardlab/discordcr/pull/31'
 		},
-		threads: 'Dev Version',
+		threads: 'Yes',
 		guildStickers: 'No',
 		contextMenus: {
 			text: 'Has a PR',
