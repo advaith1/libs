@@ -604,7 +604,7 @@ export const libs: Lib[] = [
 		name: 'SnowTransfer',
 		url: 'https://github.com/DasWolke/SnowTransfer',
 		language: 'JavaScript',
-		apiVer: 9,
+		apiVer: 10,
 		gwVer: '-',
 		slashCommands: 'Yes',
 		buttons: 'Yes',
