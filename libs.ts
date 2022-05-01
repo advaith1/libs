@@ -479,7 +479,10 @@ export const libs: Lib[] = [
 		buttons: 'Yes',
 		selectMenus: 'Yes',
 		threads: 'Dev Version',
-		guildStickers: 'No',
+		guildStickers: {
+			text: 'Has a PR',
+			url: 'https://github.com/DV8FromTheWorld/JDA/pull/2104'
+		},
 		contextMenus: 'Dev Version',
 		autocomplete: 'Dev Version',
 		scheduledEvents: {
