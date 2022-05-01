@@ -490,10 +490,7 @@ export const libs: Lib[] = [
 			url: 'https://github.com/DV8FromTheWorld/JDA/pull/1905'
 		},
 		timeouts: 'Dev Version',
-		modals: {
-			text: 'Has a PR',
-			url: 'https://github.com/DV8FromTheWorld/JDA/pull/2024'
-		}
+		modals: 'Dev Version'
 	},
 	{
 		name: 'Detritus',
