@@ -794,6 +794,23 @@ export const libs: Lib[] = [
 		modals: 'Yes'
 	},
 	{
+		name: 'dis-snek',
+		url: 'https://github.com/Discord-Snake-Pit/Dis-Snek',
+		language: 'Python',
+		apiVer: '9 stable, 10 dev',
+		gwVer: '9 stable, 10 dev',
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'Yes',
+		autocomplete: 'Yes',
+		scheduledEvents: 'Yes',
+		timeouts: 'Yes',
+		modals: 'Yes'
+	},
+	{
 		name: 'enhanced-discord.py 🍴',
 		url: 'https://github.com/iDevision/enhanced-discord.py',
 		language: 'Python',
