@@ -794,11 +794,11 @@ export const libs: Lib[] = [
 		modals: 'Yes'
 	},
 	{
-		name: 'dis-snek',
-		url: 'https://github.com/Discord-Snake-Pit/Dis-Snek',
+		name: 'NAFF',
+		url: 'https://github.com/Discord-Snake-Pit/NAFF',
 		language: 'Python',
-		apiVer: '9 stable, 10 dev',
-		gwVer: '9 stable, 10 dev',
+		apiVer: '10',
+		gwVer: '10',
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
