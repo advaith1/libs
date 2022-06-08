@@ -629,7 +629,7 @@ export const libs: Lib[] = [
 		autocomplete: 'No',
 		scheduledEvents: 'No',
 		timeouts: 'Yes',
-		modals: 'YesS'
+		modals: 'Yes'
 	},
 	{
 		name: 'Discord.jl',
