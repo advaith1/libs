@@ -615,6 +615,23 @@ export const libs: Lib[] = [
 		modals: 'Yes'
 	},
 	{
+		name: 'Tiscord',
+		url: 'https://github.com/tiscordlib/tiscord',
+		language: 'JavaScript',
+		apiVer: 10,
+		gwVer: 10,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'No',
+		contextMenus: 'Yes',
+		autocomplete: 'No',
+		scheduledEvents: 'No',
+		timeouts: 'Yes',
+		modals: 'Yes'
+	},
+	{
 		name: 'Discord.jl',
 		url: 'https://github.com/Xh4H/Discord.jl',
 		language: 'Julia',
@@ -740,23 +757,6 @@ export const libs: Lib[] = [
 		modals: 'No'
 	},
 	{
-		name: 'interactions.py',
-		url: 'https://github.com/interactions-py/library',
-		language: 'Python',
-		apiVer: 10,
-		gwVer: 10,
-		slashCommands: 'Yes',
-		buttons: 'Yes',
-		selectMenus: 'Yes',
-		threads: 'Yes',
-		guildStickers: 'Yes',
-		contextMenus: 'Yes',
-		autocomplete: 'Yes',
-		scheduledEvents: 'Yes',
-		timeouts: 'Yes',
-		modals: 'Yes'
-	},
-	{
 		name: 'discord.py',
 		url: 'https://github.com/Rapptz/discord.py',
 		language: 'Python',
@@ -851,6 +851,23 @@ export const libs: Lib[] = [
 		}
 	},
 	{
+		name: 'interactions.py',
+		url: 'https://github.com/interactions-py/library',
+		language: 'Python',
+		apiVer: 10,
+		gwVer: 10,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'Yes',
+		autocomplete: 'Yes',
+		scheduledEvents: 'Yes',
+		timeouts: 'Yes',
+		modals: 'Yes'
+	},
+	{
 		name: 'NAFF',
 		url: 'https://github.com/NAFTeam/NAFF',
 		language: 'Python',
@@ -871,8 +888,8 @@ export const libs: Lib[] = [
 		name: 'nextcord 🍴',
 		url: 'https://github.com/nextcord/nextcord',
 		language: 'Python',
-		apiVer: 9,
-		gwVer: 9,
+		apiVer: 10,
+		gwVer: 10,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
