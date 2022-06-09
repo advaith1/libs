@@ -615,6 +615,23 @@ export const libs: Lib[] = [
 		modals: 'Yes'
 	},
 	{
+		name: 'Tiscord',
+		url: 'https://github.com/tiscordlib/tiscord',
+		language: 'JavaScript',
+		apiVer: 10,
+		gwVer: 10,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'No',
+		contextMenus: 'Yes',
+		autocomplete: 'No',
+		scheduledEvents: 'No',
+		timeouts: 'Yes',
+		modals: 'Yes'
+	},
+	{
 		name: 'Discord.jl',
 		url: 'https://github.com/Xh4H/Discord.jl',
 		language: 'Julia',
