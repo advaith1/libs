@@ -757,23 +757,6 @@ export const libs: Lib[] = [
 		modals: 'No'
 	},
 	{
-		name: 'interactions.py',
-		url: 'https://github.com/interactions-py/library',
-		language: 'Python',
-		apiVer: 10,
-		gwVer: 10,
-		slashCommands: 'Yes',
-		buttons: 'Yes',
-		selectMenus: 'Yes',
-		threads: 'Yes',
-		guildStickers: 'Yes',
-		contextMenus: 'Yes',
-		autocomplete: 'Yes',
-		scheduledEvents: 'Yes',
-		timeouts: 'Yes',
-		modals: 'Yes'
-	},
-	{
 		name: 'discord.py',
 		url: 'https://github.com/Rapptz/discord.py',
 		language: 'Python',
@@ -883,6 +866,23 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/hikari-py/hikari/pull/1002'
 		}
+	},
+	{
+		name: 'interactions.py',
+		url: 'https://github.com/interactions-py/library',
+		language: 'Python',
+		apiVer: 10,
+		gwVer: 10,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'Yes',
+		autocomplete: 'Yes',
+		scheduledEvents: 'Yes',
+		timeouts: 'Yes',
+		modals: 'Yes'
 	},
 	{
 		name: 'nextcord 🍴',
