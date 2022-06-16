@@ -20,7 +20,10 @@ export const libs: Lib[] = [
 		autocomplete: 'No',
 		scheduledEvents: 'No',
 		timeouts: 'Yes',
-		modals: 'No'
+		modals: 'No',
+		permsv2: 'No',
+		automod: 'No',
+		localization: 'No'
 	},
 	{
 		name: 'Orca',
@@ -37,7 +40,10 @@ export const libs: Lib[] = [
 		autocomplete: 'No',
 		scheduledEvents: 'No',
 		timeouts: 'No',
-		modals: 'No'
+		modals: 'No',
+		permsv2: 'No',
+		automod: 'No',
+		localization: 'No'
 	},
 	{
 		name: 'Discord.Net',
@@ -54,7 +60,13 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
-		modals: 'Yes'
+		modals: 'Yes',
+		permsv2: 'Yes',
+		automod: 'No',
+		localization: {
+			text: 'Has a PR',
+			url: 'https://github.com/discord-net/Discord.Net/pull/2211'
+		}
 	},
 	{
 		name: 'DSharpPlus',
@@ -71,7 +83,10 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
-		modals: 'Yes'
+		modals: 'Yes',
+		permsv2: 'Dev Version',
+		automod: 'No',
+		localization: 'Yes'
 	},
 	{
 		name: 'DisCatSharp',
@@ -88,7 +103,10 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
-		modals: 'Yes'
+		modals: 'Yes',
+		permsv2: 'Yes',
+		automod: 'No',
+		localization: 'Yes'
 	},
 	{
 		name: 'Remora.Discord',
@@ -105,7 +123,10 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
-		modals: 'Yes'
+		modals: 'Yes',
+		permsv2: 'Yes',
+		automod: 'No',
+		localization: 'Yes'
 	},
 	{
 		name: 'aegis.cpp 🪦',
@@ -122,7 +143,10 @@ export const libs: Lib[] = [
 		autocomplete: 'No',
 		scheduledEvents: 'No',
 		timeouts: 'No',
-		modals: 'No'
+		modals: 'No',
+		permsv2: 'No',
+		automod: 'No',
+		localization: 'No'
 	},
 	{
 		name: 'D++',
@@ -139,7 +163,10 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
-		modals: 'Yes'
+		modals: 'Yes',
+		permsv2: 'Yes',
+		automod: 'No',
+		localization: 'Yes'
 	},
 	{
 		name: 'Discord++',
@@ -156,7 +183,10 @@ export const libs: Lib[] = [
 		autocomplete: 'No',
 		scheduledEvents: 'No',
 		timeouts: 'No',
-		modals: 'No'
+		modals: 'No',
+		permsv2: 'No',
+		automod: 'No',
+		localization: 'No'
 	},
 	{
 		name: 'Sleepy Discord',
@@ -173,7 +203,10 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'No',
 		timeouts: 'No',
-		modals: 'Yes'
+		modals: 'Yes',
+		permsv2: 'No',
+		automod: 'No',
+		localization: 'No'
 	},
 	{
 		name: 'discljord',
@@ -190,7 +223,10 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'No',
 		timeouts: 'No',
-		modals: 'No'
+		modals: 'No',
+		permsv2: 'No',
+		automod: 'No',
+		localization: 'No'
 	},
 	{
 		name: 'discordcr',
@@ -228,6 +264,15 @@ export const libs: Lib[] = [
 		modals: {
 			text: 'Has a PR',
 			url: 'https://github.com/shardlab/discordcr/pull/31'
+		},
+		permsv2: {
+			text: 'Has a PR',
+			url: 'https://github.com/shardlab/discordcr/pull/31'
+		},
+		automod: 'No',
+		localization: {
+			text: 'Has a PR',
+			url: 'https://github.com/shardlab/discordcr/pull/31'
 		}
 	},
 	{
@@ -245,7 +290,10 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
-		modals: 'Yes'
+		modals: 'Yes',
+		permsv2: 'No',
+		automod: 'No',
+		localization: 'No'
 	},
 	{
 		name: 'coxir',
@@ -262,7 +310,10 @@ export const libs: Lib[] = [
 		autocomplete: 'No',
 		scheduledEvents: 'No',
 		timeouts: 'No',
-		modals: 'No'
+		modals: 'No',
+		permsv2: 'No',
+		automod: 'No',
+		localization: 'No'
 	},
 	{
 		name: 'Nostrum',
@@ -279,7 +330,10 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
-		modals: 'Yes'
+		modals: 'Yes',
+		permsv2: 'No',
+		automod: 'No',
+		localization: 'No'
 	},
 	{
 		name: 'arikawa',
@@ -296,7 +350,10 @@ export const libs: Lib[] = [
 		autocomplete: 'Dev Version',
 		scheduledEvents: 'No',
 		timeouts: 'Dev Version',
-		modals: 'Dev Version'
+		modals: 'Dev Version',
+		permsv2: 'Dev Version',
+		automod: 'No',
+		localization: 'Dev Version'
 	},
 	{
 		name: 'DiscordGo',
@@ -313,7 +370,10 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
-		modals: 'Yes'
+		modals: 'Yes',
+		permsv2: 'Dev Version',
+		automod: 'No',
+		localization: 'Yes'
 	},
 	{
 		name: 'disgo',
@@ -330,7 +390,10 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
-		modals: 'Yes'
+		modals: 'Yes',
+		permsv2: 'Yes',
+		automod: 'No',
+		localization: 'Yes'
 	},
 	{
 		name: 'Disgord',
@@ -347,7 +410,10 @@ export const libs: Lib[] = [
 		autocomplete: 'No',
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
-		modals: 'No'
+		modals: 'No',
+		permsv2: 'Yes',
+		automod: 'No',
+		localization: 'Yes'
 	},
 	{
 		name: 'Postcord',
@@ -364,7 +430,10 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
-		modals: 'No'
+		modals: 'No',
+		permsv2: 'Yes',
+		automod: 'No',
+		localization: 'No'
 	},
 	{
 		name: 'Calamity',
@@ -381,7 +450,10 @@ export const libs: Lib[] = [
 		autocomplete: 'No',
 		scheduledEvents: 'No',
 		timeouts: 'No',
-		modals: 'No'
+		modals: 'No',
+		permsv2: 'No',
+		automod: 'No',
+		localization: 'No'
 	},
 	{
 		name: 'discord-haskell',
@@ -398,7 +470,10 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
-		modals: 'Yes'
+		modals: 'Yes',
+		permsv2: 'No',
+		automod: 'No',
+		localization: 'No'
 	},
 	{
 		name: 'catnip',
@@ -418,7 +493,10 @@ export const libs: Lib[] = [
 			url: 'https://github.com/mewna/catnip/pull/640'
 		},
 		timeouts: 'No',
-		modals: 'No'
+		modals: 'No',
+		permsv2: 'No',
+		automod: 'No',
+		localization: 'No'
 	},
 	{
 		name: 'Discord4J',
@@ -444,7 +522,10 @@ export const libs: Lib[] = [
 			url: 'https://github.com/Discord4J/Discord4J/pull/1046'
 		},
 		timeouts: 'Yes',
-		modals: 'Yes'
+		modals: 'Yes',
+		permsv2: 'No',
+		automod: 'No',
+		localization: 'No'
 	},
 	{
 		name: 'Javacord',
@@ -467,7 +548,13 @@ export const libs: Lib[] = [
 		modals: {
 			text: 'Has a PR',
 			url: 'https://github.com/Javacord/Javacord/pull/962'
-		}
+		},
+		permsv2: {
+			text: 'Has a PR',
+			url: 'https://github.com/Javacord/Javacord/pull/1004'
+		},
+		automod: 'No',
+		localization: 'Dev Version'
 	},
 	{
 		name: 'JDA',
@@ -487,7 +574,16 @@ export const libs: Lib[] = [
 			url: 'https://github.com/DV8FromTheWorld/JDA/pull/1905'
 		},
 		timeouts: 'Dev Version',
-		modals: 'Dev Version'
+		modals: 'Dev Version',
+		permsv2: {
+			text: 'Has a PR',
+			url: 'https://github.com/DV8FromTheWorld/JDA/pull/2113'
+		},
+		automod: 'No',
+		localization: {
+			text: 'Has a PR',
+			url: 'https://github.com/DV8FromTheWorld/JDA/pull/2090'
+		}
 	},
 	{
 		name: 'Detritus',
@@ -504,7 +600,10 @@ export const libs: Lib[] = [
 		autocomplete: 'Dev Version',
 		scheduledEvents: 'No',
 		timeouts: 'No',
-		modals: 'Dev Version'
+		modals: 'Dev Version',
+		permsv2: 'Dev Version',
+		automod: 'No',
+		localization: 'No'
 	},
 	{
 		name: 'Discordeno',
@@ -521,7 +620,10 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'Dev Version',
 		timeouts: 'Yes',
-		modals: 'Dev Version'
+		modals: 'Dev Version',
+		permsv2: 'Dev Version',
+		automod: 'Dev Version',
+		localization: 'Dev Version'
 	},
 	{
 		name: 'discord.js',
@@ -538,7 +640,13 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
-		modals: 'Yes'
+		modals: 'Yes',
+		permsv2: 'Dev Version',
+		automod: {
+			text: 'Has a PR',
+			url: 'https://github.com/discordjs/discord.js/pull/7938'
+		},
+		localization: 'Yes'
 	},
 	{
 		name: 'droff',
@@ -555,7 +663,10 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
-		modals: 'Yes'
+		modals: 'Yes',
+		permsv2: 'Yes',
+		automod: 'No',
+		localization: 'Yes'
 	},
 	{
 		name: 'Eris',
@@ -578,7 +689,13 @@ export const libs: Lib[] = [
 		modals: {
 			text: 'Has a PR',
 			url: 'https://github.com/abalabahaha/eris/pull/1336'
-		}
+		},
+		permsv2: {
+			text: 'Has a PR',
+			url: 'https://github.com/abalabahaha/eris/pull/1372'
+		},
+		automod: 'No',
+		localization: 'No'
 	},
 	{
 		name: 'Harmony',
@@ -595,7 +712,10 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'No',
 		timeouts: 'Yes',
-		modals: 'Yes'
+		modals: 'Yes',
+		permsv2: 'No',
+		automod: 'No',
+		localization: 'No'
 	},
 	{
 		name: 'SnowTransfer',
@@ -612,7 +732,10 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
-		modals: 'Yes'
+		modals: 'Yes',
+		permsv2: 'Yes',
+		automod: 'No',
+		localization: 'Yes'
 	},
 	{
 		name: 'Tiscord',
@@ -629,7 +752,10 @@ export const libs: Lib[] = [
 		autocomplete: 'No',
 		scheduledEvents: 'No',
 		timeouts: 'Yes',
-		modals: 'Yes'
+		modals: 'Yes',
+		permsv2: 'No',
+		automod: 'No',
+		localization: 'No'
 	},
 	{
 		name: 'Discord.jl',
@@ -646,7 +772,10 @@ export const libs: Lib[] = [
 		autocomplete: 'No',
 		scheduledEvents: 'No',
 		timeouts: 'No',
-		modals: 'No'
+		modals: 'No',
+		permsv2: 'No',
+		automod: 'No',
+		localization: 'No'
 	},
 	{
 		name: 'Kord',
@@ -663,7 +792,10 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
-		modals: 'Yes'
+		modals: 'Yes',
+		permsv2: 'Yes',
+		automod: 'No',
+		localization: 'Yes'
 	},
 	{
 		name: 'Discordia',
@@ -680,7 +812,10 @@ export const libs: Lib[] = [
 		autocomplete: 'No',
 		scheduledEvents: 'No',
 		timeouts: 'Dev Version',
-		modals: 'No'
+		modals: 'No',
+		permsv2: 'No',
+		automod: 'No',
+		localization: 'No'
 	},
 	{
 		name: 'lacord',
@@ -697,7 +832,10 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
-		modals: 'No'
+		modals: 'No',
+		permsv2: 'Yes',
+		automod: 'No',
+		localization: 'Yes'
 	},
 	{
 		name: 'Dimscord',
@@ -714,7 +852,10 @@ export const libs: Lib[] = [
 		autocomplete: 'Dev Version',
 		scheduledEvents: 'No',
 		timeouts: 'No',
-		modals: 'No'
+		modals: 'No',
+		permsv2: 'No',
+		automod: 'No',
+		localization: 'No'
 	},
 	{
 		name: 'DiscordPHP',
@@ -731,7 +872,13 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
-		modals: 'Yes'
+		modals: 'Yes',
+		permsv2: 'Dev Version',
+		automod: {
+			text: 'Has a PR',
+			url: 'https://github.com/discord-php/DiscordPHP/pull/821'
+		},
+		localization: 'Dev Version'
 	},
 	{
 		name: 'RestCord',
@@ -751,7 +898,10 @@ export const libs: Lib[] = [
 			url: 'https://github.com/restcord/restcord/pull/166'
 		},
 		timeouts: 'No',
-		modals: 'No'
+		modals: 'No',
+		permsv2: 'No',
+		automod: 'No',
+		localization: 'No'
 	},
 	{
 		name: 'discord.py',
@@ -768,7 +918,10 @@ export const libs: Lib[] = [
 		autocomplete: 'Dev Version',
 		scheduledEvents: 'Dev Version',
 		timeouts: 'Dev Version',
-		modals: 'Dev Version'
+		modals: 'Dev Version',
+		permsv2: 'Dev Version',
+		automod: 'No',
+		localization: 'No'
 	},
 	{
 		name: 'disnake 🍴',
@@ -785,7 +938,10 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
-		modals: 'Yes'
+		modals: 'Yes',
+		permsv2: 'No',
+		automod: 'No',
+		localization: 'Yes'
 	},
 	{
 		name: 'enhanced-discord.py 🍴',
@@ -805,7 +961,10 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'No',
 		timeouts: 'Yes',
-		modals: 'Yes'
+		modals: 'Yes',
+		permsv2: 'No',
+		automod: 'No',
+		localization: 'No'
 	},
 	{
 		name: 'hata',
@@ -822,7 +981,10 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
-		modals: 'Yes'
+		modals: 'Yes',
+		permsv2: 'Yes',
+		automod: 'No',
+		localization: 'Yes'
 	},
 	{
 		name: 'hikari',
@@ -845,6 +1007,15 @@ export const libs: Lib[] = [
 		modals: {
 			text: 'Has a PR',
 			url: 'https://github.com/hikari-py/hikari/pull/1002'
+		},
+		permsv2: {
+			text: 'Has a PR',
+			url: 'https://github.com/hikari-py/hikari/pull/1148'
+		},
+		automod: 'No',
+		localization: {
+			text: 'Has a PR',
+			url: 'https://github.com/hikari-py/hikari/pull/1141'
 		}
 	},
 	{
@@ -862,7 +1033,13 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
-		modals: 'Yes'
+		modals: 'Yes',
+		permsv2: 'Yes',
+		automod: {
+			text: 'Has a PR',
+			url: 'https://github.com/interactions-py/library/pull/768'
+		},
+		localization: 'Yes'
 	},
 	{
 		name: 'NAFF',
@@ -879,7 +1056,13 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
-		modals: 'Yes'
+		modals: 'Yes',
+		permsv2: 'Yes',
+		automod: {
+			text: 'Has a PR',
+			url: 'https://github.com/NAFTeam/NAFF/pull/514'
+		},
+		localization: 'Yes'
 	},
 	{
 		name: 'nextcord 🍴',
@@ -896,7 +1079,13 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
-		modals: 'Yes'
+		modals: 'Yes',
+		permsv2: 'Yes',
+		automod: {
+			text: 'Has a PR',
+			url: 'https://github.com/nextcord/nextcord/pull/682'
+		},
+		localization: 'Yes'
 	},
 	{
 		name: 'pycord 🍴',
@@ -913,7 +1102,13 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
-		modals: 'Yes'
+		modals: 'Yes',
+		permsv2: 'Yes',
+		automod: {
+			text: 'Has a PR',
+			url: 'https://github.com/Pycord-Development/pycord/pull/1316'
+		},
+		localization: 'Yes'
 	},
 	{
 		name: 'discorb',
@@ -930,7 +1125,10 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
-		modals: 'Yes'
+		modals: 'Yes',
+		permsv2: 'Yes',
+		automod: 'No',
+		localization: 'Yes'
 	},
 	{
 		name: 'discordrb',
@@ -947,7 +1145,10 @@ export const libs: Lib[] = [
 		autocomplete: 'No',
 		scheduledEvents: 'No',
 		timeouts: 'Dev Version',
-		modals: 'No'
+		modals: 'No',
+		permsv2: 'No',
+		automod: 'No',
+		localization: 'No'
 	},
 	{
 		name: 'discord-rs',
@@ -964,7 +1165,10 @@ export const libs: Lib[] = [
 		autocomplete: 'No',
 		scheduledEvents: 'No',
 		timeouts: 'No',
-		modals: 'No'
+		modals: 'No',
+		permsv2: 'No',
+		automod: 'No',
+		localization: 'No'
 	},
 	{
 		name: 'Serenity',
@@ -981,7 +1185,13 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'No',
 		timeouts: 'Yes',
-		modals: 'Dev Version'
+		modals: 'Dev Version',
+		permsv2: 'Yes',
+		automod: {
+			text: 'Has a PR',
+			url: 'https://github.com/serenity-rs/serenity/pull/1958'
+		},
+		localization: 'Dev Version'
 	},
 	{
 		name: 'Twilight',
@@ -998,7 +1208,10 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
-		modals: 'Yes'
+		modals: 'Yes',
+		permsv2: 'Yes',
+		automod: 'No',
+		localization: 'Yes'
 	},
 	{
 		name: 'AckCord',
@@ -1015,7 +1228,10 @@ export const libs: Lib[] = [
 		autocomplete: 'Dev Version',
 		scheduledEvents: 'Dev Version',
 		timeouts: 'Dev Version',
-		modals: 'No'
+		modals: 'No',
+		permsv2: 'No',
+		automod: 'No',
+		localization: 'No'
 	},
 	{
 		name: 'Swiftcord 🍴',
@@ -1032,7 +1248,10 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
-		modals: 'Yes'
+		modals: 'Yes',
+		permsv2: 'No',
+		automod: 'No',
+		localization: 'No'
 	},
 	{
 		name: 'SwiftDiscord',
@@ -1049,6 +1268,9 @@ export const libs: Lib[] = [
 		autocomplete: 'No',
 		scheduledEvents: 'No',
 		timeouts: 'No',
-		modals: 'No'
+		modals: 'No',
+		permsv2: 'No',
+		automod: 'No',
+		localization: 'No'
 	}
 ]

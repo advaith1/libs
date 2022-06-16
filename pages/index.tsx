@@ -23,7 +23,8 @@ const versionColors = {
 	'-': 'gray'
 }
 
-const version = (version: number | string) => <td className={versionColors[version] ?? 'yellow'}>{version}</td>
+const version = (version: number | string) =>
+	<td className={versionColors[version] ?? (typeof version === 'string' && version.startsWith('9')) ? 'green' : 'yellow'}>{version}</td>
 
 export default function Home() {
 	return (
@@ -59,6 +60,9 @@ export default function Home() {
 									<th>Scheduled Events</th>
 									<th>Timeouts</th>
 									<th>Modals</th>
+									<th>Perms v2</th>
+									<th>AutoMod</th>
+									<th>Localization</th>
 								</tr>
 							</thead>
 							<tbody>
@@ -77,6 +81,9 @@ export default function Home() {
 										{status(lib.scheduledEvents)}
 										{status(lib.timeouts)}
 										{status(lib.modals)}
+										{status(lib.permsv2)}
+										{status(lib.automod)}
+										{status(lib.localization)}
 									</tr>
 								)}
 							</tbody>
@@ -136,6 +143,7 @@ export default function Home() {
 				.table th {
 					color: white;
 					font-weight: 500;
+					text-align: center !important;
 				}
 
 				table {
