@@ -511,10 +511,7 @@ export const libs: Lib[] = [
 			text: 'Dev Version',
 			url: 'https://github.com/Discord4J/Discord4J/issues/958'
 		},
-		guildStickers: {
-			text: 'Has a PR',
-			url: 'https://github.com/Discord4J/Discord4J/pull/1055'
-		},
+		guildStickers: 'Dev Version',
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
 		scheduledEvents: {
@@ -541,14 +538,8 @@ export const libs: Lib[] = [
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
 		scheduledEvents: 'No',
-		timeouts: {
-			text: 'Has a PR',
-			url: 'https://github.com/Javacord/Javacord/pull/948'
-		},
-		modals: {
-			text: 'Has a PR',
-			url: 'https://github.com/Javacord/Javacord/pull/962'
-		},
+		timeouts: 'Dev Version',
+		modals: 'Dev Version',
 		permsv2: {
 			text: 'Has a PR',
 			url: 'https://github.com/Javacord/Javacord/pull/1004'
