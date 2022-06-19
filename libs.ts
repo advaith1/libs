@@ -521,7 +521,10 @@ export const libs: Lib[] = [
 		timeouts: 'Yes',
 		modals: 'Yes',
 		permsv2: 'No',
-		automod: 'No',
+		automod: {
+			text: 'Has a PR',
+			url: 'https://github.com/Discord4J/Discord4J/pull/1074'
+		},
 		localization: 'No'
 	},
 	{
@@ -685,7 +688,10 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/abalabahaha/eris/pull/1372'
 		},
-		automod: 'No',
+		automod: {
+			text: 'Has a PR',
+			url: 'https://github.com/abalabahaha/eris/pull/1390'
+		},
 		localization: 'No'
 	},
 	{
@@ -911,7 +917,10 @@ export const libs: Lib[] = [
 		timeouts: 'Dev Version',
 		modals: 'Dev Version',
 		permsv2: 'Dev Version',
-		automod: 'No',
+		automod: {
+			text: 'Has a PR',
+			url: 'https://github.com/Rapptz/discord.py/pull/8159'
+		},
 		localization: 'No'
 	},
 	{
@@ -1118,7 +1127,10 @@ export const libs: Lib[] = [
 		timeouts: 'Yes',
 		modals: 'Yes',
 		permsv2: 'Yes',
-		automod: 'No',
+		automod: {
+			text: 'Has a PR',
+			url: 'https://github.com/discorb-lib/discorb/pull/9'
+		},
 		localization: 'Yes'
 	},
 	{
