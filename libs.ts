@@ -15,14 +15,29 @@ export const libs: Lib[] = [
 		buttons: 'Yes',
 		selectMenus: 'Yes',
 		threads: 'Yes',
-		guildStickers: 'No',
+		guildStickers: {
+			text: 'Has a PR',
+			url: 'https://github.com/Cogmasters/concord/pull/74'
+		},
 		contextMenus: 'Yes',
-		autocomplete: 'No',
-		scheduledEvents: 'No',
+		autocomplete: {
+			text: 'Has a PR',
+			url: 'https://github.com/Cogmasters/concord/pull/74'
+		},
+		scheduledEvents: {
+			text: 'Has a PR',
+			url: 'https://github.com/Cogmasters/concord/pull/74'
+		},
 		timeouts: 'Yes',
-		modals: 'No',
+		modals: {
+			text: 'Has a PR',
+			url: 'https://github.com/Cogmasters/concord/pull/74'
+		},
 		permsv2: 'No',
-		automod: 'No',
+		automod: {
+			text: 'Has a PR',
+			url: 'https://github.com/Cogmasters/concord/pull/74'
+		},
 		localization: 'No'
 	},
 	{
