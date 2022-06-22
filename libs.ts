@@ -124,6 +124,26 @@ export const libs: Lib[] = [
 		localization: 'Yes'
 	},
 	{
+		name: 'DiscordCoreAPI',
+		url: 'https://discordcoreapi.com',
+		language: 'C++',
+		apiVer: 10,
+		gwVer: 10,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'Yes',
+		autocomplete: 'Yes',
+		scheduledEvents: 'Yes',
+		timeouts: 'Yes',
+		modals: 'Yes',
+		permsv2: 'Yes',
+		automod: 'Yes',
+		localization: 'Yes'
+	},
+	{
 		name: 'Remora.Discord',
 		url: 'https://github.com/Nihlus/Remora.Discord',
 		language: 'C#',
