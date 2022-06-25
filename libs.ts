@@ -1043,10 +1043,7 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/hikari-py/hikari/pull/1002'
 		},
-		permsv2: {
-			text: 'Has a PR',
-			url: 'https://github.com/hikari-py/hikari/pull/1148'
-		},
+		permsv2: 'Yes',
 		automod: 'No',
 		localization: {
 			text: 'Has a PR',
