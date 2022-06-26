@@ -427,7 +427,10 @@ export const libs: Lib[] = [
 		timeouts: 'Yes',
 		modals: 'Yes',
 		permsv2: 'Yes',
-		automod: 'No',
+		automod: {
+			text: 'Has a PR',
+			url: 'https://github.com/disgoorg/disgo/pull/167'
+		},
 		localization: 'Yes'
 	},
 	{
@@ -608,7 +611,10 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/DV8FromTheWorld/JDA/pull/2113'
 		},
-		automod: 'No',
+		automod: {
+			text: 'Has a PR',
+			url: 'https://github.com/DV8FromTheWorld/JDA/pull/2159'
+		},
 		localization: {
 			text: 'Has a PR',
 			url: 'https://github.com/DV8FromTheWorld/JDA/pull/2090'
