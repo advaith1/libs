@@ -604,10 +604,7 @@ export const libs: Lib[] = [
 		},
 		timeouts: 'Dev Version',
 		modals: 'Dev Version',
-		permsv2: {
-			text: 'Has a PR',
-			url: 'https://github.com/DV8FromTheWorld/JDA/pull/2113'
-		},
+		permsv2: 'Dev Version',
 		automod: 'No',
 		localization: {
 			text: 'Has a PR',
