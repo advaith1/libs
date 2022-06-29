@@ -681,8 +681,8 @@ export const libs: Lib[] = [
 		name: 'droff',
 		url: 'https://github.com/tim-smart/droff',
 		language: 'JavaScript',
-		apiVer: 9,
-		gwVer: 9,
+		apiVer: 10,
+		gwVer: 10,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
@@ -694,7 +694,7 @@ export const libs: Lib[] = [
 		timeouts: 'Yes',
 		modals: 'Yes',
 		permsv2: 'Yes',
-		automod: 'No',
+		automod: 'Yes',
 		localization: 'Yes'
 	},
 	{
