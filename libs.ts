@@ -607,10 +607,7 @@ export const libs: Lib[] = [
 		},
 		timeouts: 'Dev Version',
 		modals: 'Dev Version',
-		permsv2: {
-			text: 'Has a PR',
-			url: 'https://github.com/DV8FromTheWorld/JDA/pull/2113'
-		},
+		permsv2: 'Dev Version',
 		automod: {
 			text: 'Has a PR',
 			url: 'https://github.com/DV8FromTheWorld/JDA/pull/2159'
@@ -687,8 +684,8 @@ export const libs: Lib[] = [
 		name: 'droff',
 		url: 'https://github.com/tim-smart/droff',
 		language: 'JavaScript',
-		apiVer: 9,
-		gwVer: 9,
+		apiVer: 10,
+		gwVer: 10,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
@@ -700,7 +697,7 @@ export const libs: Lib[] = [
 		timeouts: 'Yes',
 		modals: 'Yes',
 		permsv2: 'Yes',
-		automod: 'No',
+		automod: 'Yes',
 		localization: 'Yes'
 	},
 	{
