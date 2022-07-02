@@ -427,10 +427,7 @@ export const libs: Lib[] = [
 		timeouts: 'Yes',
 		modals: 'Yes',
 		permsv2: 'Yes',
-		automod: {
-			text: 'Has a PR',
-			url: 'https://github.com/disgoorg/disgo/pull/167'
-		},
+		automod: 'Yes',
 		localization: 'Yes'
 	},
 	{
