@@ -908,12 +908,9 @@ export const libs: Lib[] = [
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
 		modals: 'Yes',
-		permsv2: 'Dev Version',
-		automod: {
-			text: 'Has a PR',
-			url: 'https://github.com/discord-php/DiscordPHP/pull/821'
-		},
-		localization: 'Dev Version'
+		permsv2: 'Yes',
+		automod: 'Yes',
+		localization: 'Yes'
 	},
 	{
 		name: 'RestCord',
