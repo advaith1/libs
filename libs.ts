@@ -407,7 +407,7 @@ export const libs: Lib[] = [
 		timeouts: 'Yes',
 		modals: 'Yes',
 		permsv2: 'Dev Version',
-		automod: 'No',
+		automod: 'Dev Version',
 		localization: 'Yes'
 	},
 	{
