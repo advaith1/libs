@@ -24,7 +24,7 @@ const versionColors = {
 }
 
 const version = (version: number | string) =>
-	<td className={versionColors[version] ?? (typeof version === 'string' && version.startsWith('9')) ? 'green' : 'yellow'}>{version}</td>
+	<td className={versionColors[version] ?? ((typeof version === 'string' && version.startsWith('9')) ? 'green' : 'yellow')}>{version}</td>
 
 export default function Home() {
 	return (
