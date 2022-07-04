@@ -164,6 +164,26 @@ export const libs: Lib[] = [
 		localization: 'Yes'
 	},
 	{
+		name: 'NetCord',
+		url: 'https://github.com/KubaZ2/NetCord',
+		language: 'C#',
+		apiVer: '10',
+		gwVer: '10',
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'Yes',
+		autocomplete: 'Yes',
+		scheduledEvents: 'Yes',
+		timeouts: 'Yes',
+		modals: 'Yes',
+		permsv2: 'Yes',
+		automod: 'Yes',
+		localization: 'Yes'
+	},
+	{
 		name: 'aegis.cpp 🪦',
 		url: 'https://github.com/zeroxs/aegis.cpp',
 		language: 'C++',
