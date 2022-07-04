@@ -427,10 +427,7 @@ export const libs: Lib[] = [
 		timeouts: 'Yes',
 		modals: 'Yes',
 		permsv2: 'Yes',
-		automod: {
-			text: 'Has a PR',
-			url: 'https://github.com/disgoorg/disgo/pull/167'
-		},
+		automod: 'Yes',
 		localization: 'Yes'
 	},
 	{
@@ -955,10 +952,7 @@ export const libs: Lib[] = [
 		timeouts: 'Dev Version',
 		modals: 'Dev Version',
 		permsv2: 'Dev Version',
-		automod: {
-			text: 'Has a PR',
-			url: 'https://github.com/Rapptz/discord.py/pull/8159'
-		},
+		automod: 'Dev Version',
 		localization: 'No'
 	},
 	{
