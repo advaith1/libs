@@ -609,10 +609,7 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/DV8FromTheWorld/JDA/pull/2159'
 		},
-		localization: {
-			text: 'Has a PR',
-			url: 'https://github.com/DV8FromTheWorld/JDA/pull/2090'
-		}
+		localization: 'Dev Version'
 	},
 	{
 		name: 'Detritus',
