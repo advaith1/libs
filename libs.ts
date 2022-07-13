@@ -1126,7 +1126,7 @@ export const libs: Lib[] = [
 		permsv2: 'Yes',
 		automod: {
 			text: 'Has a PR',
-			url: 'https://github.com/nextcord/nextcord/pull/682'
+			url: 'https://github.com/nextcord/nextcord/pull/740'
 		},
 		localization: 'Yes'
 	},
