@@ -1147,10 +1147,7 @@ export const libs: Lib[] = [
 		timeouts: 'Yes',
 		modals: 'Yes',
 		permsv2: 'Yes',
-		automod: {
-			text: 'Has a PR',
-			url: 'https://github.com/Pycord-Development/pycord/pull/1316'
-		},
+		automod: 'Yes',
 		localization: 'Yes'
 	},
 	{
