@@ -985,8 +985,11 @@ export const libs: Lib[] = [
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
 		modals: 'Yes',
-		permsv2: 'No',
-		automod: 'No',
+		permsv2: 'Yes',
+		automod: {
+		    text: 'Has a PR',
+		    url: 'https://github.com/DisnakeDev/disnake/pull/530'
+		},
 		localization: 'Yes'
 	},
 	{
