@@ -609,22 +609,22 @@ export const libs: Lib[] = [
 		name: 'JDA',
 		url: 'https://github.com/DV8FromTheWorld/JDA',
 		language: 'Java',
-		apiVer: '8 stable, 10 dev',
-		gwVer: '8 stable, 10 dev',
+		apiVer: 10,
+		gwVer: 10,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
-		threads: 'Dev Version',
-		guildStickers: 'Dev Version',
+		threads: 'Yes',
+		guildStickers: 'Yes',
 		contextMenus: 'Dev Version',
-		autocomplete: 'Dev Version',
+		autocomplete: 'Yes',
 		scheduledEvents: {
 			text: 'Has a PR',
 			url: 'https://github.com/DV8FromTheWorld/JDA/pull/2047'
 		},
 		timeouts: 'Yes',
 		modals: 'Yes',
-		permsv2: 'Dev Version',
+		permsv2: 'Yes',
 		automod: {
 			text: 'Has a PR',
 			url: 'https://github.com/DV8FromTheWorld/JDA/pull/2159'
