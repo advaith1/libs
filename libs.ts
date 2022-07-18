@@ -620,16 +620,16 @@ export const libs: Lib[] = [
 		autocomplete: 'Dev Version',
 		scheduledEvents: {
 			text: 'Has a PR',
-			url: 'https://github.com/DV8FromTheWorld/JDA/pull/1905'
+			url: 'https://github.com/DV8FromTheWorld/JDA/pull/2047'
 		},
-		timeouts: 'Dev Version',
-		modals: 'Dev Version',
+		timeouts: 'Yes',
+		modals: 'Yes',
 		permsv2: 'Dev Version',
 		automod: {
 			text: 'Has a PR',
 			url: 'https://github.com/DV8FromTheWorld/JDA/pull/2159'
 		},
-		localization: 'Dev Version'
+		localization: 'Yes'
 	},
 	{
 		name: 'Detritus',
