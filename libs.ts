@@ -598,10 +598,7 @@ export const libs: Lib[] = [
 		scheduledEvents: 'No',
 		timeouts: 'Dev Version',
 		modals: 'Dev Version',
-		permsv2: {
-			text: 'Has a PR',
-			url: 'https://github.com/Javacord/Javacord/pull/1004'
-		},
+		permsv2: 'Yes',
 		automod: 'No',
 		localization: 'Dev Version'
 	},
@@ -1081,10 +1078,7 @@ export const libs: Lib[] = [
 		timeouts: 'Yes',
 		modals: 'Yes',
 		permsv2: 'Yes',
-		automod: {
-			text: 'Has a PR',
-			url: 'https://github.com/interactions-py/library/pull/768'
-		},
+		automod: 'Dev Version',
 		localization: 'Yes'
 	},
 	{
@@ -1104,10 +1098,7 @@ export const libs: Lib[] = [
 		timeouts: 'Yes',
 		modals: 'Yes',
 		permsv2: 'Yes',
-		automod: {
-			text: 'Has a PR',
-			url: 'https://github.com/NAFTeam/NAFF/pull/514'
-		},
+		automod: 'Yes',
 		localization: 'Yes'
 	},
 	{
@@ -1170,10 +1161,7 @@ export const libs: Lib[] = [
 		timeouts: 'Yes',
 		modals: 'Yes',
 		permsv2: 'Yes',
-		automod: {
-			text: 'Has a PR',
-			url: 'https://github.com/discorb-lib/discorb/pull/9'
-		},
+		automod: 'Yes',
 		localization: 'Yes'
 	},
 	{
@@ -1235,7 +1223,7 @@ export const libs: Lib[] = [
 		permsv2: 'Yes',
 		automod: {
 			text: 'Has a PR',
-			url: 'https://github.com/serenity-rs/serenity/pull/1958'
+			url: 'https://github.com/serenity-rs/serenity/pull/2035'
 		},
 		localization: 'Dev Version'
 	},
