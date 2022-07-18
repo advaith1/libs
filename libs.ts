@@ -652,8 +652,8 @@ export const libs: Lib[] = [
 		name: 'discord.js',
 		url: 'https://github.com/discordjs/discord.js',
 		language: 'JavaScript',
-		apiVer: '9 stable, 10 dev',
-		gwVer: '9 stable, 10 dev',
+		apiVer: 10,
+		gwVer: 10,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
@@ -664,7 +664,7 @@ export const libs: Lib[] = [
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
 		modals: 'Yes',
-		permsv2: 'Dev Version',
+		permsv2: 'Yes',
 		automod: {
 			text: 'Has a PR',
 			url: 'https://github.com/discordjs/discord.js/pull/7938'
