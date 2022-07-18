@@ -160,7 +160,10 @@ export const libs: Lib[] = [
 		timeouts: 'Yes',
 		modals: 'Yes',
 		permsv2: 'Yes',
-		automod: 'No',
+		automod: {
+			text: 'Has a PR',
+			url: 'https://github.com/Nihlus/Remora.Discord/pull/203'
+		},
 		localization: 'Yes'
 	},
 	{
