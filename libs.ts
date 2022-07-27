@@ -1211,8 +1211,8 @@ export const libs: Lib[] = [
 		name: 'Serenity',
 		url: 'https://github.com/serenity-rs/serenity',
 		language: 'Rust',
-		apiVer: 9,
-		gwVer: 9,
+		apiVer: 10,
+		gwVer: 10,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
@@ -1220,15 +1220,12 @@ export const libs: Lib[] = [
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
-		scheduledEvents: 'No',
+		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
-		modals: 'Dev Version',
+		modals: 'Yes',
 		permsv2: 'Yes',
-		automod: {
-			text: 'Has a PR',
-			url: 'https://github.com/serenity-rs/serenity/pull/2035'
-		},
-		localization: 'Dev Version'
+		automod: 'Yes',
+		localization: 'Yes'
 	},
 	{
 		name: 'Twilight',
@@ -1247,7 +1244,7 @@ export const libs: Lib[] = [
 		timeouts: 'Yes',
 		modals: 'Yes',
 		permsv2: 'Yes',
-		automod: 'No',
+		automod: 'Yes',
 		localization: 'Yes'
 	},
 	{
