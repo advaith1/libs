@@ -100,7 +100,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: {
 			text: 'Has a PR',
-			url: 'https://github.com/discord-net/Discord.Net/pull/2211'
+			url: 'https://github.com/discord-net/Discord.Net/pull/2395'
 		}
 	},
 	{
@@ -620,7 +620,7 @@ export const libs: Lib[] = [
 		autocomplete: 'Dev Version',
 		scheduledEvents: {
 			text: 'Has a PR',
-			url: 'https://github.com/DV8FromTheWorld/JDA/pull/1905'
+			url: 'https://github.com/DV8FromTheWorld/JDA/pull/2047'
 		},
 		timeouts: 'Dev Version',
 		modals: 'Dev Version',
