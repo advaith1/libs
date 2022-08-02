@@ -990,7 +990,7 @@ export const libs: Lib[] = [
 		localization: 'Yes'
 	},
 	{
-		name: 'enhanced-discord.py 🍴',
+		name: 'enhanced-discord.py 🍴🪦',
 		url: 'https://github.com/iDevision/enhanced-discord.py',
 		language: 'Python',
 		apiVer: 8,
