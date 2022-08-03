@@ -6,6 +6,26 @@ import { Lib } from "./lib";
 
 export const libs: Lib[] = [
 	{
+		name: 'Biscuit',
+		url: 'https://github.com/oasisjs/biscuit',
+		language: 'JavaScript',
+		apiVer: 10,
+		gwVer: 10,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'Yes',
+		autocomplete: 'Yes',
+		scheduledEvents: 'Yes',
+		timeouts: 'Yes',
+		modals: 'Yes',
+		permsv2: 'Yes',
+		automod: 'Dev Version',
+		localization: 'Yes'
+	},
+	{
 		name: 'Concord',
 		url: 'https://github.com/Cogmasters/concord',
 		language: 'C',
@@ -1310,4 +1330,4 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'No'
 	}
-]
+];
