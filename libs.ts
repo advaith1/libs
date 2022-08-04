@@ -1020,10 +1020,7 @@ export const libs: Lib[] = [
 		selectMenus: 'Yes',
 		threads: 'Yes',
 		guildStickers: 'Yes',
-		contextMenus: {
-			text: 'Has a PR',
-			url: 'https://github.com/iDevision/enhanced-discord.py/pull/105'
-		},
+		contextMenus: 'No',
 		autocomplete: 'Yes',
 		scheduledEvents: 'No',
 		timeouts: 'Yes',
@@ -1141,10 +1138,7 @@ export const libs: Lib[] = [
 		timeouts: 'Yes',
 		modals: 'Yes',
 		permsv2: 'Yes',
-		automod: {
-			text: 'Has a PR',
-			url: 'https://github.com/nextcord/nextcord/pull/740'
-		},
+		automod: 'Dev Version',
 		localization: 'Yes'
 	},
 	{
