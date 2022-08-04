@@ -632,6 +632,26 @@ export const libs: Lib[] = [
 		localization: 'Dev Version'
 	},
 	{
+		name: 'Biscuit',
+		url: 'https://github.com/oasisjs/biscuit',
+		language: 'JavaScript',
+		apiVer: 10,
+		gwVer: 10,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'Yes',
+		autocomplete: 'Yes',
+		scheduledEvents: 'Yes',
+		timeouts: 'Yes',
+		modals: 'Yes',
+		permsv2: 'Yes',
+		automod: 'Yes',
+		localization: 'Yes'
+	},
+	{
 		name: 'Detritus',
 		url: 'https://github.com/detritusjs/client',
 		language: 'JavaScript',
