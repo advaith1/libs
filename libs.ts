@@ -987,7 +987,7 @@ export const libs: Lib[] = [
 		modals: 'Dev Version',
 		permsv2: 'Dev Version',
 		automod: 'Dev Version',
-		localization: 'No'
+		localization: 'Dev Version'
 	},
 	{
 		name: 'disnake 🍴',
