@@ -632,6 +632,26 @@ export const libs: Lib[] = [
 		localization: 'Yes'
 	},
 	{
+		name: 'Biscuit',
+		url: 'https://github.com/oasisjs/biscuit',
+		language: 'JavaScript',
+		apiVer: 10,
+		gwVer: 10,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'Yes',
+		autocomplete: 'Yes',
+		scheduledEvents: 'Yes',
+		timeouts: 'Yes',
+		modals: 'Yes',
+		permsv2: 'Yes',
+		automod: 'Yes',
+		localization: 'Yes'
+	},
+	{
 		name: 'Detritus',
 		url: 'https://github.com/detritusjs/client',
 		language: 'JavaScript',
@@ -990,7 +1010,7 @@ export const libs: Lib[] = [
 		localization: 'Yes'
 	},
 	{
-		name: 'enhanced-discord.py 🍴',
+		name: 'enhanced-discord.py 🍴🪦',
 		url: 'https://github.com/iDevision/enhanced-discord.py',
 		language: 'Python',
 		apiVer: 8,
@@ -1000,10 +1020,7 @@ export const libs: Lib[] = [
 		selectMenus: 'Yes',
 		threads: 'Yes',
 		guildStickers: 'Yes',
-		contextMenus: {
-			text: 'Has a PR',
-			url: 'https://github.com/iDevision/enhanced-discord.py/pull/105'
-		},
+		contextMenus: 'No',
 		autocomplete: 'Yes',
 		scheduledEvents: 'No',
 		timeouts: 'Yes',
@@ -1121,10 +1138,7 @@ export const libs: Lib[] = [
 		timeouts: 'Yes',
 		modals: 'Yes',
 		permsv2: 'Yes',
-		automod: {
-			text: 'Has a PR',
-			url: 'https://github.com/nextcord/nextcord/pull/740'
-		},
+		automod: 'Dev Version',
 		localization: 'Yes'
 	},
 	{
