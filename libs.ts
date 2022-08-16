@@ -337,8 +337,8 @@ export const libs: Lib[] = [
 		name: 'nyxx',
 		url: 'https://github.com/nyxx-discord/nyxx',
 		language: 'Dart',
-		apiVer: 9,
-		gwVer: 9,
+		apiVer: 10,
+		gwVer: 10,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
@@ -349,9 +349,12 @@ export const libs: Lib[] = [
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
 		modals: 'Yes',
-		permsv2: 'No',
-		automod: 'No',
-		localization: 'No'
+		permsv2: 'Yes',
+		automod: {
+			text: 'Has a PR',
+			url: 'https://github.com/nyxx-discord/nyxx/pull/353'
+		},
+		localization: 'Yes'
 	},
 	{
 		name: 'coxir',
