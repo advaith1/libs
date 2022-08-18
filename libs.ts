@@ -432,8 +432,8 @@ export const libs: Lib[] = [
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
 		modals: 'Yes',
-		permsv2: 'Dev Version',
-		automod: 'Dev Version',
+		permsv2: 'Yes',
+		automod: 'Yes',
 		localization: 'Yes'
 	},
 	{
