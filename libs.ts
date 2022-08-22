@@ -350,10 +350,7 @@ export const libs: Lib[] = [
 		timeouts: 'Yes',
 		modals: 'Yes',
 		permsv2: 'Yes',
-		automod: {
-			text: 'Has a PR',
-			url: 'https://github.com/nyxx-discord/nyxx/pull/353'
-		},
+		automod: 'Dev Version',
 		localization: 'Yes'
 	},
 	{
