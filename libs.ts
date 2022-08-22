@@ -569,7 +569,7 @@ export const libs: Lib[] = [
 			text: 'Dev Version',
 			url: 'https://github.com/Discord4J/Discord4J/issues/958'
 		},
-		guildStickers: 'Dev Version',
+		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
 		scheduledEvents: {
