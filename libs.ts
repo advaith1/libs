@@ -337,8 +337,8 @@ export const libs: Lib[] = [
 		name: 'nyxx',
 		url: 'https://github.com/nyxx-discord/nyxx',
 		language: 'Dart',
-		apiVer: 9,
-		gwVer: 9,
+		apiVer: 10,
+		gwVer: 10,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
@@ -349,9 +349,9 @@ export const libs: Lib[] = [
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
 		modals: 'Yes',
-		permsv2: 'No',
-		automod: 'No',
-		localization: 'No'
+		permsv2: 'Yes',
+		automod: 'Dev Version',
+		localization: 'Yes'
 	},
 	{
 		name: 'coxir',
@@ -429,8 +429,8 @@ export const libs: Lib[] = [
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
 		modals: 'Yes',
-		permsv2: 'Dev Version',
-		automod: 'Dev Version',
+		permsv2: 'Yes',
+		automod: 'Yes',
 		localization: 'Yes'
 	},
 	{
@@ -569,7 +569,7 @@ export const libs: Lib[] = [
 			text: 'Dev Version',
 			url: 'https://github.com/Discord4J/Discord4J/issues/958'
 		},
-		guildStickers: 'Dev Version',
+		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
 		scheduledEvents: {
@@ -993,21 +993,21 @@ export const libs: Lib[] = [
 		name: 'discord.py',
 		url: 'https://github.com/Rapptz/discord.py',
 		language: 'Python',
-		apiVer: '7 stable, 10 dev',
-		gwVer: '6 stable, 10 dev',
-		slashCommands: 'Dev Version',
-		buttons: 'Dev Version',
-		selectMenus: 'Dev Version',
-		threads: 'Dev Version',
-		guildStickers: 'Dev Version',
-		contextMenus: 'Dev Version',
-		autocomplete: 'Dev Version',
-		scheduledEvents: 'Dev Version',
-		timeouts: 'Dev Version',
-		modals: 'Dev Version',
-		permsv2: 'Dev Version',
-		automod: 'Dev Version',
-		localization: 'No'
+		apiVer: '10',
+		gwVer: '10',
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'Yes',
+		autocomplete: 'Yes',
+		scheduledEvents: 'Yes',
+		timeouts: 'Yes',
+		modals: 'Yes',
+		permsv2: 'Yes',
+		automod: 'Yes',
+		localization: 'Yes'
 	},
 	{
 		name: 'disnake 🍴',
@@ -1118,7 +1118,7 @@ export const libs: Lib[] = [
 		timeouts: 'Yes',
 		modals: 'Yes',
 		permsv2: 'Yes',
-		automod: 'Dev Version',
+		automod: 'Yes',
 		localization: 'Yes'
 	},
 	{
@@ -1158,7 +1158,7 @@ export const libs: Lib[] = [
 		timeouts: 'Yes',
 		modals: 'Yes',
 		permsv2: 'Yes',
-		automod: 'Dev Version',
+		automod: 'Yes',
 		localization: 'Yes'
 	},
 	{
