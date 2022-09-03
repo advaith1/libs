@@ -1151,7 +1151,7 @@ export const libs: Lib[] = [
 		url: 'https://github.com/discorb-lib/discorb',
 		language: 'Ruby',
 		apiVer: 10,
-		gwVer: '9 or 10',
+		gwVer: 10,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
