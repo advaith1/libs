@@ -9,36 +9,21 @@ export const libs: Lib[] = [
 		name: 'Concord',
 		url: 'https://github.com/Cogmasters/concord',
 		language: 'C',
-		apiVer: 9,
-		gwVer: 9,
+		apiVer: 10,
+		gwVer: 10,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
 		threads: 'Yes',
-		guildStickers: {
-			text: 'Has a PR',
-			url: 'https://github.com/Cogmasters/concord/pull/74'
-		},
+		guildStickers: 'Yes',
 		contextMenus: 'Yes',
-		autocomplete: {
-			text: 'Has a PR',
-			url: 'https://github.com/Cogmasters/concord/pull/74'
-		},
-		scheduledEvents: {
-			text: 'Has a PR',
-			url: 'https://github.com/Cogmasters/concord/pull/74'
-		},
+		autocomplete: 'Yes',
+		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
-		modals: {
-			text: 'Has a PR',
-			url: 'https://github.com/Cogmasters/concord/pull/74'
-		},
-		permsv2: 'No',
-		automod: {
-			text: 'Has a PR',
-			url: 'https://github.com/Cogmasters/concord/pull/74'
-		},
-		localization: 'No'
+		modals: 'Yes',
+		permsv2: 'Yes',
+		automod: 'Yes',
+		localization: 'Yes'
 	},
 	{
 		name: 'Orca',
