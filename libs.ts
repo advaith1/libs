@@ -842,10 +842,7 @@ export const libs: Lib[] = [
 		timeouts: 'Yes',
 		modals: 'Yes',
 		permsv2: 'Yes',
-		automod: {
-			text: 'Has a PR',
-			url: 'https://github.com/kordlib/kord/pull/647'
-		},
+		automod: 'Dev Version',
 		localization: 'Yes'
 	},
 	{
