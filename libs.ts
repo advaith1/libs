@@ -83,10 +83,7 @@ export const libs: Lib[] = [
 		modals: 'Yes',
 		permsv2: 'Yes',
 		automod: 'No',
-		localization: {
-			text: 'Has a PR',
-			url: 'https://github.com/discord-net/Discord.Net/pull/2395'
-		}
+		localization: 'Yes'
 	},
 	{
 		name: 'DSharpPlus',
@@ -130,7 +127,7 @@ export const libs: Lib[] = [
 	},
 	{
 		name: 'Remora.Discord',
-		url: 'https://github.com/Nihlus/Remora.Discord',
+		url: 'https://github.com/Remora/Remora.Discord',
 		language: 'C#',
 		apiVer: 10,
 		gwVer: 10,
@@ -147,7 +144,7 @@ export const libs: Lib[] = [
 		permsv2: 'Yes',
 		automod: {
 			text: 'Has a PR',
-			url: 'https://github.com/Nihlus/Remora.Discord/pull/203'
+			url: 'https://github.com/Remora/Remora.Discord/pull/203'
 		},
 		localization: 'Yes'
 	},
@@ -382,21 +379,21 @@ export const libs: Lib[] = [
 		name: 'arikawa',
 		url: 'https://github.com/diamondburned/arikawa',
 		language: 'Go',
-		apiVer: '8 stable, 9 dev',
-		gwVer: '8 stable, 9 dev',
-		slashCommands: 'Dev Version',
-		buttons: 'Dev Version',
-		selectMenus: 'Dev Version',
-		threads: 'No',
+		apiVer: 9,
+		gwVer: 9,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
 		guildStickers: 'No',
-		contextMenus: 'Dev Version',
-		autocomplete: 'Dev Version',
-		scheduledEvents: 'No',
-		timeouts: 'Dev Version',
-		modals: 'Dev Version',
-		permsv2: 'Dev Version',
+		contextMenus: 'Yes',
+		autocomplete: 'Yes',
+		scheduledEvents: 'Yes',
+		timeouts: 'Yes',
+		modals: 'Yes',
+		permsv2: 'Yes',
 		automod: 'No',
-		localization: 'Dev Version'
+		localization: 'Yes'
 	},
 	{
 		name: 'DiscordGo',
@@ -450,10 +447,10 @@ export const libs: Lib[] = [
 		threads: 'Yes',
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
-		autocomplete: 'No',
+		autocomplete: 'Dev Version',
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
-		modals: 'No',
+		modals: 'Dev Version',
 		permsv2: 'Yes',
 		automod: 'No',
 		localization: 'Yes'
@@ -482,18 +479,18 @@ export const libs: Lib[] = [
 		name: 'Calamity',
 		url: 'https://github.com/simmsb/calamity',
 		language: 'Haskell',
-		apiVer: 9,
+		apiVer: 10,
 		gwVer: 9,
-		slashCommands: 'No',
+		slashCommands: 'Yes',
 		buttons: 'Yes',
-		selectMenus: 'No',
+		selectMenus: 'Yes',
 		threads: 'No',
 		guildStickers: 'No',
 		contextMenus: 'No',
-		autocomplete: 'No',
+		autocomplete: 'Yes',
 		scheduledEvents: 'No',
 		timeouts: 'No',
-		modals: 'No',
+		modals: 'Yes',
 		permsv2: 'No',
 		automod: 'No',
 		localization: 'No'
@@ -514,9 +511,9 @@ export const libs: Lib[] = [
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
 		modals: 'Yes',
-		permsv2: 'No',
+		permsv2: 'Yes',
 		automod: 'No',
-		localization: 'No'
+		localization: 'Yes'
 	},
 	{
 		name: 'catnip',
@@ -584,11 +581,11 @@ export const libs: Lib[] = [
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
 		scheduledEvents: 'No',
-		timeouts: 'Dev Version',
-		modals: 'Dev Version',
+		timeouts: 'Yes',
+		modals: 'Yes',
 		permsv2: 'Yes',
 		automod: 'No',
-		localization: 'Dev Version'
+		localization: 'Yes'
 	},
 	{
 		name: 'JDA',
@@ -683,8 +680,8 @@ export const libs: Lib[] = [
 		name: 'Discordeno',
 		url: 'https://github.com/discordeno/discordeno',
 		language: 'JavaScript',
-		apiVer: 9,
-		gwVer: 9,
+		apiVer: 10,
+		gwVer: 10,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
@@ -692,12 +689,12 @@ export const libs: Lib[] = [
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
-		scheduledEvents: 'Dev Version',
+		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
-		modals: 'Dev Version',
-		permsv2: 'Dev Version',
-		automod: 'Dev Version',
-		localization: 'Dev Version'
+		modals: 'Yes',
+		permsv2: 'Yes',
+		automod: 'Yes',
+		localization: 'Yes'
 	},
 	{
 		name: 'droff',
@@ -795,7 +792,7 @@ export const libs: Lib[] = [
 		buttons: 'Yes',
 		selectMenus: 'Yes',
 		threads: 'Yes',
-		guildStickers: 'No',
+		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'No',
 		scheduledEvents: 'No',
@@ -889,21 +886,21 @@ export const libs: Lib[] = [
 		name: 'Dimscord',
 		url: 'https://github.com/krisppurg/dimscord',
 		language: 'Nim',
-		apiVer: '6, 8, and 9',
-		gwVer: '8 and 9',
+		apiVer: 10,
+		gwVer: 10,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
 		threads: 'Yes',
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
-		autocomplete: 'Dev Version',
-		scheduledEvents: 'No',
-		timeouts: 'No',
-		modals: 'No',
-		permsv2: 'No',
-		automod: 'No',
-		localization: 'No'
+		autocomplete: 'Yes',
+		scheduledEvents: 'Yes',
+		timeouts: 'Yes',
+		modals: 'Yes',
+		permsv2: 'Yes',
+		automod: 'Yes',
+		localization: 'Yes'
 	},
 	{
 		name: 'DiscordPHP',
@@ -1055,10 +1052,7 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/hikari-py/hikari/pull/1220'
 		},
-		localization: {
-			text: 'Has a PR',
-			url: 'https://github.com/hikari-py/hikari/pull/1141'
-		}
+		localization: 'Dev Version'
 	},
 	{
 		name: 'interactions.py',
@@ -1279,9 +1273,9 @@ export const libs: Lib[] = [
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
 		modals: 'Yes',
-		permsv2: 'No',
+		permsv2: 'Dev Version',
 		automod: 'No',
-		localization: 'No'
+		localization: 'Dev Version'
 	},
 	{
 		name: 'SwiftDiscord',
