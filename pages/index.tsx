@@ -146,7 +146,7 @@ export default function Home() {
 					text-align: center !important;
 				}
 
-				table {
+				table, tr > :first-child {
 					background: #32353b;
 				}
 
@@ -162,6 +162,29 @@ export default function Home() {
 				
 				h2 a {
 					color: white;
+				}
+
+				tr > :first-child {
+					position: sticky;
+					left: 0;
+				}
+
+				tr > :first-child:after,
+				tr > :first-child:before {
+					content: '';
+					position: absolute;
+					top: 0;
+					height: 100%;
+				}
+
+				tr > :first-child:before {
+					left: -0.6px;
+					border-left: 1px solid #4f545c;
+				}
+
+				tr > :first-child:after {
+					right: -1px;
+					border-right: 1px solid #4f545c;
 				}
 			`}</style>
 
