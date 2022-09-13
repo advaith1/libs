@@ -763,6 +763,26 @@ export const libs: Lib[] = [
 		localization: 'No'
 	},
 	{
+		name: 'Oceanic',
+		url: 'https://github.com/OceanicJS/Oceanic',
+		language: 'JavaScript',
+		apiVer: 10,
+		gwVer: 10,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'Yes',
+		autocomplete: 'Yes',
+		scheduledEvents: 'Yes',
+		timeouts: 'Yes',
+		modals: 'Yes',
+		permsv2: 'Yes',
+		automod: 'Yes',
+		localization: 'Yes'
+	},
+	{
 		name: 'SnowTransfer',
 		url: 'https://github.com/DasWolke/SnowTransfer',
 		language: 'JavaScript',
