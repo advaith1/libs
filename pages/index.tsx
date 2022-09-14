@@ -63,6 +63,7 @@ export default function Home() {
 									<th>Perms v2</th>
 									<th>AutoMod</th>
 									<th>Localization</th>
+									<th>Forums</th>
 								</tr>
 							</thead>
 							<tbody>
@@ -84,6 +85,7 @@ export default function Home() {
 										{status(lib.permsv2)}
 										{status(lib.automod)}
 										{status(lib.localization)}
+										{status(lib.forums)}
 									</tr>
 								)}
 							</tbody>
