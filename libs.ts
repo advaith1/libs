@@ -365,7 +365,10 @@ export const libs: Lib[] = [
 		buttons: 'Yes',
 		selectMenus: 'Yes',
 		threads: 'Yes',
-		guildStickers: 'No',
+		guildStickers: {
+			text: 'Has a PR',
+			url: 'https://github.com/Kraigie/nostrum/pull/437'
+		},
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
 		scheduledEvents: 'Yes',
