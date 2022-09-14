@@ -827,7 +827,8 @@ export const libs: Lib[] = [
 		modals: 'Yes',
 		permsv2: 'Yes',
 		automod: 'Yes',
-		localization: 'Yes'
+		localization: 'Yes',
+		forums: 'Yes'
 	},
 	{
 		name: 'SnowTransfer',
