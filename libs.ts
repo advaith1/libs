@@ -210,7 +210,7 @@ export const libs: Lib[] = [
 	},
 	{
 		name: 'DiscordCoreAPI',
-		url: 'https://discordcoreapi.com',
+		url: 'https://github.com/RealTimeChris/DiscordCoreAPI',
 		language: 'C++',
 		apiVer: 10,
 		gwVer: 10,
