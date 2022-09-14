@@ -17,7 +17,8 @@ export interface Lib {
 	scheduledEvents: LinkableString
 	timeouts: LinkableString
 	modals: LinkableString
-	permsv2?: LinkableString
-	automod?: LinkableString
-	localization?: LinkableString
+	permsv2: LinkableString
+	automod: LinkableString
+	localization: LinkableString
+	forums: LinkableString
 }
