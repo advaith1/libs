@@ -1119,10 +1119,7 @@ export const libs: Lib[] = [
 		permsv2: 'Yes',
 		automod: 'Yes',
 		localization: 'Yes',
-		forums: {
-			text: 'Has a PR',
-			url: 'https://github.com/interactions-py/library/pull/766'
-		}
+		forums: 'Dev Version'
 	},
 	{
 		name: 'NAFF',
