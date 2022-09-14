@@ -852,6 +852,27 @@ export const libs: Lib[] = [
 		forums: 'No'
 	},
 	{
+		name: 'Discall',
+		url: 'https://github.com/Discall-Development/Discall',
+		language: 'JavaScript',
+		apiVer: 10,
+		gwVer: 10,
+		slashCommands: 'No',
+		buttons: 'No',
+		selectMenus: 'No',
+		threads: 'Yes',
+		guildStickers: 'No',
+		contextMenus: 'No',
+		autocomplete: 'No',
+		scheduledEvents: 'No',
+		timeouts: 'No',
+		modals: 'No',
+		permsv2: 'No',
+		automod: 'Yes',
+		localization: 'No',
+		forums: 'Partial'
+	},
+	{
 		name: 'Discord.jl',
 		url: 'https://github.com/Xh4H/Discord.jl',
 		language: 'Julia',
