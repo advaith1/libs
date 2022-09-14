@@ -23,7 +23,8 @@ export const libs: Lib[] = [
 		modals: 'Yes',
 		permsv2: 'Yes',
 		automod: 'Yes',
-		localization: 'Yes'
+		localization: 'Yes',
+		forums: 'Partial'
 	},
 	{
 		name: 'Orca',
@@ -43,7 +44,8 @@ export const libs: Lib[] = [
 		modals: 'No',
 		permsv2: 'No',
 		automod: 'No',
-		localization: 'No'
+		localization: 'No',
+		forums: 'No'
 	},
 	{
 		name: 'DisCatSharp',
@@ -63,7 +65,8 @@ export const libs: Lib[] = [
 		modals: 'Yes',
 		permsv2: 'Yes',
 		automod: 'No',
-		localization: 'Yes'
+		localization: 'Yes',
+		forums: 'Dev Version'
 	},
 	{
 		name: 'Discord.Net',
@@ -83,7 +86,8 @@ export const libs: Lib[] = [
 		modals: 'Yes',
 		permsv2: 'Yes',
 		automod: 'No',
-		localization: 'Yes'
+		localization: 'Yes',
+		forums: 'Partial'
 	},
 	{
 		name: 'DSharpPlus',
@@ -103,7 +107,8 @@ export const libs: Lib[] = [
 		modals: 'Yes',
 		permsv2: 'Dev Version',
 		automod: 'No',
-		localization: 'Yes'
+		localization: 'Yes',
+		forums: 'No'
 	},
 	{
 		name: 'NetCord',
@@ -123,7 +128,8 @@ export const libs: Lib[] = [
 		modals: 'Yes',
 		permsv2: 'Yes',
 		automod: 'Yes',
-		localization: 'Yes'
+		localization: 'Yes',
+		forums: 'Partial'
 	},
 	{
 		name: 'Remora.Discord',
@@ -146,7 +152,11 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/Remora/Remora.Discord/pull/203'
 		},
-		localization: 'Yes'
+		localization: 'Yes',
+		forums: {
+			text: 'Has a PR',
+			url: 'https://github.com/Remora/Remora.Discord/pull/195'
+		}
 	},
 	{
 		name: 'aegis.cpp 🪦',
@@ -166,7 +176,8 @@ export const libs: Lib[] = [
 		modals: 'No',
 		permsv2: 'No',
 		automod: 'No',
-		localization: 'No'
+		localization: 'No',
+		forums: 'No'
 	},
 	{
 		name: 'D++',
@@ -186,7 +197,8 @@ export const libs: Lib[] = [
 		modals: 'Yes',
 		permsv2: 'Yes',
 		automod: 'Yes',
-		localization: 'Yes'
+		localization: 'Yes',
+		forums: 'Partial'
 	},
 	{
 		name: 'Discord++',
@@ -206,7 +218,8 @@ export const libs: Lib[] = [
 		modals: 'No',
 		permsv2: 'No',
 		automod: 'No',
-		localization: 'No'
+		localization: 'No',
+		forums: 'No'
 	},
 	{
 		name: 'DiscordCoreAPI',
@@ -226,7 +239,8 @@ export const libs: Lib[] = [
 		modals: 'Yes',
 		permsv2: 'Yes',
 		automod: 'Yes',
-		localization: 'Yes'
+		localization: 'Yes',
+		forums: 'Partial'
 	},
 	{
 		name: 'Sleepy Discord',
@@ -246,7 +260,8 @@ export const libs: Lib[] = [
 		modals: 'Yes',
 		permsv2: 'No',
 		automod: 'No',
-		localization: 'No'
+		localization: 'No',
+		forums: 'No'
 	},
 	{
 		name: 'discljord',
@@ -266,7 +281,8 @@ export const libs: Lib[] = [
 		modals: 'No',
 		permsv2: 'No',
 		automod: 'No',
-		localization: 'No'
+		localization: 'No',
+		forums: 'No'
 	},
 	{
 		name: 'discordcr',
@@ -313,7 +329,8 @@ export const libs: Lib[] = [
 		localization: {
 			text: 'Has a PR',
 			url: 'https://github.com/shardlab/discordcr/pull/31'
-		}
+		},
+		forums: 'No'
 	},
 	{
 		name: 'nyxx',
@@ -333,7 +350,8 @@ export const libs: Lib[] = [
 		modals: 'Yes',
 		permsv2: 'Yes',
 		automod: 'Dev Version',
-		localization: 'Yes'
+		localization: 'Yes',
+		forums: 'Partial'
 	},
 	{
 		name: 'coxir',
@@ -353,7 +371,8 @@ export const libs: Lib[] = [
 		modals: 'No',
 		permsv2: 'No',
 		automod: 'No',
-		localization: 'No'
+		localization: 'No',
+		forums: 'No'
 	},
 	{
 		name: 'Nostrum',
@@ -376,7 +395,8 @@ export const libs: Lib[] = [
 		modals: 'Yes',
 		permsv2: 'No',
 		automod: 'No',
-		localization: 'No'
+		localization: 'No',
+		forums: 'No'
 	},
 	{
 		name: 'arikawa',
@@ -396,7 +416,8 @@ export const libs: Lib[] = [
 		modals: 'Yes',
 		permsv2: 'Yes',
 		automod: 'No',
-		localization: 'Yes'
+		localization: 'Yes',
+		forums: 'No'
 	},
 	{
 		name: 'DiscordGo',
@@ -416,7 +437,8 @@ export const libs: Lib[] = [
 		modals: 'Yes',
 		permsv2: 'Yes',
 		automod: 'Yes',
-		localization: 'Yes'
+		localization: 'Yes',
+		forums: 'No'
 	},
 	{
 		name: 'disgo',
@@ -436,7 +458,11 @@ export const libs: Lib[] = [
 		modals: 'Yes',
 		permsv2: 'Yes',
 		automod: 'Yes',
-		localization: 'Yes'
+		localization: 'Yes',
+		forums: {
+			text: 'Has a PR',
+			url: 'https://github.com/disgoorg/disgo/pull/197'
+		}
 	},
 	{
 		name: 'Disgord',
@@ -456,7 +482,8 @@ export const libs: Lib[] = [
 		modals: 'Dev Version',
 		permsv2: 'Yes',
 		automod: 'No',
-		localization: 'Yes'
+		localization: 'Yes',
+		forums: 'No'
 	},
 	{
 		name: 'Postcord',
@@ -476,7 +503,8 @@ export const libs: Lib[] = [
 		modals: 'No',
 		permsv2: 'Yes',
 		automod: 'No',
-		localization: 'No'
+		localization: 'No',
+		forums: 'No'
 	},
 	{
 		name: 'Calamity',
@@ -496,7 +524,8 @@ export const libs: Lib[] = [
 		modals: 'Yes',
 		permsv2: 'No',
 		automod: 'No',
-		localization: 'No'
+		localization: 'No',
+		forums: 'Partial'
 	},
 	{
 		name: 'discord-haskell',
@@ -516,7 +545,8 @@ export const libs: Lib[] = [
 		modals: 'Yes',
 		permsv2: 'Yes',
 		automod: 'No',
-		localization: 'Yes'
+		localization: 'Yes',
+		forums: 'No'
 	},
 	{
 		name: 'catnip',
@@ -539,7 +569,8 @@ export const libs: Lib[] = [
 		modals: 'No',
 		permsv2: 'No',
 		automod: 'No',
-		localization: 'No'
+		localization: 'No',
+		forums: 'No'
 	},
 	{
 		name: 'Discord4J',
@@ -568,7 +599,8 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/Discord4J/Discord4J/pull/1074'
 		},
-		localization: 'No'
+		localization: 'No',
+		forums: 'No'
 	},
 	{
 		name: 'Javacord',
@@ -588,7 +620,8 @@ export const libs: Lib[] = [
 		modals: 'Yes',
 		permsv2: 'Yes',
 		automod: 'No',
-		localization: 'Yes'
+		localization: 'Yes',
+		forums: 'Partial'
 	},
 	{
 		name: 'JDA',
@@ -614,7 +647,11 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/DV8FromTheWorld/JDA/pull/2159'
 		},
-		localization: 'Dev Version'
+		localization: 'Dev Version',
+		forums: {
+			text: 'Has a PR',
+			url: 'https://github.com/DV8FromTheWorld/JDA/pull/2184'
+		}
 	},
 	{
 		name: 'Biscuit',
@@ -634,7 +671,8 @@ export const libs: Lib[] = [
 		modals: 'Yes',
 		permsv2: 'Yes',
 		automod: 'Yes',
-		localization: 'Yes'
+		localization: 'Yes',
+		forums: 'Partial'
 	},
 	{
 		name: 'Detritus',
@@ -654,7 +692,8 @@ export const libs: Lib[] = [
 		modals: 'Dev Version',
 		permsv2: 'Dev Version',
 		automod: 'No',
-		localization: 'No'
+		localization: 'No',
+		forums: 'No'
 	},
 	{
 		name: 'discord.js',
@@ -677,7 +716,11 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/discordjs/discord.js/pull/7938'
 		},
-		localization: 'Yes'
+		localization: 'Yes',
+		forums: {
+			text: 'Has a PR',
+			url: 'https://github.com/discordjs/discord.js/pull/7791'
+		}
 	},
 	{
 		name: 'Discordeno',
@@ -697,7 +740,8 @@ export const libs: Lib[] = [
 		modals: 'Yes',
 		permsv2: 'Yes',
 		automod: 'Yes',
-		localization: 'Yes'
+		localization: 'Yes',
+		forums: 'Yes'
 	},
 	{
 		name: 'droff',
@@ -717,7 +761,8 @@ export const libs: Lib[] = [
 		modals: 'Yes',
 		permsv2: 'Yes',
 		automod: 'Yes',
-		localization: 'Yes'
+		localization: 'Yes',
+		forums: 'Partial'
 	},
 	{
 		name: 'Eris',
@@ -743,7 +788,8 @@ export const libs: Lib[] = [
 			url: 'https://github.com/abalabahaha/eris/pull/1372'
 		},
 		automod: 'No',
-		localization: 'No'
+		localization: 'No',
+		forums: 'No'
 	},
 	{
 		name: 'Harmony',
@@ -763,7 +809,8 @@ export const libs: Lib[] = [
 		modals: 'Yes',
 		permsv2: 'No',
 		automod: 'No',
-		localization: 'No'
+		localization: 'No',
+		forums: 'No'
 	},
 	{
 		name: 'SnowTransfer',
@@ -783,7 +830,8 @@ export const libs: Lib[] = [
 		modals: 'Yes',
 		permsv2: 'Yes',
 		automod: 'No',
-		localization: 'Yes'
+		localization: 'Yes',
+		forums: 'No'
 	},
 	{
 		name: 'Tiscord',
@@ -803,7 +851,8 @@ export const libs: Lib[] = [
 		modals: 'Yes',
 		permsv2: 'No',
 		automod: 'No',
-		localization: 'No'
+		localization: 'No',
+		forums: 'No'
 	},
 	{
 		name: 'Discord.jl',
@@ -823,7 +872,8 @@ export const libs: Lib[] = [
 		modals: 'No',
 		permsv2: 'No',
 		automod: 'No',
-		localization: 'No'
+		localization: 'No',
+		forums: 'No'
 	},
 	{
 		name: 'Kord',
@@ -843,7 +893,11 @@ export const libs: Lib[] = [
 		modals: 'Yes',
 		permsv2: 'Yes',
 		automod: 'Dev Version',
-		localization: 'Yes'
+		localization: 'Yes',
+		forums: {
+			text: 'Has a PR',
+			url: 'https://github.com/kordlib/kord/pull/684'
+		}
 	},
 	{
 		name: 'Discordia',
@@ -863,7 +917,8 @@ export const libs: Lib[] = [
 		modals: 'No',
 		permsv2: 'No',
 		automod: 'No',
-		localization: 'No'
+		localization: 'No',
+		forums: 'No'
 	},
 	{
 		name: 'Dimscord',
@@ -883,7 +938,8 @@ export const libs: Lib[] = [
 		modals: 'Yes',
 		permsv2: 'Yes',
 		automod: 'Yes',
-		localization: 'Yes'
+		localization: 'Yes',
+		forums: 'Partial'
 	},
 	{
 		name: 'DiscordPHP',
@@ -903,7 +959,8 @@ export const libs: Lib[] = [
 		modals: 'Yes',
 		permsv2: 'Yes',
 		automod: 'Yes',
-		localization: 'Yes'
+		localization: 'Yes',
+		forums: 'Partial'
 	},
 	{
 		name: 'RestCord',
@@ -926,7 +983,8 @@ export const libs: Lib[] = [
 		modals: 'No',
 		permsv2: 'No',
 		automod: 'No',
-		localization: 'No'
+		localization: 'No',
+		forums: 'No'
 	},
 	{
 		name: 'discord.py',
@@ -946,7 +1004,8 @@ export const libs: Lib[] = [
 		modals: 'Yes',
 		permsv2: 'Yes',
 		automod: 'Yes',
-		localization: 'Yes'
+		localization: 'Yes',
+		forums: 'Dev Version'
 	},
 	{
 		name: 'disnake 🍴',
@@ -966,7 +1025,11 @@ export const libs: Lib[] = [
 		modals: 'Yes',
 		permsv2: 'Yes',
 		automod: 'Dev Version',
-		localization: 'Yes'
+		localization: 'Yes',
+		forums: {
+			text: 'Has a PR',
+			url: 'https://github.com/DisnakeDev/disnake/pull/726'
+		}
 	},
 	{
 		name: 'enhanced-discord.py 🍴🪦',
@@ -986,7 +1049,8 @@ export const libs: Lib[] = [
 		modals: 'Yes',
 		permsv2: 'No',
 		automod: 'No',
-		localization: 'No'
+		localization: 'No',
+		forums: 'No'
 	},
 	{
 		name: 'hata',
@@ -1006,7 +1070,8 @@ export const libs: Lib[] = [
 		modals: 'Yes',
 		permsv2: 'Yes',
 		automod: 'Yes',
-		localization: 'Yes'
+		localization: 'Yes',
+		forums: 'Dev Version'
 	},
 	{
 		name: 'hikari',
@@ -1035,7 +1100,8 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/hikari-py/hikari/pull/1220'
 		},
-		localization: 'Dev Version'
+		localization: 'Dev Version',
+		forums: 'No'
 	},
 	{
 		name: 'interactions.py',
@@ -1055,7 +1121,11 @@ export const libs: Lib[] = [
 		modals: 'Yes',
 		permsv2: 'Yes',
 		automod: 'Yes',
-		localization: 'Yes'
+		localization: 'Yes',
+		forums: {
+			text: 'Has a PR',
+			url: 'https://github.com/interactions-py/library/pull/766'
+		}
 	},
 	{
 		name: 'NAFF',
@@ -1075,7 +1145,8 @@ export const libs: Lib[] = [
 		modals: 'Yes',
 		permsv2: 'Yes',
 		automod: 'Yes',
-		localization: 'Yes'
+		localization: 'Yes',
+		forums: 'Yes'
 	},
 	{
 		name: 'nextcord 🍴',
@@ -1095,7 +1166,8 @@ export const libs: Lib[] = [
 		modals: 'Yes',
 		permsv2: 'Yes',
 		automod: 'Yes',
-		localization: 'Yes'
+		localization: 'Yes',
+		forums: 'Partial'
 	},
 	{
 		name: 'pycord 🍴',
@@ -1115,7 +1187,8 @@ export const libs: Lib[] = [
 		modals: 'Yes',
 		permsv2: 'Yes',
 		automod: 'Yes',
-		localization: 'Yes'
+		localization: 'Yes',
+		forums: 'Partial'
 	},
 	{
 		name: 'discorb',
@@ -1135,7 +1208,8 @@ export const libs: Lib[] = [
 		modals: 'Yes',
 		permsv2: 'Yes',
 		automod: 'Yes',
-		localization: 'Yes'
+		localization: 'Yes',
+		forums: 'No'
 	},
 	{
 		name: 'discordrb',
@@ -1155,7 +1229,8 @@ export const libs: Lib[] = [
 		modals: 'No',
 		permsv2: 'No',
 		automod: 'No',
-		localization: 'No'
+		localization: 'No',
+		forums: 'No'
 	},
 	{
 		name: 'discord-rs',
@@ -1175,7 +1250,8 @@ export const libs: Lib[] = [
 		modals: 'No',
 		permsv2: 'No',
 		automod: 'No',
-		localization: 'No'
+		localization: 'No',
+		forums: 'No'
 	},
 	{
 		name: 'Serenity',
@@ -1195,7 +1271,8 @@ export const libs: Lib[] = [
 		modals: 'Yes',
 		permsv2: 'Yes',
 		automod: 'Yes',
-		localization: 'Yes'
+		localization: 'Yes',
+		forums: 'Partial'
 	},
 	{
 		name: 'Twilight',
@@ -1215,7 +1292,11 @@ export const libs: Lib[] = [
 		modals: 'Yes',
 		permsv2: 'Yes',
 		automod: 'Yes',
-		localization: 'Yes'
+		localization: 'Yes',
+		forums: {
+			text: 'Has a PR',
+			url: 'https://github.com/twilight-rs/twilight/pull/1864'
+		}
 	},
 	{
 		name: 'AckCord',
@@ -1238,7 +1319,8 @@ export const libs: Lib[] = [
 		},
 		permsv2: 'No',
 		automod: 'No',
-		localization: 'No'
+		localization: 'No',
+		forums: 'No'
 	},
 	{
 		name: 'Swiftcord 🍴',
@@ -1258,7 +1340,8 @@ export const libs: Lib[] = [
 		modals: 'Yes',
 		permsv2: 'Dev Version',
 		automod: 'No',
-		localization: 'Dev Version'
+		localization: 'Dev Version',
+		forums: 'No'
 	},
 	{
 		name: 'SwiftDiscord',
@@ -1278,6 +1361,7 @@ export const libs: Lib[] = [
 		modals: 'No',
 		permsv2: 'No',
 		automod: 'No',
-		localization: 'No'
+		localization: 'No',
+		forums: 'No'
 	}
 ]
