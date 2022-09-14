@@ -853,7 +853,7 @@ export const libs: Lib[] = [
 	},
 	{
 		name: 'Discall',
-		url: 'https://github.com/Discall-Developement/Discall',
+		url: 'https://github.com/Discall-Development/Discall',
 		language: 'JavaScript',
 		apiVer: 10,
 		gwVer: 10,
@@ -869,7 +869,8 @@ export const libs: Lib[] = [
 		modals: 'No',
 		permsv2: 'No',
 		automod: 'Yes',
-		localization: 'No'
+		localization: 'No',
+		forums: 'Partial'
 	},
 	{
 		name: 'Discord.jl',
