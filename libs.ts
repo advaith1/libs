@@ -645,10 +645,7 @@ export const libs: Lib[] = [
 			url: 'https://github.com/DV8FromTheWorld/JDA/pull/2159'
 		},
 		localization: 'Dev Version',
-		forums: {
-			text: 'Has a PR',
-			url: 'https://github.com/DV8FromTheWorld/JDA/pull/2184'
-		}
+		forums: 'Dev Version'
 	},
 	{
 		name: 'Biscuit',
