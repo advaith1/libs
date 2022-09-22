@@ -711,7 +711,7 @@ export const libs: Lib[] = [
 			url: 'https://github.com/discordjs/discord.js/pull/7938'
 		},
 		localization: 'Yes',
-		forums: 'Dev Version'
+		forums: 'Yes'
 	},
 	{
 		name: 'Discordeno',
