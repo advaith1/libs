@@ -772,7 +772,7 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/abalabahaha/eris/pull/1275'
 		},
-		timeouts: 'Dev Version',
+		timeouts: 'Yes',
 		modals: 'No',
 		permsv2: {
 			text: 'Has a PR',
