@@ -1057,12 +1057,9 @@ export const libs: Lib[] = [
 		timeouts: 'Yes',
 		modals: 'Yes',
 		permsv2: 'Yes',
-		automod: 'Dev Version',
+		automod: 'Yes',
 		localization: 'Yes',
-		forums: {
-			text: 'Has a PR',
-			url: 'https://github.com/DisnakeDev/disnake/pull/726'
-		}
+		forums: 'Yes'
 	},
 	{
 		name: 'enhanced-discord.py 🍴🪦',
