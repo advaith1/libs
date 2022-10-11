@@ -51,8 +51,8 @@ export const libs: Lib[] = [
 		name: 'DisCatSharp',
 		url: 'https://github.com/Aiko-IT-Systems/DisCatSharp',
 		language: 'C#',
-		apiVer: 9,
-		gwVer: 9,
+		apiVer: 10,
+		gwVer: 10,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
@@ -66,7 +66,7 @@ export const libs: Lib[] = [
 		permsv2: 'Yes',
 		automod: 'No',
 		localization: 'Yes',
-		forums: 'Dev Version'
+		forums: 'Yes'
 	},
 	{
 		name: 'Discord.Net',
