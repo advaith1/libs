@@ -993,7 +993,7 @@ export const libs: Lib[] = [
 		permsv2: 'Yes',
 		automod: 'Yes',
 		localization: 'Yes',
-		forums: 'Partial'
+		forums: 'Dev Version'
 	},
 	{
 		name: 'RestCord',
