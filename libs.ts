@@ -863,7 +863,10 @@ export const libs: Lib[] = [
 		modals: 'Yes',
 		permsv2: {text: "Has a PR", url: "https://github.com/tiscordlib/tiscord/pull/84"},
 		automod: 'No',
-		localization: {text: "Has a PR", url: "https://github.com/tiscordlib/tiscord/pull/84"},
+		localization: {
+			text: "Has a PR",
+			url: "https://github.com/tiscordlib/tiscord/pull/84"
+		},
 		forums: 'No'
 	},
 	{
