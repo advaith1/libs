@@ -1259,7 +1259,7 @@ export const libs: Lib[] = [
 		autocomplete: 'No',
 		scheduledEvents: 'No',
 		timeouts: 'Dev Version',
-		modals: 'No',
+		modals: 'Dev Version',
 		permsv2: 'No',
 		automod: 'No',
 		localization: 'No',
