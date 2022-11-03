@@ -764,7 +764,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		selectMenusv2: 'Unknown'
+		selectMenusv2: 'No'
 	},
 	{
 		name: 'droff',
@@ -786,7 +786,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		selectMenusv2: 'Unknown'
+		selectMenusv2: 'Yes'
 	},
 	{
 		name: 'Eris',
@@ -814,7 +814,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'No',
 		forums: 'No',
-		selectMenusv2: 'Unknown'
+		selectMenusv2: 'No'
 	},
 	{
 		name: 'Harmony',
@@ -829,14 +829,20 @@ export const libs: Lib[] = [
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
-		scheduledEvents: 'No',
+		scheduledEvents: {
+			text: 'Has an issue',
+			url: 'https://github.com/harmonyland/harmony/issues/305'
+		},
 		timeouts: 'Yes',
 		modals: 'Yes',
 		permsv2: 'No',
 		automod: 'No',
 		localization: 'No',
-		forums: 'No',
-		selectMenusv2: 'Unknown'
+		forums: {
+			text: 'Has a PR',
+			url: 'https://github.com/harmonyland/harmony/pull/328'
+		},
+		selectMenusv2: 'No'
 	},
 	{
 		name: 'Oceanic',
@@ -858,7 +864,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		selectMenusv2: 'Unknown'
+		selectMenusv2: 'Yes'
 	},
 	{
 		name: 'SnowTransfer',
