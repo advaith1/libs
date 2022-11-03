@@ -25,7 +25,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Partial',
-		newSelectMenus: 'No'
+		selectMenusv2: 'No'
 	},
 	{
 		name: 'Orca',
@@ -47,7 +47,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'No',
 		forums: 'No',
-		newSelectMenus: 'No'
+		selectMenusv2: 'No'
 	},
 	{
 		name: 'DisCatSharp',
@@ -69,7 +69,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'Yes',
 		forums: 'Yes',
-		newSelectMenus: 'Yes'
+		selectMenusv2: 'Yes'
 	},
 	{
 		name: 'Discord.Net',
@@ -91,7 +91,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'Yes',
 		forums: 'Partial',
-		newSelectMenus: {
+		selectMenusv2: {
 			text: 'Has a PR',
 			url: 'https://github.com/discord-net/Discord.Net/pull/2495'
 		}
@@ -116,7 +116,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'Yes',
 		forums: 'No',
-		newSelectMenus: 'No'
+		selectMenusv2: 'No'
 	},
 	{
 		name: 'NetCord',
@@ -138,7 +138,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		newSelectMenus: 'Yes'
+		selectMenusv2: 'Yes'
 	},
 	{
 		name: 'Remora.Discord',
@@ -160,7 +160,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		newSelectMenus: 'Yes'
+		selectMenusv2: 'Yes'
 	},
 	{
 		name: 'aegis.cpp 🪦',
@@ -182,7 +182,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'No',
 		forums: 'No',
-		newSelectMenus: 'No'
+		selectMenusv2: 'No'
 	},
 	{
 		name: 'D++',
@@ -204,7 +204,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		newSelectMenus: 'Yes'
+		selectMenusv2: 'Yes'
 	},
 	{
 		name: 'Discord++',
@@ -226,7 +226,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'No',
 		forums: 'No',
-		newSelectMenus: 'No'
+		selectMenusv2: 'No'
 	},
 	{
 		name: 'DiscordCoreAPI',
@@ -248,7 +248,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		newSelectMenus: 'Yes'
+		selectMenusv2: 'Yes'
 	},
 	{
 		name: 'Sleepy Discord',
@@ -270,7 +270,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'No',
 		forums: 'No',
-		newSelectMenus: 'No'
+		selectMenusv2: 'No'
 	},
 	{
 		name: 'discljord',
@@ -292,7 +292,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'No',
 		forums: 'No',
-		newSelectMenus: 'No'
+		selectMenusv2: 'No'
 	},
 	{
 		name: 'discordcr',
@@ -341,7 +341,7 @@ export const libs: Lib[] = [
 			url: 'https://github.com/shardlab/discordcr/pull/31'
 		},
 		forums: 'No',
-		newSelectMenus: 'No'
+		selectMenusv2: 'No'
 	},
 	{
 		name: 'nyxx',
@@ -363,7 +363,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Partial',
-		newSelectMenus: 'Yes'
+		selectMenusv2: 'Yes'
 	},
 	{
 		name: 'coxir',
@@ -385,7 +385,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'No',
 		forums: 'No',
-		newSelectMenus: 'No'
+		selectMenusv2: 'No'
 	},
 	{
 		name: 'Nostrum',
@@ -410,7 +410,7 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/Kraigie/nostrum/pull/439'
 		},
-		newSelectMenus: 'No'
+		selectMenusv2: 'No'
 	},
 	{
 		name: 'arikawa',
@@ -422,7 +422,7 @@ export const libs: Lib[] = [
 		buttons: 'Yes',
 		selectMenus: 'Yes',
 		threads: 'Yes',
-		guildStickers: 'No',
+		guildStickers: 'Partial',
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
 		scheduledEvents: 'Yes',
@@ -431,8 +431,8 @@ export const libs: Lib[] = [
 		permsv2: 'Yes',
 		automod: 'No',
 		localization: 'Yes',
-		forums: 'No',
-		newSelectMenus: 'Unknown'
+		forums: 'Yes',
+		selectMenusv2: 'No'
 	},
 	{
 		name: 'DiscordGo',
@@ -454,7 +454,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Dev Version',
-		newSelectMenus: 'Unknown'
+		selectMenusv2: 'Dev Version'
 	},
 	{
 		name: 'disgo',
@@ -476,7 +476,10 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		newSelectMenus: 'Unknown'
+		selectMenusv2: {
+			text: 'Has a PR',
+			url: 'https://github.com/disgoorg/disgo/pull/205'
+		}
 	},
 	{
 		name: 'Disgord',
@@ -498,7 +501,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'Yes',
 		forums: 'No',
-		newSelectMenus: 'Unknown'
+		selectMenusv2: 'No'
 	},
 	{
 		name: 'Postcord',
@@ -520,7 +523,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'No',
 		forums: 'No',
-		newSelectMenus: 'Unknown'
+		selectMenusv2: 'No'
 	},
 	{
 		name: 'Calamity',
@@ -542,7 +545,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'No',
 		forums: 'Partial',
-		newSelectMenus: 'Unknown'
+		selectMenusv2: 'No'
 	},
 	{
 		name: 'discord-haskell',
@@ -564,7 +567,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'Yes',
 		forums: 'No',
-		newSelectMenus: 'Unknown'
+		selectMenusv2: 'Yes'
 	},
 	{
 		name: 'catnip',
@@ -589,7 +592,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'No',
 		forums: 'No',
-		newSelectMenus: 'Unknown'
+		selectMenusv2: 'No'
 	},
 	{
 		name: 'Discord4J',
@@ -620,14 +623,14 @@ export const libs: Lib[] = [
 		},
 		localization: 'No',
 		forums: 'No',
-		newSelectMenus: 'Unknown'
+		selectMenusv2: 'Yes'
 	},
 	{
 		name: 'Javacord',
 		url: 'https://github.com/Javacord/Javacord',
 		language: 'Java',
-		apiVer: 9,
-		gwVer: 9,
+		apiVer: 10,
+		gwVer: 10,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
@@ -641,8 +644,11 @@ export const libs: Lib[] = [
 		permsv2: 'Yes',
 		automod: 'No',
 		localization: 'Yes',
-		forums: 'Partial',
-		newSelectMenus: 'Unknown'
+		forums: {
+			text: 'Has a PR',
+			url: 'https://github.com/Javacord/Javacord/pull/1131'
+		},
+		selectMenusv2: 'Yes'
 	},
 	{
 		name: 'JDA',
@@ -657,10 +663,7 @@ export const libs: Lib[] = [
 		guildStickers: 'Dev Version',
 		contextMenus: 'Dev Version',
 		autocomplete: 'Dev Version',
-		scheduledEvents: {
-			text: 'Has a PR',
-			url: 'https://github.com/DV8FromTheWorld/JDA/pull/2047'
-		},
+		scheduledEvents: 'Dev Version',
 		timeouts: 'Dev Version',
 		modals: 'Dev Version',
 		permsv2: 'Dev Version',
@@ -670,7 +673,7 @@ export const libs: Lib[] = [
 		},
 		localization: 'Dev Version',
 		forums: 'Dev Version',
-		newSelectMenus: 'Unknown'
+		selectMenusv2: 'Dev Version'
 	},
 	{
 		name: 'Biscuit',
@@ -692,7 +695,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		newSelectMenus: 'Unknown'
+		selectMenusv2: 'No'
 	},
 	{
 		name: 'Detritus',
@@ -714,7 +717,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'No',
 		forums: 'No',
-		newSelectMenus: 'Unknown'
+		selectMenusv2: 'No'
 	},
 	{
 		name: 'discord.js',
@@ -739,7 +742,7 @@ export const libs: Lib[] = [
 		},
 		localization: 'Yes',
 		forums: 'Yes',
-		newSelectMenus: 'Unknown'
+		selectMenusv2: 'Yes'
 	},
 	{
 		name: 'Discordeno',
@@ -761,7 +764,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		newSelectMenus: 'Unknown'
+		selectMenusv2: 'Unknown'
 	},
 	{
 		name: 'droff',
@@ -783,7 +786,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		newSelectMenus: 'Unknown'
+		selectMenusv2: 'Unknown'
 	},
 	{
 		name: 'Eris',
@@ -811,7 +814,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'No',
 		forums: 'No',
-		newSelectMenus: 'Unknown'
+		selectMenusv2: 'Unknown'
 	},
 	{
 		name: 'Harmony',
@@ -833,7 +836,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'No',
 		forums: 'No',
-		newSelectMenus: 'Unknown'
+		selectMenusv2: 'Unknown'
 	},
 	{
 		name: 'Oceanic',
@@ -855,7 +858,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		newSelectMenus: 'Unknown'
+		selectMenusv2: 'Unknown'
 	},
 	{
 		name: 'SnowTransfer',
@@ -877,7 +880,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'Yes',
 		forums: 'No',
-		newSelectMenus: 'Unknown'
+		selectMenusv2: 'Unknown'
 	},
 	{
 		name: 'Tiscord',
@@ -905,7 +908,7 @@ export const libs: Lib[] = [
 			url: "https://github.com/tiscordlib/tiscord/pull/84"
 		},
 		forums: 'No',
-		newSelectMenus: 'Unknown'
+		selectMenusv2: 'Unknown'
 	},
 	{
 		name: 'Discall',
@@ -927,7 +930,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'No',
 		forums: 'Partial',
-		newSelectMenus: 'No'
+		selectMenusv2: 'No'
 	},
 	{
 		name: 'Discord.jl',
@@ -949,7 +952,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'No',
 		forums: 'No',
-		newSelectMenus: 'No'
+		selectMenusv2: 'No'
 	},
 	{
 		name: 'Kord',
@@ -974,7 +977,7 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/kordlib/kord/pull/684'
 		},
-		newSelectMenus: 'Unknown'
+		selectMenusv2: 'Unknown'
 	},
 	{
 		name: 'Discordia',
@@ -996,7 +999,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'No',
 		forums: 'No',
-		newSelectMenus: 'No'
+		selectMenusv2: 'No'
 	},
 	{
 		name: 'Dimscord',
@@ -1018,7 +1021,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Partial',
-		newSelectMenus: 'Unknown'
+		selectMenusv2: 'Unknown'
 	},
 	{
 		name: 'DiscordPHP',
@@ -1040,7 +1043,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Dev Version',
-		newSelectMenus: 'Unknown'
+		selectMenusv2: 'Unknown'
 	},
 	{
 		name: 'RestCord',
@@ -1065,7 +1068,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'No',
 		forums: 'No',
-		newSelectMenus: 'No'
+		selectMenusv2: 'No'
 	},
 	{
 		name: 'discord.py',
@@ -1087,7 +1090,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Dev Version',
-		newSelectMenus: 'Unknown'
+		selectMenusv2: 'Unknown'
 	},
 	{
 		name: 'disnake 🍴',
@@ -1109,7 +1112,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		newSelectMenus: 'Unknown'
+		selectMenusv2: 'Unknown'
 	},
 	{
 		name: 'enhanced-discord.py 🍴🪦',
@@ -1131,7 +1134,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'No',
 		forums: 'No',
-		newSelectMenus: 'Unknown'
+		selectMenusv2: 'Unknown'
 	},
 	{
 		name: 'hata',
@@ -1153,7 +1156,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		newSelectMenus: 'Unknown'
+		selectMenusv2: 'Unknown'
 	},
 	{
 		name: 'hikari',
@@ -1181,7 +1184,7 @@ export const libs: Lib[] = [
 		},
 		localization: 'Dev Version',
 		forums: 'No',
-		newSelectMenus: 'Unknown'
+		selectMenusv2: 'Unknown'
 	},
 	{
 		name: 'interactions.py',
@@ -1203,7 +1206,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		newSelectMenus: 'Unknown'
+		selectMenusv2: 'Unknown'
 	},
 	{
 		name: 'NAFF',
@@ -1225,7 +1228,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		newSelectMenus: 'Unknown'
+		selectMenusv2: 'Unknown'
 	},
 	{
 		name: 'nextcord 🍴',
@@ -1247,7 +1250,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Partial',
-		newSelectMenus: 'Unknown'
+		selectMenusv2: 'Unknown'
 	},
 	{
 		name: 'pycord 🍴',
@@ -1272,7 +1275,7 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/Pycord-Development/pycord/pull/1636'
 		},
-		newSelectMenus: {
+		selectMenusv2: {
 			text: 'Has a PR',
 			url: 'https://github.com/Pycord-Development/pycord/pull/1702'
 		}
@@ -1297,7 +1300,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'No',
-		newSelectMenus: 'Unknown'
+		selectMenusv2: 'Unknown'
 	},
 	{
 		name: 'discordrb',
@@ -1319,7 +1322,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'No',
 		forums: 'No',
-		newSelectMenus: 'Unknown'
+		selectMenusv2: 'Unknown'
 	},
 	{
 		name: 'discord-rs',
@@ -1341,7 +1344,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'No',
 		forums: 'No',
-		newSelectMenus: 'No'
+		selectMenusv2: 'No'
 	},
 	{
 		name: 'Serenity',
@@ -1363,7 +1366,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Partial',
-		newSelectMenus: 'Unknown'
+		selectMenusv2: 'Unknown'
 	},
 	{
 		name: 'Twilight',
@@ -1388,7 +1391,7 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/twilight-rs/twilight/pull/1864'
 		},
-		newSelectMenus: 'Unknown'
+		selectMenusv2: 'Unknown'
 	},
 	{
 		name: 'AckCord',
@@ -1413,7 +1416,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'No',
 		forums: 'No',
-		newSelectMenus: 'Unknown'
+		selectMenusv2: 'Unknown'
 	},
 	{
 		name: 'Swiftcord 🍴',
@@ -1435,7 +1438,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'Dev Version',
 		forums: 'No',
-		newSelectMenus: 'Unknown'
+		selectMenusv2: 'Unknown'
 	},
 	{
 		name: 'SwiftDiscord',
@@ -1457,6 +1460,6 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'No',
 		forums: 'No',
-		newSelectMenus: 'No'
+		selectMenusv2: 'No'
 	}
 ]

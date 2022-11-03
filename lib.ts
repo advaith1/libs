@@ -21,5 +21,5 @@ export interface Lib {
 	automod: LinkableString
 	localization: LinkableString
 	forums: LinkableString,
-	newSelectMenus: LinkableString
+	selectMenusv2: LinkableString
 }

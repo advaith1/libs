@@ -64,6 +64,7 @@ export default function Home() {
 									<th>AutoMod</th>
 									<th>Localization</th>
 									<th>Forums</th>
+									<th>Select Menus v2</th>
 								</tr>
 							</thead>
 							<tbody>
@@ -86,6 +87,7 @@ export default function Home() {
 										{status(lib.automod)}
 										{status(lib.localization)}
 										{status(lib.forums)}
+										{status(lib.selectMenusv2)}
 									</tr>
 								)}
 							</tbody>
