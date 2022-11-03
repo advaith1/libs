@@ -886,7 +886,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'Yes',
 		forums: 'No',
-		selectMenusv2: 'Unknown'
+		selectMenusv2: 'No'
 	},
 	{
 		name: 'Tiscord',
@@ -914,7 +914,7 @@ export const libs: Lib[] = [
 			url: "https://github.com/tiscordlib/tiscord/pull/84"
 		},
 		forums: 'No',
-		selectMenusv2: 'Unknown'
+		selectMenusv2: 'No'
 	},
 	{
 		name: 'Discall',
@@ -983,7 +983,10 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/kordlib/kord/pull/684'
 		},
-		selectMenusv2: 'Unknown'
+		selectMenusv2: {
+			text: 'Has a PR',
+			url: 'https://github.com/kordlib/kord/pull/707'
+		},
 	},
 	{
 		name: 'Discordia',
@@ -1027,7 +1030,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Partial',
-		selectMenusv2: 'Unknown'
+		selectMenusv2: 'No'
 	},
 	{
 		name: 'DiscordPHP',
@@ -1049,7 +1052,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Dev Version',
-		selectMenusv2: 'Unknown'
+		selectMenusv2: 'Dev Version'
 	},
 	{
 		name: 'RestCord',
@@ -1096,7 +1099,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Dev Version',
-		selectMenusv2: 'Unknown'
+		selectMenusv2: 'Dev Version'
 	},
 	{
 		name: 'disnake 🍴',
@@ -1118,7 +1121,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		selectMenusv2: 'Unknown'
+		selectMenusv2: 'Yes'
 	},
 	{
 		name: 'enhanced-discord.py 🍴🪦',
@@ -1140,7 +1143,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'No',
 		forums: 'No',
-		selectMenusv2: 'Unknown'
+		selectMenusv2: 'No'
 	},
 	{
 		name: 'hata',
@@ -1162,7 +1165,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		selectMenusv2: 'Unknown'
+		selectMenusv2: 'Yes'
 	},
 	{
 		name: 'hikari',
@@ -1190,7 +1193,7 @@ export const libs: Lib[] = [
 		},
 		localization: 'Dev Version',
 		forums: 'No',
-		selectMenusv2: 'Unknown'
+		selectMenusv2: 'No'
 	},
 	{
 		name: 'interactions.py',
@@ -1212,7 +1215,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		selectMenusv2: 'Unknown'
+		selectMenusv2: 'Yes'
 	},
 	{
 		name: 'NAFF',
@@ -1234,7 +1237,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		selectMenusv2: 'Unknown'
+		selectMenusv2: 'Yes'
 	},
 	{
 		name: 'nextcord 🍴',
@@ -1256,7 +1259,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Partial',
-		selectMenusv2: 'Unknown'
+		selectMenusv2: 'No'
 	},
 	{
 		name: 'pycord 🍴',
@@ -1306,7 +1309,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'No',
-		selectMenusv2: 'Unknown'
+		selectMenusv2: 'No'
 	},
 	{
 		name: 'discordrb',
@@ -1326,9 +1329,12 @@ export const libs: Lib[] = [
 		modals: 'No',
 		permsv2: 'No',
 		automod: 'No',
-		localization: 'No',
+		localization: {
+			text: 'Has a PR',
+			url: 'https://github.com/shardlab/discordrb/pull/190'
+		},
 		forums: 'No',
-		selectMenusv2: 'Unknown'
+		selectMenusv2: 'No'
 	},
 	{
 		name: 'discord-rs',
@@ -1372,7 +1378,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Partial',
-		selectMenusv2: 'Unknown'
+		selectMenusv2: 'No'
 	},
 	{
 		name: 'Twilight',
@@ -1393,11 +1399,8 @@ export const libs: Lib[] = [
 		permsv2: 'Yes',
 		automod: 'Yes',
 		localization: 'Yes',
-		forums: {
-			text: 'Has a PR',
-			url: 'https://github.com/twilight-rs/twilight/pull/1864'
-		},
-		selectMenusv2: 'Unknown'
+		forums: 'Yes',
+		selectMenusv2: 'No'
 	},
 	{
 		name: 'AckCord',
@@ -1422,7 +1425,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'No',
 		forums: 'No',
-		selectMenusv2: 'Unknown'
+		selectMenusv2: 'No'
 	},
 	{
 		name: 'Swiftcord 🍴',
@@ -1444,7 +1447,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'Dev Version',
 		forums: 'No',
-		selectMenusv2: 'Unknown'
+		selectMenusv2: 'No'
 	},
 	{
 		name: 'SwiftDiscord',
