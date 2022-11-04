@@ -20,6 +20,5 @@ export interface Lib {
 	permsv2: LinkableString
 	automod: LinkableString
 	localization: LinkableString
-	forums: LinkableString,
-	selectMenusv2: LinkableString
+	forums: LinkableString
 }
