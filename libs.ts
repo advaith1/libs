@@ -1287,10 +1287,7 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/Pycord-Development/pycord/pull/1636'
 		},
-		selectMenusv2: {
-			text: 'Has a PR',
-			url: 'https://github.com/Pycord-Development/pycord/pull/1702'
-		}
+		selectMenusv2: 'Yes'
 	},
 	{
 		name: 'discorb',
