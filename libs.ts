@@ -64,10 +64,7 @@ export const libs: Lib[] = [
 		timeouts: 'Yes',
 		modals: 'Yes',
 		permsv2: 'Yes',
-		automod: {
-			text: 'Has a PR',
-			url: 'https://github.com/Aiko-IT-Systems/DisCatSharp/pull/224'
-		},
+		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes'
 	},
