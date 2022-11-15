@@ -1133,7 +1133,7 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/hikari-py/hikari/pull/1220'
 		},
-		localization: 'Dev Version',
+		localization: 'Yes',
 		forums: 'No'
 	},
 	{
