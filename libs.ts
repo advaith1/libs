@@ -1326,10 +1326,7 @@ export const libs: Lib[] = [
 		permsv2: 'Yes',
 		automod: 'Yes',
 		localization: 'Yes',
-		forums: {
-			text: 'Has a PR',
-			url: 'https://github.com/twilight-rs/twilight/pull/1864'
-		}
+		forums: 'Yes'
 	},
 	{
 		name: 'AckCord',
