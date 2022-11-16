@@ -51,8 +51,8 @@ export const libs: Lib[] = [
 		name: 'DisCatSharp',
 		url: 'https://github.com/Aiko-IT-Systems/DisCatSharp',
 		language: 'C#',
-		apiVer: 9,
-		gwVer: 9,
+		apiVer: 10,
+		gwVer: 10,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
@@ -66,7 +66,7 @@ export const libs: Lib[] = [
 		permsv2: 'Yes',
 		automod: 'No',
 		localization: 'Yes',
-		forums: 'Dev Version'
+		forums: 'Yes'
 	},
 	{
 		name: 'Discord.Net',
@@ -129,7 +129,7 @@ export const libs: Lib[] = [
 		permsv2: 'Yes',
 		automod: 'Yes',
 		localization: 'Yes',
-		forums: 'Partial'
+		forums: 'Yes'
 	},
 	{
 		name: 'Remora.Discord',
@@ -198,7 +198,7 @@ export const libs: Lib[] = [
 		permsv2: 'Yes',
 		automod: 'Yes',
 		localization: 'Yes',
-		forums: 'Partial'
+		forums: 'Yes'
 	},
 	{
 		name: 'Discord++',
@@ -240,7 +240,7 @@ export const libs: Lib[] = [
 		permsv2: 'Yes',
 		automod: 'Yes',
 		localization: 'Yes',
-		forums: 'Partial'
+		forums: 'Yes'
 	},
 	{
 		name: 'Sleepy Discord',
@@ -349,9 +349,9 @@ export const libs: Lib[] = [
 		timeouts: 'Yes',
 		modals: 'Yes',
 		permsv2: 'Yes',
-		automod: 'Dev Version',
+		automod: 'Partial',
 		localization: 'Yes',
-		forums: 'Partial'
+		forums: 'Yes'
 	},
 	{
 		name: 'coxir',
@@ -438,7 +438,7 @@ export const libs: Lib[] = [
 		permsv2: 'Yes',
 		automod: 'Yes',
 		localization: 'Yes',
-		forums: 'No'
+		forums: 'Dev Version'
 	},
 	{
 		name: 'disgo',
@@ -645,10 +645,7 @@ export const libs: Lib[] = [
 			url: 'https://github.com/DV8FromTheWorld/JDA/pull/2159'
 		},
 		localization: 'Dev Version',
-		forums: {
-			text: 'Has a PR',
-			url: 'https://github.com/DV8FromTheWorld/JDA/pull/2184'
-		}
+		forums: 'Dev Version'
 	},
 	{
 		name: 'Biscuit',
@@ -669,7 +666,7 @@ export const libs: Lib[] = [
 		permsv2: 'Yes',
 		automod: 'Yes',
 		localization: 'Yes',
-		forums: 'Partial'
+		forums: 'Yes'
 	},
 	{
 		name: 'Detritus',
@@ -714,10 +711,7 @@ export const libs: Lib[] = [
 			url: 'https://github.com/discordjs/discord.js/pull/7938'
 		},
 		localization: 'Yes',
-		forums: {
-			text: 'Has a PR',
-			url: 'https://github.com/discordjs/discord.js/pull/7791'
-		}
+		forums: 'Yes'
 	},
 	{
 		name: 'Discordeno',
@@ -759,7 +753,7 @@ export const libs: Lib[] = [
 		permsv2: 'Yes',
 		automod: 'Yes',
 		localization: 'Yes',
-		forums: 'Partial'
+		forums: 'Yes'
 	},
 	{
 		name: 'Eris',
@@ -778,7 +772,7 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/abalabahaha/eris/pull/1275'
 		},
-		timeouts: 'Dev Version',
+		timeouts: 'Yes',
 		modals: 'No',
 		permsv2: {
 			text: 'Has a PR',
@@ -808,6 +802,27 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'No',
 		forums: 'No'
+	},
+	{
+		name: 'Oceanic',
+		url: 'https://github.com/OceanicJS/Oceanic',
+		language: 'JavaScript',
+		apiVer: 10,
+		gwVer: 10,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'Yes',
+		autocomplete: 'Yes',
+		scheduledEvents: 'Yes',
+		timeouts: 'Yes',
+		modals: 'Yes',
+		permsv2: 'Yes',
+		automod: 'Yes',
+		localization: 'Yes',
+		forums: 'Yes'
 	},
 	{
 		name: 'SnowTransfer',
@@ -846,9 +861,15 @@ export const libs: Lib[] = [
 		scheduledEvents: 'No',
 		timeouts: 'Yes',
 		modals: 'Yes',
-		permsv2: 'No',
+		permsv2: {
+			text: "Has a PR",
+			url: "https://github.com/tiscordlib/tiscord/pull/84"
+		},
 		automod: 'No',
-		localization: 'No',
+		localization: {
+			text: "Has a PR",
+			url: "https://github.com/tiscordlib/tiscord/pull/84"
+		},
 		forums: 'No'
 	},
 	{
@@ -978,7 +999,7 @@ export const libs: Lib[] = [
 		permsv2: 'Yes',
 		automod: 'Yes',
 		localization: 'Yes',
-		forums: 'Partial'
+		forums: 'Dev Version'
 	},
 	{
 		name: 'RestCord',
@@ -1042,12 +1063,9 @@ export const libs: Lib[] = [
 		timeouts: 'Yes',
 		modals: 'Yes',
 		permsv2: 'Yes',
-		automod: 'Dev Version',
+		automod: 'Yes',
 		localization: 'Yes',
-		forums: {
-			text: 'Has a PR',
-			url: 'https://github.com/DisnakeDev/disnake/pull/726'
-		}
+		forums: 'Yes'
 	},
 	{
 		name: 'enhanced-discord.py 🍴🪦',
@@ -1089,21 +1107,18 @@ export const libs: Lib[] = [
 		permsv2: 'Yes',
 		automod: 'Yes',
 		localization: 'Yes',
-		forums: 'Dev Version'
+		forums: 'Yes'
 	},
 	{
 		name: 'hikari',
 		url: 'https://github.com/hikari-py/hikari',
 		language: 'Python',
-		apiVer: 8,
-		gwVer: 8,
+		apiVer: 10,
+		gwVer: 10,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
-		threads: {
-			text: 'Has a PR',
-			url: 'https://github.com/hikari-py/hikari/pull/811'
-		},
+		threads: 'Yes',
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
@@ -1118,7 +1133,7 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/hikari-py/hikari/pull/1220'
 		},
-		localization: 'Dev Version',
+		localization: 'Yes',
 		forums: 'No'
 	},
 	{
@@ -1140,7 +1155,7 @@ export const libs: Lib[] = [
 		permsv2: 'Yes',
 		automod: 'Yes',
 		localization: 'Yes',
-		forums: 'Dev Version'
+		forums: 'Yes'
 	},
 	{
 		name: 'NAFF',
@@ -1203,7 +1218,10 @@ export const libs: Lib[] = [
 		permsv2: 'Yes',
 		automod: 'Yes',
 		localization: 'Yes',
-		forums: 'Partial'
+		forums: {
+			text: 'Has a PR',
+			url: 'https://github.com/Pycord-Development/pycord/pull/1636'
+		}
 	},
 	{
 		name: 'discorb',
@@ -1241,7 +1259,7 @@ export const libs: Lib[] = [
 		autocomplete: 'No',
 		scheduledEvents: 'No',
 		timeouts: 'Dev Version',
-		modals: 'No',
+		modals: 'Dev Version',
 		permsv2: 'No',
 		automod: 'No',
 		localization: 'No',
