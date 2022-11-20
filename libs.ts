@@ -706,10 +706,7 @@ export const libs: Lib[] = [
 		timeouts: 'Yes',
 		modals: 'Yes',
 		permsv2: 'Yes',
-		automod: {
-			text: 'Has a PR',
-			url: 'https://github.com/discordjs/discord.js/pull/7938'
-		},
+		automod: 'Dev Version',
 		localization: 'Yes',
 		forums: 'Yes'
 	},
