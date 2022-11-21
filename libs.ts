@@ -346,9 +346,9 @@ export const libs: Lib[] = [
 		timeouts: 'Yes',
 		modals: 'Yes',
 		permsv2: 'Yes',
-		automod: 'Yes',
+		automod: 'Partial',
 		localization: 'Yes',
-		forums: 'Partial'
+		forums: 'Yes'
 	},
 	{
 		name: 'coxir',
@@ -1122,8 +1122,8 @@ export const libs: Lib[] = [
 		name: 'hikari',
 		url: 'https://github.com/hikari-py/hikari',
 		language: 'Python',
-		apiVer: 8,
-		gwVer: 8,
+		apiVer: 10,
+		gwVer: 10,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Partial',
@@ -1142,7 +1142,7 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/hikari-py/hikari/pull/1220'
 		},
-		localization: 'Dev Version',
+		localization: 'Yes',
 		forums: 'No'
 	},
 	{
