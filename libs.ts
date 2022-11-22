@@ -148,15 +148,9 @@ export const libs: Lib[] = [
 		timeouts: 'Yes',
 		modals: 'Yes',
 		permsv2: 'Yes',
-		automod: {
-			text: 'Has a PR',
-			url: 'https://github.com/Remora/Remora.Discord/pull/203'
-		},
+		automod: 'Yes',
 		localization: 'Yes',
-		forums: {
-			text: 'Has a PR',
-			url: 'https://github.com/Remora/Remora.Discord/pull/195'
-		}
+		forums: 'Yes'
 	},
 	{
 		name: 'aegis.cpp 🪦',
