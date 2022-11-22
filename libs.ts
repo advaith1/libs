@@ -343,7 +343,7 @@ export const libs: Lib[] = [
 		timeouts: 'Yes',
 		modals: 'Yes',
 		permsv2: 'Yes',
-		automod: 'Partial',
+		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes'
 	},
