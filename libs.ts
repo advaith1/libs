@@ -540,29 +540,31 @@ export const libs: Lib[] = [
 		forums: 'No'
 	},
 	{
-	    name: "discord.jv",
-	    url: "https://github.com/discord-jv/discord.jv",
-	    language: "Java",
-	    apiVer: 10,
-	    gwVer: 10,
-	    slashCommands: {
-            text: 'Has a PR',
-            url: 'https://github.com/discord-jv/discord.jv/pull/35'
-        },
-	    buttons: 'Yes',
-	    selectMenus: 'Yes',
-	    threads: 'Yes',
-	    guildStickers: 'Yes',
-	    contextMenus: {
-	        text: 'Has a PR',
-	        url: 'https://github.com/discord-jv/discord.jv/pull/35'
-	    },
-	    timeouts: 'No',
-	    modals: 'Yes',
-	    permsv2: 'No',
-	    automod: 'No',
-	    localization: 'No',
-	    forums: 'Yes'
+		name: 'discord.jv',
+		url: 'https://github.com/discord-jv/discord.jv',
+		language: 'Java',
+		apiVer: 10,
+		gwVer: 10,
+		slashCommands: {
+			text: 'Has a PR',
+			url: 'hhttps://github.com/discord-jv/discord.jv/pull/35'
+		},
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: {
+			text: 'Has a PR',
+			url: 'hhttps://github.com/discord-jv/discord.jv/pull/35'
+		},
+		autocomplete: 'Yes',
+		scheduledEvents: 'No',
+		timeouts: 'No',
+		modals: 'Yes',
+		permsv2: 'No',
+		automod: 'No',
+		localization: 'No',
+		forums: 'Yes'
 	},
 	{
 		name: 'catnip',
