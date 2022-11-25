@@ -545,18 +545,12 @@ export const libs: Lib[] = [
 		language: 'Java',
 		apiVer: 10,
 		gwVer: 10,
-		slashCommands: {
-			text: 'Has a PR',
-			url: 'https://github.com/discord-jv/discord.jv/pull/43'
-		},
+		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
 		threads: 'Yes',
 		guildStickers: 'Yes',
-		contextMenus: {
-			text: 'Has a PR',
-			url: 'hhttps://github.com/discord-jv/discord.jv/pull/43'
-		},
+		contextMenus: 'Yes',
 		autocomplete: 'Yes',
 		scheduledEvents: 'No',
 		timeouts: 'No',
