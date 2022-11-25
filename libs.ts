@@ -547,7 +547,7 @@ export const libs: Lib[] = [
 		gwVer: 10,
 		slashCommands: {
 			text: 'Has a PR',
-			url: 'hhttps://github.com/discord-jv/discord.jv/pull/35'
+			url: 'https://github.com/discord-jv/discord.jv/pull/43'
 		},
 		buttons: 'Yes',
 		selectMenus: 'Yes',
@@ -555,7 +555,7 @@ export const libs: Lib[] = [
 		guildStickers: 'Yes',
 		contextMenus: {
 			text: 'Has a PR',
-			url: 'hhttps://github.com/discord-jv/discord.jv/pull/35'
+			url: 'hhttps://github.com/discord-jv/discord.jv/pull/43'
 		},
 		autocomplete: 'Yes',
 		scheduledEvents: 'No',
