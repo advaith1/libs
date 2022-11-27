@@ -553,7 +553,7 @@ export const libs: Lib[] = [
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
 		scheduledEvents: 'No',
-		timeouts: 'No',
+		timeouts: 'Yes',
 		modals: 'Yes',
 		permsv2: 'No',
 		automod: 'Yes',
