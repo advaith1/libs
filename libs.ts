@@ -556,7 +556,7 @@ export const libs: Lib[] = [
 		timeouts: 'No',
 		modals: 'Yes',
 		permsv2: 'No',
-		automod: 'No',
+		automod: 'Yes',
 		localization: 'No',
 		forums: 'Yes'
 	},
