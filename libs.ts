@@ -1209,10 +1209,7 @@ export const libs: Lib[] = [
 		permsv2: 'Yes',
 		automod: 'Yes',
 		localization: 'Yes',
-		forums: {
-			text: 'Has a PR',
-			url: 'https://github.com/Pycord-Development/pycord/pull/1636'
-		}
+		forums: 'Yes'
 	},
 	{
 		name: 'discorb',
