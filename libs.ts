@@ -540,6 +540,27 @@ export const libs: Lib[] = [
 		forums: 'No'
 	},
 	{
+		name: 'discord.jv',
+		url: 'https://github.com/discord-jv/discord.jv',
+		language: 'Java',
+		apiVer: 10,
+		gwVer: 10,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'Yes',
+		autocomplete: 'Yes',
+		scheduledEvents: 'No',
+		timeouts: 'Yes',
+		modals: 'Yes',
+		permsv2: 'No',
+		automod: 'Yes',
+		localization: 'No',
+		forums: 'Yes'
+	},
+	{
 		name: 'catnip',
 		url: 'https://github.com/mewna/catnip',
 		language: 'Java',
