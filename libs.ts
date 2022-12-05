@@ -1133,10 +1133,7 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
-		modals: {
-			text: 'Has a PR',
-			url: 'https://github.com/hikari-py/hikari/pull/1002'
-		},
+		modals: 'Yes',
 		permsv2: 'Yes',
 		automod: {
 			text: 'Has a PR',
