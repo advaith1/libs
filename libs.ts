@@ -1399,5 +1399,26 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'No',
 		forums: 'No'
-	}
+	},
+	{
+		name: 'wharf',
+		url: 'https://github.com/SawshaDev/wharf',
+		language: 'Python',
+		apiVer: 10,
+		gwVer: 10,
+		slashCommands: 'Yes',
+		buttons: 'No',
+		selectMenus: 'No',
+		threads: 'No',
+		guildStickets: 'No',
+		contextMenus: 'No',
+		autocomplete: 'No',
+		scheduledEvents: 'No',
+		timeouts: 'No',
+		modals: 'No',
+		permsv2: 'No',
+		automod: 'No',
+		localization: 'No',
+		forums: 'No'
+	},
 ]
