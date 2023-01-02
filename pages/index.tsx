@@ -7,8 +7,7 @@ const langs = Array.from(new Set(libs.map(lib => lib.language).sort()))
 
 const statusColors = {
 	Yes: 'green',
-	No: 'red',
-	Partial: 'yellow'
+	No: 'red'
 }
 
 const status = (status: LinkableString) => typeof status === 'string'
@@ -53,7 +52,7 @@ export default function Home() {
 									<th>Gateway Version</th>
 									<th>Slash Commands</th>
 									<th>Buttons</th>
-									<th>Select Menus*</th>
+									<th>Select Menus</th>
 									<th>Threads</th>
 									<th>Guild Stickers</th>
 									<th>Context Menus</th>
@@ -93,10 +92,6 @@ export default function Home() {
 						</table>
 					</div>
 				</div>)}
-
-				<div>
-					<p>* Partial means that Select Menu v2 isn't available yet.</p>
-				</div>
 			</main>
 
 			<footer className="has-text-centered has-text-white">
@@ -113,10 +108,6 @@ export default function Home() {
 					flex-direction: column;
 					justify-content: center;
 					align-items: center;
-				}
-
-				p {
-					color: white;
 				}
 
 				main {
