@@ -346,7 +346,7 @@ export const libs: Lib[] = [
 		timeouts: 'Yes',
 		modals: 'Yes',
 		permsv2: 'Yes',
-		automod: 'Partial',
+		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes'
 	},
@@ -546,6 +546,27 @@ export const libs: Lib[] = [
 		forums: 'No'
 	},
 	{
+		name: 'discord.jv',
+		url: 'https://github.com/discord-jv/discord.jv',
+		language: 'Java',
+		apiVer: 10,
+		gwVer: 10,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'Yes',
+		autocomplete: 'Yes',
+		scheduledEvents: 'No',
+		timeouts: 'Yes',
+		modals: 'Yes',
+		permsv2: 'No',
+		automod: 'Yes',
+		localization: 'No',
+		forums: 'Yes'
+	},
+	{
 		name: 'catnip',
 		url: 'https://github.com/mewna/catnip',
 		language: 'Java',
@@ -627,25 +648,25 @@ export const libs: Lib[] = [
 		name: 'JDA',
 		url: 'https://github.com/DV8FromTheWorld/JDA',
 		language: 'Java',
-		apiVer: '8 stable, 10 dev',
-		gwVer: '8 stable, 10 dev',
+		apiVer: 10,
+		gwVer: 10,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
-		selectMenus: 'Partial',
-		threads: 'Dev Version',
-		guildStickers: 'Dev Version',
-		contextMenus: 'Dev Version',
-		autocomplete: 'Dev Version',
-		scheduledEvents: 'Dev Version',
-		timeouts: 'Dev Version',
-		modals: 'Dev Version',
-		permsv2: 'Dev Version',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'Yes',
+		autocomplete: 'Yes',
+		scheduledEvents: 'Yes',
+		timeouts: 'Yes',
+		modals: 'Yes',
+		permsv2: 'Yes',
 		automod: {
 			text: 'Has a PR',
 			url: 'https://github.com/DV8FromTheWorld/JDA/pull/2159'
 		},
-		localization: 'Dev Version',
-		forums: 'Dev Version'
+		localization: 'Yes',
+		forums: 'Yes'
 	},
 	{
 		name: 'Biscuit',
@@ -706,10 +727,7 @@ export const libs: Lib[] = [
 		timeouts: 'Yes',
 		modals: 'Yes',
 		permsv2: 'Yes',
-		automod: {
-			text: 'Has a PR',
-			url: 'https://github.com/discordjs/discord.js/pull/7938'
-		},
+		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes'
 	},
@@ -1053,7 +1071,7 @@ export const libs: Lib[] = [
 		permsv2: 'Yes',
 		automod: 'Yes',
 		localization: 'Yes',
-		forums: 'Dev Version'
+		forums: 'Yes'
 	},
 	{
 		name: 'disnake 🍴',
@@ -1133,10 +1151,7 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
-		modals: {
-			text: 'Has a PR',
-			url: 'https://github.com/hikari-py/hikari/pull/1002'
-		},
+		modals: 'Yes',
 		permsv2: 'Yes',
 		automod: {
 			text: 'Has a PR',
