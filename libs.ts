@@ -1140,7 +1140,7 @@ export const libs: Lib[] = [
 			url: 'https://github.com/hikari-py/hikari/pull/1220'
 		},
 		localization: 'Yes',
-		forums: 'No'
+		forums: 'Yes'
 	},
 	{
 		name: 'interactions.py',
