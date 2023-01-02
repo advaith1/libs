@@ -76,10 +76,7 @@ export const libs: Lib[] = [
 		gwVer: 9,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
-		selectMenus: {
-			text: 'Partial (Has a PR)',
-			url: 'https://github.com/discord-net/Discord.Net/pull/2495'
-		},
+		selectMenus: 'Partial (Dev Version)',
 		threads: 'Yes',
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
@@ -381,7 +378,7 @@ export const libs: Lib[] = [
 		buttons: 'Yes',
 		selectMenus: 'Partial',
 		threads: 'Yes',
-		guildStickers: 'Yes',
+		guildStickers: 'No',
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
 		scheduledEvents: 'Yes',
@@ -390,10 +387,7 @@ export const libs: Lib[] = [
 		permsv2: 'No',
 		automod: 'No',
 		localization: 'No',
-		forums: {
-			text: 'Has a PR',
-			url: 'https://github.com/Kraigie/nostrum/pull/439'
-		}
+		forums: 'Dev Version'
 	},
 	{
 		name: 'arikawa',
@@ -445,10 +439,7 @@ export const libs: Lib[] = [
 		gwVer: 10,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
-		selectMenus: {
-			text: 'Partial (Has a PR)',
-			url: 'https://github.com/disgoorg/disgo/pull/205'
-		},
+		selectMenus: 'Yes',
 		threads: 'Yes',
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
@@ -813,19 +804,13 @@ export const libs: Lib[] = [
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
-		scheduledEvents: {
-			text: 'Has an issue',
-			url: 'https://github.com/harmonyland/harmony/issues/305'
-		},
+		scheduledEvents: 'No',
 		timeouts: 'Yes',
 		modals: 'Yes',
 		permsv2: 'No',
 		automod: 'No',
 		localization: 'No',
-		forums: {
-			text: 'Has a PR',
-			url: 'https://github.com/harmonyland/harmony/pull/328'
-		}
+		forums: 'Yes'
 	},
 	{
 		name: 'Oceanic',
@@ -946,10 +931,7 @@ export const libs: Lib[] = [
 		gwVer: 10,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
-		selectMenus: {
-			text: 'Partial (Has a PR)',
-			url: 'https://github.com/kordlib/kord/pull/707'
-		},
+		selectMenus: 'Partial (Dev Version)',
 		threads: 'Yes',
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
