@@ -418,7 +418,7 @@ export const libs: Lib[] = [
 		gwVer: 9,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
-		selectMenus: 'Partial',
+		selectMenus: 'Dev Version',
 		threads: 'Yes',
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
