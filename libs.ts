@@ -702,6 +702,27 @@ export const libs: Lib[] = [
 		forums: 'No'
 	},
 	{
+		name: 'dfx',
+		url: 'https://github.com/tim-smart/dfx',
+		language: 'JavaScript',
+		apiVer: 10,
+		gwVer: 10,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'Yes',
+		autocomplete: 'Yes',
+		scheduledEvents: 'Yes',
+		timeouts: 'Yes',
+		modals: 'Yes',
+		permsv2: 'Yes',
+		automod: 'Yes',
+		localization: 'Yes',
+		forums: 'Yes'
+	},
+	{
 		name: 'discord.js',
 		url: 'https://github.com/discordjs/discord.js',
 		language: 'JavaScript',
