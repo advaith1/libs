@@ -782,12 +782,18 @@ export const libs: Lib[] = [
 			url: 'https://github.com/abalabahaha/eris/pull/1275'
 		},
 		timeouts: 'Yes',
-		modals: 'No',
+		modals: {
+			text: 'Has a PR',
+			url: 'https://github.com/abalabahaha/eris/pull/1432'
+		},
 		permsv2: {
 			text: 'Has a PR',
 			url: 'https://github.com/abalabahaha/eris/pull/1372'
 		},
-		automod: 'No',
+		automod: {
+			text: 'Has a PR',
+			url: 'https://github.com/abalabahaha/eris/pull/1428'		
+		},
 		localization: 'No',
 		forums: 'No'
 	},
