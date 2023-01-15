@@ -554,7 +554,7 @@ export const libs: Lib[] = [
 		modals: 'Yes',
 		permsv2: 'No',
 		automod: 'Yes',
-		localization: 'Yes',
+		localization: 'No',
 		forums: 'Yes'
 	},
 	{
