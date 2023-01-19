@@ -537,8 +537,8 @@ export const libs: Lib[] = [
 		forums: 'No'
 	},
 	{
-		name: 'discord.jv',
-		url: 'https://github.com/discord-jv/discord.jv',
+		name: 'discord.jar',
+		url: 'https://github.com/discord-jar/discord.jar',
 		language: 'Java',
 		apiVer: 10,
 		gwVer: 10,
