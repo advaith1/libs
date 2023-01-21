@@ -72,11 +72,11 @@ export const libs: Lib[] = [
 		name: 'Discord.Net',
 		url: 'https://github.com/discord-net/Discord.Net',
 		language: 'C#',
-		apiVer: 9,
-		gwVer: 9,
+		apiVer: 10,
+		gwVer: 10,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
-		selectMenus: 'Partial (Dev Version)',
+		selectMenus: 'Yes',
 		threads: 'Yes',
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
@@ -87,7 +87,7 @@ export const libs: Lib[] = [
 		permsv2: 'Yes',
 		automod: 'No',
 		localization: 'Yes',
-		forums: 'Partial'
+		forums: 'Yes'
 	},
 	{
 		name: 'DSharpPlus',
