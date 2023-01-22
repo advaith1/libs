@@ -876,15 +876,9 @@ export const libs: Lib[] = [
 		scheduledEvents: 'No',
 		timeouts: 'Yes',
 		modals: 'Yes',
-		permsv2: {
-			text: "Has a PR",
-			url: "https://github.com/tiscordlib/tiscord/pull/84"
-		},
+		permsv2: 'Yes',
 		automod: 'No',
-		localization: {
-			text: "Has a PR",
-			url: "https://github.com/tiscordlib/tiscord/pull/84"
-		},
+		localization: 'Yes',
 		forums: 'No'
 	},
 	{
