@@ -1191,7 +1191,8 @@ export const libs: Lib[] = [
 		forums: 'Yes'
 	},
 	{
-		name: 'nextcord 🍴',
+		name: '
+		🍴',
 		url: 'https://github.com/nextcord/nextcord',
 		language: 'Python',
 		apiVer: 10,
@@ -1209,7 +1210,7 @@ export const libs: Lib[] = [
 		permsv2: 'Yes',
 		automod: 'Yes',
 		localization: 'Yes',
-		forums: 'Partial'
+		forums: 'Dev Version'
 	},
 	{
 		name: 'pycord 🍴',
