@@ -1191,8 +1191,7 @@ export const libs: Lib[] = [
 		forums: 'Yes'
 	},
 	{
-		name: '
-		🍴',
+		name: 'nextcord 🍴',
 		url: 'https://github.com/nextcord/nextcord',
 		language: 'Python',
 		apiVer: 10,
