@@ -41,7 +41,7 @@ export default function Home() {
 				</h1>
 
 				{langs.map(lang => <div key={lang} className="mb-4 fw">
-					<h2 id={lang.toLowerCase()} className="title is-4 mb-3 has-text-white"><a href={'#' + lang.toLowerCase()}>{lang}</a></h2>
+					<h2 id={encodeURIComponent(lang.toLowerCase())} className="title is-4 mb-3 has-text-white"><a href={'#' + encodeURIComponent(lang.toLowerCase())}>{lang}</a></h2>
 
 					<div className="table-container">
 						<table className="table is-bordered mb-4 has-text-centered has-text-white fw">
