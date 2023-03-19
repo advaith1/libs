@@ -777,10 +777,7 @@ export const libs: Lib[] = [
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
-		scheduledEvents: {
-			text: 'Has a PR',
-			url: 'https://github.com/abalabahaha/eris/pull/1275'
-		},
+		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
 		modals: {
 			text: 'Has a PR',
