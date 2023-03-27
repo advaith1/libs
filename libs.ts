@@ -1262,10 +1262,7 @@ export const libs: Lib[] = [
 		modals: 'Dev Version',
 		permsv2: 'No',
 		automod: 'No',
-		localization: {
-			text: 'Has a PR',
-			url: 'https://github.com/shardlab/discordrb/pull/190'
-		},
+		localization: 'Dev Version',
 		forums: 'No'
 	},
 	{
