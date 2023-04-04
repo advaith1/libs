@@ -72,8 +72,8 @@ export const libs: Lib[] = [
 		name: 'Discord.Net',
 		url: 'https://github.com/discord-net/Discord.Net',
 		language: 'C#',
-		apiVer: 9,
-		gwVer: 9,
+		apiVer: 10,
+		gwVer: 10,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Partial (Dev Version)',
@@ -87,7 +87,7 @@ export const libs: Lib[] = [
 		permsv2: 'Yes',
 		automod: 'No',
 		localization: 'Yes',
-		forums: 'Partial'
+		forums: 'Yes'
 	},
 	{
 		name: 'DSharpPlus',
@@ -418,7 +418,7 @@ export const libs: Lib[] = [
 		gwVer: 9,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
-		selectMenus: 'Partial',
+		selectMenus: 'Yes',
 		threads: 'Yes',
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
@@ -429,7 +429,7 @@ export const libs: Lib[] = [
 		permsv2: 'Yes',
 		automod: 'Yes',
 		localization: 'Yes',
-		forums: 'Dev Version'
+		forums: 'Yes'
 	},
 	{
 		name: 'disgo',
@@ -537,27 +537,6 @@ export const libs: Lib[] = [
 		forums: 'No'
 	},
 	{
-		name: 'discord.jv',
-		url: 'https://github.com/discord-jv/discord.jv',
-		language: 'Java',
-		apiVer: 10,
-		gwVer: 10,
-		slashCommands: 'Yes',
-		buttons: 'Yes',
-		selectMenus: 'Yes',
-		threads: 'Yes',
-		guildStickers: 'Yes',
-		contextMenus: 'Yes',
-		autocomplete: 'Yes',
-		scheduledEvents: 'No',
-		timeouts: 'Yes',
-		modals: 'Yes',
-		permsv2: 'No',
-		automod: 'Yes',
-		localization: 'No',
-		forums: 'Yes'
-	},
-	{
 		name: 'catnip',
 		url: 'https://github.com/mewna/catnip',
 		language: 'Java',
@@ -580,6 +559,27 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'No',
 		forums: 'No'
+	},
+	{
+		name: 'discord.jar',
+		url: 'https://github.com/discord-jar/discord.jar',
+		language: 'Java',
+		apiVer: 10,
+		gwVer: 10,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'Yes',
+		autocomplete: 'Yes',
+		scheduledEvents: 'No',
+		timeouts: 'Yes',
+		modals: 'Yes',
+		permsv2: 'Yes',
+		automod: 'Yes',
+		localization: 'Yes',
+		forums: 'Yes'
 	},
 	{
 		name: 'Discord4J',
@@ -777,17 +777,20 @@ export const libs: Lib[] = [
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
-		scheduledEvents: {
-			text: 'Has a PR',
-			url: 'https://github.com/abalabahaha/eris/pull/1275'
-		},
+		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
-		modals: 'No',
+		modals: {
+			text: 'Has a PR',
+			url: 'https://github.com/abalabahaha/eris/pull/1432'
+		},
 		permsv2: {
 			text: 'Has a PR',
 			url: 'https://github.com/abalabahaha/eris/pull/1372'
 		},
-		automod: 'No',
+		automod: {
+			text: 'Has a PR',
+			url: 'https://github.com/abalabahaha/eris/pull/1428'		
+		},
 		localization: 'No',
 		forums: 'No'
 	},
@@ -870,15 +873,9 @@ export const libs: Lib[] = [
 		scheduledEvents: 'No',
 		timeouts: 'Yes',
 		modals: 'Yes',
-		permsv2: {
-			text: "Has a PR",
-			url: "https://github.com/tiscordlib/tiscord/pull/84"
-		},
+		permsv2: 'Yes',
 		automod: 'No',
-		localization: {
-			text: "Has a PR",
-			url: "https://github.com/tiscordlib/tiscord/pull/84"
-		},
+		localization: 'Yes',
 		forums: 'No'
 	},
 	{
@@ -951,8 +948,8 @@ export const libs: Lib[] = [
 		name: 'Discordia',
 		url: 'https://github.com/SinisterRectus/Discordia',
 		language: 'Lua',
-		apiVer: '7 stable, 8 dev',
-		gwVer: '6 stable, 8 dev',
+		apiVer: 8,
+		gwVer: 8,
 		slashCommands: 'No',
 		buttons: 'No',
 		selectMenus: 'No',
@@ -961,7 +958,7 @@ export const libs: Lib[] = [
 		contextMenus: 'No',
 		autocomplete: 'No',
 		scheduledEvents: 'No',
-		timeouts: 'Dev Version',
+		timeouts: 'Yes',
 		modals: 'No',
 		permsv2: 'No',
 		automod: 'No',
@@ -1042,7 +1039,7 @@ export const libs: Lib[] = [
 		gwVer: '10',
 		slashCommands: 'Yes',
 		buttons: 'Yes',
-		selectMenus: 'Partial',
+		selectMenus: 'Yes',
 		threads: 'Yes',
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
@@ -1126,7 +1123,7 @@ export const libs: Lib[] = [
 		gwVer: 10,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
-		selectMenus: 'Partial',
+		selectMenus: 'Yes',
 		threads: 'Yes',
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
@@ -1192,7 +1189,7 @@ export const libs: Lib[] = [
 		gwVer: 10,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
-		selectMenus: 'Partial',
+		selectMenus: 'Yes',
 		threads: 'Yes',
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
@@ -1203,7 +1200,7 @@ export const libs: Lib[] = [
 		permsv2: 'Yes',
 		automod: 'Yes',
 		localization: 'Yes',
-		forums: 'Partial'
+		forums: 'Yes'
 	},
 	{
 		name: 'pycord 🍴',
