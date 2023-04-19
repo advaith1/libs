@@ -1413,9 +1413,9 @@ export const libs: Lib[] = [
 		scheduledEvents: 'Partial',
 		timeouts: 'Partial',
 		modals: 'Yes',
-		permsv2: 'What is this?',
+		permsv2: 'Partial',
 		automod: 'Partial',
-		localization: 'What is this?',
+		localization: 'Yes',
 		forums: 'Yes'
 	},
 ]
