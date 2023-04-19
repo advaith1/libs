@@ -1396,5 +1396,26 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'No',
 		forums: 'No'
-	}
+	},
+	{
+		name: 'DiscordBM',
+		url: 'https://github.com/MahdiBM/DiscordBM',
+		language: 'Swift',
+		apiVer: 10,
+		gwVer: 10,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Partial',
+		contextMenus: 'Yes',
+		autocomplete: 'Yes',
+		scheduledEvents: 'Partial',
+		timeouts: 'Partial',
+		modals: 'Yes',
+		permsv2: 'What is this?',
+		automod: 'Partial',
+		localization: 'What is this?',
+		forums: 'Yes'
+	},
 ]
