@@ -928,7 +928,7 @@ export const libs: Lib[] = [
 		gwVer: 10,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
-		selectMenus: 'Partial (Dev Version)',
+		selectMenus: 'Yes',
 		threads: 'Yes',
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
@@ -937,12 +937,9 @@ export const libs: Lib[] = [
 		timeouts: 'Yes',
 		modals: 'Yes',
 		permsv2: 'Yes',
-		automod: 'Dev Version',
+		automod: 'Yes',
 		localization: 'Yes',
-		forums: {
-			text: 'Has a PR',
-			url: 'https://github.com/kordlib/kord/pull/684'
-		}
+		forums: 'Yes'
 	},
 	{
 		name: 'Discordia',
