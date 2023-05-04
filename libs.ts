@@ -1158,7 +1158,7 @@ export const libs: Lib[] = [
 		forums: 'Yes'
 	},
 	{
-		name: 'NAFF',
+		name: 'NAFF 🪦',
 		url: 'https://github.com/NAFTeam/NAFF',
 		language: 'Python',
 		apiVer: 10,
