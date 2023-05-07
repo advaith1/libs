@@ -348,6 +348,27 @@ export const libs: Lib[] = [
 		forums: 'Yes'
 	},
 	{
+		name: 'Mineral',
+		url: 'https://github.com/mineral-dart',
+		language: 'Dart',
+		apiVer: 10,
+		gwVer: 10,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'Yes',
+		autocomplete: 'No',
+		scheduledEvents: 'Yes',
+		timeouts: 'Yes',
+		modals: 'Yes',
+		permsv2: 'Yes',
+		automod: 'Partial',
+		localization: 'Partial',
+		forums: 'Yes'
+	},
+	{
 		name: 'coxir',
 		url: 'https://github.com/satom99/coxir',
 		language: 'Elixir',
