@@ -108,7 +108,7 @@ export const libs: Lib[] = [
 		permsv2: 'Dev Version',
 		automod: 'No',
 		localization: 'Yes',
-		forums: 'No'
+		forums: 'Yes'
 	},
 	{
 		name: 'NetCord',
