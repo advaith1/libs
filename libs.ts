@@ -537,7 +537,7 @@ export const libs: Lib[] = [
 		forums: 'No'
 	},
 	{
-		name: 'catnip',
+		name: 'catnip 🪦',
 		url: 'https://github.com/mewna/catnip',
 		language: 'Java',
 		apiVer: 9,
