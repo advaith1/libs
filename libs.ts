@@ -1371,6 +1371,27 @@ export const libs: Lib[] = [
 		forums: 'No'
 	},
 	{
+		name: 'DiscordBM',
+		url: 'https://github.com/DiscordBM/DiscordBM',
+		language: 'Swift',
+		apiVer: 10,
+		gwVer: 10,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'Yes',
+		autocomplete: 'Yes',
+		scheduledEvents: 'Yes',
+		timeouts: 'Yes',
+		modals: 'Yes',
+		permsv2: 'Yes',
+		automod: 'Yes',
+		localization: 'Yes',
+		forums: 'Yes'
+	},
+	{
 		name: 'Swiftcord 🍴',
 		url: 'https://github.com/SketchMaster2001/Swiftcord',
 		language: 'Swift',
