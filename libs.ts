@@ -637,7 +637,7 @@ export const libs: Lib[] = [
 	},
 	{
 		name: 'JDA',
-		url: 'https://github.com/DV8FromTheWorld/JDA',
+		url: 'https://github.com/discord-jda/JDA',
 		language: 'Java',
 		apiVer: 10,
 		gwVer: 10,
@@ -652,10 +652,7 @@ export const libs: Lib[] = [
 		timeouts: 'Yes',
 		modals: 'Yes',
 		permsv2: 'Yes',
-		automod: {
-			text: 'Has a PR',
-			url: 'https://github.com/DV8FromTheWorld/JDA/pull/2159'
-		},
+		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes'
 	},
