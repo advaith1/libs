@@ -393,13 +393,13 @@ export const libs: Lib[] = [
 		name: 'Nostrum',
 		url: 'https://github.com/Kraigie/nostrum',
 		language: 'Elixir',
-		apiVer: 9,
-		gwVer: 9,
+		apiVer: 10,
+		gwVer: 10,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Partial',
 		threads: 'Yes',
-		guildStickers: 'No',
+		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
 		scheduledEvents: 'Yes',
@@ -408,7 +408,7 @@ export const libs: Lib[] = [
 		permsv2: 'No',
 		automod: 'No',
 		localization: 'No',
-		forums: 'Dev Version'
+		forums: 'Yes'
 	},
 	{
 		name: 'arikawa',
