@@ -594,7 +594,7 @@ export const libs: Lib[] = [
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
-		scheduledEvents: 'No',
+		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
 		modals: 'Yes',
 		permsv2: 'Yes',
