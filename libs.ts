@@ -804,6 +804,27 @@ export const libs: Lib[] = [
 		forums: 'Yes'
 	},
 	{
+		name: 'Dysnomia 🍴',
+		url: 'https://github.com/projectdysnomia/dysnomia',
+		language: 'JavaScript',
+		apiVer: 10,
+		gwVer: 10,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'Yes',
+		autocomplete: 'Yes',
+		scheduledEvents: 'Yes',
+		timeouts: 'Yes',
+		modals: 'Yes',
+		permsv2: 'Yes',
+		automod: 'Yes',
+		localization: 'Yes',
+		forums: 'Yes'
+	},
+	{
 		name: 'Eris',
 		url: 'https://github.com/abalabahaha/eris',
 		language: 'JavaScript',
