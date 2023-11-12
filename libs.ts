@@ -93,11 +93,11 @@ export const libs: Lib[] = [
 		name: 'DSharpPlus',
 		url: 'https://github.com/DSharpPlus/DSharpPlus',
 		language: 'C#',
-		apiVer: 9,
-		gwVer: 9,
+		apiVer: 10,
+		gwVer: 10,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
-		selectMenus: 'Partial',
+		selectMenus: 'Yes',
 		threads: 'Yes',
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
@@ -105,8 +105,8 @@ export const libs: Lib[] = [
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
 		modals: 'Yes',
-		permsv2: 'Dev Version',
-		automod: 'No',
+		permsv2: 'Yes',
+		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes'
 	},
@@ -849,7 +849,7 @@ export const libs: Lib[] = [
 		},
 		automod: {
 			text: 'Has a PR',
-			url: 'https://github.com/abalabahaha/eris/pull/1428'		
+			url: 'https://github.com/abalabahaha/eris/pull/1428'
 		},
 		localization: 'No',
 		forums: 'No'
