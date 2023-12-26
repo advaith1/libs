@@ -106,7 +106,7 @@ export const libs: Lib[] = [
 		timeouts: 'Yes',
 		modals: 'Yes',
 		permsv2: 'Yes',
-		automod: 'Yes',
+		automod: 'Dev Version',
 		localization: 'Yes',
 		forums: 'Yes'
 	},
