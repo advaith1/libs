@@ -839,14 +839,8 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
-		modals: {
-			text: 'Has a PR',
-			url: 'https://github.com/abalabahaha/eris/pull/1432'
-		},
-		permsv2: {
-			text: 'Has a PR',
-			url: 'https://github.com/abalabahaha/eris/pull/1372'
-		},
+		modals: 'Dev Version',
+		permsv2: 'Dev Version',
 		automod: {
 			text: 'Has a PR',
 			url: 'https://github.com/abalabahaha/eris/pull/1428'
