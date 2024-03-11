@@ -678,14 +678,14 @@ export const libs: Lib[] = [
 		forums: 'Yes'
 	},
 	{
-		name: 'Biscuit',
-		url: 'https://github.com/oasisjs/biscuit',
+		name: 'Seyfert',
+		url: 'https://github.com/tiramisulabs/seyfert',
 		language: 'JavaScript',
 		apiVer: 10,
 		gwVer: 10,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
-		selectMenus: 'Partial',
+		selectMenus: 'Yes',
 		threads: 'Yes',
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
