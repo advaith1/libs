@@ -2,7 +2,7 @@
   "name": "lib-comparison",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export"
+    "build": "next build"
   },
   "dependencies": {
     "bulma": "^0.9.4",
