@@ -21,4 +21,6 @@ export interface Lib {
 	automod: LinkableString
 	localization: LinkableString
 	forums: LinkableString
+	userApps: LinkableString
+	polls: LinkableString
 }
