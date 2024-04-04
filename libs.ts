@@ -406,7 +406,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		userApps: 'Dev Version',
+		userApps: 'Yes',
 		polls: {
 			text: 'Has a PR',
 			url: 'https://github.com/nyxx-discord/nyxx/pull/644'
@@ -1212,10 +1212,7 @@ export const libs: Lib[] = [
 		guildStickers: 'No',
 		contextMenus: 'No',
 		autocomplete: 'No',
-		scheduledEvents: {
-			text: 'Has a PR',
-			url: 'https://github.com/restcord/restcord/pull/166'
-		},
+		scheduledEvents: 'Dev Version',
 		timeouts: 'No',
 		modals: 'No',
 		permsv2: 'No',
@@ -1375,7 +1372,10 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		userApps: 'No',
+		userApps: {
+			text: 'Has a PR',
+			url: 'https://github.com/interactions-py/interactions.py/pull/1647'
+		},
 		polls: 'No'
 	},
 	{
@@ -1627,7 +1627,7 @@ export const libs: Lib[] = [
 		polls: 'No'
 	},
 	{
-		name: 'Swiftcord 🍴',
+		name: 'Swiftcord 🍴🪦',
 		url: 'https://github.com/SketchMaster2001/Swiftcord',
 		language: 'Swift',
 		apiVer: 9,
@@ -1650,7 +1650,7 @@ export const libs: Lib[] = [
 		polls: 'No'
 	},
 	{
-		name: 'SwiftDiscord',
+		name: 'SwiftDiscord 🪦',
 		url: 'https://github.com/nuclearace/SwiftDiscord',
 		language: 'Swift',
 		apiVer: '6 stable, 8 dev',
