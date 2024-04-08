@@ -527,10 +527,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		userApps: {
-			text: 'Has a PR',
-			url: 'https://github.com/disgoorg/disgo/pull/341'
-		},
+		userApps: 'Yes',
 		polls: {
 			text: 'Has a PR',
 			url: 'https://github.com/disgoorg/disgo/pull/346'
