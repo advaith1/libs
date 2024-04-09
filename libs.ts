@@ -830,7 +830,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		userApps: 'No',
+		userApps: 'Yes',
 		polls: 'No'
 	},
 	{
