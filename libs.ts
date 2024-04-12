@@ -95,7 +95,10 @@ export const libs: Lib[] = [
 		localization: 'Yes',
 		forums: 'Yes',
 		userApps: 'Yes',
-		polls: 'No'
+		polls: {
+			text: 'Has a PR',
+			url: 'https://github.com/discord-net/Discord.Net/pull/2902'
+		}
 	},
 	{
 		name: 'DSharpPlus',
@@ -117,10 +120,7 @@ export const libs: Lib[] = [
 		automod: 'Dev Version',
 		localization: 'Yes',
 		forums: 'Yes',
-		userApps: {
-			text: 'Has a PR',
-			url: 'https://github.com/DSharpPlus/DSharpPlus/pull/1805'
-		},
+		userApps: 'Dev Version',
 		polls: {
 			text: 'Has a PR',
 			url: 'https://github.com/DSharpPlus/DSharpPlus/pull/1813'
@@ -169,10 +169,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		userApps: {
-			text: 'Has a PR',
-			url: 'https://github.com/Remora/Remora.Discord/pull/327'
-		},
+		userApps: 'Dev Version',
 		polls: 'No'
 	},
 	{
@@ -1122,7 +1119,10 @@ export const libs: Lib[] = [
 		localization: 'Yes',
 		forums: 'Yes',
 		userApps: 'No',
-		polls: 'No'
+		polls: {
+			text: 'Has a PR',
+			url: 'https://github.com/kordlib/kord/pull/933'
+		}
 	},
 	{
 		name: 'Discordia',
@@ -1543,7 +1543,10 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/serenity-rs/serenity/pull/2807'
 		},
-		polls: 'No'
+		polls: {
+			text: 'Has a PR',
+			url: 'https://github.com/serenity-rs/serenity/pull/2836'
+		}
 	},
 	{
 		name: 'Twilight',
