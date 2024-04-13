@@ -759,7 +759,10 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/discord-jda/JDA/pull/2633'
 		},
-		polls: 'No'
+		polls: {
+			text: 'Has a PR',
+			url: 'https://github.com/discord-jda/JDA/pull/2649'
+		}
 	},
 	{
 		name: 'Biscuit',
