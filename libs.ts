@@ -453,7 +453,10 @@ export const libs: Lib[] = [
 		localization: 'No',
 		forums: 'Dev Version',
 		userApps: 'No',
-		polls: 'No'
+		polls: {
+			text: 'Has a PR',
+			url: 'https://github.com/Kraigie/nostrum/pull/534'
+		}
 	},
 	{
 		name: 'arikawa',
