@@ -33,6 +33,7 @@ export default function Home() {
 				<title>Discord API Library Comparisons</title>
 				<meta name="description" content="Compares Discord libraries and their support of new API features" />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
+				<meta name="color-scheme" content="dark" />
 			</Head>
 
 			<main>
@@ -40,11 +41,11 @@ export default function Home() {
 					Discord API Library Comparisons
 				</h1>
 
-				{langs.map(lang => <div key={lang} className="mb-4 fw">
+				{langs.map(lang => <div key={lang} className="mb-5 fw">
 					<h2 id={lang.toLowerCase()} className="title is-4 mb-3 has-text-white"><a href={'#' + encodeURIComponent(lang.toLowerCase())}>{lang}</a></h2>
 
 					<div className="table-container">
-						<table className="table is-bordered mb-4 has-text-centered has-text-white fw">
+						<table className="table is-bordered has-text-centered has-text-white fw">
 							<thead>
 								<tr>
 									<th>Library</th>
