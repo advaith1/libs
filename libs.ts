@@ -71,8 +71,8 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		userApps: 'Dev Version',
-		polls: 'No'
+		userApps: 'Yes',
+		polls: 'Yes'
 	},
 	{
 		name: 'Discord.Net',
