@@ -981,10 +981,7 @@ export const libs: Lib[] = [
 		localization: 'Yes',
 		forums: 'Yes',
 		userApps: 'Yes',
-		polls: {
-			text: 'Has a PR',
-			url: 'https://github.com/OceanicJS/Oceanic/pull/141'
-		}
+		polls: 'Yes'
 	},
 	{
 		name: 'Seyfert',
