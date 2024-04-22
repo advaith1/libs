@@ -121,10 +121,7 @@ export const libs: Lib[] = [
 		localization: 'Yes',
 		forums: 'Yes',
 		userApps: 'Dev Version',
-		polls: {
-			text: 'Has a PR',
-			url: 'https://github.com/DSharpPlus/DSharpPlus/pull/1813'
-		}
+		polls: 'Dev Version'
 	},
 	{
 		name: 'NetCord',
@@ -147,7 +144,10 @@ export const libs: Lib[] = [
 		localization: 'Yes',
 		forums: 'Yes',
 		userApps: 'No',
-		polls: 'No'
+		polls: {
+			text: 'Has a PR',
+			url: 'https://github.com/KubaZ2/NetCord/pull/18'
+		}
 	},
 	{
 		name: 'Remora.Discord',
@@ -453,10 +453,7 @@ export const libs: Lib[] = [
 		localization: 'No',
 		forums: 'Dev Version',
 		userApps: 'No',
-		polls: {
-			text: 'Has a PR',
-			url: 'https://github.com/Kraigie/nostrum/pull/534'
-		}
+		polls: 'Yes'
 	},
 	{
 		name: 'arikawa',
@@ -759,10 +756,7 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/discord-jda/JDA/pull/2633'
 		},
-		polls: {
-			text: 'Has a PR',
-			url: 'https://github.com/discord-jda/JDA/pull/2649'
-		}
+		polls: 'Yes'
 	},
 	{
 		name: 'Detritus',
@@ -860,7 +854,10 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/discordeno/discordeno/pull/3502'
 		},
-		polls: 'No'
+		polls: {
+			text: 'Has a PR',
+			url: 'https://github.com/discordeno/discordeno/pull/3542'
+		}
 	},
 	{
 		name: 'droff',
@@ -928,14 +925,14 @@ export const libs: Lib[] = [
 		timeouts: 'Yes',
 		modals: 'Dev Version',
 		permsv2: 'Dev Version',
-		automod: {
-			text: 'Has a PR',
-			url: 'https://github.com/abalabahaha/eris/pull/1428'
-		},
+		automod: 'Dev Version',
 		localization: 'No',
 		forums: 'No',
 		userApps: 'No',
-		polls: 'No'
+		polls: {
+			text: 'Has a PR',
+			url: 'https://github.com/abalabahaha/eris/pull/1493'
+		}
 	},
 	{
 		name: 'Harmony',
@@ -1415,7 +1412,10 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		userApps: 'No',
+		userApps: {
+			text: 'Has a PR',
+			url: 'https://github.com/nextcord/nextcord/pull/1181'
+		},
 		polls: 'No'
 	},
 	{
