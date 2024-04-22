@@ -525,10 +525,7 @@ export const libs: Lib[] = [
 		localization: 'Yes',
 		forums: 'Yes',
 		userApps: 'Yes',
-		polls: {
-			text: 'Has a PR',
-			url: 'https://github.com/disgoorg/disgo/pull/346'
-		}
+		polls: 'Yes'
 	},
 	{
 		name: 'Disgord',
