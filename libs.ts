@@ -677,24 +677,15 @@ export const libs: Lib[] = [
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
-		threads: {
-			text: 'Dev Version',
-			url: 'https://github.com/Discord4J/Discord4J/issues/958'
-		},
+		threads: 'Yes',
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
-		scheduledEvents: {
-			text: 'Has a PR',
-			url: 'https://github.com/Discord4J/Discord4J/pull/1046'
-		},
+		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
 		modals: 'Yes',
 		permsv2: 'No',
-		automod: {
-			text: 'Has a PR',
-			url: 'https://github.com/Discord4J/Discord4J/pull/1074'
-		},
+		automod: 'Yes',
 		localization: 'No',
 		forums: 'No',
 		userApps: {
@@ -821,7 +812,10 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		userApps: 'No',
+		userApps: {
+			text: 'Has a PR',
+			url: 'https://github.com/discordjs/discord.js/pull/10227'
+		},
 		polls: {
 			text: 'Has a PR',
 			url: 'https://github.com/discordjs/discord.js/pull/10185'
@@ -1540,10 +1534,7 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/serenity-rs/serenity/pull/2807'
 		},
-		polls: {
-			text: 'Has a PR',
-			url: 'https://github.com/serenity-rs/serenity/pull/2836'
-		}
+		polls: 'Dev Version'
 	},
 	{
 		name: 'Twilight',
