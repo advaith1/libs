@@ -502,7 +502,10 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/bwmarrin/discordgo/pull/1511'
 		},
-		polls: 'No'
+		polls: {
+			text: 'Has a PR',
+			url: 'https://github.com/bwmarrin/discordgo/pull/1525'
+		}
 	},
 	{
 		name: 'disgo',
