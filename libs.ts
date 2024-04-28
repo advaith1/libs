@@ -1318,7 +1318,7 @@ export const libs: Lib[] = [
 		localization: 'Yes',
 		forums: 'Yes',
 		userApps: 'Yes',
-		polls: 'No'
+		polls: 'Yes'
 	},
 	{
 		name: 'hikari',
