@@ -992,7 +992,7 @@ export const libs: Lib[] = [
 		localization: 'Yes',
 		forums: 'Yes',
 		userApps: 'Partial',
-		polls: 'No'
+		polls: 'Yes'
 	},
 	{
 		name: 'SnowTransfer',
