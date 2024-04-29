@@ -680,7 +680,7 @@ export const libs: Lib[] = [
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
-		threads: 'Yes',
+		threads: 'Dev Version',
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
@@ -848,10 +848,7 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/discordeno/discordeno/pull/3502'
 		},
-		polls: {
-			text: 'Has a PR',
-			url: 'https://github.com/discordeno/discordeno/pull/3542'
-		}
+		polls: 'Dev Version'
 	},
 	{
 		name: 'droff',
