@@ -170,7 +170,10 @@ export const libs: Lib[] = [
 		localization: 'Yes',
 		forums: 'Yes',
 		userApps: 'Dev Version',
-		polls: 'No'
+		polls: {
+			text: 'Has a PR',
+			url: 'https://github.com/Remora/Remora.Discord/pull/337'
+		}
 	},
 	{
 		name: 'aegis.cpp 🪦',
