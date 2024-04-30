@@ -128,7 +128,7 @@ export const libs: Lib[] = [
 	},
 	{
 		name: 'NetCord',
-		url: 'https://github.com/KubaZ2/NetCord',
+		url: 'https://github.com/NetCordDev/NetCord',
 		language: 'C#',
 		apiVer: 10,
 		gwVer: 10,
@@ -146,8 +146,11 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		userApps: 'No',
-		polls: 'No'
+		userApps: 'Yes',
+		polls: {
+			text: 'Has a PR',
+			url: 'https://github.com/NetCordDev/NetCord/pull/18'
+		}
 	},
 	{
 		name: 'Remora.Discord',
