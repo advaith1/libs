@@ -856,11 +856,8 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		userApps: {
-			text: 'Has a PR',
-			url: 'https://github.com/discordeno/discordeno/pull/3502'
-		},
-		polls: 'No'
+		userApps: 'Yes',
+		polls: 'Yes'
 	},
 	{
 		name: 'droff',
