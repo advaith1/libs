@@ -146,7 +146,7 @@ export const libs: Lib[] = [
 		userApps: 'Yes',
 		polls: {
 			text: 'Has a PR',
-			url: 'https://github.com/KubaZ2/NetCord/pull/18'
+			url: 'https://github.com/NetCordDev/NetCord/pull/18'
 		}
 	},
 	{
