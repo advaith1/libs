@@ -146,11 +146,8 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		userApps: 'Yes',
-		polls: {
-			text: 'Has a PR',
-			url: 'https://github.com/NetCordDev/NetCord/pull/18'
-		}
+		userApps: 'No',
+		polls: 'No'
 	},
 	{
 		name: 'Remora.Discord',
