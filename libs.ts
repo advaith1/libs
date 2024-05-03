@@ -219,7 +219,7 @@ export const libs: Lib[] = [
 		localization: 'Yes',
 		forums: 'Yes',
 		userApps: 'No',
-		polls: 'No'
+		polls: 'Yes'
 	},
 	{
 		name: 'Discord++',
