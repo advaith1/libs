@@ -125,7 +125,7 @@ export const libs: Lib[] = [
 	},
 	{
 		name: 'NetCord',
-		url: 'https://github.com/KubaZ2/NetCord',
+		url: 'https://github.com/NetCordDev/NetCord',
 		language: 'C#',
 		apiVer: 10,
 		gwVer: 10,
