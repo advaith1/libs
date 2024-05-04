@@ -121,14 +121,11 @@ export const libs: Lib[] = [
 		localization: 'Yes',
 		forums: 'Yes',
 		userApps: 'Dev Version',
-		polls: {
-			text: 'Has a PR',
-			url: 'https://github.com/DSharpPlus/DSharpPlus/pull/1813'
-		}
+		polls: 'Dev Version'
 	},
 	{
 		name: 'NetCord',
-		url: 'https://github.com/KubaZ2/NetCord',
+		url: 'https://github.com/NetCordDev/NetCord',
 		language: 'C#',
 		apiVer: 10,
 		gwVer: 10,
@@ -146,8 +143,11 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		userApps: 'No',
-		polls: 'No'
+		userApps: 'Yes',
+		polls: {
+			text: 'Has a PR',
+			url: 'https://github.com/NetCordDev/NetCord/pull/18'
+		}
 	},
 	{
 		name: 'Remora.Discord',
@@ -170,7 +170,10 @@ export const libs: Lib[] = [
 		localization: 'Yes',
 		forums: 'Yes',
 		userApps: 'Dev Version',
-		polls: 'No'
+		polls: {
+			text: 'Has a PR',
+			url: 'https://github.com/Remora/Remora.Discord/pull/337'
+		}
 	},
 	{
 		name: 'aegis.cpp 🪦',
@@ -216,7 +219,7 @@ export const libs: Lib[] = [
 		localization: 'Yes',
 		forums: 'Yes',
 		userApps: 'No',
-		polls: 'No'
+		polls: 'Dev Version'
 	},
 	{
 		name: 'Discord++',
@@ -453,10 +456,7 @@ export const libs: Lib[] = [
 		localization: 'No',
 		forums: 'Dev Version',
 		userApps: 'No',
-		polls: {
-			text: 'Has a PR',
-			url: 'https://github.com/Kraigie/nostrum/pull/534'
-		}
+		polls: 'Yes'
 	},
 	{
 		name: 'arikawa',
@@ -505,7 +505,10 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/bwmarrin/discordgo/pull/1511'
 		},
-		polls: 'No'
+		polls: {
+			text: 'Has a PR',
+			url: 'https://github.com/bwmarrin/discordgo/pull/1525'
+		}
 	},
 	{
 		name: 'disgo',
@@ -528,10 +531,7 @@ export const libs: Lib[] = [
 		localization: 'Yes',
 		forums: 'Yes',
 		userApps: 'Yes',
-		polls: {
-			text: 'Has a PR',
-			url: 'https://github.com/disgoorg/disgo/pull/346'
-		}
+		polls: 'Yes'
 	},
 	{
 		name: 'Disgord',
@@ -683,24 +683,15 @@ export const libs: Lib[] = [
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
-		threads: {
-			text: 'Dev Version',
-			url: 'https://github.com/Discord4J/Discord4J/issues/958'
-		},
+		threads: 'Dev Version',
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
-		scheduledEvents: {
-			text: 'Has a PR',
-			url: 'https://github.com/Discord4J/Discord4J/pull/1046'
-		},
+		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
 		modals: 'Yes',
 		permsv2: 'No',
-		automod: {
-			text: 'Has a PR',
-			url: 'https://github.com/Discord4J/Discord4J/pull/1074'
-		},
+		automod: 'Yes',
 		localization: 'No',
 		forums: 'No',
 		userApps: {
@@ -759,10 +750,7 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/discord-jda/JDA/pull/2633'
 		},
-		polls: {
-			text: 'Has a PR',
-			url: 'https://github.com/discord-jda/JDA/pull/2649'
-		}
+		polls: 'Yes'
 	},
 	{
 		name: 'Detritus',
@@ -808,7 +796,7 @@ export const libs: Lib[] = [
 		localization: 'Yes',
 		forums: 'Yes',
 		userApps: 'Yes',
-		polls: 'No'
+		polls: 'Yes'
 	},
 	{
 		name: 'discord.js',
@@ -830,11 +818,11 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		userApps: 'No',
-		polls: {
+		userApps: {
 			text: 'Has a PR',
-			url: 'https://github.com/discordjs/discord.js/pull/10185'
-		}
+			url: 'https://github.com/discordjs/discord.js/pull/10227'
+		},
+		polls: 'Dev Version'
 	},
 	{
 		name: 'Discordeno',
@@ -857,7 +845,7 @@ export const libs: Lib[] = [
 		localization: 'Yes',
 		forums: 'Yes',
 		userApps: 'Dev Version',
-		polls: 'No'
+		polls: 'Dev Version'
 	},
 	{
 		name: 'droff',
@@ -925,14 +913,14 @@ export const libs: Lib[] = [
 		timeouts: 'Yes',
 		modals: 'Dev Version',
 		permsv2: 'Dev Version',
-		automod: {
-			text: 'Has a PR',
-			url: 'https://github.com/abalabahaha/eris/pull/1428'
-		},
+		automod: 'Dev Version',
 		localization: 'No',
 		forums: 'No',
 		userApps: 'No',
-		polls: 'No'
+		polls: {
+			text: 'Has a PR',
+			url: 'https://github.com/abalabahaha/eris/pull/1493'
+		}
 	},
 	{
 		name: 'Harmony',
@@ -1001,7 +989,7 @@ export const libs: Lib[] = [
 		localization: 'Yes',
 		forums: 'Yes',
 		userApps: 'Partial',
-		polls: 'No'
+		polls: 'Yes'
 	},
 	{
 		name: 'SnowTransfer',
@@ -1412,7 +1400,10 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		userApps: 'No',
+		userApps: {
+			text: 'Has a PR',
+			url: 'https://github.com/nextcord/nextcord/pull/1181'
+		},
 		polls: 'No'
 	},
 	{
@@ -1540,10 +1531,7 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/serenity-rs/serenity/pull/2807'
 		},
-		polls: {
-			text: 'Has a PR',
-			url: 'https://github.com/serenity-rs/serenity/pull/2836'
-		}
+		polls: 'Dev Version'
 	},
 	{
 		name: 'Twilight',
