@@ -856,8 +856,8 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		userApps: 'Yes',
-		polls: 'Yes'
+		userApps: 'Dev Version',
+		polls: 'No'
 	},
 	{
 		name: 'droff',
