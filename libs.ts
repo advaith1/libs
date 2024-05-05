@@ -1221,10 +1221,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		userApps: {
-			text: 'Has a PR',
-			url: 'https://github.com/Rapptz/discord.py/pull/9760'
-		},
+		userApps: 'Yes',
 		polls: {
 			text: 'Has a PR',
 			url: 'https://github.com/Rapptz/discord.py/pull/9759'
