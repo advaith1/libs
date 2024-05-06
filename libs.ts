@@ -822,7 +822,7 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/discordjs/discord.js/pull/10227'
 		},
-		polls: 'Dev Version'
+		polls: 'Yes'
 	},
 	{
 		name: 'Discordeno',
