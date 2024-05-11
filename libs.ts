@@ -1176,7 +1176,10 @@ export const libs: Lib[] = [
 		localization: 'Yes',
 		forums: 'Dev Version',
 		userApps: 'No',
-		polls: 'No'
+		polls: {
+			text: 'Has a PR',
+			url: 'https://github.com/discord-php/DiscordPHP/pull/1226'
+		}
 	},
 	{
 		name: 'RestCord',
@@ -1222,10 +1225,7 @@ export const libs: Lib[] = [
 		localization: 'Yes',
 		forums: 'Yes',
 		userApps: 'Dev Version',
-		polls: {
-			text: 'Has a PR',
-			url: 'https://github.com/Rapptz/discord.py/pull/9759'
-		}
+		polls: 'Dev Version'
 	},
 	{
 		name: 'disnake 🍴',
