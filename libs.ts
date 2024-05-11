@@ -1602,7 +1602,10 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		userApps: 'No',
+		userApps: {
+			text: 'Has a PR',
+			url: 'https://github.com/DiscordBM/DiscordBM/pull/71'	
+		},
 		polls: 'No'
 	},
 	{
