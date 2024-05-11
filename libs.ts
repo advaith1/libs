@@ -95,10 +95,7 @@ export const libs: Lib[] = [
 		localization: 'Yes',
 		forums: 'Yes',
 		userApps: 'Yes',
-		polls: {
-			text: 'Has a PR',
-			url: 'https://github.com/discord-net/Discord.Net/pull/2902'
-		}
+		polls: 'Yes'
 	},
 	{
 		name: 'DSharpPlus',
