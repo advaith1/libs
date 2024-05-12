@@ -1606,7 +1606,10 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/DiscordBM/DiscordBM/pull/71'	
 		},
-		polls: 'No'
+		polls: {
+			text: 'Has a PR',
+			url: 'https://github.com/DiscordBM/DiscordBM/pull/71'	
+		}
 	},
 	{
 		name: 'Swiftcord 🍴🪦',
