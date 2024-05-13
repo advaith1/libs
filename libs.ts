@@ -1554,7 +1554,10 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/twilight-rs/twilight/pull/2323'
 		},
-		polls: 'No'
+		polls: {
+			text: 'Has a PR',
+			url: 'https://github.com/twilight-rs/twilight/pull/2341'
+		}
 	},
 	{
 		name: 'AckCord',
