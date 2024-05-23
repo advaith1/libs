@@ -219,7 +219,7 @@ export const libs: Lib[] = [
 		localization: 'Yes',
 		forums: 'Yes',
 		userApps: 'No',
-		polls: 'Dev Version'
+		polls: 'Yes'
 	},
 	{
 		name: 'Discord++',
@@ -407,10 +407,7 @@ export const libs: Lib[] = [
 		localization: 'Yes',
 		forums: 'Yes',
 		userApps: 'Yes',
-		polls: {
-			text: 'Has a PR',
-			url: 'https://github.com/nyxx-discord/nyxx/pull/644'
-		}
+		polls: 'Dev Version'
 	},
 	{
 		name: 'coxir',
@@ -1326,7 +1323,10 @@ export const libs: Lib[] = [
 		localization: 'Yes',
 		forums: 'Yes',
 		userApps: 'No',
-		polls: 'No'
+		polls: {
+			text: 'Has a PR',
+			url: 'https://github.com/hikari-py/hikari/pull/1922'
+		}
 	},
 	{
 		name: 'interactions.py',
