@@ -169,11 +169,8 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		userApps: 'Dev Version',
-		polls: {
-			text: 'Has a PR',
-			url: 'https://github.com/Remora/Remora.Discord/pull/337'
-		}
+		userApps: 'Yes',
+		polls: 'Yes'
 	},
 	{
 		name: 'aegis.cpp 🪦',
