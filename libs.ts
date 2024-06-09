@@ -1602,13 +1602,10 @@ export const libs: Lib[] = [
 		permsv2: 'Yes',
 		automod: 'Yes',
 		localization: 'Yes',
-		forums: 'Partial',
+		forums: 'Yes',
 		monetization: 'Partial',
-		userApps: {
-			text: 'Has a PR',
-			url: 'https://github.com/serenity-rs/serenity/pull/2807'
-		},
-		polls: 'Dev Version'
+		userApps: 'Yes',
+		polls: 'Yes'
 	},
 	{
 		name: 'Twilight',
