@@ -1342,11 +1342,11 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		userApps: {
+		userApps: 'Dev Version',
+		polls: {
 			text: 'Has a PR',
-			url: 'https://github.com/interactions-py/interactions.py/pull/1647'
-		},
-		polls: 'No'
+			url: 'https://github.com/interactions-py/interactions.py/pull/1691'
+		}
 	},
 	{
 		name: 'NAFF 🪦',
