@@ -25,6 +25,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Partial',
+		monetization: 'No',
 		userApps: 'No',
 		polls: 'No'
 	},
@@ -48,6 +49,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'No',
 		forums: 'No',
+		monetization: 'No',
 		userApps: 'No',
 		polls: 'No'
 	},
@@ -71,6 +73,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
+		monetization: 'Yes',
 		userApps: 'Yes',
 		polls: 'Yes'
 	},
@@ -94,6 +97,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
+		monetization: 'Yes',
 		userApps: 'Yes',
 		polls: 'Yes'
 	},
@@ -117,6 +121,7 @@ export const libs: Lib[] = [
 		automod: 'Dev Version',
 		localization: 'Yes',
 		forums: 'Yes',
+		monetization: 'No',
 		userApps: 'Dev Version',
 		polls: 'Dev Version'
 	},
@@ -140,6 +145,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
+		monetization: 'Yes',
 		userApps: 'Yes',
 		polls: {
 			text: 'Has a PR',
@@ -166,6 +172,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
+		monetization: 'Partial',
 		userApps: 'Yes',
 		polls: 'Yes'
 	},
@@ -189,6 +196,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'No',
 		forums: 'No',
+		monetization: 'No',
 		userApps: 'No',
 		polls: 'No'
 	},
@@ -212,6 +220,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
+		monetization: 'Partial',
 		userApps: 'No',
 		polls: 'Yes'
 	},
@@ -235,6 +244,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'No',
 		forums: 'No',
+		monetization: 'No',
 		userApps: 'No',
 		polls: 'No'
 	},
@@ -258,6 +268,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
+		monetization: 'No',
 		userApps: 'No',
 		polls: 'No'
 	},
@@ -281,6 +292,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'No',
 		forums: 'No',
+		monetization: 'No',
 		userApps: 'No',
 		polls: 'No'
 	},
@@ -304,6 +316,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'No',
 		forums: 'No',
+		monetization: 'No',
 		userApps: 'No',
 		polls: 'No'
 	},
@@ -354,6 +367,7 @@ export const libs: Lib[] = [
 			url: 'https://github.com/shardlab/discordcr/pull/31'
 		},
 		forums: 'No',
+		monetization: 'No',
 		userApps: 'No',
 		polls: 'No'
 	},
@@ -377,6 +391,7 @@ export const libs: Lib[] = [
 		automod: 'Partial',
 		localization: 'No',
 		forums: 'Yes',
+		monetization: 'No',
 		userApps: 'No',
 		polls: 'No'
 	},
@@ -400,6 +415,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
+		monetization: 'Partial, Dev Version',
 		userApps: 'Yes',
 		polls: 'Dev Version'
 	},
@@ -423,6 +439,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'No',
 		forums: 'No',
+		monetization: 'No',
 		userApps: 'No',
 		polls: 'No'
 	},
@@ -446,6 +463,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'No',
 		forums: 'Yes',
+		monetization: 'No',
 		userApps: 'No',
 		polls: 'Yes'
 	},
@@ -469,6 +487,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'Yes',
 		forums: 'Yes',
+		monetization: 'No',
 		userApps: 'No',
 		polls: 'No'
 	},
@@ -492,6 +511,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
+		monetization: 'No',
 		userApps: {
 			text: 'Has a PR',
 			url: 'https://github.com/bwmarrin/discordgo/pull/1511'
@@ -521,6 +541,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
+		monetization: 'Yes',
 		userApps: 'Yes',
 		polls: 'Yes'
 	},
@@ -544,6 +565,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'Yes',
 		forums: 'No',
+		monetization: 'No',
 		userApps: 'No',
 		polls: 'No'
 	},
@@ -567,6 +589,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'No',
 		forums: 'No',
+		monetization: 'No',
 		userApps: 'No',
 		polls: 'No'
 	},
@@ -590,12 +613,13 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'No',
 		forums: 'Partial',
+		monetization: 'No',
 		userApps: 'No',
 		polls: 'No'
 	},
 	{
 		name: 'discord-haskell',
-		url: 'https://github.com/aquarial/discord-haskell',
+		url: 'https://github.com/discord-haskell/discord-haskell',
 		language: 'Haskell',
 		apiVer: 10,
 		gwVer: 10,
@@ -613,6 +637,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'Yes',
 		forums: 'No',
+		monetization: 'No',
 		userApps: 'No',
 		polls: 'No'
 	},
@@ -639,6 +664,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'No',
 		forums: 'No',
+		monetization: 'No',
 		userApps: 'No',
 		polls: 'No'
 	},
@@ -662,6 +688,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
+		monetization: 'No',
 		userApps: 'Yes',
 		polls: 'No'
 	},
@@ -685,6 +712,10 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'No',
 		forums: 'No',
+		monetization: {
+			text: 'Has a PR',
+			url: 'https://github.com/Discord4J/Discord4J/pull/1184'
+		},
 		userApps: {
 			text: 'Has a PR',
 			url: 'https://github.com/Discord4J/Discord4J/pull/1183'
@@ -714,6 +745,7 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/Javacord/Javacord/pull/1131'
 		},
+		monetization: 'No',
 		userApps: 'No',
 		polls: 'No'
 	},
@@ -737,6 +769,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
+		monetization: 'Partial',
 		userApps: {
 			text: 'Has a PR',
 			url: 'https://github.com/discord-jda/JDA/pull/2633'
@@ -763,6 +796,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'No',
 		forums: 'No',
+		monetization: 'No',
 		userApps: 'No',
 		polls: 'No'
 	},
@@ -786,6 +820,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
+		monetization: 'Yes',
 		userApps: 'Yes',
 		polls: 'Yes'
 	},
@@ -809,6 +844,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
+		monetization: 'Yes',
 		userApps: {
 			text: 'Has a PR',
 			url: 'https://github.com/discordjs/discord.js/pull/10227'
@@ -835,6 +871,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
+		monetization: 'Dev Version',
 		userApps: 'Dev Version',
 		polls: 'Dev Version'
 	},
@@ -858,6 +895,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
+		monetization: 'No',
 		userApps: 'No',
 		polls: 'No'
 	},
@@ -881,6 +919,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
+		monetization: 'No',
 		userApps: {
 			text: 'Has a PR',
 			url: 'https://github.com/projectdysnomia/dysnomia/pull/129'
@@ -907,6 +946,7 @@ export const libs: Lib[] = [
 		automod: 'Dev Version',
 		localization: 'No',
 		forums: 'No',
+		monetization: 'No',
 		userApps: 'No',
 		polls: {
 			text: 'Has a PR',
@@ -933,6 +973,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'No',
 		forums: 'Yes',
+		monetization: 'Partial',
 		userApps: 'No',
 		polls: 'No'
 	},
@@ -956,6 +997,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
+		monetization: 'Partial',
 		userApps: 'Yes',
 		polls: 'Yes'
 	},
@@ -979,6 +1021,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
+		monetization: 'No',
 		userApps: 'Partial',
 		polls: 'Yes'
 	},
@@ -1002,6 +1045,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'Yes',
 		forums: 'No',
+		monetization: 'No',
 		userApps: 'Yes',
 		polls: 'No'
 	},
@@ -1025,6 +1069,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'Yes',
 		forums: 'No',
+		monetization: 'No',
 		userApps: 'No',
 		polls: 'No'
 	},
@@ -1048,6 +1093,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'No',
 		forums: 'Partial',
+		monetization: 'No',
 		userApps: 'No',
 		polls: 'No'
 	},
@@ -1071,6 +1117,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'No',
 		forums: 'No',
+		monetization: 'No',
 		userApps: 'No',
 		polls: 'No'
 	},
@@ -1094,6 +1141,10 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
+		monetization: {
+			text: 'Has a PR',
+			url: 'https://github.com/kordlib/kord/pull/932'
+		},
 		userApps: 'No',
 		polls: {
 			text: 'Has a PR',
@@ -1120,6 +1171,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'No',
 		forums: 'No',
+		monetization: 'No',
 		userApps: 'No',
 		polls: 'No'
 	},
@@ -1143,6 +1195,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Partial',
+		monetization: 'No',
 		userApps: 'No',
 		polls: 'No'
 	},
@@ -1166,6 +1219,10 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Dev Version',
+		monetization: {
+			text: 'Has a PR',
+			url: 'https://github.com/discord-php/DiscordPHP/pull/1186'
+		},
 		userApps: 'No',
 		polls: {
 			text: 'Has a PR',
@@ -1192,6 +1249,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'No',
 		forums: 'No',
+		monetization: 'No',
 		userApps: 'No',
 		polls: 'No'
 	},
@@ -1215,6 +1273,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
+		monetization: 'Dev Version',
 		userApps: 'Dev Version',
 		polls: 'Dev Version'
 	},
@@ -1238,6 +1297,10 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
+		monetization: {
+			text: 'Partial Dev Version, Has PR',
+			url: 'https://github.com/DisnakeDev/disnake/pull/1186'
+		},
 		userApps: {
 			text: 'Has a PR',
 			url: 'https://github.com/DisnakeDev/disnake/pull/1173'
@@ -1267,6 +1330,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'No',
 		forums: 'No',
+		monetization: 'No',
 		userApps: 'No',
 		polls: 'No'
 	},
@@ -1290,6 +1354,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
+		monetization: 'Yes',
 		userApps: 'Yes',
 		polls: 'Yes'
 	},
@@ -1316,6 +1381,7 @@ export const libs: Lib[] = [
 		},
 		localization: 'Yes',
 		forums: 'Yes',
+		monetization: 'Partial',
 		userApps: 'No',
 		polls: {
 			text: 'Has a PR',
@@ -1342,6 +1408,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
+		monetization: 'Partial',
 		userApps: 'Dev Version',
 		polls: {
 			text: 'Has a PR',
@@ -1368,6 +1435,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
+		monetization: 'No',
 		userApps: 'No',
 		polls: 'No'
 	},
@@ -1391,6 +1459,10 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
+		monetization: {
+			text: 'Has a PR',
+			url: 'https://github.com/nextcord/nextcord/pull/1138'
+		},
 		userApps: {
 			text: 'Has a PR',
 			url: 'https://github.com/nextcord/nextcord/pull/1181'
@@ -1417,6 +1489,10 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
+		monetization: {
+			text: 'Partial, Has PR',
+			url: 'https://github.com/Pycord-Development/pycord/pull/2438'
+		},
 		userApps: {
 			text: 'Has a PR',
 			url: 'https://github.com/Pycord-Development/pycord/pull/2409'
@@ -1446,6 +1522,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Dev Version',
+		monetization: 'No',
 		userApps: 'No',
 		polls: 'No'
 	},
@@ -1478,6 +1555,7 @@ export const libs: Lib[] = [
 			url: 'https://github.com/shardlab/discordrb/pull/245'
 		},
 		forums: 'Partial',
+		monetization: 'No',
 		userApps: 'No',
 		polls: 'No'
 	},
@@ -1501,6 +1579,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'No',
 		forums: 'No',
+		monetization: 'No',
 		userApps: 'No',
 		polls: 'No'
 	},
@@ -1524,6 +1603,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Partial',
+		monetization: 'Partial',
 		userApps: {
 			text: 'Has a PR',
 			url: 'https://github.com/serenity-rs/serenity/pull/2807'
@@ -1550,6 +1630,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
+		monetization: 'Partial Dev Version',
 		userApps: {
 			text: 'Has a PR',
 			url: 'https://github.com/twilight-rs/twilight/pull/2323'
@@ -1582,6 +1663,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'No',
 		forums: 'No',
+		monetization: 'Partial',
 		userApps: 'No',
 		polls: 'No'
 	},
@@ -1605,6 +1687,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
+		monetization: 'Yes',
 		userApps: 'Yes',
 		polls: 'Yes'
 	},
@@ -1628,6 +1711,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'Dev Version',
 		forums: 'No',
+		monetization: 'No',
 		userApps: 'No',
 		polls: 'No'
 	},
@@ -1651,6 +1735,7 @@ export const libs: Lib[] = [
 		automod: 'No',
 		localization: 'No',
 		forums: 'No',
+		monetization: 'No',
 		userApps: 'No',
 		polls: 'No'
 	}

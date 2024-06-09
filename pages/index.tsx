@@ -65,6 +65,7 @@ export default function Home() {
 									<th>AutoMod</th>
 									<th>Localization</th>
 									<th>Forums</th>
+									<th>Monetization</th>
 									<th>User Apps</th>
 									<th>Polls</th>
 								</tr>
@@ -89,6 +90,7 @@ export default function Home() {
 										{status(lib.automod)}
 										{status(lib.localization)}
 										{status(lib.forums)}
+										{status(lib.monetization)}
 										{status(lib.userApps)}
 										{status(lib.polls)}
 									</tr>
