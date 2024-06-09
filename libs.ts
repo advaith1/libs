@@ -166,11 +166,8 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		userApps: 'Dev Version',
-		polls: {
-			text: 'Has a PR',
-			url: 'https://github.com/Remora/Remora.Discord/pull/337'
-		}
+		userApps: 'Yes',
+		polls: 'Yes'
 	},
 	{
 		name: 'aegis.cpp 🪦',
@@ -216,7 +213,7 @@ export const libs: Lib[] = [
 		localization: 'Yes',
 		forums: 'Yes',
 		userApps: 'No',
-		polls: 'Dev Version'
+		polls: 'Yes'
 	},
 	{
 		name: 'Discord++',
@@ -404,10 +401,7 @@ export const libs: Lib[] = [
 		localization: 'Yes',
 		forums: 'Yes',
 		userApps: 'Yes',
-		polls: {
-			text: 'Has a PR',
-			url: 'https://github.com/nyxx-discord/nyxx/pull/644'
-		}
+		polls: 'Dev Version'
 	},
 	{
 		name: 'coxir',
@@ -1173,7 +1167,10 @@ export const libs: Lib[] = [
 		localization: 'Yes',
 		forums: 'Dev Version',
 		userApps: 'No',
-		polls: 'No'
+		polls: {
+			text: 'Has a PR',
+			url: 'https://github.com/discord-php/DiscordPHP/pull/1226'
+		}
 	},
 	{
 		name: 'RestCord',
@@ -1219,10 +1216,7 @@ export const libs: Lib[] = [
 		localization: 'Yes',
 		forums: 'Yes',
 		userApps: 'Dev Version',
-		polls: {
-			text: 'Has a PR',
-			url: 'https://github.com/Rapptz/discord.py/pull/9759'
-		}
+		polls: 'Dev Version'
 	},
 	{
 		name: 'disnake 🍴',
@@ -1323,7 +1317,10 @@ export const libs: Lib[] = [
 		localization: 'Yes',
 		forums: 'Yes',
 		userApps: 'No',
-		polls: 'No'
+		polls: {
+			text: 'Has a PR',
+			url: 'https://github.com/hikari-py/hikari/pull/1922'
+		}
 	},
 	{
 		name: 'interactions.py',
@@ -1551,7 +1548,10 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/twilight-rs/twilight/pull/2323'
 		},
-		polls: 'No'
+		polls: {
+			text: 'Has a PR',
+			url: 'https://github.com/twilight-rs/twilight/pull/2341'
+		}
 	},
 	{
 		name: 'AckCord',
