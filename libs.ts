@@ -1602,8 +1602,8 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		userApps: 'No',
-		polls: 'No'
+		userApps: 'Yes',
+		polls: 'Yes'
 	},
 	{
 		name: 'Swiftcord 🍴🪦',
