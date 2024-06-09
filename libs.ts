@@ -1453,25 +1453,31 @@ export const libs: Lib[] = [
 		name: 'discordrb',
 		url: 'https://github.com/shardlab/discordrb',
 		language: 'Ruby',
-		apiVer: '6 stable, 9 dev',
-		gwVer: '6 stable, 9 dev',
-		slashCommands: 'Dev Version',
-		buttons: 'Dev Version',
-		selectMenus: 'Partial (Dev)',
-		threads: 'Dev Version',
+		apiVer: 9,
+		gwVer: 9,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
 		guildStickers: 'Dev Version',
-		contextMenus: 'Dev Version',
+		contextMenus: 'Yes',
 		autocomplete: 'No',
-		scheduledEvents: 'No',
-		timeouts: 'Dev Version',
-		modals: 'Dev Version',
-		permsv2: 'No',
+		scheduledEvents: {
+			text: 'Has a PR',
+			url: 'https://github.com/shardlab/discordrb/pull/152'
+		},
+		timeouts: 'Yes',
+		modals: 'Yes',
+		permsv2: {
+			text: 'Has a PR',
+			url: 'https://github.com/shardlab/discordrb/pull/254'
+		},
 		automod: 'No',
 		localization: {
 			text: 'Has a PR',
-			url: 'https://github.com/shardlab/discordrb/pull/190'
+			url: 'https://github.com/shardlab/discordrb/pull/245'
 		},
-		forums: 'No',
+		forums: 'Partial',
 		userApps: 'No',
 		polls: 'No'
 	},
