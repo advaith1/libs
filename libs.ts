@@ -779,7 +779,7 @@ export const libs: Lib[] = [
 	{
 		name: 'Detritus',
 		url: 'https://github.com/detritusjs/client',
-		language: 'JavaScript',
+		language: 'nodejs',
 		apiVer: 9,
 		gwVer: 9,
 		slashCommands: 'Yes',
@@ -803,7 +803,7 @@ export const libs: Lib[] = [
 	{
 		name: 'dfx',
 		url: 'https://github.com/tim-smart/dfx',
-		language: 'JavaScript',
+		language: 'nodejs',
 		apiVer: 10,
 		gwVer: 10,
 		slashCommands: 'Yes',
@@ -827,7 +827,7 @@ export const libs: Lib[] = [
 	{
 		name: 'discord.js',
 		url: 'https://github.com/discordjs/discord.js',
-		language: 'JavaScript',
+		language: 'nodejs',
 		apiVer: 10,
 		gwVer: 10,
 		slashCommands: 'Yes',
@@ -854,7 +854,7 @@ export const libs: Lib[] = [
 	{
 		name: 'Discordeno',
 		url: 'https://github.com/discordeno/discordeno',
-		language: 'JavaScript',
+		language: 'deno',
 		apiVer: 10,
 		gwVer: 10,
 		slashCommands: 'Yes',
@@ -878,7 +878,7 @@ export const libs: Lib[] = [
 	{
 		name: 'droff',
 		url: 'https://github.com/tim-smart/droff',
-		language: 'JavaScript',
+		language: 'nodejs',
 		apiVer: 10,
 		gwVer: 10,
 		slashCommands: 'Yes',
@@ -902,7 +902,7 @@ export const libs: Lib[] = [
 	{
 		name: 'Dysnomia 🍴',
 		url: 'https://github.com/projectdysnomia/dysnomia',
-		language: 'JavaScript',
+		language: 'nodejs',
 		apiVer: 10,
 		gwVer: 10,
 		slashCommands: 'Yes',
@@ -929,7 +929,7 @@ export const libs: Lib[] = [
 	{
 		name: 'Eris',
 		url: 'https://github.com/abalabahaha/eris',
-		language: 'JavaScript',
+		language: 'nodejs',
 		apiVer: 9,
 		gwVer: 9,
 		slashCommands: 'Yes',
@@ -956,7 +956,7 @@ export const libs: Lib[] = [
 	{
 		name: 'Harmony',
 		url: 'https://github.com/harmonyland/harmony',
-		language: 'JavaScript',
+		language: 'deno',
 		apiVer: 9,
 		gwVer: 9,
 		slashCommands: 'Yes',
@@ -980,7 +980,7 @@ export const libs: Lib[] = [
 	{
 		name: 'Oceanic',
 		url: 'https://github.com/OceanicJS/Oceanic',
-		language: 'JavaScript',
+		language: 'nodejs',
 		apiVer: 10,
 		gwVer: 10,
 		slashCommands: 'Yes',
@@ -1004,7 +1004,7 @@ export const libs: Lib[] = [
 	{
 		name: 'Seyfert',
 		url: 'https://github.com/tiramisulabs/seyfert',
-		language: 'JavaScript',
+		language: 'nodejs',
 		apiVer: 10,
 		gwVer: 10,
 		slashCommands: 'Yes',
@@ -1028,7 +1028,7 @@ export const libs: Lib[] = [
 	{
 		name: 'SnowTransfer',
 		url: 'https://github.com/DasWolke/SnowTransfer',
-		language: 'JavaScript',
+		language: 'nodejs',
 		apiVer: 10,
 		gwVer: '-',
 		slashCommands: 'Yes',
@@ -1052,7 +1052,7 @@ export const libs: Lib[] = [
 	{
 		name: 'Tiscord',
 		url: 'https://github.com/tiscordlib/tiscord',
-		language: 'JavaScript',
+		language: 'nodejs',
 		apiVer: 10,
 		gwVer: 10,
 		slashCommands: 'Yes',
@@ -1076,7 +1076,7 @@ export const libs: Lib[] = [
 	{
 		name: 'Discall',
 		url: 'https://github.com/Discall-Development/Discall',
-		language: 'JavaScript',
+		language: 'bun',
 		apiVer: 10,
 		gwVer: 10,
 		slashCommands: 'No',
