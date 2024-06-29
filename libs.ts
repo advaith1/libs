@@ -1273,9 +1273,9 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		monetization: 'Dev Version',
-		userApps: 'Dev Version',
-		polls: 'Dev Version'
+		monetization: 'Yes',
+		userApps: 'Yes',
+		polls: 'Yes'
 	},
 	{
 		name: 'disnake 🍴',
