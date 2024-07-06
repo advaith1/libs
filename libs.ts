@@ -708,10 +708,10 @@ export const libs: Lib[] = [
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
 		modals: 'Yes',
-		permsv2: 'No',
+		permsv2: 'Yes',
 		automod: 'Yes',
-		localization: 'No',
-		forums: 'No',
+		localization: 'Yes',
+		forums: 'Dev Version',
 		monetization: {
 			text: 'Has a PR',
 			url: 'https://github.com/Discord4J/Discord4J/pull/1184'
@@ -720,7 +720,10 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/Discord4J/Discord4J/pull/1183'
 		},
-		polls: 'No'
+		polls: {
+			text: 'Has a PR',
+			url: 'https://github.com/Discord4J/Discord4J/pull/1222'
+		}
 	},
 	{
 		name: 'Javacord',
