@@ -147,10 +147,7 @@ export const libs: Lib[] = [
 		forums: 'Yes',
 		monetization: 'Yes',
 		userApps: 'Yes',
-		polls: {
-			text: 'Has a PR',
-			url: 'https://github.com/NetCordDev/NetCord/pull/18'
-		}
+		polls: 'Yes'
 	},
 	{
 		name: 'Remora.Discord',
