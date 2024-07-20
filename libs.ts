@@ -1489,18 +1489,9 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		monetization: {
-			text: 'Partial, Has PR',
-			url: 'https://github.com/Pycord-Development/pycord/pull/2438'
-		},
-		userApps: {
-			text: 'Has a PR',
-			url: 'https://github.com/Pycord-Development/pycord/pull/2409'
-		},
-		polls: {
-			text: 'Has a PR',
-			url: 'https://github.com/Pycord-Development/pycord/pull/2408'
-		}
+		monetization: 'Yes',
+		userApps: 'Yes',
+		polls: 'Yes'
 	},
 	{
 		name: 'discorb',
