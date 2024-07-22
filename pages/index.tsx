@@ -68,6 +68,8 @@ export default function Home() {
 									<th>Monetization</th>
 									<th>User Apps</th>
 									<th>Polls</th>
+									<th>Forwarding</th>
+									<th>App Emoji</th>
 								</tr>
 							</thead>
 							<tbody>
@@ -93,6 +95,8 @@ export default function Home() {
 										{status(lib.monetization)}
 										{status(lib.userApps)}
 										{status(lib.polls)}
+										{status(lib.forwarding)}
+										{status(lib.appEmoji)}
 									</tr>
 								)}
 							</tbody>

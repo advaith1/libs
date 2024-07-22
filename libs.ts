@@ -27,7 +27,9 @@ export const libs: Lib[] = [
 		forums: 'Partial',
 		monetization: 'No',
 		userApps: 'No',
-		polls: 'No'
+		polls: 'No',
+		forwarding: 'No',
+		appEmoji: 'No'
 	},
 	{
 		name: 'Orca',
@@ -51,7 +53,9 @@ export const libs: Lib[] = [
 		forums: 'No',
 		monetization: 'No',
 		userApps: 'No',
-		polls: 'No'
+		polls: 'No',
+		forwarding: 'No',
+		appEmoji: 'No'
 	},
 	{
 		name: 'DisCatSharp',
@@ -75,7 +79,9 @@ export const libs: Lib[] = [
 		forums: 'Yes',
 		monetization: 'Yes',
 		userApps: 'Yes',
-		polls: 'Yes'
+		polls: 'Yes',
+		forwarding: 'Dev Version',
+		appEmoji: 'Dev Version'
 	},
 	{
 		name: 'Discord.Net',
@@ -99,7 +105,12 @@ export const libs: Lib[] = [
 		forums: 'Yes',
 		monetization: 'Yes',
 		userApps: 'Yes',
-		polls: 'Yes'
+		polls: 'Yes',
+		forwarding: {
+			text: 'Has a PR',
+			url: 'https://github.com/discord-net/Discord.Net/pull/2918'
+		},
+		appEmoji: 'Yes'
 	},
 	{
 		name: 'DSharpPlus',
@@ -123,7 +134,9 @@ export const libs: Lib[] = [
 		forums: 'Yes',
 		monetization: 'No',
 		userApps: 'Dev Version',
-		polls: 'Dev Version'
+		polls: 'Dev Version',
+		forwarding: 'No',
+		appEmoji: 'Dev Version'
 	},
 	{
 		name: 'NetCord',
@@ -147,7 +160,9 @@ export const libs: Lib[] = [
 		forums: 'Yes',
 		monetization: 'Yes',
 		userApps: 'Yes',
-		polls: 'Yes'
+		polls: 'Yes',
+		forwarding: 'No',
+		appEmoji: 'No'
 	},
 	{
 		name: 'Remora.Discord',
@@ -171,7 +186,9 @@ export const libs: Lib[] = [
 		forums: 'Yes',
 		monetization: 'Partial',
 		userApps: 'Yes',
-		polls: 'Yes'
+		polls: 'Yes',
+		forwarding: 'No',
+		appEmoji: 'No'
 	},
 	{
 		name: 'aegis.cpp 🪦',
@@ -195,7 +212,9 @@ export const libs: Lib[] = [
 		forums: 'No',
 		monetization: 'No',
 		userApps: 'No',
-		polls: 'No'
+		polls: 'No',
+		forwarding: 'No',
+		appEmoji: 'No'
 	},
 	{
 		name: 'D++',
@@ -219,7 +238,12 @@ export const libs: Lib[] = [
 		forums: 'Yes',
 		monetization: 'Partial',
 		userApps: 'No',
-		polls: 'Yes'
+		polls: 'Yes',
+		forwarding: 'No',
+		appEmoji: {
+			text: 'Has a PR',
+			url: 'https://github.com/brainboxdotcc/DPP/pull/1207'
+		}
 	},
 	{
 		name: 'Discord++',
@@ -243,7 +267,9 @@ export const libs: Lib[] = [
 		forums: 'No',
 		monetization: 'No',
 		userApps: 'No',
-		polls: 'No'
+		polls: 'No',
+		forwarding: 'No',
+		appEmoji: 'No'
 	},
 	{
 		name: 'DiscordCoreAPI',
@@ -267,7 +293,9 @@ export const libs: Lib[] = [
 		forums: 'Yes',
 		monetization: 'No',
 		userApps: 'No',
-		polls: 'No'
+		polls: 'No',
+		forwarding: 'No',
+		appEmoji: 'No'
 	},
 	{
 		name: 'Sleepy Discord',
@@ -291,7 +319,9 @@ export const libs: Lib[] = [
 		forums: 'No',
 		monetization: 'No',
 		userApps: 'No',
-		polls: 'No'
+		polls: 'No',
+		forwarding: 'No',
+		appEmoji: 'No'
 	},
 	{
 		name: 'discljord',
@@ -315,7 +345,9 @@ export const libs: Lib[] = [
 		forums: 'No',
 		monetization: 'No',
 		userApps: 'No',
-		polls: 'No'
+		polls: 'No',
+		forwarding: 'No',
+		appEmoji: 'No'
 	},
 	{
 		name: 'discordcr',
@@ -366,7 +398,9 @@ export const libs: Lib[] = [
 		forums: 'No',
 		monetization: 'No',
 		userApps: 'No',
-		polls: 'No'
+		polls: 'No',
+		forwarding: 'No',
+		appEmoji: 'No'
 	},
 	{
 		name: 'Mineral',
@@ -390,7 +424,9 @@ export const libs: Lib[] = [
 		forums: 'Yes',
 		monetization: 'No',
 		userApps: 'No',
-		polls: 'No'
+		polls: 'No',
+		forwarding: 'No',
+		appEmoji: 'No'
 	},
 	{
 		name: 'nyxx',
@@ -414,7 +450,15 @@ export const libs: Lib[] = [
 		forums: 'Yes',
 		monetization: 'Partial, Dev Version',
 		userApps: 'Yes',
-		polls: 'Dev Version'
+		polls: 'Dev Version',
+		forwarding: {
+			text: 'Has a PR',
+			url: 'https://github.com/nyxx-discord/nyxx/pull/677'
+		},
+		appEmoji: {
+			text: 'Has a PR',
+			url: 'https://github.com/nyxx-discord/nyxx/pull/678'
+		}
 	},
 	{
 		name: 'coxir',
@@ -438,7 +482,9 @@ export const libs: Lib[] = [
 		forums: 'No',
 		monetization: 'No',
 		userApps: 'No',
-		polls: 'No'
+		polls: 'No',
+		forwarding: 'No',
+		appEmoji: 'No'
 	},
 	{
 		name: 'Nostrum',
@@ -462,7 +508,9 @@ export const libs: Lib[] = [
 		forums: 'Yes',
 		monetization: 'No',
 		userApps: 'No',
-		polls: 'Yes'
+		polls: 'Yes',
+		forwarding: 'No',
+		appEmoji: 'No'
 	},
 	{
 		name: 'arikawa',
@@ -486,7 +534,9 @@ export const libs: Lib[] = [
 		forums: 'Yes',
 		monetization: 'No',
 		userApps: 'No',
-		polls: 'No'
+		polls: 'No',
+		forwarding: 'No',
+		appEmoji: 'No'
 	},
 	{
 		name: 'DiscordGo',
@@ -509,14 +559,13 @@ export const libs: Lib[] = [
 		localization: 'Yes',
 		forums: 'Yes',
 		monetization: 'No',
-		userApps: {
-			text: 'Has a PR',
-			url: 'https://github.com/bwmarrin/discordgo/pull/1511'
-		},
+		userApps: 'Dev Version',
 		polls: {
 			text: 'Has a PR',
-			url: 'https://github.com/bwmarrin/discordgo/pull/1525'
-		}
+			url: 'https://github.com/bwmarrin/discordgo/pull/1541'
+		},
+		forwarding: 'No',
+		appEmoji: 'No'
 	},
 	{
 		name: 'disgo',
@@ -540,10 +589,12 @@ export const libs: Lib[] = [
 		forums: 'Yes',
 		monetization: 'Yes',
 		userApps: 'Yes',
-		polls: 'Yes'
+		polls: 'Yes',
+		forwarding: 'Yes',
+		appEmoji: 'Yes'
 	},
 	{
-		name: 'Disgord',
+		name: 'Disgord 🪦',
 		url: 'https://github.com/andersfylling/disgord',
 		language: 'Go',
 		apiVer: 9,
@@ -564,7 +615,9 @@ export const libs: Lib[] = [
 		forums: 'No',
 		monetization: 'No',
 		userApps: 'No',
-		polls: 'No'
+		polls: 'No',
+		forwarding: 'No',
+		appEmoji: 'No'
 	},
 	{
 		name: 'Postcord',
@@ -588,7 +641,9 @@ export const libs: Lib[] = [
 		forums: 'No',
 		monetization: 'No',
 		userApps: 'No',
-		polls: 'No'
+		polls: 'No',
+		forwarding: 'No',
+		appEmoji: 'No'
 	},
 	{
 		name: 'Calamity',
@@ -612,7 +667,9 @@ export const libs: Lib[] = [
 		forums: 'Partial',
 		monetization: 'No',
 		userApps: 'No',
-		polls: 'No'
+		polls: 'No',
+		forwarding: 'No',
+		appEmoji: 'No'
 	},
 	{
 		name: 'discord-haskell',
@@ -636,7 +693,9 @@ export const libs: Lib[] = [
 		forums: 'No',
 		monetization: 'No',
 		userApps: 'No',
-		polls: 'No'
+		polls: 'No',
+		forwarding: 'No',
+		appEmoji: 'No'
 	},
 	{
 		name: 'catnip 🪦',
@@ -663,7 +722,9 @@ export const libs: Lib[] = [
 		forums: 'No',
 		monetization: 'No',
 		userApps: 'No',
-		polls: 'No'
+		polls: 'No',
+		forwarding: 'No',
+		appEmoji: 'No'
 	},
 	{
 		name: 'discord.jar',
@@ -687,7 +748,9 @@ export const libs: Lib[] = [
 		forums: 'Yes',
 		monetization: 'No',
 		userApps: 'Yes',
-		polls: 'No'
+		polls: 'No',
+		forwarding: 'No',
+		appEmoji: 'No'
 	},
 	{
 		name: 'Discord4J',
@@ -709,17 +772,13 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Dev Version',
-		monetization: {
+		monetization: 'Dev Version',
+		userApps: 'Dev Version',
+		polls: 'Dev Version',
+		forwarding: 'No',
+		appEmoji: {
 			text: 'Has a PR',
-			url: 'https://github.com/Discord4J/Discord4J/pull/1184'
-		},
-		userApps: {
-			text: 'Has a PR',
-			url: 'https://github.com/Discord4J/Discord4J/pull/1183'
-		},
-		polls: {
-			text: 'Has a PR',
-			url: 'https://github.com/Discord4J/Discord4J/pull/1222'
+			url: 'https://github.com/Discord4J/Discord4J/pull/1252'
 		}
 	},
 	{
@@ -747,7 +806,9 @@ export const libs: Lib[] = [
 		},
 		monetization: 'No',
 		userApps: 'No',
-		polls: 'No'
+		polls: 'No',
+		forwarding: 'No',
+		appEmoji: 'No'
 	},
 	{
 		name: 'JDA',
@@ -774,7 +835,12 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/discord-jda/JDA/pull/2633'
 		},
-		polls: 'Yes'
+		polls: 'Yes',
+		forwarding: 'No',
+		appEmoji: {
+			text: 'Has a PR',
+			url: 'https://github.com/discord-jda/JDA/pull/2706'
+		}
 	},
 	{
 		name: 'Detritus',
@@ -798,7 +864,9 @@ export const libs: Lib[] = [
 		forums: 'No',
 		monetization: 'No',
 		userApps: 'No',
-		polls: 'No'
+		polls: 'No',
+		forwarding: 'No',
+		appEmoji: 'No'
 	},
 	{
 		name: 'dfx',
@@ -822,7 +890,9 @@ export const libs: Lib[] = [
 		forums: 'Yes',
 		monetization: 'Yes',
 		userApps: 'Yes',
-		polls: 'Yes'
+		polls: 'Yes',
+		forwarding: 'No',
+		appEmoji: 'No'
 	},
 	{
 		name: 'discord.js',
@@ -849,7 +919,12 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/discordjs/discord.js/pull/10227'
 		},
-		polls: 'Yes'
+		polls: 'Yes',
+		forwarding: 'No',
+		appEmoji: {
+			text: 'Has a PR',
+			url: 'https://github.com/discordjs/discord.js/pull/10399'
+		}
 	},
 	{
 		name: 'Discordeno',
@@ -873,7 +948,9 @@ export const libs: Lib[] = [
 		forums: 'Yes',
 		monetization: 'Dev Version',
 		userApps: 'Dev Version',
-		polls: 'Dev Version'
+		polls: 'Dev Version',
+		forwarding: 'Dev Version',
+		appEmoji: 'Dev Version'
 	},
 	{
 		name: 'droff',
@@ -897,7 +974,9 @@ export const libs: Lib[] = [
 		forums: 'Yes',
 		monetization: 'No',
 		userApps: 'No',
-		polls: 'No'
+		polls: 'No',
+		forwarding: 'No',
+		appEmoji: 'No'
 	},
 	{
 		name: 'Dysnomia 🍴',
@@ -919,12 +998,20 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		monetization: 'No',
+		monetization: {
+			text: 'Has a PR',
+			url: 'https://github.com/projectdysnomia/dysnomia/pull/114'
+		},
 		userApps: {
 			text: 'Has a PR',
 			url: 'https://github.com/projectdysnomia/dysnomia/pull/129'
 		},
-		polls: 'No'
+		polls: 'Dev Version',
+		forwarding: {
+			text: 'Has a PR',
+			url: 'https://github.com/projectdysnomia/dysnomia/pull/144'
+		},
+		appEmoji: 'No'
 	},
 	{
 		name: 'Eris',
@@ -948,10 +1035,12 @@ export const libs: Lib[] = [
 		forums: 'No',
 		monetization: 'No',
 		userApps: 'No',
-		polls: {
+		polls: 'Dev Version',
+		forwarding: {
 			text: 'Has a PR',
-			url: 'https://github.com/abalabahaha/eris/pull/1493'
-		}
+			url: 'https://github.com/abalabahaha/eris/pull/1520'
+		},
+		appEmoji: 'No'
 	},
 	{
 		name: 'Harmony',
@@ -975,7 +1064,9 @@ export const libs: Lib[] = [
 		forums: 'Yes',
 		monetization: 'Partial',
 		userApps: 'No',
-		polls: 'No'
+		polls: 'No',
+		forwarding: 'No',
+		appEmoji: 'No'
 	},
 	{
 		name: 'Oceanic',
@@ -999,7 +1090,9 @@ export const libs: Lib[] = [
 		forums: 'Yes',
 		monetization: 'Yes',
 		userApps: 'Yes',
-		polls: 'Yes'
+		polls: 'Yes',
+		forwarding: 'Yes',
+		appEmoji: 'Yes'
 	},
 	{
 		name: 'Seyfert',
@@ -1023,7 +1116,9 @@ export const libs: Lib[] = [
 		forums: 'Yes',
 		monetization: 'No',
 		userApps: 'Partial',
-		polls: 'Yes'
+		polls: 'Yes',
+		forwarding: 'No',
+		appEmoji: 'Dev Version'
 	},
 	{
 		name: 'SnowTransfer',
@@ -1047,7 +1142,9 @@ export const libs: Lib[] = [
 		forums: 'No',
 		monetization: 'No',
 		userApps: 'Yes',
-		polls: 'No'
+		polls: 'No',
+		forwarding: 'No',
+		appEmoji: 'No'
 	},
 	{
 		name: 'Tiscord',
@@ -1071,7 +1168,9 @@ export const libs: Lib[] = [
 		forums: 'No',
 		monetization: 'No',
 		userApps: 'No',
-		polls: 'No'
+		polls: 'No',
+		forwarding: 'No',
+		appEmoji: 'No'
 	},
 	{
 		name: 'Discall',
@@ -1095,7 +1194,9 @@ export const libs: Lib[] = [
 		forums: 'Partial',
 		monetization: 'No',
 		userApps: 'No',
-		polls: 'No'
+		polls: 'No',
+		forwarding: 'No',
+		appEmoji: 'No'
 	},
 	{
 		name: 'Discord.jl',
@@ -1119,7 +1220,9 @@ export const libs: Lib[] = [
 		forums: 'No',
 		monetization: 'No',
 		userApps: 'No',
-		polls: 'No'
+		polls: 'No',
+		forwarding: 'No',
+		appEmoji: 'No'
 	},
 	{
 		name: 'Kord',
@@ -1149,7 +1252,9 @@ export const libs: Lib[] = [
 		polls: {
 			text: 'Has a PR',
 			url: 'https://github.com/kordlib/kord/pull/933'
-		}
+		},
+		forwarding: 'No',
+		appEmoji: 'No'
 	},
 	{
 		name: 'Discordia',
@@ -1173,7 +1278,9 @@ export const libs: Lib[] = [
 		forums: 'No',
 		monetization: 'No',
 		userApps: 'No',
-		polls: 'No'
+		polls: 'No',
+		forwarding: 'No',
+		appEmoji: 'No'
 	},
 	{
 		name: 'Dimscord',
@@ -1197,7 +1304,9 @@ export const libs: Lib[] = [
 		forums: 'Partial',
 		monetization: 'No',
 		userApps: 'No',
-		polls: 'No'
+		polls: 'No',
+		forwarding: 'No',
+		appEmoji: 'No'
 	},
 	{
 		name: 'DiscordPHP',
@@ -1227,7 +1336,9 @@ export const libs: Lib[] = [
 		polls: {
 			text: 'Has a PR',
 			url: 'https://github.com/discord-php/DiscordPHP/pull/1226'
-		}
+		},
+		forwarding: 'No',
+		appEmoji: 'No'
 	},
 	{
 		name: 'RestCord',
@@ -1251,7 +1362,9 @@ export const libs: Lib[] = [
 		forums: 'No',
 		monetization: 'No',
 		userApps: 'No',
-		polls: 'No'
+		polls: 'No',
+		forwarding: 'No',
+		appEmoji: 'No'
 	},
 	{
 		name: 'discord.py',
@@ -1275,7 +1388,12 @@ export const libs: Lib[] = [
 		forums: 'Yes',
 		monetization: 'Yes',
 		userApps: 'Yes',
-		polls: 'Yes'
+		polls: 'Yes',
+		forwarding: 'No',
+		appEmoji: {
+			text: 'Has a PR',
+			url: 'https://github.com/Rapptz/discord.py/pull/9891'
+		}
 	},
 	{
 		name: 'disnake 🍴',
@@ -1297,10 +1415,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		monetization: {
-			text: 'Partial Dev Version, Has PR',
-			url: 'https://github.com/DisnakeDev/disnake/pull/1186'
-		},
+		monetization: 'Dev Version',
 		userApps: {
 			text: 'Has a PR',
 			url: 'https://github.com/DisnakeDev/disnake/pull/1173'
@@ -1308,6 +1423,14 @@ export const libs: Lib[] = [
 		polls: {
 			text: 'Has a PR',
 			url: 'https://github.com/DisnakeDev/disnake/pull/1176'
+		},
+		forwarding: {
+			text: 'Has a PR',
+			url: 'https://github.com/DisnakeDev/disnake/pull/1188'
+		},
+		appEmoji: {
+			text: 'Has a PR',
+			url: 'https://github.com/DisnakeDev/disnake/pull/1209'
 		}
 	},
 	{
@@ -1332,7 +1455,9 @@ export const libs: Lib[] = [
 		forums: 'No',
 		monetization: 'No',
 		userApps: 'No',
-		polls: 'No'
+		polls: 'No',
+		forwarding: 'No',
+		appEmoji: 'No'
 	},
 	{
 		name: 'hata',
@@ -1356,7 +1481,9 @@ export const libs: Lib[] = [
 		forums: 'Yes',
 		monetization: 'Yes',
 		userApps: 'Yes',
-		polls: 'Yes'
+		polls: 'Yes',
+		forwarding: 'Yes',
+		appEmoji: 'No'
 	},
 	{
 		name: 'hikari',
@@ -1382,11 +1509,16 @@ export const libs: Lib[] = [
 		localization: 'Yes',
 		forums: 'Yes',
 		monetization: 'Partial',
-		userApps: 'No',
+		userApps: {
+			text: 'Has a PR',
+			url: 'https://github.com/hikari-py/hikari/pull/1952'
+		},
 		polls: {
 			text: 'Has a PR',
 			url: 'https://github.com/hikari-py/hikari/pull/1922'
-		}
+		},
+		forwarding: 'No',
+		appEmoji: 'No'
 	},
 	{
 		name: 'interactions.py',
@@ -1409,11 +1541,10 @@ export const libs: Lib[] = [
 		localization: 'Yes',
 		forums: 'Yes',
 		monetization: 'Partial',
-		userApps: 'Dev Version',
-		polls: {
-			text: 'Has a PR',
-			url: 'https://github.com/interactions-py/interactions.py/pull/1691'
-		}
+		userApps: 'Yes',
+		polls: 'Yes',
+		forwarding: 'No',
+		appEmoji: 'No'
 	},
 	{
 		name: 'NAFF 🪦',
@@ -1437,7 +1568,9 @@ export const libs: Lib[] = [
 		forums: 'Yes',
 		monetization: 'No',
 		userApps: 'No',
-		polls: 'No'
+		polls: 'No',
+		forwarding: 'No',
+		appEmoji: 'No'
 	},
 	{
 		name: 'nextcord 🍴',
@@ -1467,7 +1600,12 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/nextcord/nextcord/pull/1181'
 		},
-		polls: 'No'
+		polls: {
+			text: 'Has a PR',
+			url: 'https://github.com/nextcord/nextcord/pull/1189'
+		},
+		forwarding: 'No',
+		appEmoji: 'No'
 	},
 	{
 		name: 'pycord 🍴',
@@ -1491,7 +1629,12 @@ export const libs: Lib[] = [
 		forums: 'Yes',
 		monetization: 'Yes',
 		userApps: 'Yes',
-		polls: 'Yes'
+		polls: 'Yes',
+		forwarding: 'No',
+		appEmoji: {
+			text: 'Has a PR',
+			url: 'https://github.com/Pycord-Development/pycord/pull/2501'
+		}
 	},
 	{
 		name: 'discorb',
@@ -1515,7 +1658,9 @@ export const libs: Lib[] = [
 		forums: 'Dev Version',
 		monetization: 'No',
 		userApps: 'No',
-		polls: 'No'
+		polls: 'No',
+		forwarding: 'No',
+		appEmoji: 'No'
 	},
 	{
 		name: 'discordrb',
@@ -1548,7 +1693,9 @@ export const libs: Lib[] = [
 		forums: 'Partial',
 		monetization: 'No',
 		userApps: 'No',
-		polls: 'No'
+		polls: 'No',
+		forwarding: 'No',
+		appEmoji: 'No'
 	},
 	{
 		name: 'discord-rs',
@@ -1572,7 +1719,9 @@ export const libs: Lib[] = [
 		forums: 'No',
 		monetization: 'No',
 		userApps: 'No',
-		polls: 'No'
+		polls: 'No',
+		forwarding: 'No',
+		appEmoji: 'No'
 	},
 	{
 		name: 'Serenity',
@@ -1596,7 +1745,12 @@ export const libs: Lib[] = [
 		forums: 'Yes',
 		monetization: 'Partial',
 		userApps: 'Yes',
-		polls: 'Yes'
+		polls: 'Yes',
+		forwarding: 'No',
+		appEmoji: {
+			text: 'Has a PR',
+			url: 'https://github.com/serenity-rs/serenity/pull/2920'
+		}
 	},
 	{
 		name: 'Twilight',
@@ -1623,9 +1777,11 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/twilight-rs/twilight/pull/2323'
 		},
-		polls: {
+		polls: 'Dev Version',
+		forwarding: 'Dev Version',
+		appEmoji: {
 			text: 'Has a PR',
-			url: 'https://github.com/twilight-rs/twilight/pull/2341'
+			url: 'https://github.com/twilight-rs/twilight/pull/2364'
 		}
 	},
 	{
@@ -1653,7 +1809,9 @@ export const libs: Lib[] = [
 		forums: 'No',
 		monetization: 'Partial',
 		userApps: 'No',
-		polls: 'No'
+		polls: 'No',
+		forwarding: 'No',
+		appEmoji: 'No'
 	},
 	{
 		name: 'DiscordBM',
@@ -1677,7 +1835,9 @@ export const libs: Lib[] = [
 		forums: 'Yes',
 		monetization: 'Yes',
 		userApps: 'Yes',
-		polls: 'Yes'
+		polls: 'Yes',
+		forwarding: 'No',
+		appEmoji: 'No'
 	},
 	{
 		name: 'Swiftcord 🍴🪦',
@@ -1701,7 +1861,9 @@ export const libs: Lib[] = [
 		forums: 'No',
 		monetization: 'No',
 		userApps: 'No',
-		polls: 'No'
+		polls: 'No',
+		forwarding: 'No',
+		appEmoji: 'No'
 	},
 	{
 		name: 'SwiftDiscord 🪦',
@@ -1725,6 +1887,8 @@ export const libs: Lib[] = [
 		forums: 'No',
 		monetization: 'No',
 		userApps: 'No',
-		polls: 'No'
+		polls: 'No',
+		forwarding: 'No',
+		appEmoji: 'No'
 	}
 ]

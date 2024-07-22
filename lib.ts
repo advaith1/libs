@@ -24,4 +24,6 @@ export interface Lib {
 	monetization: LinkableString
 	userApps: LinkableString
 	polls: LinkableString
+	forwarding: LinkableString
+	appEmoji: LinkableString
 }
