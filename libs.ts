@@ -1011,7 +1011,7 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/projectdysnomia/dysnomia/pull/144'
 		},
-		appEmoji: 'No'
+		appEmoji: 'Dev Version'
 	},
 	{
 		name: 'Eris',
