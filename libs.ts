@@ -161,8 +161,8 @@ export const libs: Lib[] = [
 		monetization: 'Yes',
 		userApps: 'Yes',
 		polls: 'Yes',
-		forwarding: 'No',
-		appEmoji: 'No'
+		forwarding: 'Yes',
+		appEmoji: 'Yes'
 	},
 	{
 		name: 'Remora.Discord',
