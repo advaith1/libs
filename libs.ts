@@ -1114,11 +1114,11 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		monetization: 'No',
-		userApps: 'Partial',
+		monetization: 'Yes',
+		userApps: 'Yes',
 		polls: 'Yes',
-		forwarding: 'No',
-		appEmoji: 'Dev Version'
+		forwarding: 'Yes',
+		appEmoji: 'Yes'
 	},
 	{
 		name: 'SnowTransfer',
