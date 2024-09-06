@@ -1672,7 +1672,10 @@ export const libs: Lib[] = [
 		buttons: 'Yes',
 		selectMenus: 'Yes',
 		threads: 'Yes',
-		guildStickers: 'Dev Version',
+		guildStickers: {
+			text: 'Has a PR',
+			url: 'https://github.com/shardlab/discordrb/pull/272'
+		},
 		contextMenus: 'Yes',
 		autocomplete: 'No',
 		scheduledEvents: {
@@ -1681,10 +1684,7 @@ export const libs: Lib[] = [
 		},
 		timeouts: 'Yes',
 		modals: 'Yes',
-		permsv2: {
-			text: 'Has a PR',
-			url: 'https://github.com/shardlab/discordrb/pull/254'
-		},
+		permsv2: 'Yes',
 		automod: 'No',
 		localization: {
 			text: 'Has a PR',
