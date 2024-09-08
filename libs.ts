@@ -1684,7 +1684,7 @@ export const libs: Lib[] = [
 		},
 		timeouts: 'Yes',
 		modals: 'Yes',
-		permsv2: 'Yes',
+		permsv2: 'Dev Version',
 		automod: 'No',
 		localization: {
 			text: 'Has a PR',
