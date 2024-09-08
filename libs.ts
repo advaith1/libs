@@ -915,16 +915,13 @@ export const libs: Lib[] = [
 		localization: 'Yes',
 		forums: 'Yes',
 		monetization: 'Yes',
-		userApps: {
-			text: 'Has a PR',
-			url: 'https://github.com/discordjs/discord.js/pull/10227'
-		},
+		userApps: 'Yes',
 		polls: 'Yes',
-		forwarding: 'No',
-		appEmoji: {
+		forwarding: {
 			text: 'Has a PR',
-			url: 'https://github.com/discordjs/discord.js/pull/10399'
-		}
+			url: 'https://github.com/discordjs/discord.js/pull/10464'
+		},
+		appEmoji: 'Yes'
 	},
 	{
 		name: 'Discordeno',
