@@ -106,10 +106,7 @@ export const libs: Lib[] = [
 		monetization: 'Yes',
 		userApps: 'Yes',
 		polls: 'Yes',
-		forwarding: {
-			text: 'Has a PR',
-			url: 'https://github.com/discord-net/Discord.Net/pull/2918'
-		},
+		forwarding: 'Yes',
 		appEmoji: 'Yes'
 	},
 	{
