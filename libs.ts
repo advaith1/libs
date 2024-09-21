@@ -236,7 +236,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		monetization: 'Partial',
+		monetization: 'Yes',
 		userApps: 'No',
 		polls: 'Yes',
 		forwarding: 'No',
