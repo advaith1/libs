@@ -240,10 +240,7 @@ export const libs: Lib[] = [
 		userApps: 'No',
 		polls: 'Yes',
 		forwarding: 'No',
-		appEmoji: {
-			text: 'Has a PR',
-			url: 'https://github.com/brainboxdotcc/DPP/pull/1207'
-		}
+		appEmoji: 'Yes',
 	},
 	{
 		name: 'Discord++',
