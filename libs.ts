@@ -914,7 +914,7 @@ export const libs: Lib[] = [
 		monetization: 'Yes',
 		userApps: 'Yes',
 		polls: 'Yes',
-		forwarding: 'Yes',
+		forwarding: 'Dev Version',
 		appEmoji: 'Yes'
 	},
 	{
