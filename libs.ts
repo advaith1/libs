@@ -239,10 +239,7 @@ export const libs: Lib[] = [
 		monetization: 'Yes',
 		userApps: 'No',
 		polls: 'Yes',
-		forwarding: {
-			text: 'Has a PR',
-			url: 'https://github.com/brainboxdotcc/DPP/pull/1247'
-		},
+		forwarding: 'Yes',
 		appEmoji: 'Yes',
 	},
 	{
