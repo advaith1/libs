@@ -106,10 +106,7 @@ export const libs: Lib[] = [
 		monetization: 'Yes',
 		userApps: 'Yes',
 		polls: 'Yes',
-		forwarding: {
-			text: 'Has a PR',
-			url: 'https://github.com/discord-net/Discord.Net/pull/2918'
-		},
+		forwarding: 'Yes',
 		appEmoji: 'Yes'
 	},
 	{
@@ -914,10 +911,7 @@ export const libs: Lib[] = [
 		monetization: 'Yes',
 		userApps: 'Yes',
 		polls: 'Yes',
-		forwarding: {
-			text: 'Has a PR',
-			url: 'https://github.com/discordjs/discord.js/pull/10464'
-		},
+		forwarding: 'Dev Version',
 		appEmoji: 'Yes'
 	},
 	{
@@ -1011,8 +1005,8 @@ export const libs: Lib[] = [
 		name: 'Eris',
 		url: 'https://github.com/abalabahaha/eris',
 		language: 'JavaScript',
-		apiVer: 9,
-		gwVer: 9,
+		apiVer: 10,
+		gwVer: 10,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Partial',
@@ -1022,18 +1016,15 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
-		modals: 'Dev Version',
-		permsv2: 'Dev Version',
-		automod: 'Dev Version',
-		localization: 'No',
-		forums: 'No',
+		modals: 'Yes',
+		permsv2: 'Yes',
+		automod: 'Yes',
+		localization: 'Yes',
+		forums: 'Yes',
 		monetization: 'No',
 		userApps: 'No',
-		polls: 'Dev Version',
-		forwarding: {
-			text: 'Has a PR',
-			url: 'https://github.com/abalabahaha/eris/pull/1520'
-		},
+		polls: 'Yes',
+		forwarding: 'Yes',
 		appEmoji: 'No'
 	},
 	{
