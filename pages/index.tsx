@@ -32,7 +32,7 @@ const voiceVersionColors = {
 	5: 'yellow',
 	6: 'yellow',
 	7: 'yellow',
-	8: 'yellow',
+	8: 'green',
 	'E2EE': 'green',
 }
 
