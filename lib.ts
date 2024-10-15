@@ -1,5 +1,5 @@
 type version = 6 | 7 | 8 | 9 | 10 | string
-type voiceVersion = "-" | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | "E2EE" | string
+type voiceVersion = "-" | "?" | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | "E2EE" | string
 export type LinkableString = string | { text: string; url: string }
 
 export interface Lib {
