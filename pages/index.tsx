@@ -23,8 +23,24 @@ const versionColors = {
 	'-': 'gray'
 }
 
+const voiceVersionColors = {
+	'-': 'gray',
+	1: 'red',
+	2: 'red',
+	3: 'red',
+	4: 'yellow',
+	5: 'yellow',
+	6: 'yellow',
+	7: 'yellow',
+	8: 'yellow',
+	'E2EE': 'green',
+}
+
 const version = (version: number | string) =>
 	<td className={versionColors[version] ?? ((typeof version === 'string' && version.startsWith('9')) ? 'green' : 'yellow')}>{version}</td>
+
+const voiceVersion = (voiceVersion: number | string) => 
+	<td className={voiceVersionColors[voiceVersion] ?? (typeof voiceVersion === 'string' && voiceVersion === 'E2EE' ? 'green' : 'yellow')}>{voiceVersion}</td>
 
 export default function Home() {
 	return (
@@ -51,6 +67,7 @@ export default function Home() {
 									<th>Library</th>
 									<th>API Version</th>
 									<th>Gateway Version</th>
+									<th>Voice Version</th>
 									<th>Slash Commands</th>
 									<th>Buttons</th>
 									<th>Select Menus</th>
@@ -78,6 +95,7 @@ export default function Home() {
 										<td><a href={lib.url} target="_blank" rel="noopener">{lib.name}</a></td>
 										{version(lib.apiVer)}
 										{version(lib.gwVer)}
+										{voiceVersion(lib.voiceVer)}
 										{status(lib.slashCommands)}
 										{status(lib.buttons)}
 										{status(lib.selectMenus)}
