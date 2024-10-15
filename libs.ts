@@ -129,10 +129,13 @@ export const libs: Lib[] = [
 		automod: 'Dev Version',
 		localization: 'Yes',
 		forums: 'Yes',
-		monetization: 'No',
+		monetization: 'Dev Version',
 		userApps: 'Dev Version',
 		polls: 'Dev Version',
-		forwarding: 'No',
+		forwarding: {
+			text: 'Has a PR',
+			url: 'https://github.com/DSharpPlus/DSharpPlus/pull/2100'
+		},
 		appEmoji: 'Dev Version'
 	},
 	{
