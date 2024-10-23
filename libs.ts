@@ -234,7 +234,7 @@ export const libs: Lib[] = [
 		localization: 'Yes',
 		forums: 'Yes',
 		monetization: 'Yes',
-		userApps: 'No',
+		userApps: 'Master Branch',
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
