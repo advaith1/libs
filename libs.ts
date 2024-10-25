@@ -132,10 +132,7 @@ export const libs: Lib[] = [
 		monetization: 'Dev Version',
 		userApps: 'Dev Version',
 		polls: 'Dev Version',
-		forwarding: {
-			text: 'Has a PR',
-			url: 'https://github.com/DSharpPlus/DSharpPlus/pull/2100'
-		},
+		forwarding: 'Dev Version',
 		appEmoji: 'Dev Version'
 	},
 	{
