@@ -1616,10 +1616,7 @@ export const libs: Lib[] = [
 		userApps: 'Yes',
 		polls: 'Yes',
 		forwarding: 'No',
-		appEmoji: {
-			text: 'Has a PR',
-			url: 'https://github.com/Pycord-Development/pycord/pull/2501'
-		}
+		appEmoji: 'Yes'
 	},
 	{
 		name: 'discorb',
