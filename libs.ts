@@ -134,10 +134,10 @@ export const libs: Lib[] = [
 		automod: 'Dev Version',
 		localization: 'Yes',
 		forums: 'Yes',
-		monetization: 'No',
+		monetization: 'Dev Version',
 		userApps: 'Dev Version',
 		polls: 'Dev Version',
-		forwarding: 'No',
+		forwarding: 'Dev Version',
 		appEmoji: 'Dev Version'
 	},
 	{
@@ -1674,10 +1674,7 @@ export const libs: Lib[] = [
 		userApps: 'Yes',
 		polls: 'Yes',
 		forwarding: 'No',
-		appEmoji: {
-			text: 'Has a PR',
-			url: 'https://github.com/Pycord-Development/pycord/pull/2501'
-		}
+		appEmoji: 'Dev Version'
 	},
 	{
 		name: 'discorb',
