@@ -41,7 +41,7 @@ const version = (version: number | string) =>
 	<td className={versionColors[version] ?? ((typeof version === 'string' && version.startsWith('9')) ? 'green' : 'yellow')}>{version}</td>
 
 const voiceVersion = (voiceVersion: number | string) => 
-	<td className={voiceVersionColors[voiceVersion] ?? (typeof voiceVersion === 'string' && voiceVersion === 'E2EE' ? 'green' : 'yellow')}>{voiceVersion}</td>
+	<td className={voiceVersionColors[voiceVersion] ?? (typeof voiceVersion === 'string' ? voiceVersionColors[voiceVersion.split(' ')[0]] : null) ?? 'red'}>{voiceVersion}</td>
 
 export default function Home() {
 	return (
