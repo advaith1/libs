@@ -1616,7 +1616,7 @@ export const libs: Lib[] = [
 		userApps: 'Yes',
 		polls: 'Yes',
 		forwarding: 'No',
-		appEmoji: 'Yes'
+		appEmoji: 'Dev Version'
 	},
 	{
 		name: 'discorb',
