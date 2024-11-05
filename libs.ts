@@ -129,10 +129,10 @@ export const libs: Lib[] = [
 		automod: 'Dev Version',
 		localization: 'Yes',
 		forums: 'Yes',
-		monetization: 'No',
+		monetization: 'Dev Version',
 		userApps: 'Dev Version',
 		polls: 'Dev Version',
-		forwarding: 'No',
+		forwarding: 'Dev Version',
 		appEmoji: 'Dev Version'
 	},
 	{
