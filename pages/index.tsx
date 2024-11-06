@@ -25,7 +25,6 @@ const versionColors = {
 
 const voiceVersionColors = {
 	'-': 'gray',
-	'?': 'red',
 	1: 'red',
 	2: 'red',
 	3: 'red',
