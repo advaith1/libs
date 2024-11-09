@@ -860,11 +860,8 @@ export const libs: Lib[] = [
 			url: 'https://github.com/discord-jda/JDA/pull/2633'
 		},
 		polls: 'Yes',
-		forwarding: 'No',
-		appEmoji: {
-			text: 'Has a PR',
-			url: 'https://github.com/discord-jda/JDA/pull/2706'
-		}
+		forwarding: 'Yes',
+		appEmoji: 'Yes'
 	},
 	{
 		name: 'Detritus',
