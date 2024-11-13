@@ -1275,13 +1275,22 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/kordlib/kord/pull/932'
 		},
-		userApps: 'No',
+		userApps: {
+			text: 'Has a PR',
+			url: 'https://github.com/kordlib/kord/pull/970'
+		},
 		polls: {
 			text: 'Has a PR',
 			url: 'https://github.com/kordlib/kord/pull/933'
 		},
-		forwarding: 'No',
-		appEmoji: 'No'
+		forwarding: {
+			text: 'Has a PR',
+			url: 'https://github.com/kordlib/kord/pull/972'
+		},
+		appEmoji: {
+			text: 'Has a PR',
+			url: 'https://github.com/kordlib/kord/pull/973'
+		}
 	},
 	{
 		name: 'Discordia',
