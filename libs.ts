@@ -1787,11 +1787,8 @@ export const libs: Lib[] = [
 		monetization: 'Partial',
 		userApps: 'Yes',
 		polls: 'Yes',
-		forwarding: 'No',
-		appEmoji: {
-			text: 'Has a PR',
-			url: 'https://github.com/serenity-rs/serenity/pull/2920'
-		}
+		forwarding: 'Yes',
+		appEmoji: 'Yes'
 	},
 	{
 		name: 'Twilight',
