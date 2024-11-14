@@ -1535,7 +1535,7 @@ export const libs: Lib[] = [
 		language: 'Python',
 		apiVer: 10,
 		gwVer: 10,
-		voiceVer: 1,
+		voiceVer: '-',
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
@@ -1563,7 +1563,7 @@ export const libs: Lib[] = [
 			url: 'https://github.com/hikari-py/hikari/pull/1922'
 		},
 		forwarding: 'No',
-		appEmoji: 'No'
+		appEmoji: 'Yes'
 	},
 	{
 		name: 'interactions.py',
