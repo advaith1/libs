@@ -1679,7 +1679,10 @@ export const libs: Lib[] = [
 		monetization: 'Yes',
 		userApps: 'Yes',
 		polls: 'Yes',
-		forwarding: 'No',
+		forwarding: {
+			text: 'Has a PR',
+			url: 'https://github.com/Pycord-Development/pycord/pull/2598'
+		},
 		appEmoji: 'Dev Version'
 	},
 	{
