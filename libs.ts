@@ -458,17 +458,11 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		monetization: 'Partial, Dev Version',
+		monetization: 'Yes',
 		userApps: 'Yes',
-		polls: 'Dev Version',
-		forwarding: {
-			text: 'Has a PR',
-			url: 'https://github.com/nyxx-discord/nyxx/pull/677'
-		},
-		appEmoji: {
-			text: 'Has a PR',
-			url: 'https://github.com/nyxx-discord/nyxx/pull/678'
-		}
+		polls: 'Yes',
+		forwarding: 'Yes',
+		appEmoji: 'Yes'
 	},
 	{
 		name: 'coxir',
@@ -548,7 +542,7 @@ export const libs: Lib[] = [
 		monetization: 'No',
 		userApps: 'No',
 		polls: 'No',
-		forwarding: 'No',
+		forwarding: 'Dev Version',
 		appEmoji: 'No'
 	},
 	{
@@ -574,12 +568,9 @@ export const libs: Lib[] = [
 		forums: 'Yes',
 		monetization: 'No',
 		userApps: 'Dev Version',
-		polls: {
-			text: 'Has a PR',
-			url: 'https://github.com/bwmarrin/discordgo/pull/1541'
-		},
+		polls: 'Dev Version',
 		forwarding: 'No',
-		appEmoji: 'No'
+		appEmoji: 'Dev Version'
 	},
 	{
 		name: 'disgo',
@@ -798,10 +789,7 @@ export const libs: Lib[] = [
 		userApps: 'Dev Version',
 		polls: 'Dev Version',
 		forwarding: 'No',
-		appEmoji: {
-			text: 'Has a PR',
-			url: 'https://github.com/Discord4J/Discord4J/pull/1252'
-		}
+		appEmoji: 'Dev Version'
 	},
 	{
 		name: 'Javacord',
@@ -965,11 +953,11 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		monetization: 'Dev Version',
-		userApps: 'Dev Version',
-		polls: 'Dev Version',
-		forwarding: 'Dev Version',
-		appEmoji: 'Dev Version'
+		monetization: 'Yes',
+		userApps: 'Yes',
+		polls: 'Yes',
+		forwarding: 'Yes',
+		appEmoji: 'Yes'
 	},
 	{
 		name: 'droff',
@@ -1019,19 +1007,10 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		monetization: {
-			text: 'Has a PR',
-			url: 'https://github.com/projectdysnomia/dysnomia/pull/114'
-		},
-		userApps: {
-			text: 'Has a PR',
-			url: 'https://github.com/projectdysnomia/dysnomia/pull/129'
-		},
+		monetization: 'Dev Version',
+		userApps: 'Dev Version',
 		polls: 'Dev Version',
-		forwarding: {
-			text: 'Has a PR',
-			url: 'https://github.com/projectdysnomia/dysnomia/pull/144'
-		},
+		forwarding: 'Dev Version',
 		appEmoji: 'Dev Version'
 	},
 	{
@@ -1271,10 +1250,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		monetization: {
-			text: 'Has a PR',
-			url: 'https://github.com/kordlib/kord/pull/932'
-		},
+		monetization: 'Yes',
 		userApps: {
 			text: 'Has a PR',
 			url: 'https://github.com/kordlib/kord/pull/970'
@@ -1350,8 +1326,8 @@ export const libs: Lib[] = [
 		name: 'DiscordPHP',
 		url: 'https://github.com/discord-php/DiscordPHP',
 		language: 'PHP',
-		apiVer: '9 stable, 10 dev',
-		gwVer: '9 stable, 10 dev',
+		apiVer: 10,
+		gwVer: 10,
 		voiceVer: 1,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
@@ -1366,18 +1342,15 @@ export const libs: Lib[] = [
 		permsv2: 'Yes',
 		automod: 'Yes',
 		localization: 'Yes',
-		forums: 'Dev Version',
+		forums: 'Yes',
 		monetization: {
 			text: 'Has a PR',
 			url: 'https://github.com/discord-php/DiscordPHP/pull/1186'
 		},
 		userApps: 'No',
-		polls: {
-			text: 'Has a PR',
-			url: 'https://github.com/discord-php/DiscordPHP/pull/1226'
-		},
+		polls: 'Yes',
 		forwarding: 'No',
-		appEmoji: 'No'
+		appEmoji: 'Yes'
 	},
 	{
 		name: 'RestCord',
@@ -1430,11 +1403,8 @@ export const libs: Lib[] = [
 		monetization: 'Yes',
 		userApps: 'Yes',
 		polls: 'Yes',
-		forwarding: 'No',
-		appEmoji: {
-			text: 'Has a PR',
-			url: 'https://github.com/Rapptz/discord.py/pull/9891'
-		}
+		forwarding: 'Dev Version',
+		appEmoji: 'Dev Version'
 	},
 	{
 		name: 'disnake 🍴',
@@ -1462,17 +1432,14 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/DisnakeDev/disnake/pull/1173'
 		},
-		polls: {
-			text: 'Has a PR',
-			url: 'https://github.com/DisnakeDev/disnake/pull/1176'
-		},
+		polls: 'Dev Version',
 		forwarding: {
 			text: 'Has a PR',
 			url: 'https://github.com/DisnakeDev/disnake/pull/1188'
 		},
 		appEmoji: {
 			text: 'Has a PR',
-			url: 'https://github.com/DisnakeDev/disnake/pull/1209'
+			url: 'https://github.com/DisnakeDev/disnake/pull/1224'
 		}
 	},
 	{
@@ -1644,10 +1611,7 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/nextcord/nextcord/pull/1138'
 		},
-		userApps: {
-			text: 'Has a PR',
-			url: 'https://github.com/nextcord/nextcord/pull/1181'
-		},
+		userApps: 'Dev Version',
 		polls: {
 			text: 'Has a PR',
 			url: 'https://github.com/nextcord/nextcord/pull/1189'
@@ -1799,11 +1763,8 @@ export const libs: Lib[] = [
 		monetization: 'Partial',
 		userApps: 'Yes',
 		polls: 'Yes',
-		forwarding: 'No',
-		appEmoji: {
-			text: 'Has a PR',
-			url: 'https://github.com/serenity-rs/serenity/pull/2920'
-		}
+		forwarding: 'Partial',
+		appEmoji: 'Yes'
 	},
 	{
 		name: 'Twilight',
@@ -1827,16 +1788,10 @@ export const libs: Lib[] = [
 		localization: 'Yes',
 		forums: 'Yes',
 		monetization: 'Partial Dev Version',
-		userApps: {
-			text: 'Has a PR',
-			url: 'https://github.com/twilight-rs/twilight/pull/2323'
-		},
+		userApps: 'Dev Version',
 		polls: 'Dev Version',
 		forwarding: 'Dev Version',
-		appEmoji: {
-			text: 'Has a PR',
-			url: 'https://github.com/twilight-rs/twilight/pull/2364'
-		}
+		appEmoji: 'Dev Version'
 	},
 	{
 		name: 'AckCord',
@@ -1854,14 +1809,11 @@ export const libs: Lib[] = [
 		autocomplete: 'Yes',
 		scheduledEvents: 'Yes',
 		timeouts: 'Yes',
-		modals: {
-			text: 'Has a PR',
-			url: 'https://github.com/Katrix/AckCord/pull/69'
-		},
-		permsv2: 'No',
-		automod: 'No',
-		localization: 'No',
-		forums: 'No',
+		modals: 'Dev Version',
+		permsv2: 'Dev Version',
+		automod: 'Dev Version',
+		localization: 'Dev Version',
+		forums: 'Dev Version',
 		monetization: 'Partial',
 		userApps: 'No',
 		polls: 'No',
