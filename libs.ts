@@ -1034,11 +1034,17 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		monetization: 'No',
-		userApps: 'No',
+		monetization: {
+			text: 'Has a PR',
+			url: 'https://github.com/abalabahaha/eris/pull/1555'
+		},
+		userApps: {
+			text: 'Has a PR',
+			url: 'https://github.com/abalabahaha/eris/pull/1532'
+		},
 		polls: 'Yes',
 		forwarding: 'Yes',
-		appEmoji: 'No'
+		appEmoji: 'Dev Version'
 	},
 	{
 		name: 'Harmony',
