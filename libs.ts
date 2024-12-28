@@ -566,7 +566,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		monetization: 'No',
+		monetization: 'Dev Version',
 		userApps: 'Dev Version',
 		polls: 'Dev Version',
 		forwarding: 'No',
@@ -1437,15 +1437,9 @@ export const libs: Lib[] = [
 		localization: 'Yes',
 		forums: 'Yes',
 		monetization: 'Dev Version',
-		userApps: {
-			text: 'Has a PR',
-			url: 'https://github.com/DisnakeDev/disnake/pull/1173'
-		},
+		userApps: 'Dev Version',
 		polls: 'Dev Version',
-		forwarding: {
-			text: 'Has a PR',
-			url: 'https://github.com/DisnakeDev/disnake/pull/1188'
-		},
+		forwarding: 'Dev Version',
 		appEmoji: {
 			text: 'Has a PR',
 			url: 'https://github.com/DisnakeDev/disnake/pull/1224'
@@ -1620,12 +1614,12 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/nextcord/nextcord/pull/1138'
 		},
-		userApps: 'Dev Version',
+		userApps: 'Yes',
 		polls: {
 			text: 'Has a PR',
 			url: 'https://github.com/nextcord/nextcord/pull/1189'
 		},
-		forwarding: 'No',
+		forwarding: 'Yes',
 		appEmoji: 'No'
 	},
 	{
