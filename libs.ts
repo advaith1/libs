@@ -929,7 +929,7 @@ export const libs: Lib[] = [
 		monetization: 'Yes',
 		userApps: 'Yes',
 		polls: 'Yes',
-		forwarding: 'Dev Version',
+		forwarding: 'Partial',
 		appEmoji: 'Yes'
 	},
 	{
