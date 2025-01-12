@@ -1790,11 +1790,11 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		monetization: 'Partial Dev Version',
-		userApps: 'Dev Version',
-		polls: 'Dev Version',
-		forwarding: 'Dev Version',
-		appEmoji: 'Dev Version'
+		monetization: 'Partial',
+		userApps: 'Yes',
+		polls: 'Yes',
+		forwarding: 'Yes',
+		appEmoji: 'Yes'
 	},
 	{
 		name: 'AckCord',
