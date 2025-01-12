@@ -1778,7 +1778,7 @@ export const libs: Lib[] = [
 		voiceVer: 4,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
-		selectMenus: 'Partial',
+		selectMenus: 'Yes',
 		threads: 'Yes',
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
