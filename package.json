@@ -1,19 +1,16 @@
 {
   "name": "lib-comparison",
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build"
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
   },
   "dependencies": {
+    "astro": "^5.1.9",
     "bulma": "^0.9.4",
-    "next": "^15.1.4",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
     "sass": "1.77.8"
   },
   "devDependencies": {
-    "@types/node": "^22.10.5",
-    "@types/react": "^19.0.4",
     "typescript": "^5.7.3"
   }
 }

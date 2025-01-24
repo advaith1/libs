@@ -1,0 +1,27 @@
+---
+const voiceVersionColors = {
+	'-': 'gray',
+	1: 'red',
+	2: 'red',
+	3: 'red',
+	4: 'yellow',
+	5: 'yellow',
+	6: 'yellow',
+	7: 'yellow',
+	8: 'green',
+	E2EE: 'green'
+}
+
+interface Props {
+	version: number | string
+}
+const { version } = Astro.props
+---
+
+<td
+	class={voiceVersionColors[version] ??
+		(typeof version === 'string' ? voiceVersionColors[version.split(' ')[0]!] : null) ??
+		'red'}
+>
+	{version}
+</td>

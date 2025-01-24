@@ -1,0 +1,25 @@
+---
+import type { LinkableString } from '../types'
+
+const statusColors = {
+	Yes: 'green',
+	No: 'red'
+}
+
+interface Props {
+	status: LinkableString
+}
+const { status } = Astro.props
+---
+
+{
+	typeof status === 'string' ? (
+		<td class={statusColors[status] ?? 'yellow'}>{status}</td>
+	) : (
+		<td class={statusColors[status.text] ?? 'yellow'}>
+			<a href={status.url} target="_blank" rel="noopener">
+				{status.text}
+			</a>
+		</td>
+	)
+}

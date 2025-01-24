@@ -1,0 +1,112 @@
+---
+import '../styles/bulma.sass'
+import '../styles/styles.css'
+
+import Version from '../components/Version.astro'
+import VoiceVersion from '../components/VoiceVersion.astro'
+import Status from '../components/Status.astro'
+
+import { libs } from '../../libs'
+
+const langs = Array.from(new Set(libs.map(lib => lib.language).sort()))
+---
+
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8" />
+		<title>Discord API Library Comparisons</title>
+		<meta name="description" content="Compares Discord libraries and their support of new API features" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="color-scheme" content="dark" />
+	</head>
+	<body>
+		<div class="container">
+			<main>
+				<h1 id="title" class="title has-text-white mb-6">Discord API Library Comparisons</h1>
+
+				{
+					langs.map(lang => (
+						<div class="mb-5 fw">
+							<h2 id={lang.toLowerCase()} class="title is-4 mb-3 has-text-white">
+								<a href={'#' + encodeURIComponent(lang.toLowerCase())}>{lang}</a>
+							</h2>
+
+							<div class="table-container">
+								<table class="table is-bordered has-text-centered has-text-white fw">
+									<thead>
+										<tr>
+											<th>Library</th>
+											<th>API Version</th>
+											<th>Gateway Version</th>
+											<th>Voice Version</th>
+											<th>Slash Commands</th>
+											<th>Buttons</th>
+											<th>Select Menus</th>
+											<th>Threads</th>
+											<th>Guild Stickers</th>
+											<th>Context Menus</th>
+											<th>Autocomplete</th>
+											<th>Scheduled Events</th>
+											<th>Timeouts</th>
+											<th>Modals</th>
+											<th>Perms v2</th>
+											<th>AutoMod</th>
+											<th>Localization</th>
+											<th>Forums</th>
+											<th>Monetization</th>
+											<th>User Apps</th>
+											<th>Polls</th>
+											<th>Forwarding</th>
+											<th>App Emoji</th>
+										</tr>
+									</thead>
+									<tbody>
+										{libs
+											.filter(lib => lib.language === lang)
+											.map(lib => (
+												<tr>
+													<td>
+														<a href={lib.url} target="_blank" rel="noopener">
+															{lib.name}
+														</a>
+													</td>
+													<Version version={lib.apiVer} />
+													<Version version={lib.gwVer} />
+													<VoiceVersion version={lib.voiceVer} />
+													<Status status={lib.slashCommands} />
+													<Status status={lib.buttons} />
+													<Status status={lib.selectMenus} />
+													<Status status={lib.threads} />
+													<Status status={lib.guildStickers} />
+													<Status status={lib.contextMenus} />
+													<Status status={lib.autocomplete} />
+													<Status status={lib.scheduledEvents} />
+													<Status status={lib.timeouts} />
+													<Status status={lib.modals} />
+													<Status status={lib.permsv2} />
+													<Status status={lib.automod} />
+													<Status status={lib.localization} />
+													<Status status={lib.forums} />
+													<Status status={lib.monetization} />
+													<Status status={lib.userApps} />
+													<Status status={lib.polls} />
+													<Status status={lib.forwarding} />
+													<Status status={lib.appEmoji} />
+												</tr>
+											))}
+									</tbody>
+								</table>
+							</div>
+						</div>
+					))
+				}
+			</main>
+
+			<footer class="has-text-centered has-text-white">
+				Created by <a href="https://advaith.io" target="_blank" rel="noopener">advaith</a><br />
+				<a href="https://github.com/advaith1/libs" target="_blank" rel="noopener">Contribute data on GitHub</a><br />
+				Not affiliated with Discord or any library
+			</footer>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,19 @@
+---
+const versionColors = {
+	6: 'red',
+	7: 'red',
+	8: 'yellow',
+	9: 'green',
+	10: 'green',
+	'-': 'gray'
+}
+
+interface Props {
+	version: number | string
+}
+const { version } = Astro.props
+---
+
+<td class={versionColors[version] ?? (typeof version === 'string' && version.startsWith('9') ? 'green' : 'yellow')}>
+	{version}
+</td>

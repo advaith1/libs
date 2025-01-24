@@ -1,4 +1,4 @@
-import { Lib } from "./lib";
+import type { Lib } from './src/types'
 
 // the data powering the chart
 // please keep in the same order as Discord's docs (https://discord.dev/topics/community-resources#libraries-discord-libraries):
@@ -246,7 +246,7 @@ export const libs: Lib[] = [
 		userApps: 'Yes',
 		polls: 'Yes',
 		forwarding: 'Yes',
-		appEmoji: 'Yes',
+		appEmoji: 'Yes'
 	},
 	{
 		name: 'Discord++',
