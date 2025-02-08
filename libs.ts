@@ -792,7 +792,7 @@ export const libs: Lib[] = [
 		appEmoji: 'Dev Version'
 	},
 	{
-		name: 'Javacord',
+		name: 'Javacord 🪦',
 		url: 'https://github.com/Javacord/Javacord',
 		language: 'Java',
 		apiVer: 10,
@@ -843,10 +843,7 @@ export const libs: Lib[] = [
 		localization: 'Yes',
 		forums: 'Yes',
 		monetization: 'Partial',
-		userApps: {
-			text: 'Has a PR',
-			url: 'https://github.com/discord-jda/JDA/pull/2633'
-		},
+		userApps: 'Yes',
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes'
@@ -1212,8 +1209,9 @@ export const libs: Lib[] = [
 		name: 'disgroove',
 		url: 'https://github.com/XenKys/disgroove',
 		language: 'JavaScript',
-		apiVer: '10',
-		gwVer: '10',
+		apiVer: 10,
+		gwVer: 10,
+		voiceVer: '-',
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
@@ -1418,8 +1416,8 @@ export const libs: Lib[] = [
 		name: 'discord.py',
 		url: 'https://github.com/Rapptz/discord.py',
 		language: 'Python',
-		apiVer: '10',
-		gwVer: '10',
+		apiVer: 10,
+		gwVer: 10,
 		voiceVer: 4,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
