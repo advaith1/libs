@@ -1460,10 +1460,10 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		monetization: 'Dev Version',
-		userApps: 'Dev Version',
-		polls: 'Dev Version',
-		forwarding: 'Dev Version',
+		monetization: 'Yes',
+		userApps: 'Yes',
+		polls: 'Yes',
+		forwarding: 'Yes',
 		appEmoji: {
 			text: 'Has a PR',
 			url: 'https://github.com/DisnakeDev/disnake/pull/1224'
