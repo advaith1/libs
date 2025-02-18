@@ -58,6 +58,7 @@ const langs = Array.from(new Set(libs.map(lib => lib.language).sort()))
 											<th>Polls</th>
 											<th>Forwarding</th>
 											<th>App Emoji</th>
+											<th>Components V2</th>
 										</tr>
 									</thead>
 									<tbody>
@@ -92,6 +93,7 @@ const langs = Array.from(new Set(libs.map(lib => lib.language).sort()))
 													<Status status={lib.polls} />
 													<Status status={lib.forwarding} />
 													<Status status={lib.appEmoji} />
+													<Status status={lib.componentsV2} />
 												</tr>
 											))}
 									</tbody>
