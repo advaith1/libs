@@ -1348,7 +1348,10 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/kordlib/kord/pull/973'
 		},
-		componentsV2: 'No'
+		componentsV2: {
+			text: 'Has a PR',
+			url: 'https://github.com/kordlib/kord/pull/1000'
+		}
 	},
 	{
 		name: 'Discordia',
