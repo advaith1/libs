@@ -258,7 +258,10 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: 'No'
+		componentsV2: {
+			text: 'Has a PR',
+			url: 'https://github.com/brainboxdotcc/DPP/pull/1381'
+		}
 	},
 	{
 		name: 'Discord++',
