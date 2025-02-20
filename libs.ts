@@ -1436,8 +1436,8 @@ export const libs: Lib[] = [
 		monetization: 'Yes',
 		userApps: 'Yes',
 		polls: 'Yes',
-		forwarding: 'Dev Version',
-		appEmoji: 'Dev Version'
+		forwarding: 'Yes',
+		appEmoji: 'Yes'
 	},
 	{
 		name: 'disnake 🍴',
