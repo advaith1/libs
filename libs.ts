@@ -1056,7 +1056,10 @@ export const libs: Lib[] = [
 		polls: 'Dev Version',
 		forwarding: 'Dev Version',
 		appEmoji: 'Dev Version',
-		componentsV2: 'No'
+		componentsV2: {
+			text: 'Has a PR',
+			url: 'https://github.com/projectdysnomia/dysnomia/pull/194'
+		}
 	},
 	{
 		name: 'Eris',
@@ -1872,7 +1875,10 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Partial',
 		appEmoji: 'Yes',
-		componentsV2: 'No'
+		componentsV2: {
+			text: 'Has a PR',
+			url: 'https://github.com/serenity-rs/serenity/pull/3123'
+		}
 	},
 	{
 		name: 'Twilight',
