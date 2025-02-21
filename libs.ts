@@ -1450,7 +1450,10 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'No',
 		appEmoji: 'Yes',
-		componentsV2: 'No'
+		componentsV2: {
+			text: 'Has a PR',
+			url: 'https://github.com/discord-php/DiscordPHP/pull/1294'
+		}
 	},
 	{
 		name: 'RestCord',
