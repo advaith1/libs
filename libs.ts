@@ -1484,7 +1484,10 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'No',
 		appEmoji: 'Yes',
-		componentsV2: 'Yes'
+		componentsV2: {
+			text: 'Has a PR',
+			url: 'https://github.com/laracord/framework/pull/134'
+		}
 	},
 	{
 		name: 'RestCord',
