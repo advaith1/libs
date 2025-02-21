@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       astro:
-        specifier: ^5.2.5
-        version: 5.2.5(@types/node@22.10.10)(rollup@4.31.0)(sass@1.77.8)(typescript@5.7.3)
+        specifier: ^5.3.0
+        version: 5.3.0(@types/node@22.10.10)(rollup@4.31.0)(sass@1.77.8)(typescript@5.7.3)
       bulma:
         specifier: ^0.9.4
         version: 0.9.4
@@ -526,8 +526,8 @@ packages:
   array-iterate@2.0.1:
     resolution: {integrity: sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==}
 
-  astro@5.2.5:
-    resolution: {integrity: sha512-AYXyYkc+c5xbKTm48FyQA91y81nXyNPAaoyafR0LUugE4lAwuvIUcXDBfMzmbuP1lGRvsE33G2oypv6gbGaPFg==}
+  astro@5.3.0:
+    resolution: {integrity: sha512-e88l/Yk/6enR/ZDddLbqtM+oblBFk5mneNSmNesyVYGL/6Dj4UA67GPAZOk79VxT5dbLlclZSyyw/wlxN1aj3A==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=22.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -1917,7 +1917,7 @@ snapshots:
 
   array-iterate@2.0.1: {}
 
-  astro@5.2.5(@types/node@22.10.10)(rollup@4.31.0)(sass@1.77.8)(typescript@5.7.3):
+  astro@5.3.0(@types/node@22.10.10)(rollup@4.31.0)(sass@1.77.8)(typescript@5.7.3):
     dependencies:
       '@astrojs/compiler': 2.10.3
       '@astrojs/internal-helpers': 0.5.1
