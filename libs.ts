@@ -1430,7 +1430,7 @@ export const libs: Lib[] = [
 		voiceVer: 1,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
-		selectMenus: 'Partial',
+		selectMenus: 'Yes',
 		threads: 'Yes',
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
@@ -1454,6 +1454,37 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/discord-php/DiscordPHP/pull/1294'
 		}
+	},
+	{
+		name: 'laracord',
+		url: 'https://github.com/laracord/framework',
+		language: 'PHP',
+		apiVer: 10,
+		gwVer: 10,
+		voiceVer: 1,
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Yes',
+		contextMenus: 'Yes',
+		autocomplete: 'Yes',
+		scheduledEvents: 'Yes',
+		timeouts: 'Yes',
+		modals: 'Yes',
+		permsv2: 'Yes',
+		automod: 'Yes',
+		localization: 'Yes',
+		forums: 'Yes',
+		monetization: {
+			text: 'Has a dependant PR',
+			url: 'https://github.com/discord-php/DiscordPHP/pull/1186'
+		},
+		userApps: 'No',
+		polls: 'Yes',
+		forwarding: 'No',
+		appEmoji: 'Yes',
+		componentsV2: 'Yes'
 	},
 	{
 		name: 'RestCord',
