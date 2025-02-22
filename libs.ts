@@ -202,7 +202,10 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'No',
 		appEmoji: 'No',
-		componentsV2: 'No'
+		componentsV2: {
+			text: 'Has a PR',
+			url: 'https://github.com/Remora/Remora.Discord/pull/349'
+		}
 	},
 	{
 		name: 'aegis.cpp 🪦',
