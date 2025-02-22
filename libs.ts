@@ -484,7 +484,10 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: 'No'
+		componentsV2: {
+			text: 'Has a PR',
+			url: 'https://github.com/nyxx-discord/nyxx/pull/742'
+		}
 	},
 	{
 		name: 'coxir',
@@ -1149,7 +1152,7 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: 'No'
+		componentsV2: 'Yes'
 	},
 	{
 		name: 'Seyfert',
