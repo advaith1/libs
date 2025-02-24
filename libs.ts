@@ -1057,11 +1057,11 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		monetization: 'Dev Version',
-		userApps: 'Dev Version',
-		polls: 'Dev Version',
-		forwarding: 'Dev Version',
-		appEmoji: 'Dev Version',
+		monetization: 'Yes',
+		userApps: 'Yes',
+		polls: 'Yes',
+		forwarding: 'Yes',
+		appEmoji: 'Yes',
 		componentsV2: {
 			text: 'Has a PR',
 			url: 'https://github.com/projectdysnomia/dysnomia/pull/194'
