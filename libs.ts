@@ -891,7 +891,10 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: 'No'
+		componentsV2: {
+			text: 'Has a PR',
+			url: 'https://github.com/discord-jda/JDA/pull/2806'
+		}
 	},
 	{
 		name: 'Detritus',
@@ -975,7 +978,10 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: 'No'
+		componentsV2: {
+			text: 'Has a PR',
+			url: 'https://github.com/discordjs/discord.js/pull/10781'
+		}
 	},
 	{
 		name: 'Discordeno',
@@ -1175,14 +1181,14 @@ export const libs: Lib[] = [
 		timeouts: 'Yes',
 		modals: 'Yes',
 		permsv2: 'Yes',
-		automod: 'No',
+		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'No',
 		monetization: 'No',
 		userApps: 'Yes',
-		polls: 'No',
+		polls: 'Yes',
 		forwarding: 'No',
-		appEmoji: 'No',
+		appEmoji: 'Yes',
 		componentsV2: 'No'
 	},
 	{
