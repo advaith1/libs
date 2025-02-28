@@ -1184,7 +1184,7 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'No',
-		monetization: 'No',
+		monetization: 'Partial',
 		userApps: 'Yes',
 		polls: 'Yes',
 		forwarding: 'No',
