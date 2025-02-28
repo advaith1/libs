@@ -174,7 +174,10 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: 'No'
+		componentsV2: {
+			text: 'Has a PR',
+			url: 'https://github.com/NetCordDev/NetCord/pull/98'
+		}
 	},
 	{
 		name: 'Remora.Discord',
@@ -630,7 +633,10 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: 'No'
+		componentsV2: {
+			text: 'Has a PR',
+			url: 'https://github.com/disgoorg/disgo/pull/426'
+		}
 	},
 	{
 		name: 'Disgord 🪦',
