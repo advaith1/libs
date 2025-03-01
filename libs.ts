@@ -1071,11 +1071,11 @@ export const libs: Lib[] = [
 		permsv2: 'Yes',
 		automod: 'Yes',
 		localization: 'Yes',
-		forums: 'No',
+		forums: 'Yes',
 		monetization: 'Partial',
 		userApps: 'Yes',
 		polls: 'Yes',
-		forwarding: 'No',
+		forwarding: 'Yes',
 		appEmoji: 'Yes',
 		componentsV2: 'No'
 	},
