@@ -1320,10 +1320,7 @@ export const libs: Lib[] = [
 		},
 		userApps: 'No',
 		polls: 'Yes',
-		forwarding: {
-			text: 'Has a PR',
-			url: 'https://github.com/discord-php/DiscordPHP/pull/1297'
-		},
+		forwarding: 'Yes',
 		appEmoji: 'Yes',
 		componentsV2: {
 			text: 'Has a PR',
@@ -1385,7 +1382,7 @@ export const libs: Lib[] = [
 		},
 		userApps: 'No',
 		polls: 'Yes',
-		forwarding: 'No',
+		forwarding: 'Yes',
 		appEmoji: 'Yes',
 		componentsV2: {
 			text: 'Has a PR',
