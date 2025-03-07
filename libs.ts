@@ -835,10 +835,7 @@ export const libs: Lib[] = [
 		polls: 'Dev Version',
 		forwarding: 'No',
 		appEmoji: 'Dev Version',
-		componentsV2: {
-			text: 'Has a PR',
-			url: 'https://github.com/Discord4J/Discord4J/pull/1294'
-		}
+		componentsV2: 'Yes'
 	},
 	{
 		name: 'Javacord 🪦',
