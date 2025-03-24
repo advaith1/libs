@@ -1543,7 +1543,7 @@ export const libs: Lib[] = [
 		permsv2: 'Yes',
 		automod: {
 			text: 'Has a PR',
-			url: 'https://github.com/hikari-py/hikari/pull/2219'
+			url: 'https://github.com/hikari-py/hikari/pull/2205'
 		},
 		localization: 'Yes',
 		forums: 'Yes',
