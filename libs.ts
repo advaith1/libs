@@ -1576,10 +1576,7 @@ export const libs: Lib[] = [
 		forums: 'Yes',
 		monetization: 'Partial',
 		userApps: 'Yes',
-		polls: {
-			text: 'Has a PR',
-			url: 'https://github.com/hikari-py/hikari/pull/2219'
-		},
+		polls: 'Yes',
 		forwarding: 'No',
 		appEmoji: 'Yes'
 	},
