@@ -1682,7 +1682,7 @@ export const libs: Lib[] = [
 		},
 		forwarding: 'No',
 		appEmoji: 'Yes',
-		componentsV2: 'No'
+		componentsV2: 'Yes'
 	},
 	{
 		name: 'interactions.py',
