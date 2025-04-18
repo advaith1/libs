@@ -87,7 +87,7 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: 'Dev Version'
+		componentsV2: 'Yes'
 	},
 	{
 		name: 'Discord.Net',
@@ -174,10 +174,7 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: {
-			text: 'Has a PR',
-			url: 'https://github.com/NetCordDev/NetCord/pull/98'
-		}
+		componentsV2: 'Yes'
 	},
 	{
 		name: 'Remora.Discord',
@@ -264,10 +261,7 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: {
-			text: 'Has a PR',
-			url: 'https://github.com/brainboxdotcc/DPP/pull/1381'
-		}
+		componentsV2: 'Yes'
 	},
 	{
 		name: 'Discord++',
@@ -490,10 +484,7 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: {
-			text: 'Has a PR',
-			url: 'https://github.com/nyxx-discord/nyxx/pull/742'
-		}
+		componentsV2: 'Yes'
 	},
 	{
 		name: 'coxir',
