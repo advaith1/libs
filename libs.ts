@@ -887,7 +887,7 @@ export const libs: Lib[] = [
 		appEmoji: 'Yes',
 		componentsV2: {
 			text: 'Has a PR',
-			url: 'https://github.com/discord-jda/JDA/pull/2806'
+			url: 'https://github.com/discord-jda/JDA/pull/2809'
 		}
 	},
 	{
@@ -1460,41 +1460,7 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/discord-php/DiscordPHP/pull/1294'
 		}
-	},
-	{
-		name: 'laracord',
-		url: 'https://github.com/laracord/framework',
-		language: 'PHP',
-		apiVer: 10,
-		gwVer: 10,
-		voiceVer: 1,
-		slashCommands: 'Yes',
-		buttons: 'Yes',
-		selectMenus: 'Yes',
-		threads: 'Yes',
-		guildStickers: 'Yes',
-		contextMenus: 'Yes',
-		autocomplete: 'Yes',
-		scheduledEvents: 'Yes',
-		timeouts: 'Yes',
-		modals: 'Yes',
-		permsv2: 'Yes',
-		automod: 'Yes',
-		localization: 'Yes',
-		forums: 'Yes',
-		monetization: {
-			text: 'Has a dependant PR',
-			url: 'https://github.com/discord-php/DiscordPHP/pull/1186'
-		},
-		userApps: 'No',
-		polls: 'Yes',
-		forwarding: 'Yes',
-		appEmoji: 'Yes',
-		componentsV2: {
-			text: 'Has a PR',
-			url: 'https://github.com/laracord/framework/pull/134'
-		}
-	},
+	}
 	{
 		name: 'RestCord',
 		url: 'https://github.com/restcord/restcord',
