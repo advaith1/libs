@@ -1460,7 +1460,7 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/discord-php/DiscordPHP/pull/1294'
 		}
-	}
+	},
 	{
 		name: 'RestCord',
 		url: 'https://github.com/restcord/restcord',
