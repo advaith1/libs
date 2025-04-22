@@ -1486,7 +1486,8 @@ export const libs: Lib[] = [
 		userApps: 'No',
 		polls: 'No',
 		forwarding: 'No',
-		appEmoji: 'Yes'
+		appEmoji: 'Yes',
+		componentsV2: 'No'
 	},
 	{
 		name: 'RestCord',
