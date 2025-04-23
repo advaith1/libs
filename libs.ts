@@ -1602,7 +1602,10 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/DisnakeDev/disnake/pull/1224'
 		},
-		componentsV2: 'No'
+		componentsV2: {
+			text: 'Has a PR',
+			url: 'https://github.com/DisnakeDev/disnake/pull/1294'
+		}
 	},
 	{
 		name: 'enhanced-discord.py 🍴🪦',
