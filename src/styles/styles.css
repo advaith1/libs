@@ -4,7 +4,7 @@ html, body {
 	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
 		Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
 		sans-serif;
-	background: #36393f;
+	background: #1a1a1e;
 }
 
 a {
@@ -17,7 +17,7 @@ a:hover {
 }
 
 .table td, .table th {
-	border-color: #4f545c;
+	border-color: #2c2c30;
 }
 
 .green {
@@ -37,7 +37,7 @@ a:hover {
 }
 
 .gray {
-	background-color: #40444b;
+	background-color: #222327;
 }
 
 .container {
@@ -95,7 +95,7 @@ footer {
 
 .table,
 tr> :first-child {
-	background: #32353b;
+	background: #121214;
 }
 
 .fw {
@@ -127,10 +127,10 @@ tr> :first-child:before {
 
 tr> :first-child:before {
 	left: -0.6px;
-	border-left: 1px solid #4f545c;
+	border-left: 1px solid #2c2c30;
 }
 
 tr> :first-child:after {
 	right: -1px;
-	border-right: 1px solid #4f545c;
+	border-right: 1px solid #2c2c30;
 }
