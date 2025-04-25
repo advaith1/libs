@@ -146,7 +146,7 @@ export const libs: Lib[] = [
 		polls: 'Dev Version',
 		forwarding: 'Dev Version',
 		appEmoji: 'Dev Version',
-		componentsV2: 'No'
+		componentsV2: 'Dev Version'
 	},
 	{
 		name: 'NetCord',
@@ -1211,7 +1211,7 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: 'No'
+		componentsV2: 'Yes'
 	},
 	{
 		name: 'Tiscord',
@@ -1456,10 +1456,7 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: {
-			text: 'Has a PR',
-			url: 'https://github.com/discord-php/DiscordPHP/pull/1294'
-		}
+		componentsV2: 'Yes'
 	},
 	{
 		name: 'Fenrir',
