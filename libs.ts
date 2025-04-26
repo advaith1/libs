@@ -972,10 +972,7 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: {
-			text: 'Has a PR',
-			url: 'https://github.com/discordjs/discord.js/pull/10781'
-		}
+		componentsV2: 'Yes'
 	},
 	{
 		name: 'Discordeno',
