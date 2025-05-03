@@ -1962,7 +1962,10 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: 'No'
+		componentsV2: {
+			text: 'Has a PR',
+			url: 'https://github.com/twilight-rs/twilight/pull/2422'
+		}
 	},
 	{
 		name: 'AckCord',
