@@ -1180,7 +1180,7 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: 'No'
+		componentsV2: 'Yes'
 	},
 	{
 		name: 'SnowTransfer',
