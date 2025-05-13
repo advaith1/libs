@@ -115,10 +115,7 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: {
-			text: 'Has a PR',
-			url: 'https://github.com/discord-net/Discord.Net/pull/3065'
-		}
+		componentsV2: 'Yes'
 	},
 	{
 		name: 'DSharpPlus',
