@@ -1059,10 +1059,7 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: {
-			text: 'Has a PR',
-			url: 'https://github.com/projectdysnomia/dysnomia/pull/194'
-		}
+		componentsV2: 'Yes'
 	},
 	{
 		name: 'Eris',
