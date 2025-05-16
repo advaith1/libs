@@ -621,10 +621,7 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: {
-			text: 'Has a PR',
-			url: 'https://github.com/disgoorg/disgo/pull/426'
-		}
+		componentsV2: 'Yes'
 	},
 	{
 		name: 'Disgord 🪦',
