@@ -621,7 +621,7 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: 'Yes'
+		componentsV2: 'Dev Version'
 	},
 	{
 		name: 'Disgord 🪦',
