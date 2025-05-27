@@ -1280,10 +1280,7 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: {
-			text: 'Has a PR',
-			url: 'https://github.com/sergiogotuzzo/disgroove/pull/5'
-		}
+		componentsV2: 'Yes'
 	},
 	{
 		name: 'Discord.jl',
