@@ -1227,7 +1227,7 @@ export const libs: Lib[] = [
 		componentsV2: 'No'
 	},
 	{
-		name: 'Discall',
+		name: 'Discall 🪦',
 		url: 'https://github.com/Discall-Development/Discall',
 		language: 'JavaScript',
 		apiVer: 10,
