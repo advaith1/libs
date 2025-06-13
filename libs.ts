@@ -1433,11 +1433,8 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		monetization: {
-			text: 'Has a PR',
-			url: 'https://github.com/discord-php/DiscordPHP/pull/1186'
-		},
-		userApps: 'No',
+		monetization: 'Yes',
+		userApps: 'Yes',
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
