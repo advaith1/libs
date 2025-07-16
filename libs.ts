@@ -1001,7 +1001,7 @@ export const libs: Lib[] = [
 		url: 'https://github.com/Inbestigator/dressed',
 		language: 'Javascript',
 		apiVer: 10,
-		gwVer: 10,
+		gwVer: '10 dev',
 		voiceVer: '-',
 		slashCommands: 'Yes',
 		buttons: 'Yes',
@@ -1020,7 +1020,7 @@ export const libs: Lib[] = [
 		monetization: 'Yes',
 		userApps: 'No',
 		polls: 'Yes',
-		forwarding: 'No',
+		forwarding: 'Yes',
 		appEmoji: 'Yes',
 		componentsV2: 'Yes'
 	},
