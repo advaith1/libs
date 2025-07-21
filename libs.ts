@@ -197,12 +197,12 @@ export const libs: Lib[] = [
 		monetization: 'Partial',
 		userApps: 'Yes',
 		polls: 'Yes',
-		forwarding: 'No',
-		appEmoji: 'No',
-		componentsV2: {
+		forwarding: 'Yes',
+		appEmoji: {
 			text: 'Has a PR',
-			url: 'https://github.com/Remora/Remora.Discord/pull/349'
-		}
+			url: 'https://github.com/Remora/Remora.Discord/pull/338'
+		},
+		componentsV2: 'Yes'
 	},
 	{
 		name: 'aegis.cpp 🪦',
@@ -879,10 +879,7 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: {
-			text: 'Has a PR',
-			url: 'https://github.com/discord-jda/JDA/pull/2809'
-		}
+		componentsV2: 'Dev Version'
 	},
 	{
 		name: 'Detritus',
@@ -946,7 +943,7 @@ export const libs: Lib[] = [
 		language: 'JavaScript',
 		apiVer: 10,
 		gwVer: 10,
-		voiceVer: 4,
+		voiceVer: '4 stable, E2EE dev',
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
@@ -1344,13 +1341,10 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/kordlib/kord/pull/972'
 		},
-		appEmoji: {
-			text: 'Has a PR',
-			url: 'https://github.com/kordlib/kord/pull/973'
-		},
+		appEmoji: 'Dev Version',
 		componentsV2: {
 			text: 'Has a PR',
-			url: 'https://github.com/kordlib/kord/pull/1000'
+			url: 'https://github.com/kordlib/kord/pull/1009'
 		}
 	},
 	{
@@ -1787,10 +1781,7 @@ export const libs: Lib[] = [
 		monetization: 'Yes',
 		userApps: 'Yes',
 		polls: 'Yes',
-		forwarding: {
-			text: 'Has a PR',
-			url: 'https://github.com/Pycord-Development/pycord/pull/2598'
-		},
+		forwarding: 'Dev Version',
 		appEmoji: 'Dev Version',
 		componentsV2: {
 			text: 'Has a PR',
@@ -1916,10 +1907,7 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Partial',
 		appEmoji: 'Yes',
-		componentsV2: {
-			text: 'Has a PR',
-			url: 'https://github.com/serenity-rs/serenity/pull/3123'
-		}
+		componentsV2: 'Dev Version'
 	},
 	{
 		name: 'Twilight',
