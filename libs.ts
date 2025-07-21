@@ -1783,10 +1783,7 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Dev Version',
 		appEmoji: 'Dev Version',
-		componentsV2: {
-			text: 'Has a PR',
-			url: 'https://github.com/Pycord-Development/pycord/pull/2707'
-		}
+		componentsV2: 'Dev Version'
 	},
 	{
 		name: 'discorb',
