@@ -680,6 +680,46 @@ export const libs: Lib[] = [
 		componentsV2: 'No'
 	},
 	{
+		name: 'Tempest',
+		url: 'https://github.com/amatsagu/tempest',
+		language: 'Go',
+		apiVer: 10,
+		gwVer: '-',
+		voiceVer: '-',
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: {
+			text: "Possible to self-implement",
+			url: "https://pkg.go.dev/github.com/amatsagu/tempest#Rest"
+		},
+		contextMenus: 'Yes',
+		autocomplete: 'Yes',
+		scheduledEvents: {
+			text: "Possible to self-implement",
+			url: "https://pkg.go.dev/github.com/amatsagu/tempest#Rest"
+		},
+		timeouts: 'Yes',
+		modals: 'Yes',
+		permsv2: 'Yes',
+		automod: {
+			text: "Possible to self-implement",
+			url: "https://pkg.go.dev/github.com/amatsagu/tempest#Rest"
+		},
+		localization: 'Yes',
+		forums: {
+			text: "Possible to self-implement",
+			url: "https://pkg.go.dev/github.com/amatsagu/tempest#Rest"
+		},
+		monetization: 'Partial',
+		userApps: 'Yes',
+		polls: 'Yes',
+		forwarding: 'No',
+		appEmoji: 'Yes',
+		componentsV2: 'Yes'
+	},
+	{
 		name: 'Calamity',
 		url: 'https://github.com/simmsb/calamity',
 		language: 'Haskell',
