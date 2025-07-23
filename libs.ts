@@ -715,7 +715,7 @@ export const libs: Lib[] = [
 		monetization: 'Partial',
 		userApps: 'Yes',
 		polls: 'Yes',
-		forwarding: 'Yes',
+		forwarding: 'No',
 		appEmoji: 'Yes',
 		componentsV2: 'Yes'
 	},
