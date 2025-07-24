@@ -5,6 +5,7 @@ import '../styles/styles.css'
 import Version from '../components/Version.astro'
 import VoiceVersion from '../components/VoiceVersion.astro'
 import Status from '../components/Status.astro'
+import Date from '../components/Date.astro'
 
 import { libs } from '../../libs'
 
@@ -59,6 +60,7 @@ const langs = Array.from(new Set(libs.map(lib => lib.language).sort()))
 											<th>Forwarding</th>
 											<th>App Emoji</th>
 											<th>Components V2</th>
+											<th>Info Last Updated</th>
 										</tr>
 									</thead>
 									<tbody>
@@ -94,6 +96,7 @@ const langs = Array.from(new Set(libs.map(lib => lib.language).sort()))
 													<Status status={lib.forwarding} />
 													<Status status={lib.appEmoji} />
 													<Status status={lib.componentsV2} />
+													<Date datetime={lib.infoLastUpdatedDate} />
 												</tr>
 											))}
 									</tbody>
