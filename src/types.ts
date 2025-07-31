@@ -29,4 +29,5 @@ export interface Lib {
 	forwarding: LinkableString
 	appEmoji: LinkableString
 	componentsV2: LinkableString
+	infoLastUpdatedDate?: string
 }
