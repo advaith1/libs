@@ -593,7 +593,7 @@ export const libs: Lib[] = [
 		polls: 'Dev Version',
 		forwarding: 'No',
 		appEmoji: 'Dev Version',
-		componentsV2: 'No'
+		componentsV2: 'Yes'
 	},
 	{
 		name: 'disgo',
