@@ -1412,7 +1412,7 @@ export const libs: Lib[] = [
 		language: 'PHP',
 		apiVer: 10,
 		gwVer: 10,
-		voiceVer: 1,
+		voiceVer: 8,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
