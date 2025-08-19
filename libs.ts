@@ -1524,7 +1524,7 @@ export const libs: Lib[] = [
 		language: 'Python',
 		apiVer: 10,
 		gwVer: 10,
-		voiceVer: 4,
+		voiceVer: 8,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
@@ -1544,10 +1544,7 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: {
-			text: 'Has a PR',
-			url: 'https://github.com/Rapptz/discord.py/pull/10166'
-		}
+		componentsV2: 'Yes'
 	},
 	{
 		name: 'disnake 🍴',
