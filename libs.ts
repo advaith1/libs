@@ -1597,7 +1597,7 @@ export const libs: Lib[] = [
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
 		componentsV2: 'Yes',
-		modalComponents: 'No'
+		modalComponents: 'Yes'
 	},
 	{
 		name: 'disnake 🍴',
