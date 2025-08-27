@@ -28,5 +28,6 @@ export interface Lib {
 	polls: LinkableString
 	forwarding: LinkableString
 	appEmoji: LinkableString
-	componentsV2: LinkableString
+	componentsV2: LinkableString,
+	modalComponents: LinkableString
 }

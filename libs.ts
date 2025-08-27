@@ -31,7 +31,8 @@ export const libs: Lib[] = [
 		polls: 'No',
 		forwarding: 'No',
 		appEmoji: 'No',
-		componentsV2: 'No'
+		componentsV2: 'No',
+		modalComponents: 'No'
 	},
 	{
 		name: 'Orca',
@@ -59,7 +60,8 @@ export const libs: Lib[] = [
 		polls: 'No',
 		forwarding: 'No',
 		appEmoji: 'No',
-		componentsV2: 'No'
+		componentsV2: 'No',
+		modalComponents: 'No'
 	},
 	{
 		name: 'DisCatSharp',
@@ -87,7 +89,8 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: 'Yes'
+		componentsV2: 'Yes',
+		modalComponents: 'No'
 	},
 	{
 		name: 'Discord.Net',
@@ -115,7 +118,8 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: 'Yes'
+		componentsV2: 'Yes',
+		modalComponents: 'No'
 	},
 	{
 		name: 'DSharpPlus',
@@ -143,7 +147,8 @@ export const libs: Lib[] = [
 		polls: 'Dev Version',
 		forwarding: 'Dev Version',
 		appEmoji: 'Dev Version',
-		componentsV2: 'Dev Version'
+		componentsV2: 'Dev Version',
+		modalComponents: 'No'
 	},
 	{
 		name: 'NetCord',
@@ -171,7 +176,8 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: 'Yes'
+		componentsV2: 'Yes',
+		modalComponents: 'No'
 	},
 	{
 		name: 'Remora.Discord',
@@ -202,7 +208,8 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/Remora/Remora.Discord/pull/338'
 		},
-		componentsV2: 'Yes'
+		componentsV2: 'Yes',
+		modalComponents: 'No'
 	},
 	{
 		name: 'aegis.cpp 🪦',
@@ -230,7 +237,8 @@ export const libs: Lib[] = [
 		polls: 'No',
 		forwarding: 'No',
 		appEmoji: 'No',
-		componentsV2: 'No'
+		componentsV2: 'No',
+		modalComponents: 'No'
 	},
 	{
 		name: 'D++',
@@ -258,7 +266,8 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: 'Yes'
+		componentsV2: 'Yes',
+		modalComponents: 'No'
 	},
 	{
 		name: 'Discord++',
@@ -286,7 +295,8 @@ export const libs: Lib[] = [
 		polls: 'No',
 		forwarding: 'No',
 		appEmoji: 'No',
-		componentsV2: 'No'
+		componentsV2: 'No',
+		modalComponents: 'No'
 	},
 	{
 		name: 'DiscordCoreAPI',
@@ -314,7 +324,8 @@ export const libs: Lib[] = [
 		polls: 'No',
 		forwarding: 'No',
 		appEmoji: 'No',
-		componentsV2: 'No'
+		componentsV2: 'No',
+		modalComponents: 'No'
 	},
 	{
 		name: 'Sleepy Discord',
@@ -342,7 +353,8 @@ export const libs: Lib[] = [
 		polls: 'No',
 		forwarding: 'No',
 		appEmoji: 'No',
-		componentsV2: 'No'
+		componentsV2: 'No',
+		modalComponents: 'No'
 	},
 	{
 		name: 'discljord',
@@ -370,7 +382,8 @@ export const libs: Lib[] = [
 		polls: 'No',
 		forwarding: 'No',
 		appEmoji: 'No',
-		componentsV2: 'No'
+		componentsV2: 'No',
+		modalComponents: 'No'
 	},
 	{
 		name: 'discordcr',
@@ -425,7 +438,8 @@ export const libs: Lib[] = [
 		polls: 'No',
 		forwarding: 'No',
 		appEmoji: 'No',
-		componentsV2: 'No'
+		componentsV2: 'No',
+		modalComponents: 'No'
 	},
 	{
 		name: 'Mineral',
@@ -453,7 +467,8 @@ export const libs: Lib[] = [
 		polls: 'No',
 		forwarding: 'No',
 		appEmoji: 'No',
-		componentsV2: 'No'
+		componentsV2: 'No',
+		modalComponents: 'No'
 	},
 	{
 		name: 'nyxx',
@@ -481,7 +496,8 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: 'Yes'
+		componentsV2: 'Yes',
+		modalComponents: 'No'
 	},
 	{
 		name: 'coxir',
@@ -509,7 +525,8 @@ export const libs: Lib[] = [
 		polls: 'No',
 		forwarding: 'No',
 		appEmoji: 'No',
-		componentsV2: 'No'
+		componentsV2: 'No',
+		modalComponents: 'No'
 	},
 	{
 		name: 'Nostrum',
@@ -537,7 +554,8 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'No',
 		appEmoji: 'No',
-		componentsV2: 'No'
+		componentsV2: 'No',
+		modalComponents: 'No'
 	},
 	{
 		name: 'arikawa',
@@ -565,7 +583,8 @@ export const libs: Lib[] = [
 		polls: 'No',
 		forwarding: 'Dev Version',
 		appEmoji: 'No',
-		componentsV2: 'No'
+		componentsV2: 'No',
+		modalComponents: 'No'
 	},
 	{
 		name: 'DiscordGo',
@@ -593,7 +612,8 @@ export const libs: Lib[] = [
 		polls: 'Dev Version',
 		forwarding: 'No',
 		appEmoji: 'Dev Version',
-		componentsV2: 'No'
+		componentsV2: 'No',
+		modalComponents: 'No'
 	},
 	{
 		name: 'disgo',
@@ -621,7 +641,8 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: 'Dev Version'
+		componentsV2: 'Dev Version',
+		modalComponents: 'No'
 	},
 	{
 		name: 'Disgord 🪦',
@@ -649,7 +670,8 @@ export const libs: Lib[] = [
 		polls: 'No',
 		forwarding: 'No',
 		appEmoji: 'No',
-		componentsV2: 'No'
+		componentsV2: 'No',
+		modalComponents: 'No'
 	},
 	{
 		name: 'Postcord',
@@ -677,7 +699,8 @@ export const libs: Lib[] = [
 		polls: 'No',
 		forwarding: 'No',
 		appEmoji: 'No',
-		componentsV2: 'No'
+		componentsV2: 'No',
+		modalComponents: 'No'
 	},
 	{
 		name: 'Calamity',
@@ -705,7 +728,8 @@ export const libs: Lib[] = [
 		polls: 'No',
 		forwarding: 'No',
 		appEmoji: 'No',
-		componentsV2: 'No'
+		componentsV2: 'No',
+		modalComponents: 'No'
 	},
 	{
 		name: 'discord-haskell',
@@ -733,7 +757,8 @@ export const libs: Lib[] = [
 		polls: 'No',
 		forwarding: 'No',
 		appEmoji: 'No',
-		componentsV2: 'No'
+		componentsV2: 'No',
+		modalComponents: 'No'
 	},
 	{
 		name: 'catnip 🪦',
@@ -764,7 +789,8 @@ export const libs: Lib[] = [
 		polls: 'No',
 		forwarding: 'No',
 		appEmoji: 'No',
-		componentsV2: 'No'
+		componentsV2: 'No',
+		modalComponents: 'No'
 	},
 	{
 		name: 'discord.jar',
@@ -792,7 +818,8 @@ export const libs: Lib[] = [
 		polls: 'No',
 		forwarding: 'No',
 		appEmoji: 'No',
-		componentsV2: 'No'
+		componentsV2: 'No',
+		modalComponents: 'No'
 	},
 	{
 		name: 'Discord4J',
@@ -820,7 +847,8 @@ export const libs: Lib[] = [
 		polls: 'Dev Version',
 		forwarding: 'No',
 		appEmoji: 'Dev Version',
-		componentsV2: 'Yes'
+		componentsV2: 'Yes',
+		modalComponents: 'No'
 	},
 	{
 		name: 'Javacord 🪦',
@@ -851,7 +879,8 @@ export const libs: Lib[] = [
 		polls: 'No',
 		forwarding: 'No',
 		appEmoji: 'No',
-		componentsV2: 'No'
+		componentsV2: 'No',
+		modalComponents: 'No'
 	},
 	{
 		name: 'JDA',
@@ -879,7 +908,8 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: 'Dev Version'
+		componentsV2: 'Dev Version',
+		modalComponents: 'No'
 	},
 	{
 		name: 'Detritus',
@@ -907,7 +937,8 @@ export const libs: Lib[] = [
 		polls: 'No',
 		forwarding: 'No',
 		appEmoji: 'No',
-		componentsV2: 'No'
+		componentsV2: 'No',
+		modalComponents: 'No'
 	},
 	{
 		name: 'dfx',
@@ -935,7 +966,8 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: 'Yes'
+		componentsV2: 'Yes',
+		modalComponents: 'No'
 	},
 	{
 		name: 'discord.js',
@@ -963,7 +995,8 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: 'Yes'
+		componentsV2: 'Yes',
+		modalComponents: 'No'
 	},
 	{
 		name: 'Discordeno',
@@ -991,7 +1024,8 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: 'Dev Version'
+		componentsV2: 'Dev Version',
+		modalComponents: 'No'
 	},
 	{
 		name: 'droff',
@@ -1019,7 +1053,8 @@ export const libs: Lib[] = [
 		polls: 'No',
 		forwarding: 'No',
 		appEmoji: 'No',
-		componentsV2: 'No'
+		componentsV2: 'No',
+		modalComponents: 'No'
 	},
 	{
 		name: 'Dysnomia 🍴',
@@ -1047,7 +1082,8 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: 'Yes'
+		componentsV2: 'Yes',
+		modalComponents: 'No'
 	},
 	{
 		name: 'Eris',
@@ -1081,7 +1117,8 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Dev Version',
-		componentsV2: 'No'
+		componentsV2: 'No',
+		modalComponents: 'No'
 	},
 	{
 		name: 'Harmony',
@@ -1109,7 +1146,8 @@ export const libs: Lib[] = [
 		polls: 'No',
 		forwarding: 'No',
 		appEmoji: 'No',
-		componentsV2: 'No'
+		componentsV2: 'No',
+		modalComponents: 'No'
 	},
 	{
 		name: 'Oceanic',
@@ -1137,7 +1175,8 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: 'Yes'
+		componentsV2: 'Yes',
+		modalComponents: 'No'
 	},
 	{
 		name: 'Seyfert',
@@ -1165,7 +1204,8 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: 'Yes'
+		componentsV2: 'Yes',
+		modalComponents: 'No'
 	},
 	{
 		name: 'SnowTransfer',
@@ -1193,7 +1233,8 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: 'Yes'
+		componentsV2: 'Yes',
+		modalComponents: 'No'
 	},
 	{
 		name: 'Tiscord',
@@ -1221,7 +1262,8 @@ export const libs: Lib[] = [
 		polls: 'No',
 		forwarding: 'No',
 		appEmoji: 'No',
-		componentsV2: 'No'
+		componentsV2: 'No',
+		modalComponents: 'No'
 	},
 	{
 		name: 'Discall 🪦',
@@ -1249,7 +1291,8 @@ export const libs: Lib[] = [
 		polls: 'No',
 		forwarding: 'No',
 		appEmoji: 'No',
-		componentsV2: 'No'
+		componentsV2: 'No',
+		modalComponents: 'No'
 	},
 	{
 		name: 'disgroove',
@@ -1277,7 +1320,8 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: 'Yes'
+		componentsV2: 'Yes',
+		modalComponents: 'No'
 	},
 	{
 		name: 'Discord.jl',
@@ -1305,7 +1349,8 @@ export const libs: Lib[] = [
 		polls: 'No',
 		forwarding: 'No',
 		appEmoji: 'No',
-		componentsV2: 'No'
+		componentsV2: 'No',
+		modalComponents: 'No'
 	},
 	{
 		name: 'Kord',
@@ -1345,7 +1390,8 @@ export const libs: Lib[] = [
 		componentsV2: {
 			text: 'Has a PR',
 			url: 'https://github.com/kordlib/kord/pull/1009'
-		}
+		},
+		modalComponents: 'No'
 	},
 	{
 		name: 'Discordia',
@@ -1376,7 +1422,8 @@ export const libs: Lib[] = [
 		polls: 'No',
 		forwarding: 'No',
 		appEmoji: 'No',
-		componentsV2: 'No'
+		componentsV2: 'No',
+		modalComponents: 'No'
 	},
 	{
 		name: 'Dimscord',
@@ -1404,7 +1451,8 @@ export const libs: Lib[] = [
 		polls: 'No',
 		forwarding: 'No',
 		appEmoji: 'No',
-		componentsV2: 'No'
+		componentsV2: 'No',
+		modalComponents: 'No'
 	},
 	{
 		name: 'DiscordPHP',
@@ -1432,7 +1480,8 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: 'Yes'
+		componentsV2: 'Yes',
+		modalComponents: 'No'
 	},
 	{
 		name: 'Fenrir',
@@ -1460,7 +1509,8 @@ export const libs: Lib[] = [
 		polls: 'No',
 		forwarding: 'No',
 		appEmoji: 'Yes',
-		componentsV2: 'No'
+		componentsV2: 'No',
+		modalComponents: 'No'
 	},
 	{
 		name: 'RestCord',
@@ -1488,7 +1538,8 @@ export const libs: Lib[] = [
 		polls: 'No',
 		forwarding: 'No',
 		appEmoji: 'No',
-		componentsV2: 'No'
+		componentsV2: 'No',
+		modalComponents: 'No'
 	},
 	{
 		name: 'discord.http',
@@ -1516,7 +1567,8 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: 'Yes'
+		componentsV2: 'Yes',
+		modalComponents: 'No'
 	},
 	{
 		name: 'discord.py',
@@ -1544,7 +1596,8 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: 'Yes'
+		componentsV2: 'Yes',
+		modalComponents: 'No'
 	},
 	{
 		name: 'disnake 🍴',
@@ -1578,7 +1631,8 @@ export const libs: Lib[] = [
 		componentsV2: {
 			text: 'Has a PR',
 			url: 'https://github.com/DisnakeDev/disnake/pull/1294'
-		}
+		},
+		modalComponents: 'No'
 	},
 	{
 		name: 'enhanced-discord.py 🍴🪦',
@@ -1606,7 +1660,8 @@ export const libs: Lib[] = [
 		polls: 'No',
 		forwarding: 'No',
 		appEmoji: 'No',
-		componentsV2: 'No'
+		componentsV2: 'No',
+		modalComponents: 'No'
 	},
 	{
 		name: 'hata',
@@ -1634,7 +1689,8 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: 'Yes'
+		componentsV2: 'Yes',
+		modalComponents: 'No'
 	},
 	{
 		name: 'hikari',
@@ -1662,7 +1718,8 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'No',
 		appEmoji: 'Yes',
-		componentsV2: 'Yes'
+		componentsV2: 'Yes',
+		modalComponents: 'No'
 	},
 	{
 		name: 'interactions.py',
@@ -1690,7 +1747,8 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'No',
 		appEmoji: 'No',
-		componentsV2: 'No'
+		componentsV2: 'No',
+		modalComponents: 'No'
 	},
 	{
 		name: 'NAFF 🪦',
@@ -1718,7 +1776,8 @@ export const libs: Lib[] = [
 		polls: 'No',
 		forwarding: 'No',
 		appEmoji: 'No',
-		componentsV2: 'No'
+		componentsV2: 'No',
+		modalComponents: 'No'
 	},
 	{
 		name: 'nextcord 🍴',
@@ -1752,7 +1811,8 @@ export const libs: Lib[] = [
 		},
 		forwarding: 'Yes',
 		appEmoji: 'No',
-		componentsV2: 'No'
+		componentsV2: 'No',
+		modalComponents: 'No'
 	},
 	{
 		name: 'pycord 🍴',
@@ -1780,7 +1840,8 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Dev Version',
 		appEmoji: 'Dev Version',
-		componentsV2: 'Dev Version'
+		componentsV2: 'Dev Version',
+		modalComponents: 'No'
 	},
 	{
 		name: 'discorb',
@@ -1808,7 +1869,8 @@ export const libs: Lib[] = [
 		polls: 'No',
 		forwarding: 'No',
 		appEmoji: 'No',
-		componentsV2: 'No'
+		componentsV2: 'No',
+		modalComponents: 'No'
 	},
 	{
 		name: 'discordrb',
@@ -1845,7 +1907,8 @@ export const libs: Lib[] = [
 		polls: 'No',
 		forwarding: 'No',
 		appEmoji: 'No',
-		componentsV2: 'No'
+		componentsV2: 'No',
+		modalComponents: 'No'
 	},
 	{
 		name: 'discord-rs',
@@ -1873,7 +1936,8 @@ export const libs: Lib[] = [
 		polls: 'No',
 		forwarding: 'No',
 		appEmoji: 'No',
-		componentsV2: 'No'
+		componentsV2: 'No',
+		modalComponents: 'No'
 	},
 	{
 		name: 'Serenity',
@@ -1901,7 +1965,8 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Partial',
 		appEmoji: 'Yes',
-		componentsV2: 'Dev Version'
+		componentsV2: 'Dev Version',
+		modalComponents: 'No'
 	},
 	{
 		name: 'Twilight',
@@ -1932,7 +1997,8 @@ export const libs: Lib[] = [
 		componentsV2: {
 			text: 'Has a PR',
 			url: 'https://github.com/twilight-rs/twilight/pull/2422'
-		}
+		},
+		modalComponents: 'No'
 	},
 	{
 		name: 'AckCord',
@@ -1960,7 +2026,8 @@ export const libs: Lib[] = [
 		polls: 'No',
 		forwarding: 'No',
 		appEmoji: 'No',
-		componentsV2: 'No'
+		componentsV2: 'No',
+		modalComponents: 'No'
 	},
 	{
 		name: 'DiscordBM',
@@ -1988,7 +2055,8 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'No',
 		appEmoji: 'No',
-		componentsV2: 'No'
+		componentsV2: 'No',
+		modalComponents: 'No'
 	},
 	{
 		name: 'Swiftcord 🍴🪦',
@@ -2016,7 +2084,8 @@ export const libs: Lib[] = [
 		polls: 'No',
 		forwarding: 'No',
 		appEmoji: 'No',
-		componentsV2: 'No'
+		componentsV2: 'No',
+		modalComponents: 'No'
 	},
 	{
 		name: 'SwiftDiscord 🪦',
@@ -2044,6 +2113,7 @@ export const libs: Lib[] = [
 		polls: 'No',
 		forwarding: 'No',
 		appEmoji: 'No',
-		componentsV2: 'No'
+		componentsV2: 'No',
+		modalComponents: 'No'
 	}
 ]
