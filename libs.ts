@@ -1841,7 +1841,7 @@ export const libs: Lib[] = [
 		forwarding: 'Dev Version',
 		appEmoji: 'Dev Version',
 		componentsV2: 'Dev Version',
-		modalComponents: 'No'
+		modalComponents: 'Yes'
 	},
 	{
 		name: 'discorb',
