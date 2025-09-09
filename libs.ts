@@ -1826,7 +1826,7 @@ export const libs: Lib[] = [
 			url: 'https://github.com/shardlab/discordrb/pull/272'
 		},
 		contextMenus: 'Yes',
-		autocomplete: 'No',
+		autocomplete: 'Dev Version',
 		scheduledEvents: {
 			text: 'Has a PR',
 			url: 'https://github.com/shardlab/discordrb/pull/152'
@@ -1834,7 +1834,10 @@ export const libs: Lib[] = [
 		timeouts: 'Yes',
 		modals: 'Yes',
 		permsv2: 'Dev Version',
-		automod: 'No',
+		automod: {
+			text: 'Has a PR',
+			url: 'https://github.com/shardlab/discordrb/pull/334'
+		},
 		localization: {
 			text: 'Has a PR',
 			url: 'https://github.com/shardlab/discordrb/pull/245'
@@ -1843,9 +1846,18 @@ export const libs: Lib[] = [
 		monetization: 'No',
 		userApps: 'No',
 		polls: 'No',
-		forwarding: 'No',
-		appEmoji: 'No',
-		componentsV2: 'No'
+		forwarding: {
+			text: 'Has a PR',
+			url: 'https://github.com/shardlab/discordrb/pull/340'
+		},
+		appEmoji: {
+			text: 'Has a PR',
+			url: 'https://github.com/shardlab/discordrb/pull/314'
+		},
+		componentsV2: {
+			text: 'Has a PR',
+			url: 'https://github.com/shardlab/discordrb/pull/297'
+		}
 	},
 	{
 		name: 'discord-rs',
