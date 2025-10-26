@@ -1571,10 +1571,7 @@ export const libs: Lib[] = [
 		userApps: 'Yes',
 		polls: 'Yes',
 		forwarding: 'Yes',
-		appEmoji: {
-			text: 'Has a PR',
-			url: 'https://github.com/DisnakeDev/disnake/pull/1224'
-		},
+		appEmoji: 'Dev Version',
 		componentsV2: 'Yes',
 	},
 	{
