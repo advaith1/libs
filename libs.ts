@@ -197,12 +197,12 @@ export const libs: Lib[] = [
 		monetization: 'Partial',
 		userApps: 'Yes',
 		polls: 'Yes',
-		forwarding: 'No',
-		appEmoji: 'No',
-		componentsV2: {
+		forwarding: 'Yes',
+		appEmoji: {
 			text: 'Has a PR',
-			url: 'https://github.com/Remora/Remora.Discord/pull/349'
-		}
+			url: 'https://github.com/Remora/Remora.Discord/pull/338'
+		},
+		componentsV2: 'Yes'
 	},
 	{
 		name: 'aegis.cpp 🪦',
@@ -593,7 +593,7 @@ export const libs: Lib[] = [
 		polls: 'Dev Version',
 		forwarding: 'No',
 		appEmoji: 'Dev Version',
-		componentsV2: 'No'
+		componentsV2: 'Yes'
 	},
 	{
 		name: 'disgo',
@@ -798,13 +798,13 @@ export const libs: Lib[] = [
 		name: 'Discord4J',
 		url: 'https://github.com/Discord4J/Discord4J',
 		language: 'Java',
-		apiVer: '8 stable, 9 dev',
-		gwVer: '8 stable, 9 dev',
+		apiVer: 10,
+		gwVer: 10,
 		voiceVer: 4,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
-		threads: 'Dev Version',
+		threads: 'Yes',
 		guildStickers: 'Yes',
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
@@ -814,12 +814,12 @@ export const libs: Lib[] = [
 		permsv2: 'Yes',
 		automod: 'Yes',
 		localization: 'Yes',
-		forums: 'Dev Version',
-		monetization: 'Dev Version',
-		userApps: 'Dev Version',
-		polls: 'Dev Version',
-		forwarding: 'No',
-		appEmoji: 'Dev Version',
+		forums: 'Yes',
+		monetization: 'Yes',
+		userApps: 'Yes',
+		polls: 'Yes',
+		forwarding: 'Yes',
+		appEmoji: 'Yes',
 		componentsV2: 'Yes'
 	},
 	{
@@ -879,10 +879,7 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: {
-			text: 'Has a PR',
-			url: 'https://github.com/discord-jda/JDA/pull/2809'
-		}
+		componentsV2: 'Dev Version'
 	},
 	{
 		name: 'Detritus',
@@ -946,7 +943,7 @@ export const libs: Lib[] = [
 		language: 'JavaScript',
 		apiVer: 10,
 		gwVer: 10,
-		voiceVer: 4,
+		voiceVer: 'E2EE',
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
@@ -1308,7 +1305,7 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: 'Dev Version'
+		componentsV2: 'Yes'
 	},
 	{
 		name: 'Discord.jl',
@@ -1372,13 +1369,10 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/kordlib/kord/pull/972'
 		},
-		appEmoji: {
-			text: 'Has a PR',
-			url: 'https://github.com/kordlib/kord/pull/973'
-		},
+		appEmoji: 'Dev Version',
 		componentsV2: {
 			text: 'Has a PR',
-			url: 'https://github.com/kordlib/kord/pull/1000'
+			url: 'https://github.com/kordlib/kord/pull/1009'
 		}
 	},
 	{
@@ -1446,7 +1440,7 @@ export const libs: Lib[] = [
 		language: 'PHP',
 		apiVer: 10,
 		gwVer: 10,
-		voiceVer: 1,
+		voiceVer: 8,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
@@ -1558,7 +1552,7 @@ export const libs: Lib[] = [
 		language: 'Python',
 		apiVer: 10,
 		gwVer: 10,
-		voiceVer: 4,
+		voiceVer: 8,
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
@@ -1578,10 +1572,7 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: {
-			text: 'Has a PR',
-			url: 'https://github.com/Rapptz/discord.py/pull/10166'
-		}
+		componentsV2: 'Yes'
 	},
 	{
 		name: 'disnake 🍴',
@@ -1612,10 +1603,7 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/DisnakeDev/disnake/pull/1224'
 		},
-		componentsV2: {
-			text: 'Has a PR',
-			url: 'https://github.com/DisnakeDev/disnake/pull/1294'
-		}
+		componentsV2: 'Yes',
 	},
 	{
 		name: 'enhanced-discord.py 🍴🪦',
@@ -1815,15 +1803,9 @@ export const libs: Lib[] = [
 		monetization: 'Yes',
 		userApps: 'Yes',
 		polls: 'Yes',
-		forwarding: {
-			text: 'Has a PR',
-			url: 'https://github.com/Pycord-Development/pycord/pull/2598'
-		},
+		forwarding: 'Dev Version',
 		appEmoji: 'Dev Version',
-		componentsV2: {
-			text: 'Has a PR',
-			url: 'https://github.com/Pycord-Development/pycord/pull/2707'
-		}
+		componentsV2: 'Dev Version'
 	},
 	{
 		name: 'discorb',
@@ -1869,7 +1851,7 @@ export const libs: Lib[] = [
 			url: 'https://github.com/shardlab/discordrb/pull/272'
 		},
 		contextMenus: 'Yes',
-		autocomplete: 'No',
+		autocomplete: 'Dev Version',
 		scheduledEvents: {
 			text: 'Has a PR',
 			url: 'https://github.com/shardlab/discordrb/pull/152'
@@ -1877,7 +1859,10 @@ export const libs: Lib[] = [
 		timeouts: 'Yes',
 		modals: 'Yes',
 		permsv2: 'Dev Version',
-		automod: 'No',
+		automod: {
+			text: 'Has a PR',
+			url: 'https://github.com/shardlab/discordrb/pull/334'
+		},
 		localization: {
 			text: 'Has a PR',
 			url: 'https://github.com/shardlab/discordrb/pull/245'
@@ -1886,9 +1871,18 @@ export const libs: Lib[] = [
 		monetization: 'No',
 		userApps: 'No',
 		polls: 'No',
-		forwarding: 'No',
-		appEmoji: 'No',
-		componentsV2: 'No'
+		forwarding: {
+			text: 'Has a PR',
+			url: 'https://github.com/shardlab/discordrb/pull/340'
+		},
+		appEmoji: {
+			text: 'Has a PR',
+			url: 'https://github.com/shardlab/discordrb/pull/314'
+		},
+		componentsV2: {
+			text: 'Has a PR',
+			url: 'https://github.com/shardlab/discordrb/pull/297'
+		}
 	},
 	{
 		name: 'discord-rs',
@@ -1944,10 +1938,7 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Partial',
 		appEmoji: 'Yes',
-		componentsV2: {
-			text: 'Has a PR',
-			url: 'https://github.com/serenity-rs/serenity/pull/3123'
-		}
+		componentsV2: 'Dev Version'
 	},
 	{
 		name: 'Twilight',
