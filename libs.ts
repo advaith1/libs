@@ -996,7 +996,7 @@ export const libs: Lib[] = [
 	{
 		name: 'Dressed',
 		url: 'https://github.com/Inbestigator/dressed',
-		language: 'Javascript',
+		language: 'JavaScript',
 		apiVer: 10,
 		gwVer: 10,
 		voiceVer: '-',
