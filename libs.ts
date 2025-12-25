@@ -1552,7 +1552,7 @@ export const libs: Lib[] = [
 		language: 'Python',
 		apiVer: 10,
 		gwVer: 10,
-		voiceVer: 4,
+		voiceVer: '4 stable, 8 dev',
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
@@ -1571,10 +1571,7 @@ export const libs: Lib[] = [
 		userApps: 'Yes',
 		polls: 'Yes',
 		forwarding: 'Yes',
-		appEmoji: {
-			text: 'Has a PR',
-			url: 'https://github.com/DisnakeDev/disnake/pull/1224'
-		},
+		appEmoji: 'Dev Version',
 		componentsV2: 'Yes',
 	},
 	{
