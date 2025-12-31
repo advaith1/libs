@@ -2000,12 +2000,12 @@ export const libs: Lib[] = [
 		componentsV2: 'Yes'
 	},
 	{
-		name: 'SwiftDisc 🪦',
+		name: 'SwiftDisc ',
 		url: 'https://github.com/M1tsumi/SwiftDisc',
 		language: 'Swift',
 		apiVer: 10,
 		gwVer: 10,
-		voiceVer: 'Partial',
+		voiceVer: '-',
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
