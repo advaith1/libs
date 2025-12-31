@@ -1775,9 +1775,9 @@ export const libs: Lib[] = [
 		monetization: 'Yes',
 		userApps: 'Yes',
 		polls: 'Yes',
-		forwarding: 'Dev Version',
-		appEmoji: 'Dev Version',
-		componentsV2: 'Dev Version'
+		forwarding: 'Yes',
+		appEmoji: 'Yes',
+		componentsV2: 'Yes'
 	},
 	{
 		name: 'discorb',
