@@ -859,7 +859,7 @@ export const libs: Lib[] = [
 		language: 'Java',
 		apiVer: 10,
 		gwVer: 10,
-		voiceVer: 8,
+		voiceVer: 'E2EE',
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
@@ -879,7 +879,7 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: 'Dev Version'
+		componentsV2: 'Yes'
 	},
 	{
 		name: 'Detritus',
