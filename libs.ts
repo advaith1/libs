@@ -879,7 +879,7 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: 'Dev Version'
+		componentsV2: 'Yes'
 	},
 	{
 		name: 'Detritus',
