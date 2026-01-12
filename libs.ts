@@ -859,7 +859,7 @@ export const libs: Lib[] = [
 		language: 'Java',
 		apiVer: 10,
 		gwVer: 10,
-		voiceVer: 8,
+		voiceVer: 'E2EE',
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
@@ -874,12 +874,12 @@ export const libs: Lib[] = [
 		automod: 'Yes',
 		localization: 'Yes',
 		forums: 'Yes',
-		monetization: 'Partial',
+		monetization: 'Yes',
 		userApps: 'Yes',
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: 'Dev Version'
+		componentsV2: 'Yes'
 	},
 	{
 		name: 'Detritus',
@@ -1580,7 +1580,7 @@ export const libs: Lib[] = [
 		language: 'Python',
 		apiVer: 10,
 		gwVer: 10,
-		voiceVer: 4,
+		voiceVer: '4 stable, 8 dev',
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
@@ -1599,10 +1599,7 @@ export const libs: Lib[] = [
 		userApps: 'Yes',
 		polls: 'Yes',
 		forwarding: 'Yes',
-		appEmoji: {
-			text: 'Has a PR',
-			url: 'https://github.com/DisnakeDev/disnake/pull/1224'
-		},
+		appEmoji: 'Dev Version',
 		componentsV2: 'Yes',
 	},
 	{
@@ -1803,9 +1800,9 @@ export const libs: Lib[] = [
 		monetization: 'Yes',
 		userApps: 'Yes',
 		polls: 'Yes',
-		forwarding: 'Dev Version',
-		appEmoji: 'Dev Version',
-		componentsV2: 'Dev Version'
+		forwarding: 'Yes',
+		appEmoji: 'Yes',
+		componentsV2: 'Yes'
 	},
 	{
 		name: 'discorb',
@@ -1966,10 +1963,7 @@ export const libs: Lib[] = [
 		polls: 'Yes',
 		forwarding: 'Yes',
 		appEmoji: 'Yes',
-		componentsV2: {
-			text: 'Has a PR',
-			url: 'https://github.com/twilight-rs/twilight/pull/2422'
-		}
+		componentsV2: 'Yes'
 	},
 	{
 		name: 'AckCord',
