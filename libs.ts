@@ -1989,9 +1989,9 @@ export const libs: Lib[] = [
 		monetization: 'Yes',
 		userApps: 'Yes',
 		polls: 'Yes',
-		forwarding: 'No',
-		appEmoji: 'No',
-		componentsV2: 'No'
+		forwarding: 'Yes',
+		appEmoji: 'Yes',
+		componentsV2: 'Yes'
 	},
 	{
 		name: 'Swiftcord 🍴🪦',
