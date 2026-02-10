@@ -638,7 +638,7 @@ export const libs: Lib[] = [
 		contextMenus: 'Yes',
 		autocomplete: 'Yes',
 		scheduledEvents: 'No',
-		timeouts: 'Yes',
+		timeouts: '-',
 		modals: 'Yes',
 		permsv2: 'Yes',
 		automod: 'No',
@@ -647,7 +647,7 @@ export const libs: Lib[] = [
 		monetization: 'Yes',
 		userApps: 'Yes',
 		polls: 'No',
-		forwarding: 'Yes',
+		forwarding: 'No',
 		appEmoji: 'No',
 		componentsV2: 'Yes'
 	},
