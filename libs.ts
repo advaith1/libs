@@ -1337,15 +1337,9 @@ export const libs: Lib[] = [
 			text: 'Has a PR',
 			url: 'https://github.com/kordlib/kord/pull/933'
 		},
-		forwarding: {
-			text: 'Has a PR',
-			url: 'https://github.com/kordlib/kord/pull/972'
-		},
+		forwarding: 'Yes',
 		appEmoji: 'Dev Version',
-		componentsV2: {
-			text: 'Has a PR',
-			url: 'https://github.com/kordlib/kord/pull/1009'
-		}
+		componentsV2: 'Yes'
 	},
 	{
 		name: 'Discordia',
