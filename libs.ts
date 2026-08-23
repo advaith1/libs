@@ -1406,7 +1406,10 @@ export const libs: Lib[] = [
 		language: 'PHP',
 		apiVer: 10,
 		gwVer: 10,
-		voiceVer: 8,
+		voiceVer: {
+			text: 'Yes',
+			url: 'https://github.com/discord-php/DiscordPHP-Voice'
+		},
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
