@@ -123,7 +123,7 @@ export const libs: Lib[] = [
 		language: 'C#',
 		apiVer: 10,
 		gwVer: 10,
-		voiceVer: 4,
+		voiceVer: 'E2EE (Dev Version)',
 		slashCommands: 'Yes',
 		buttons: 'Yes',
 		selectMenus: 'Yes',
