@@ -1848,6 +1848,37 @@ export const libs: Lib[] = [
 		}
 	},
 	{
+		name: 'DiscordRuby',
+		url: 'https://github.com/Adrian-W-J/DiscordRuby',
+		language: 'Ruby',
+		apiVer: 10,
+		gwVer: 10,
+		voiceVer: '-',
+		slashCommands: 'Yes',
+		buttons: 'Yes',
+		selectMenus: 'Yes',
+		threads: 'Yes',
+		guildStickers: 'Partial',
+		contextMenus: 'Partial',
+		autocomplete: 'Partial',
+		scheduledEvents: 'Yes',
+		timeouts: 'Yes',
+		modals: 'Yes',
+		permsv2: 'Partial',
+		automod: 'Yes',
+		localization: 'Partial',
+		forums: 'Partial',
+		monetization: 'Partial',
+		userApps: 'No',
+		polls: 'Yes',
+		forwarding: 'Partial',
+		appEmoji: 'No',
+		componentsV2: {
+			text: 'Yes',
+			url: 'https://github.com/Adrian-W-J/DiscordRuby/blob/main/docs/messages.md#components-v2'
+		}
+	},
+	{
 		name: 'discord-rs',
 		url: 'https://github.com/SpaceManiac/discord-rs',
 		language: 'Rust',
